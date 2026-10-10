@@ -1,0 +1,15 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {calculate,tools,calculateBatch} from '../public/assets/calculators.js';
+import {allocateTax} from '../public/assets/tax-allocation.js';
+import {annualTax,bonusTax} from '../public/assets/hr-tools.js';
+import {cityOptions,cityPolicy} from '../public/assets/city-policies.js';
+const data={city:'北京',month:'2026-09',wage:10000,medicalWage:10000,fundWage:10000,fundRate:7,injuryRate:.2};
+test('工具移除和50个地区目录',()=>{assert.equal(tools.length,8);assert.equal(cityOptions.length,50);assert.ok(!tools.some(x=>['tenure','contribution-ratio'].includes(x.id)));});
+test('个人公司独立合计；医疗固定3元，生育不重复',()=>{const r=calculate('five-insurances-housing-fund',data);assert.equal(r.contribution.personal,1753);assert.equal(r.contribution.company,3350);assert.equal(r.value,5103);assert.equal(r.contribution.rows.find(x=>x.label==='生育保险（单列部分）').company,0);});
+test('手动修改覆盖预填参数；过期数据不自动延用',()=>{assert.equal(calculate('five-insurances-housing-fund',{...data,pensionC:0}).value,3503);assert.deepEqual(cityPolicy('北京','2028-01').values,{});assert.throws(()=>calculate('five-insurances-housing-fund',{...data,month:'2028-01'}));assert.throws(()=>calculate('five-insurances-housing-fund',{...data,city:'广州'}));});
+test('跨城市批量：缺失行报错，成功行独立保留',()=>{const rows=calculateBatch('five-insurances-housing-fund',[data,{...data,city:'广州'}]);assert.ok(rows[0].result);assert.ok(rows[1].error);});
+test('上海上下限、公积金取整和个人公司拆分',()=>{const r=calculate('five-insurances-housing-fund',{...data,city:'上海',unemploymentC:.5,fundBase:10000,fundRounding:0});assert.equal(r.contribution.personal,1750);assert.equal(r.contribution.company,3270);assert.equal(r.value,5020);assert.throws(()=>calculate('five-insurances-housing-fund',{...data,city:'北京',fundRate:13,unemploymentC:.5}));});
+const tax={bonus:1000,annualIncome:95000,annualDeduction:60000,annualRelief:0,priorMethod:'none',eligible:'yes',allocationStage:'planning'};
+test('优化器与逐分穷举对照，包括减免和跳档',()=>{for(const extra of [{},{annualIncome:204000},{annualIncome:60100,annualRelief:1.23},{annualIncome:96500}]){const d={...tax,...extra},a=allocateTax(d);let best=Infinity,bestBonus=0;for(let cents=0;cents<=d.bonus*100;cents++){const b=cents/100,t=Math.round((annualTax(d.annualIncome+d.bonus-b,d.annualDeduction,d.annualRelief)+bonusTax(b).tax)*100);if(t<best){best=t;bestBonus=b;}}assert.equal(Math.round(a.tax*100),best);assert.equal(a.bonus,bestBonus);}});
+test('已用单独计税不得再分；已取得一笔奖金不得拆分',()=>{const a=allocateTax({...tax,priorMethod:'separate',previousBonus:20000});assert.equal(a.bonus,0);assert.equal(a.wagePercent,100);const b=allocateTax({...tax,allocationStage:'received'});assert.ok([0,tax.bonus].includes(b.bonus));});

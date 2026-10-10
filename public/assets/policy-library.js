@@ -1,0 +1,3 @@
+const cards=[...document.querySelectorAll('.policy-item')],search=document.querySelector('#policy-search'),category=document.querySelector('#policy-category');
+function filter(){const q=search.value.trim().toLowerCase(),c=category.value;let n=0;for(const card of cards){card.hidden=!!((c&&card.dataset.policyCategory!==c)||(q&&!card.dataset.policySearch.toLowerCase().includes(q)));if(!card.hidden)n++;}document.querySelector('#policy-count').textContent=`${n} 篇政策速查`;document.querySelector('#policy-empty').hidden=n!==0;}
+search.addEventListener('input',filter);category.addEventListener('change',filter);

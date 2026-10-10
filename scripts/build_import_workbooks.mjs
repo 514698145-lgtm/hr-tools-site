@@ -1,0 +1,30 @@
+import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {createRequire} from 'node:module';
+import {pathToFileURL} from 'node:url';
+import {tools} from '../public/assets/calculators.js';
+import {simpleTemplate} from '../public/assets/simple-template.js';
+const require=createRequire(import.meta.url);
+const {Workbook,SpreadsheetFile}=await import(pathToFileURL(require.resolve('@oai/artifact-tool',{paths:['outputs/import-templates/node_modules']})));
+const out='outputs/import-templates',pub='public/downloads/import-templates';
+await fs.mkdir(out,{recursive:true});await fs.mkdir(pub,{recursive:true});await fs.mkdir('reports/simple-templates',{recursive:true});
+const col=i=>{let s='';for(i++;i;i=Math.floor((i-1)/26))s=String.fromCharCode(65+(i-1)%26)+s;return s;};
+const files={};const sha=b=>createHash('sha256').update(b).digest('hex');
+for(const tool of tools.filter(t=>t.id!=='date-calculator')){
+ const {rows}=simpleTemplate(tool),w=Workbook.create(),s=w.worksheets.add('批量填写'),last=col(rows[0].length-1);
+ s.showGridLines=false;s.tabColor='#9A722E';s.freezePanes.freezeRows(1);
+ const range=s.getRange(`A1:${last}12`);range.format.font={name:'Microsoft YaHei',size:11,color:'#273444'};range.format.rowHeight=28;range.format.verticalAlignment='center';
+ const header=s.getRange(`A1:${last}1`);header.format.fill='#4F4638';header.format.font.color='#FFFFFF';header.format.font.bold=true;header.format.wrapText=true;header.format.rowHeight=64;
+ for(let i=0;i<rows[0].length;i++)s.getRange(col(i)+'1').format.columnWidth=Math.max(20,Math.min(34,rows[0][i].length*1.25));
+ s.getRange(`A2:${last}12`).format.fill='#FFFCF4';s.getRange(`A1:${last}2`).values=rows;
+ w.recalculate();
+ const check=await w.inspect({kind:'table',range:`批量填写!A1:${last}2`,include:'values',tableMaxRows:2,tableMaxCols:3,maxChars:500});
+ await fs.writeFile(`reports/simple-templates/${tool.id}.json`,check.ndjson);
+ const file=await SpreadsheetFile.exportXlsx(w);await file.save(`${out}/${tool.id}.xlsx`);
+ const bytes=await fs.readFile(`${out}/${tool.id}.xlsx`);await fs.writeFile(`${pub}/${tool.id}.xlsx`,bytes);files[tool.id+'.xlsx']=sha(bytes);
+ const image=await w.render({sheetName:'批量填写',range:`A1:${last}6`,scale:1.5});await fs.writeFile(`reports/simple-templates/${tool.id}.png`,new Uint8Array(await image.arrayBuffer()));
+ console.log(tool.id+': one sheet, '+rows[0].length+' columns, '+bytes.length+' bytes');
+}
+const sources=['public/assets/simple-template.js','public/assets/field-copy.js','public/assets/calculators.js','public/assets/hr-tools.js','public/assets/contribution-engine.js','public/assets/operations-tools.js','public/assets/city-policies.js','public/assets/input-rules.js'];
+const sourceHashes={};for(const p of sources)sourceHashes[p]=sha(await fs.readFile(p));
+await fs.writeFile(pub+'/manifest.json',JSON.stringify({format:'single-input-sheet',maxImportRows:2000,sourceHashes,files},null,2));

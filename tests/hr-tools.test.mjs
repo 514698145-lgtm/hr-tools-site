@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {calculate,calculateBatch,tools} from '../public/assets/calculators.js';
+import {summarizeRatio,bonusTax} from '../public/assets/hr-tools.js';
+import {policyFor} from '../public/assets/policies.js';
+const contribution={city:'上海',month:'2026-09',wage:10000,fundWage:10000,fundRate:'7',injuryClass:'1',injuryFactor:'1',companyUnemployment:.5};
+test('奖金税率临界跳档采用月度速算扣除',()=>{assert.equal(bonusTax(36000).tax,1080);assert.equal(bonusTax(36000.01).tax,3390);assert.equal(bonusTax(144000).tax,14190);assert.equal(bonusTax(144000.01).tax,27390);});
+const compare={taxMode:'compare',year:2026,bonus:20000,eligible:'yes',priorMethod:'separate',previousBonus:20000,annualIncome:240000,annualDeduction:60000};
+test('4月已单独计税，12月不生成第二次单独计税方案',()=>{const a=calculate('income-tax',compare);assert.equal(a.lines[0].value,27080);assert.equal(a.lines[1].value,23680);assert.equal(a.lines[2].value,3400);assert.ok(a.messages[0].includes('不得再单独'));assert.throws(()=>calculate('income-tax',{...compare,taxMode:'bonus'}));assert.throws(()=>calculate('income-tax',{...compare,year:2028}));});
+test('未用单独计税可对比，无资格只显示并入金额',()=>{const a=calculate('income-tax',{...compare,priorMethod:'none'});assert.equal(a.lines[0].value,23080);assert.equal(a.lines[1].value,19680);const b=calculate('income-tax',{...compare,priorMethod:'none',eligible:'no'});assert.equal(b.value,23080);assert.equal(b.lines.length,3);assert.throws(()=>calculate('income-tax',{...compare,priorMethod:'none',eligible:'no',taxMode:'bonus'}));});
+const severance={formula:'N',start:'2020-01-01',end:'2026-06-30',average:10000,localAverage:12000,minimum:2740};
+test('离职年限含最后日：半年、整年、超过一天边界',()=>{const run=(end)=>calculate('severance',{...severance,start:'2026-01-01',end}).value;assert.equal(run('2026-06-29'),5000);assert.equal(run('2026-06-30'),10000);assert.equal(run('2026-12-31'),10000);assert.equal(run('2027-01-01'),15000);});
+test('高工资双封顶不误用于普通员工，代通知金单独取上月工资',()=>{const a={...severance,start:'2008-01-01',end:'2026-12-31'};assert.equal(calculate('severance',a).value,190000);assert.equal(calculate('severance',{...a,average:50000}).value,432000);assert.equal(calculate('severance',{...a,average:50000,formula:'2N'}).value,864000);assert.equal(calculate('severance',{...severance,formula:'N1',lastSalary:20000}).value,90000);assert.equal(calculate('severance',{...severance,average:1000}).value,19180);assert.throws(()=>calculate('severance',{...a,start:'2007-12-31'}));});
+test('依赖字段必填、非活动字段不干扰工资计算',()=>{assert.throws(()=>calculate('income-tax',{...compare,previousBonus:''}));assert.equal(calculate('income-tax',{income:120000,deduction:60000,relief:0,paid:0,bonus:'',previousBonus:''}).value,3480);});

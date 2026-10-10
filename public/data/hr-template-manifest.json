@@ -1,0 +1,2727 @@
+[
+  {
+    "id": "interview-schedule",
+    "title": "面试安排表",
+    "fields": [
+      "候选人编号",
+      "岗位",
+      "轮次",
+      "日期",
+      "开始时间",
+      "结束时间",
+      "地点或会议链接",
+      "面试官",
+      "候选人确认状态",
+      "改期记录",
+      "负责人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "recruitment",
+    "format": "xlsx",
+    "layout": "日程安排",
+    "sections": [
+      "候选与岗位",
+      "面试时段",
+      "通知与改期"
+    ],
+    "sheets": [
+      {
+        "title": "面试安排表",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/interview-schedule.png"
+    ],
+    "download": "/downloads/hr-templates/interview-schedule.xlsx"
+  },
+  {
+    "id": "candidate-tracker",
+    "title": "候选人跟进台账",
+    "fields": [
+      "候选人编号",
+      "岗位",
+      "来源渠道",
+      "投递日期",
+      "当前阶段",
+      "最近联系日期",
+      "后续行动",
+      "下次跟进日期",
+      "负责人",
+      "结案状态",
+      "备注"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "recruitment",
+    "format": "xlsx",
+    "layout": "招聘管线",
+    "sections": [
+      "候选来源",
+      "联系与进度",
+      "负责人及结案"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "候选人跟进台账",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/candidate-tracker-overview.png",
+      "/media/templates/candidate-tracker.png"
+    ],
+    "download": "/downloads/hr-templates/candidate-tracker.xlsx"
+  },
+  {
+    "id": "channel-review",
+    "title": "招聘渠道效果登记表",
+    "fields": [
+      "统计期间",
+      "渠道名称",
+      "投递数量",
+      "有效候选人数",
+      "面试人数",
+      "录用人数",
+      "实际到岗人数",
+      "渠道支出",
+      "数据口径",
+      "负责人",
+      "备注",
+      "到岗率（自动）",
+      "人均到岗成本（自动）"
+    ],
+    "formulaColumns": [
+      "到岗率（自动）",
+      "人均到岗成本（自动）"
+    ],
+    "note": "渠道支出单位：元。到岗率=实际到岗人数÷录用人数；人均到岗成本=渠道支出÷到岗人数。分母为0显示不适用；人数请按同一期间、同一口径填写。",
+    "lastColumn": "M",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "recruitment",
+    "format": "xlsx",
+    "layout": "渠道转化复盘",
+    "sections": [
+      "渠道与流量",
+      "录用与投入",
+      "口径与效率"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "招聘渠道效果登记表",
+        "lastColumn": "M",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "11",
+          "12"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/channel-review-overview.png",
+      "/media/templates/channel-review.png"
+    ],
+    "download": "/downloads/hr-templates/channel-review.xlsx"
+  },
+  {
+    "id": "onboarding-checklist",
+    "title": "新员工入职办理清单",
+    "fields": [
+      "员工编号",
+      "部门",
+      "岗位",
+      "到岗日期",
+      "办理事项",
+      "所需材料或动作",
+      "责任部门",
+      "负责人",
+      "计划完成日",
+      "实际完成日",
+      "完成状态",
+      "备注"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "L",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "onboarding",
+    "format": "xlsx",
+    "layout": "入职办理清单",
+    "sections": [
+      "任职信息",
+      "办理任务",
+      "执行与确认"
+    ],
+    "sheets": [
+      {
+        "title": "新员工入职办理清单",
+        "lastColumn": "L",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/onboarding-checklist.png"
+    ],
+    "download": "/downloads/hr-templates/onboarding-checklist.xlsx"
+  },
+  {
+    "id": "document-receipt",
+    "title": "入职资料接收核对表",
+    "fields": [
+      "员工编号",
+      "材料名称",
+      "收集用途",
+      "是否必要",
+      "原件查验状态",
+      "接收日期",
+      "接收人",
+      "存放位置或系统索引",
+      "退还或删除日期",
+      "备注"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "onboarding",
+    "format": "xlsx",
+    "layout": "资料接收台账",
+    "sections": [
+      "材料与必要性",
+      "查验与接收",
+      "保管与处置"
+    ],
+    "sheets": [
+      {
+        "title": "入职资料接收核对表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/document-receipt.png"
+    ],
+    "download": "/downloads/hr-templates/document-receipt.xlsx"
+  },
+  {
+    "id": "orientation-plan",
+    "title": "新员工融入计划表",
+    "fields": [
+      "员工编号",
+      "阶段",
+      "任务主题",
+      "具体内容",
+      "协作人",
+      "计划日期",
+      "完成日期",
+      "确认方式",
+      "反馈",
+      "负责人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "onboarding",
+    "format": "xlsx",
+    "layout": "新人融入路线",
+    "sections": [
+      "人员与阶段",
+      "学习任务",
+      "计划与反馈"
+    ],
+    "sheets": [
+      {
+        "title": "新员工融入计划表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/orientation-plan.png"
+    ],
+    "download": "/downloads/hr-templates/orientation-plan.xlsx"
+  },
+  {
+    "id": "mentor-log",
+    "title": "带教记录表",
+    "fields": [
+      "员工编号",
+      "导师",
+      "带教主题",
+      "任务或示范内容",
+      "带教日期",
+      "实践完成情况",
+      "反馈",
+      "后续练习",
+      "下次检查日"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "I",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "onboarding",
+    "format": "xlsx",
+    "layout": "带教实践记录",
+    "sections": [
+      "带教安排",
+      "实践和反馈",
+      "后续检查"
+    ],
+    "sheets": [
+      {
+        "title": "带教记录表",
+        "lastColumn": "I",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/mentor-log.png"
+    ],
+    "download": "/downloads/hr-templates/mentor-log.xlsx"
+  },
+  {
+    "id": "attendance-check",
+    "title": "月度考勤核对表",
+    "fields": [
+      "月份",
+      "员工编号",
+      "部门",
+      "应出勤天数",
+      "实际出勤天数",
+      "请假天数",
+      "缺卡次数",
+      "异常说明",
+      "核对依据",
+      "员工确认状态",
+      "核对人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "attendance",
+    "format": "xlsx",
+    "layout": "考勤复核",
+    "sections": [
+      "人员与期间",
+      "出勤统计",
+      "异常与核对"
+    ],
+    "sheets": [
+      {
+        "title": "月度考勤核对表",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/attendance-check.png"
+    ],
+    "download": "/downloads/hr-templates/attendance-check.xlsx"
+  },
+  {
+    "id": "overtime-record",
+    "title": "加班申请与确认表",
+    "fields": [
+      "员工编号",
+      "工作日期",
+      "申请开始时间",
+      "申请结束时间",
+      "工作任务",
+      "批准记录",
+      "实际开始时间",
+      "实际结束时间",
+      "确认时长",
+      "处理方式记录",
+      "确认人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "attendance",
+    "format": "xlsx",
+    "layout": "加班确认",
+    "sections": [
+      "申请信息",
+      "批准与实际工时",
+      "处理确认"
+    ],
+    "sheets": [
+      {
+        "title": "加班申请与确认表",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/overtime-record.png"
+    ],
+    "download": "/downloads/hr-templates/overtime-record.xlsx"
+  },
+  {
+    "id": "timeoff-ledger",
+    "title": "调休登记台账",
+    "fields": [
+      "员工编号",
+      "期初时数",
+      "确认日期",
+      "增加时数",
+      "使用时数",
+      "剩余时数（自动）",
+      "使用日期",
+      "审批记录",
+      "核对人",
+      "备注"
+    ],
+    "formulaColumns": [
+      "剩余时数（自动）"
+    ],
+    "note": "一行记录一名员工的一次余额核对：期初时数+本期增加−本期使用=期末剩余；三项必填，无发生额填0。后续核对请将上次期末填为期初，审批依据记在审批记录中。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "attendance",
+    "format": "xlsx",
+    "layout": "调休余额",
+    "sections": [
+      "员工与期初",
+      "本期流转",
+      "使用与审批"
+    ],
+    "sheets": [
+      {
+        "title": "调休登记台账",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "5"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/timeoff-ledger.png"
+    ],
+    "download": "/downloads/hr-templates/timeoff-ledger.xlsx"
+  },
+  {
+    "id": "annual-leave",
+    "title": "年休假额度核对表",
+    "fields": [
+      "年度",
+      "员工编号",
+      "核定依据索引",
+      "已核定额度天数",
+      "已使用天数",
+      "剩余天数（自动）",
+      "计划休假日期",
+      "核对日期",
+      "核对人",
+      "待确认事项"
+    ],
+    "formulaColumns": [
+      "剩余天数（自动）"
+    ],
+    "note": "一行对应一名员工的一个年度；已核定额度与已使用天数均必填，无使用填0。剩余=核定额度−已使用，负值标红；不自动核定法定额度。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "attendance",
+    "format": "xlsx",
+    "layout": "年假余额",
+    "sections": [
+      "年度与核定依据",
+      "额度使用",
+      "计划与核对"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "年休假额度核对表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "5"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/annual-leave-overview.png",
+      "/media/templates/annual-leave.png"
+    ],
+    "download": "/downloads/hr-templates/annual-leave.xlsx"
+  },
+  {
+    "id": "shift-roster",
+    "title": "员工排班表",
+    "fields": [
+      "员工编号",
+      "部门",
+      "周一",
+      "周二",
+      "周三",
+      "周四",
+      "周五",
+      "周六",
+      "周日",
+      "出勤班数（自动）",
+      "休息天数（自动）"
+    ],
+    "formulaColumns": [
+      "出勤班数（自动）",
+      "休息天数（自动）"
+    ],
+    "note": "填写周起始日期后安排班次；早/中/晚/日均按一个出勤班计，休计一个休息日，请填完整一周。班次数不等于工时或合规判断。",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "attendance",
+    "format": "xlsx",
+    "layout": "周排班矩阵",
+    "sections": [
+      "人员",
+      "周一至周日",
+      "班次数量"
+    ],
+    "sheets": [
+      {
+        "title": "员工排班表",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "9",
+          "10"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/shift-roster.png"
+    ],
+    "download": "/downloads/hr-templates/shift-roster.xlsx"
+  },
+  {
+    "id": "payroll-check",
+    "title": "工资核对表",
+    "fields": [
+      "工资月份",
+      "员工编号",
+      "基本工资",
+      "浮动工资",
+      "津贴补贴",
+      "应发合计（自动）",
+      "个人社保",
+      "个人公积金",
+      "个税",
+      "其他扣款",
+      "实发金额（自动）",
+      "核对人"
+    ],
+    "formulaColumns": [
+      "应发合计（自动）",
+      "实发金额（自动）"
+    ],
+    "note": "金额单位：元。基本工资、浮动工资、津贴补贴及扣款均需填数字，无发生额填0。应发=三项收入合计；实发=应发−四项扣款。个税及社保填已核算金额。",
+    "lastColumn": "L",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "薪资核对",
+    "sections": [
+      "员工与期间",
+      "收入构成",
+      "扣款与实发"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "工资核对表",
+        "lastColumn": "L",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "5",
+          "10"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/payroll-check-overview.png",
+      "/media/templates/payroll-check.png"
+    ],
+    "download": "/downloads/hr-templates/payroll-check.xlsx"
+  },
+  {
+    "id": "bonus-allocation",
+    "title": "奖金发放核对表",
+    "fields": [
+      "员工编号",
+      "奖金项目",
+      "考核期间",
+      "拟发放日期",
+      "税前金额",
+      "已确认计税方式",
+      "本年此前奖金情况",
+      "审批记录",
+      "税额核对状态",
+      "经办人"
+    ],
+    "formulaColumns": [],
+    "note": "税前金额单位：元。底部汇总当前筛选可见记录；税额及适用计税方式请另行核算，本表不自动计算个税。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "奖金发放核对",
+    "sections": [
+      "人员与项目",
+      "发放与计税记录",
+      "审批复核"
+    ],
+    "sheets": [
+      {
+        "title": "奖金发放核对表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/bonus-allocation.png"
+    ],
+    "download": "/downloads/hr-templates/bonus-allocation.xlsx"
+  },
+  {
+    "id": "social-fund-ledger",
+    "title": "社保公积金办理台账",
+    "fields": [
+      "员工编号",
+      "参保城市",
+      "办理月份",
+      "事项类型",
+      "险种或公积金",
+      "核定基数",
+      "单位费率记录",
+      "个人费率记录",
+      "提交日期",
+      "办理结果",
+      "经办人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "缴费经办台账",
+    "sections": [
+      "人员与业务",
+      "核定参数",
+      "提交与结果"
+    ],
+    "sheets": [
+      {
+        "title": "社保公积金办理台账",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/social-fund-ledger.png"
+    ],
+    "download": "/downloads/hr-templates/social-fund-ledger.xlsx"
+  },
+  {
+    "id": "payroll-issue",
+    "title": "薪资疑问处理记录表",
+    "fields": [
+      "员工编号",
+      "工资月份",
+      "疑问提交日期",
+      "涉及项目",
+      "疑问描述",
+      "核对依据索引",
+      "核对结果",
+      "处理动作",
+      "处理反馈日期",
+      "经办人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "薪资疑问闭环",
+    "sections": [
+      "受理信息",
+      "核对过程",
+      "反馈与结案"
+    ],
+    "sheets": [
+      {
+        "title": "薪资疑问处理记录表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/payroll-issue.png"
+    ],
+    "download": "/downloads/hr-templates/payroll-issue.xlsx"
+  },
+  {
+    "id": "payroll-input",
+    "title": "工资变动数据收集表",
+    "fields": [
+      "工资月份",
+      "员工编号",
+      "变动项目",
+      "变动金额或数量",
+      "单位",
+      "生效日期",
+      "来源部门",
+      "批准记录",
+      "提交人",
+      "复核状态"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "薪资变动采集",
+    "sections": [
+      "人员与变动",
+      "数值与生效",
+      "来源与复核"
+    ],
+    "sheets": [
+      {
+        "title": "工资变动数据收集表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/payroll-input.png"
+    ],
+    "download": "/downloads/hr-templates/payroll-input.xlsx"
+  },
+  {
+    "id": "benefit-budget",
+    "title": "薪酬福利预算表",
+    "fields": [
+      "预算期间",
+      "部门",
+      "成本项目",
+      "计划人数",
+      "预算金额",
+      "实际金额",
+      "差异金额（自动）",
+      "差异说明",
+      "数据来源",
+      "负责人"
+    ],
+    "formulaColumns": [
+      "差异金额（自动）"
+    ],
+    "note": "金额单位：元。差异=实际−预算，正值表示超预算；预算与实际均必填，无发生额填0。汇总只统计当前筛选可见行。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "payroll",
+    "format": "xlsx",
+    "layout": "预算执行",
+    "sections": [
+      "期间与对象",
+      "预算与实际",
+      "差异追踪"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "薪酬福利预算表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "6"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/benefit-budget-overview.png",
+      "/media/templates/benefit-budget.png"
+    ],
+    "download": "/downloads/hr-templates/benefit-budget.xlsx"
+  },
+  {
+    "id": "training-plan",
+    "title": "年度培训计划表",
+    "fields": [
+      "年度",
+      "培训项目",
+      "目标能力",
+      "培训对象",
+      "计划人数",
+      "形式",
+      "讲师或供应方",
+      "计划日期",
+      "预算金额",
+      "组织人",
+      "验收方式"
+    ],
+    "formulaColumns": [],
+    "note": "预算金额单位：元。底部汇总当前筛选可见记录的培训预算；同一项目请勿重复登记。",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "learning",
+    "format": "xlsx",
+    "layout": "年度培训计划",
+    "sections": [
+      "项目与目标",
+      "对象与实施",
+      "排期与预算"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "年度培训计划表",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/training-plan-overview.png",
+      "/media/templates/training-plan.png"
+    ],
+    "download": "/downloads/hr-templates/training-plan.xlsx"
+  },
+  {
+    "id": "training-signin",
+    "title": "培训签到表",
+    "fields": [
+      "课程名称",
+      "培训日期",
+      "员工编号",
+      "部门",
+      "签到时间",
+      "签退时间",
+      "参加状态",
+      "完成确认",
+      "组织人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "I",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "learning",
+    "format": "xlsx",
+    "layout": "培训签到",
+    "sections": [
+      "课程与人员",
+      "参加记录",
+      "组织确认"
+    ],
+    "sheets": [
+      {
+        "title": "培训签到表",
+        "lastColumn": "I",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/training-signin.png"
+    ],
+    "download": "/downloads/hr-templates/training-signin.xlsx"
+  },
+  {
+    "id": "training-assessment",
+    "title": "培训考核记录表",
+    "fields": [
+      "课程名称",
+      "员工编号",
+      "考核日期",
+      "考核形式",
+      "评价标准",
+      "实际表现或成绩",
+      "是否完成",
+      "补充学习安排",
+      "评价人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "I",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "learning",
+    "format": "xlsx",
+    "layout": "学习评估",
+    "sections": [
+      "人员与考核",
+      "标准与结果",
+      "补充学习"
+    ],
+    "sheets": [
+      {
+        "title": "培训考核记录表",
+        "lastColumn": "I",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/training-assessment.png"
+    ],
+    "download": "/downloads/hr-templates/training-assessment.xlsx"
+  },
+  {
+    "id": "training-transfer",
+    "title": "培训应用跟踪表",
+    "fields": [
+      "员工编号",
+      "课程名称",
+      "计划应用事项",
+      "应用日期",
+      "实践记录",
+      "成果证据",
+      "遇到困难",
+      "所需支持",
+      "跟进人",
+      "下次复盘日期"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "learning",
+    "format": "xlsx",
+    "layout": "培训成果应用",
+    "sections": [
+      "人员与课程",
+      "实践与证据",
+      "困难与跟进"
+    ],
+    "sheets": [
+      {
+        "title": "培训应用跟踪表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/training-transfer.png"
+    ],
+    "download": "/downloads/hr-templates/training-transfer.xlsx"
+  },
+  {
+    "id": "trainer-register",
+    "title": "内部讲师与课程台账",
+    "fields": [
+      "讲师编号",
+      "所属部门",
+      "专业领域",
+      "课程名称",
+      "适用对象",
+      "课程目标",
+      "授课时长",
+      "最近授课日期",
+      "反馈摘要",
+      "课程资料索引"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "learning",
+    "format": "xlsx",
+    "layout": "内训师与课程",
+    "sections": [
+      "讲师信息",
+      "课程资源",
+      "授课与反馈"
+    ],
+    "sheets": [
+      {
+        "title": "内部讲师与课程台账",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/trainer-register.png"
+    ],
+    "download": "/downloads/hr-templates/trainer-register.xlsx"
+  },
+  {
+    "id": "performance-goals",
+    "title": "绩效目标设定表",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "评价周期",
+      "目标事项",
+      "衡量标准",
+      "目标值",
+      "权重（自定）",
+      "支持条件",
+      "确认日期",
+      "确认记录"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "performance",
+    "format": "xlsx",
+    "layout": "目标约定",
+    "sections": [
+      "人员与周期",
+      "目标与权重",
+      "支持与确认"
+    ],
+    "sheets": [
+      {
+        "title": "绩效目标设定表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/performance-goals.png"
+    ],
+    "download": "/downloads/hr-templates/performance-goals.xlsx"
+  },
+  {
+    "id": "improvement-plan",
+    "title": "绩效改善跟进表",
+    "fields": [
+      "员工编号",
+      "改善事项",
+      "期望结果",
+      "可衡量标准",
+      "公司支持",
+      "责任人",
+      "完成期限",
+      "检查日期",
+      "实际进展",
+      "双方反馈"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "performance",
+    "format": "xlsx",
+    "layout": "改进跟踪",
+    "sections": [
+      "人员与改善目标",
+      "支持与责任",
+      "检查与反馈"
+    ],
+    "sheets": [
+      {
+        "title": "绩效改善跟进表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/improvement-plan.png"
+    ],
+    "download": "/downloads/hr-templates/improvement-plan.xlsx"
+  },
+  {
+    "id": "talent-inventory",
+    "title": "人才盘点记录表",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "岗位关键性",
+      "已验证能力",
+      "关键成果",
+      "发展意愿",
+      "待培养能力",
+      "发展动作",
+      "评估日期",
+      "评估人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "performance",
+    "format": "xlsx",
+    "layout": "人才盘点",
+    "sections": [
+      "岗位与人员",
+      "能力与意愿",
+      "发展跟踪"
+    ],
+    "sheets": [
+      {
+        "title": "人才盘点记录表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/talent-inventory.png"
+    ],
+    "download": "/downloads/hr-templates/talent-inventory.xlsx"
+  },
+  {
+    "id": "succession-plan",
+    "title": "关键岗位接续计划表",
+    "fields": [
+      "关键岗位",
+      "岗位要求",
+      "候选人编号",
+      "当前准备情况",
+      "经验差距",
+      "培养动作",
+      "支持资源",
+      "计划完成日期",
+      "负责人",
+      "复盘记录"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "performance",
+    "format": "xlsx",
+    "layout": "关键岗位接续",
+    "sections": [
+      "岗位与候选人",
+      "准备度与差距",
+      "培养复盘"
+    ],
+    "sheets": [
+      {
+        "title": "关键岗位接续计划表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/succession-plan.png"
+    ],
+    "download": "/downloads/hr-templates/succession-plan.xlsx"
+  },
+  {
+    "id": "contract-ledger",
+    "title": "劳动合同管理台账",
+    "fields": [
+      "员工编号",
+      "合同类型记录",
+      "签订日期",
+      "起始日期",
+      "到期日期",
+      "约定岗位",
+      "签收状态",
+      "档案索引",
+      "跟进日期",
+      "经办人",
+      "距到期天数（自动）"
+    ],
+    "formulaColumns": [
+      "距到期天数（自动）"
+    ],
+    "note": "日期请输入Excel可识别日期（如2026-12-31）。距到期天数=到期日期−当天日期，负值表示已过期；无固定期限留空。不推断通知或续签法定期限。",
+    "lastColumn": "K",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "relations",
+    "format": "xlsx",
+    "layout": "合同到期管理",
+    "sections": [
+      "人员与合同",
+      "期限与岗位",
+      "签收与跟进"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "劳动合同管理台账",
+        "lastColumn": "K",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "10"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/contract-ledger-overview.png",
+      "/media/templates/contract-ledger.png"
+    ],
+    "download": "/downloads/hr-templates/contract-ledger.xlsx"
+  },
+  {
+    "id": "renewal-tracker",
+    "title": "合同续签跟进表",
+    "fields": [
+      "员工编号",
+      "现合同到期日期",
+      "首次沟通日期",
+      "员工反馈",
+      "单位处理记录",
+      "待办事项",
+      "计划完成日",
+      "实际完成日",
+      "档案索引",
+      "负责人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "relations",
+    "format": "xlsx",
+    "layout": "续签跟进",
+    "sections": [
+      "人员与到期",
+      "沟通与待办",
+      "执行与归档"
+    ],
+    "sheets": [
+      {
+        "title": "合同续签跟进表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/renewal-tracker.png"
+    ],
+    "download": "/downloads/hr-templates/renewal-tracker.xlsx"
+  },
+  {
+    "id": "issue-followup",
+    "title": "员工诉求处理台账",
+    "fields": [
+      "受理编号",
+      "受理日期",
+      "诉求类别",
+      "事实摘要",
+      "期望处理",
+      "核实记录",
+      "处理措施",
+      "负责人",
+      "反馈日期",
+      "办理状态"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "relations",
+    "format": "xlsx",
+    "layout": "诉求处理",
+    "sections": [
+      "受理信息",
+      "事实与处理",
+      "反馈结案"
+    ],
+    "sheets": [
+      {
+        "title": "员工诉求处理台账",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/issue-followup.png"
+    ],
+    "download": "/downloads/hr-templates/issue-followup.xlsx"
+  },
+  {
+    "id": "policy-receipt",
+    "title": "制度培训与接收记录表",
+    "fields": [
+      "员工编号",
+      "制度或材料名称",
+      "材料适用日期",
+      "提供方式",
+      "提供日期",
+      "培训或说明安排",
+      "疑问记录",
+      "接收确认",
+      "经办人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "I",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "relations",
+    "format": "xlsx",
+    "layout": "制度告知登记",
+    "sections": [
+      "人员与材料",
+      "提供与说明",
+      "疑问和签收"
+    ],
+    "sheets": [
+      {
+        "title": "制度培训与接收记录表",
+        "lastColumn": "I",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/policy-receipt.png"
+    ],
+    "download": "/downloads/hr-templates/policy-receipt.xlsx"
+  },
+  {
+    "id": "hr-documents",
+    "title": "人事档案目录与查阅台账",
+    "fields": [
+      "员工编号或档案编号",
+      "材料类别",
+      "档案索引",
+      "归档日期",
+      "保管责任人",
+      "查阅目的",
+      "获批记录",
+      "查阅日期",
+      "归还或关闭日期",
+      "备注"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "relations",
+    "format": "xlsx",
+    "layout": "档案借阅",
+    "sections": [
+      "档案与归档",
+      "保管与审批",
+      "查阅与归还"
+    ],
+    "sheets": [
+      {
+        "title": "人事档案目录与查阅台账",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/hr-documents.png"
+    ],
+    "download": "/downloads/hr-templates/hr-documents.xlsx"
+  },
+  {
+    "id": "work-handover",
+    "title": "工作交接清单",
+    "fields": [
+      "移交人编号",
+      "接收人",
+      "交接事项",
+      "当前进度",
+      "资料位置",
+      "未完成事项",
+      "风险或注意事项",
+      "计划交接日",
+      "完成确认",
+      "复核人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "工作交接",
+    "sections": [
+      "移交与事项",
+      "状态与资料",
+      "交接确认"
+    ],
+    "sheets": [
+      {
+        "title": "工作交接清单",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/work-handover.png"
+    ],
+    "download": "/downloads/hr-templates/work-handover.xlsx"
+  },
+  {
+    "id": "asset-return",
+    "title": "办公资产归还清单",
+    "fields": [
+      "员工编号",
+      "资产名称",
+      "资产编号",
+      "领用数量",
+      "归还数量",
+      "归还日期",
+      "状态说明",
+      "接收人",
+      "待处理事项",
+      "未归还数量（自动）"
+    ],
+    "formulaColumns": [
+      "未归还数量（自动）"
+    ],
+    "note": "领用数量和归还数量均必填，未归还填0。未归还=领用−归还，负值表示数量需要核对；按资产编号逐项登记。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "资产归还",
+    "sections": [
+      "资产识别",
+      "数量与归还",
+      "接收与差异"
+    ],
+    "sheets": [
+      {
+        "title": "概览",
+        "lastColumn": "I",
+        "lastRow": 21,
+        "kind": "overview",
+        "formulaColumns": [
+          "汇总结果"
+        ]
+      },
+      {
+        "title": "办公资产归还清单",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": [
+          "9"
+        ]
+      }
+    ],
+    "previews": [
+      "/media/templates/asset-return-overview.png",
+      "/media/templates/asset-return.png"
+    ],
+    "download": "/downloads/hr-templates/asset-return.xlsx"
+  },
+  {
+    "id": "access-close",
+    "title": "账号权限关闭清单",
+    "fields": [
+      "员工编号",
+      "系统或资源名称",
+      "账号标识",
+      "权限范围",
+      "处理方式",
+      "计划操作时间",
+      "实际操作时间",
+      "操作人",
+      "复核人",
+      "完成状态"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "权限停用清单",
+    "sections": [
+      "员工与账号",
+      "权限与操作",
+      "执行复核"
+    ],
+    "sheets": [
+      {
+        "title": "账号权限关闭清单",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/access-close.png"
+    ],
+    "download": "/downloads/hr-templates/access-close.xlsx"
+  },
+  {
+    "id": "departure-settlement",
+    "title": "离职结算核对表",
+    "fields": [
+      "员工编号",
+      "结算期间",
+      "项目名称",
+      "已确认金额",
+      "计算或审批依据索引",
+      "计划支付日",
+      "实际支付日",
+      "确认状态",
+      "经办人",
+      "待处理事项"
+    ],
+    "formulaColumns": [],
+    "note": "已确认金额单位：元。底部汇总当前筛选可见记录；请统一收支符号，不重复登记。本表汇总已确认金额，不核定补偿资格或税额。",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "离职结算核对",
+    "sections": [
+      "人员与项目",
+      "金额依据与支付",
+      "确认与问题"
+    ],
+    "sheets": [
+      {
+        "title": "离职结算核对表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/departure-settlement.png"
+    ],
+    "download": "/downloads/hr-templates/departure-settlement.xlsx"
+  },
+  {
+    "id": "departure-process",
+    "title": "离职手续办理清单",
+    "fields": [
+      "员工编号",
+      "办理事项",
+      "责任部门",
+      "办理人",
+      "计划完成日",
+      "完成日期",
+      "完成状态",
+      "凭证索引",
+      "员工反馈",
+      "备注"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "离职办理清单",
+    "sections": [
+      "员工与办理事项",
+      "责任及期限",
+      "状态与凭证"
+    ],
+    "sheets": [
+      {
+        "title": "离职手续办理清单",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/departure-process.png"
+    ],
+    "download": "/downloads/hr-templates/departure-process.xlsx"
+  },
+  {
+    "id": "departure-proof",
+    "title": "离职相关材料交付记录表",
+    "fields": [
+      "员工编号",
+      "材料名称",
+      "需核对的信息",
+      "制作日期",
+      "核对人",
+      "交付方式",
+      "交付日期",
+      "接收记录",
+      "补充事项",
+      "经办人"
+    ],
+    "formulaColumns": [],
+    "note": "",
+    "lastColumn": "J",
+    "lastRow": 37,
+    "kind": "ledger",
+    "categoryId": "offboarding",
+    "format": "xlsx",
+    "layout": "离职材料交付",
+    "sections": [
+      "员工与材料",
+      "制作及核对",
+      "交付与留痕"
+    ],
+    "sheets": [
+      {
+        "title": "离职相关材料交付记录表",
+        "lastColumn": "J",
+        "lastRow": 37,
+        "kind": "ledger",
+        "formulaColumns": []
+      }
+    ],
+    "previews": [
+      "/media/templates/departure-proof.png"
+    ],
+    "download": "/downloads/hr-templates/departure-proof.xlsx"
+  },
+  {
+    "id": "candidate-info",
+    "title": "面试资料填写表",
+    "description": "候选人面试前填写与岗位相关的基本资料",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "应聘岗位",
+      "候选人编号",
+      "姓名",
+      "可到岗日期",
+      "联系邮箱",
+      "联系电话",
+      "时间",
+      "学校或单位",
+      "专业或岗位",
+      "与应聘岗位相关的成果",
+      "岗位能力与项目",
+      "期望薪酬范围",
+      "工作地点意向",
+      "补充说明"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "应聘信息",
+      "相关经历",
+      "岗位能力与项目",
+      "意向与补充",
+      "补充说明"
+    ],
+    "reference": "https://www.quoffice.com/39393.html",
+    "previews": [
+      "/media/templates/candidate-info.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/candidate-info.docx"
+  },
+  {
+    "id": "hiring-request",
+    "title": "招聘需求申请表",
+    "description": "用人部门提出岗位与人员需求",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "申请部门",
+      "岗位名称",
+      "需求人数",
+      "工作地点",
+      "计划到岗日",
+      "需求负责人",
+      "需求性质",
+      "业务依据",
+      "核心职责",
+      "必须具备的条件",
+      "可培养的能力",
+      "月薪预算范围",
+      "年度预算索引",
+      "部门确认",
+      "HR确认",
+      "预算审批",
+      "确认日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "需求概况",
+      "需求性质",
+      "业务依据",
+      "岗位要求与预算",
+      "预算与审批"
+    ],
+    "reference": "https://www.scribd.com/document/561214013/Position-Requisition-Form",
+    "previews": [
+      "/media/templates/hiring-request.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/hiring-request.docx"
+  },
+  {
+    "id": "job-profile",
+    "title": "岗位说明书填写表",
+    "description": "梳理岗位职责和任职要求",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "岗位名称",
+      "所属部门",
+      "汇报岗位",
+      "主要协作岗位",
+      "岗位目标",
+      "职责事项",
+      "关键交付",
+      "协作边界",
+      "必需能力",
+      "经验或技能证据",
+      "工作条件",
+      "工作地点",
+      "编制人",
+      "确认人",
+      "确认日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "岗位定位",
+      "岗位目标",
+      "主要职责",
+      "任职条件",
+      "确认信息"
+    ],
+    "reference": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225401895.PDF",
+    "previews": [
+      "/media/templates/job-profile.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/job-profile.docx"
+  },
+  {
+    "id": "interview-score",
+    "title": "面试评价记录表",
+    "description": "基于岗位要求记录面试证据与评价",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "ledger",
+    "fields": [
+      "候选人编号",
+      "应聘岗位",
+      "面试轮次",
+      "面试日期",
+      "面试官",
+      "面试方式",
+      "岗位专业能力",
+      "问题分析",
+      "沟通协作",
+      "相关经验与成果",
+      "行为证据与待核实事项",
+      "下一步安排",
+      "记录人",
+      "确认日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "面试信息",
+      "评价记录",
+      "行为证据与待核实事项",
+      "下一步安排",
+      "确认"
+    ],
+    "reference": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-33652",
+    "previews": [
+      "/media/templates/interview-score.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/interview-score.docx"
+  },
+  {
+    "id": "offer-checklist",
+    "title": "录用条件核对表",
+    "description": "发出录用信息前核对已批准的条件",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "候选人编号",
+      "拟任岗位",
+      "工作地点",
+      "拟到岗日期",
+      "核对项目",
+      "确认内容或凭据",
+      "核对人",
+      "尚待确认",
+      "沟通日期",
+      "候选人反馈",
+      "信息核对人",
+      "批准记录索引"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "录用条件核对",
+      "发出前检查",
+      "尚待确认",
+      "沟通留痕"
+    ],
+    "reference": "https://m.ibaotu.com/sucai/19626736.html",
+    "previews": [
+      "/media/templates/offer-checklist.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/offer-checklist.docx"
+  },
+  {
+    "id": "employee-register",
+    "title": "员工基本信息登记表",
+    "description": "建立岗位相关的基础人员记录",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "姓名",
+      "所属部门",
+      "岗位名称",
+      "入职日期",
+      "工作地点",
+      "直属负责人",
+      "用工资料索引",
+      "工作邮箱",
+      "工作电话",
+      "资料更新日期",
+      "登记经办人",
+      "资料变更记录",
+      "员工核对",
+      "HR核对",
+      "核对日期",
+      "附件索引"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "任职资料",
+      "工作联系",
+      "资料变更记录",
+      "核对确认"
+    ],
+    "reference": "https://www.tukuppt.com/muban/qwmzbwbn.html",
+    "previews": [
+      "/media/templates/employee-register.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/employee-register.docx"
+  },
+  {
+    "id": "probation-goals",
+    "title": "试用期目标确认表",
+    "description": "明确岗位任务、评价依据和沟通安排",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "评价起日",
+      "评价止日",
+      "直属负责人",
+      "沟通日期",
+      "目标事项",
+      "可验证的交付标准",
+      "完成期限",
+      "支持资源",
+      "双方沟通记录",
+      "员工确认",
+      "负责人确认",
+      "确认日期",
+      "下次检查日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "目标约定",
+      "阶段交付",
+      "双方沟通记录",
+      "目标确认"
+    ],
+    "reference": "https://ikusei.tenkenban.com/template/goal-shinjin/",
+    "previews": [
+      "/media/templates/probation-goals.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/probation-goals.docx"
+  },
+  {
+    "id": "probation-review",
+    "title": "试用期跟进记录表",
+    "description": "记录阶段反馈、支持事项与实际表现",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "跟进日期",
+      "阶段",
+      "下次沟通日",
+      "阶段目标",
+      "实际进展与证据",
+      "差距或障碍",
+      "员工反馈",
+      "具体动作",
+      "负责人",
+      "完成期限",
+      "员工确认",
+      "沟通人"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "阶段跟进",
+      "进展核对",
+      "员工反馈",
+      "后续行动",
+      "记录确认"
+    ],
+    "reference": "https://www.jotform.com/form-templates/probation-period-review-form",
+    "previews": [
+      "/media/templates/probation-review.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/probation-review.docx"
+  },
+  {
+    "id": "conversion-review",
+    "title": "转正评估记录表",
+    "description": "汇总目标达成证据与已确认的评估结果",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "入职日期",
+      "评估日期",
+      "约定目标",
+      "实际结果及证据",
+      "评价记录",
+      "员工自述与负责人评价",
+      "待解决事项与评估结论",
+      "员工确认",
+      "负责人确认",
+      "HR经办",
+      "日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "评估范围",
+      "目标达成核对",
+      "员工自述与负责人评价",
+      "待解决事项与评估结论",
+      "确认"
+    ],
+    "reference": "https://www.tukuppt.com/excelmuban/shiyongqiyuangongpinggubiao.html",
+    "previews": [
+      "/media/templates/conversion-review.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/conversion-review.docx"
+  },
+  {
+    "id": "leave-request",
+    "title": "请假申请记录表",
+    "description": "登记请假期间、类型及审批记录",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "所属部门",
+      "假别",
+      "申请日期",
+      "开始日期时间",
+      "结束日期时间",
+      "申请时长",
+      "时长单位",
+      "工作衔接",
+      "接手人确认",
+      "负责人审批",
+      "HR核对",
+      "批准日期",
+      "实际返岗日期时间",
+      "销假记录"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "申请事项",
+      "工作衔接",
+      "审批与销假"
+    ],
+    "reference": "https://www.51wendang.com/doc/fbc90cba11bbe7887814e614",
+    "previews": [
+      "/media/templates/leave-request.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/leave-request.docx"
+  },
+  {
+    "id": "attendance-correction",
+    "title": "考勤异常更正表",
+    "description": "记录缺卡、误记等异常的核对过程",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "异常日期",
+      "异常类型",
+      "申请日期",
+      "项目",
+      "原记录",
+      "申请更正记录",
+      "事实依据",
+      "核对人",
+      "处理日期",
+      "处理结论",
+      "经办人"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "异常信息",
+      "更正前后对照",
+      "事实依据",
+      "处理结果"
+    ],
+    "reference": "https://www.5idoc.com/doc/0020074973.html",
+    "previews": [
+      "/media/templates/attendance-correction.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/attendance-correction.docx"
+  },
+  {
+    "id": "business-trip",
+    "title": "出差登记表",
+    "description": "记录出差计划、工作交接与返回情况",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "所属部门",
+      "目的地",
+      "申请日期",
+      "计划出发日",
+      "计划返回日",
+      "出差目的与交付",
+      "日期",
+      "地点或拜访对象",
+      "工作事项",
+      "联系人",
+      "工作交接人",
+      "审批记录",
+      "实际返回日",
+      "经办人"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "行程信息",
+      "出差目的与交付",
+      "行程安排",
+      "审批与返回"
+    ],
+    "reference": "https://www.wenjuan.com/lib_detail_full/69c6bc5ee9cf9e6c826b69de/",
+    "previews": [
+      "/media/templates/business-trip.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/business-trip.docx"
+  },
+  {
+    "id": "salary-change",
+    "title": "调薪申请记录表",
+    "description": "记录已申请的薪酬变化及批准信息",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "申请人",
+      "申请日期",
+      "拟生效日期",
+      "预算索引",
+      "薪酬项目",
+      "调整前金额",
+      "调整后金额",
+      "增减金额",
+      "调整依据",
+      "负责人意见",
+      "预算审批",
+      "HR确认",
+      "员工沟通记录"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "调整信息",
+      "薪酬构成对照",
+      "调整依据",
+      "审批与沟通"
+    ],
+    "reference": "https://www.wenjuan.com/lib_detail_full/69c4bfdce9cf9e6c826094f9/",
+    "previews": [
+      "/media/templates/salary-change.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/salary-change.docx"
+  },
+  {
+    "id": "benefit-claim",
+    "title": "员工福利申领表",
+    "description": "记录福利项目的申请与领取",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "所属部门",
+      "福利项目",
+      "申请日期",
+      "申请数量",
+      "计量单位",
+      "申请依据",
+      "审核记录",
+      "审核日期",
+      "经办人",
+      "领取地点",
+      "领取日期",
+      "实际数量",
+      "领取人确认"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "福利申请",
+      "申请依据",
+      "审核",
+      "领取确认"
+    ],
+    "reference": "https://www.tukuppt.com/tupian/yuangongfulilingqubiao.html",
+    "previews": [
+      "/media/templates/benefit-claim.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/benefit-claim.docx"
+  },
+  {
+    "id": "training-needs",
+    "title": "培训需求调查表",
+    "description": "收集岗位能力需求和希望获得的支持",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "form",
+    "fields": [
+      "部门或匿名编号",
+      "岗位类别",
+      "可参加时间",
+      "提交日期",
+      "当前工作难点",
+      "能力或学习主题",
+      "工作应用场景",
+      "优先级",
+      "偏好形式",
+      "补充意见"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "需求背景",
+      "当前工作难点",
+      "希望提升的能力",
+      "偏好形式",
+      "补充意见"
+    ],
+    "reference": "https://www.aippt.cn/template/excel/detail/4877.html",
+    "previews": [
+      "/media/templates/training-needs.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/training-needs.docx"
+  },
+  {
+    "id": "training-feedback",
+    "title": "培训反馈表",
+    "description": "收集对内容、讲师与应用效果的评价",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "form",
+    "fields": [
+      "课程名称",
+      "培训日期",
+      "反馈编号（可匿名）",
+      "岗位类别（选填）",
+      "与工作的相关程度",
+      "内容清晰程度",
+      "练习的实用程度",
+      "讲解与答疑体验",
+      "可以应用的收获",
+      "仍有疑问与改进意见"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "课程信息",
+      "课程体验",
+      "可以应用的收获",
+      "仍有疑问与改进意见"
+    ],
+    "reference": "https://datascope.io/library/zh-CN/template/%E5%AD%A6%E5%91%98%E6%A0%B8%E5%AF%B9%E8%A1%A8%E7%9A%84%E5%9F%B9%E8%AE%AD%E5%8F%8D%E9%A6%88%E8%A1%A8546b8?id=157922&share_id=e95eed8df9abff4631aff5fe3215d6fc",
+    "previews": [
+      "/media/templates/training-feedback.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/training-feedback.docx"
+  },
+  {
+    "id": "development-plan",
+    "title": "个人发展计划表",
+    "description": "由员工与负责人共同记录能力发展目标",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "当前岗位",
+      "发展目标",
+      "计划期间",
+      "能力现状",
+      "提升能力",
+      "实践或学习行动",
+      "支持资源",
+      "完成期限",
+      "检查日期",
+      "进展与证据",
+      "下步调整",
+      "员工确认",
+      "支持负责人"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "发展方向",
+      "能力现状",
+      "行动路径",
+      "检查节点",
+      "确认"
+    ],
+    "reference": "https://www.tukuppt.com/muban/qjeyjnrb.html",
+    "previews": [
+      "/media/templates/development-plan.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/development-plan.docx"
+  },
+  {
+    "id": "performance-self",
+    "title": "绩效自评表",
+    "description": "员工填写目标完成情况和事实依据",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "评价起日",
+      "评价止日",
+      "约定目标",
+      "实际完成结果",
+      "证据索引",
+      "主要贡献",
+      "困难与支持需求",
+      "员工确认",
+      "提交日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "自评范围",
+      "目标与结果",
+      "主要贡献",
+      "困难与支持需求",
+      "提交"
+    ],
+    "reference": "https://www.smartsheet.com/content/self-evaluation-templates",
+    "previews": [
+      "/media/templates/performance-self.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/performance-self.docx"
+  },
+  {
+    "id": "performance-review",
+    "title": "绩效评价记录表",
+    "description": "依已确定规则记录评价和事实依据",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "评价周期",
+      "评价人",
+      "评价日期",
+      "目标或能力项",
+      "适用标准",
+      "结果及证据",
+      "评价记录",
+      "综合评价",
+      "员工反馈",
+      "评价人确认",
+      "员工确认"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "评价范围",
+      "逐项评价",
+      "综合评价",
+      "员工反馈",
+      "确认"
+    ],
+    "reference": "https://www.aippt.cn/template/excel/detail/5672.html",
+    "previews": [
+      "/media/templates/performance-review.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/performance-review.docx"
+  },
+  {
+    "id": "performance-talk",
+    "title": "绩效面谈记录表",
+    "description": "记录反馈沟通、分歧和后续行动",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "面谈日期",
+      "参与人",
+      "复盘日期",
+      "肯定事项及证据",
+      "待改善事项及证据",
+      "已达成共识",
+      "具体行动",
+      "负责人",
+      "检查日期",
+      "员工反馈与分歧"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "面谈信息",
+      "肯定事项及证据",
+      "待改善事项及证据",
+      "共识与行动",
+      "员工反馈与分歧"
+    ],
+    "reference": "https://www.sucaisucai.com/sucai/02482649.html",
+    "previews": [
+      "/media/templates/performance-talk.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/performance-talk.docx"
+  },
+  {
+    "id": "promotion-review",
+    "title": "晋升评估记录表",
+    "description": "记录岗位要求、候选证据和评审意见",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "现岗位职级",
+      "拟任岗位职级",
+      "评审日期",
+      "目标岗位要求",
+      "已验证成果或能力",
+      "待补充信息",
+      "评审意见",
+      "评审负责人",
+      "结果与依据索引",
+      "后续动作",
+      "复核日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "晋升评审",
+      "岗位要求与证据",
+      "评审意见",
+      "结果记录"
+    ],
+    "reference": "https://www.tukuppt.com/tupian/jinshengpinggubiao.html",
+    "previews": [
+      "/media/templates/promotion-review.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/promotion-review.docx"
+  },
+  {
+    "id": "employee-change",
+    "title": "员工异动登记表",
+    "description": "记录调岗、调部门等已确认变化",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "异动类型",
+      "拟生效日期",
+      "申请日期",
+      "事项",
+      "变更前",
+      "变更后",
+      "原因与沟通记录",
+      "原部门确认",
+      "接收部门确认",
+      "HR经办",
+      "批准记录",
+      "实际生效日期",
+      "归档索引"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "异动申请",
+      "变更对照",
+      "原因与沟通记录",
+      "审批执行"
+    ],
+    "reference": "https://www.unmc.edu/human-resources/_documents/forms/records/Personnel-Action-Change-Form.pdf",
+    "previews": [
+      "/media/templates/employee-change.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/employee-change.docx"
+  },
+  {
+    "id": "employee-talk",
+    "title": "员工沟通记录表",
+    "description": "客观记录工作沟通及跟进事项",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "员工或匿名编号",
+      "沟通日期",
+      "沟通主题",
+      "参与人",
+      "事实记录",
+      "员工意见与支持需求",
+      "后续行动",
+      "负责人",
+      "跟进日期"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "沟通安排",
+      "事实记录",
+      "员工意见与支持需求",
+      "跟进行动"
+    ],
+    "reference": "https://m.onlinedown.net/soft/10023116.htm",
+    "previews": [
+      "/media/templates/employee-talk.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/employee-talk.docx"
+  },
+  {
+    "id": "satisfaction-survey",
+    "title": "员工工作体验调查表",
+    "description": "匿名收集工作支持和协作体验",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "问卷编号",
+      "岗位类别（选填）",
+      "工作目标清晰程度",
+      "完成工作的资源支持",
+      "团队协作沟通",
+      "反馈渠道体验",
+      "学习发展支持",
+      "最希望改善的一件事",
+      "补充意见"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "匿名反馈",
+      "工作体验",
+      "最希望改善的一件事",
+      "补充意见"
+    ],
+    "reference": "https://www.limesurvey.org/zh/template/hr-templates/employee-experience-templates",
+    "previews": [
+      "/media/templates/satisfaction-survey.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/satisfaction-survey.docx"
+  },
+  {
+    "id": "departure-register",
+    "title": "离职事项登记表",
+    "description": "记录已确认的离职安排与办理节点",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "事项提出日期",
+      "事项类型记录",
+      "拟最后工作日",
+      "已确认最后工作日",
+      "沟通记录",
+      "待办事项",
+      "责任人",
+      "计划完成日",
+      "进度",
+      "办理负责人",
+      "更新日期",
+      "依据索引",
+      "归档编号"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "事项登记",
+      "沟通记录",
+      "待办安排",
+      "办理留痕"
+    ],
+    "reference": "https://o.keniu.com/t/1001126.html",
+    "previews": [
+      "/media/templates/departure-register.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/departure-register.docx"
+  },
+  {
+    "id": "exit-interview",
+    "title": "离职面谈记录表",
+    "description": "记录自愿反馈和工作体验",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "form",
+    "fields": [
+      "员工或匿名编号",
+      "面谈日期",
+      "参与人",
+      "记录人",
+      "自愿说明的原因",
+      "工作体验反馈",
+      "疑问或改进事项",
+      "跟进人",
+      "反馈安排",
+      "是否愿意后续联系",
+      "联系方式或约定渠道"
+    ],
+    "format": "docx",
+    "formulaColumns": [],
+    "note": "Word 可编辑表单；填写与签批区域已按本场景独立排版。",
+    "sections": [
+      "面谈信息",
+      "自愿说明的原因",
+      "工作体验反馈",
+      "待处理事项",
+      "后续联系（自愿）"
+    ],
+    "reference": "https://hkhrtool.com/hr-templates/exit-interview-form",
+    "previews": [
+      "/media/templates/exit-interview.png"
+    ],
+    "pages": 1,
+    "download": "/downloads/hr-templates/exit-interview.docx"
+  }
+]

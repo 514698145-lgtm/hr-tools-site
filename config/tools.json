@@ -1,0 +1,1238 @@
+[
+  {
+    "id": "five-insurances-housing-fund",
+    "name": "五险一金计算器",
+    "short": "五险一金",
+    "icon": "building",
+    "category": "薪酬社保",
+    "description": "按城市与月份带出已核验参数，分别计算个人和公司缴费。",
+    "tag": "城市参数 · 个人 / 公司",
+    "color": "orange",
+    "fields": [
+      {
+        "key": "city",
+        "label": "参保城市",
+        "type": "select",
+        "options": [
+          [
+            "上海",
+            "上海 · 直辖市"
+          ],
+          [
+            "北京",
+            "北京 · 直辖市"
+          ],
+          [
+            "天津",
+            "天津 · 直辖市"
+          ],
+          [
+            "南京",
+            "南京 · 江苏"
+          ],
+          [
+            "无锡",
+            "无锡 · 江苏"
+          ],
+          [
+            "徐州",
+            "徐州 · 江苏"
+          ],
+          [
+            "常州",
+            "常州 · 江苏"
+          ],
+          [
+            "苏州",
+            "苏州 · 江苏"
+          ],
+          [
+            "南通",
+            "南通 · 江苏"
+          ],
+          [
+            "连云港",
+            "连云港 · 江苏"
+          ],
+          [
+            "淮安",
+            "淮安 · 江苏"
+          ],
+          [
+            "盐城",
+            "盐城 · 江苏"
+          ],
+          [
+            "扬州",
+            "扬州 · 江苏"
+          ],
+          [
+            "镇江",
+            "镇江 · 江苏"
+          ],
+          [
+            "泰州",
+            "泰州 · 江苏"
+          ],
+          [
+            "宿迁",
+            "宿迁 · 江苏"
+          ],
+          [
+            "杭州",
+            "杭州 · 浙江"
+          ],
+          [
+            "宁波",
+            "宁波 · 浙江"
+          ],
+          [
+            "温州",
+            "温州 · 浙江"
+          ],
+          [
+            "嘉兴",
+            "嘉兴 · 浙江"
+          ],
+          [
+            "湖州",
+            "湖州 · 浙江"
+          ],
+          [
+            "绍兴",
+            "绍兴 · 浙江"
+          ],
+          [
+            "金华",
+            "金华 · 浙江"
+          ],
+          [
+            "衢州",
+            "衢州 · 浙江"
+          ],
+          [
+            "舟山",
+            "舟山 · 浙江"
+          ],
+          [
+            "台州",
+            "台州 · 浙江"
+          ],
+          [
+            "丽水",
+            "丽水 · 浙江"
+          ],
+          [
+            "石家庄",
+            "石家庄 · 河北"
+          ],
+          [
+            "唐山",
+            "唐山 · 河北"
+          ],
+          [
+            "秦皇岛",
+            "秦皇岛 · 河北"
+          ],
+          [
+            "邯郸",
+            "邯郸 · 河北"
+          ],
+          [
+            "邢台",
+            "邢台 · 河北"
+          ],
+          [
+            "保定",
+            "保定 · 河北"
+          ],
+          [
+            "张家口",
+            "张家口 · 河北"
+          ],
+          [
+            "承德",
+            "承德 · 河北"
+          ],
+          [
+            "沧州",
+            "沧州 · 河北"
+          ],
+          [
+            "廊坊",
+            "廊坊 · 河北"
+          ],
+          [
+            "衡水",
+            "衡水 · 河北"
+          ],
+          [
+            "雄安新区",
+            "雄安新区 · 河北"
+          ],
+          [
+            "定州",
+            "定州 · 河北"
+          ],
+          [
+            "辛集",
+            "辛集 · 河北"
+          ],
+          [
+            "广州",
+            "广州 · 大湾区内地"
+          ],
+          [
+            "深圳",
+            "深圳 · 大湾区内地"
+          ],
+          [
+            "珠海",
+            "珠海 · 大湾区内地"
+          ],
+          [
+            "佛山",
+            "佛山 · 大湾区内地"
+          ],
+          [
+            "惠州",
+            "惠州 · 大湾区内地"
+          ],
+          [
+            "东莞",
+            "东莞 · 大湾区内地"
+          ],
+          [
+            "中山",
+            "中山 · 大湾区内地"
+          ],
+          [
+            "江门",
+            "江门 · 大湾区内地"
+          ],
+          [
+            "肇庆",
+            "肇庆 · 大湾区内地"
+          ]
+        ],
+        "value": "上海",
+        "optional": false,
+        "advanced": false
+      },
+      {
+        "key": "month",
+        "label": "缴费月份",
+        "type": "month",
+        "value": "2026-09",
+        "optional": false,
+        "advanced": false
+      },
+      {
+        "key": "medicalPlan",
+        "label": "医保参保类型",
+        "type": "select",
+        "options": [
+          [
+            "sz1",
+            "深圳 · 职工医保一档"
+          ],
+          [
+            "sz2",
+            "深圳 · 职工医保二档"
+          ],
+          [
+            "wj",
+            "苏州 · 吴江普通企业职工"
+          ],
+          [
+            "other",
+            "苏州 · 其他区域（参数尚未接入）"
+          ],
+          [
+            "dgSingle",
+            "东莞 · 单建统筹"
+          ],
+          [
+            "dgAccount",
+            "东莞 · 统账结合（有个人账户）"
+          ],
+          [
+            "dgNoAccount",
+            "东莞 · 统账结合（无个人账户）"
+          ],
+          [
+            "zsAccount",
+            "中山 · 统账结合"
+          ],
+          [
+            "zsSingle",
+            "中山 · 单建统筹"
+          ]
+        ],
+        "when": {
+          "key": "city",
+          "values": [
+            "深圳",
+            "苏州",
+            "东莞",
+            "中山"
+          ]
+        },
+        "help": "按实际参保类型选择；留空时不套用某一档医保费率。",
+        "optional": true,
+        "advanced": false
+      },
+      {
+        "key": "wage",
+        "label": "社保缴费工资",
+        "unit": "元",
+        "type": "number",
+        "help": "在职职工通常填上年度月平均工资性收入，不是到手工资；新入职按当地核定口径。上下限已核验时自动保底、封顶。",
+        "optional": false,
+        "advanced": false
+      },
+      {
+        "key": "medicalWage",
+        "label": "医保缴费工资（不同时填写）",
+        "unit": "元",
+        "type": "number",
+        "help": "留空沿用社保缴费工资。深圳医保按本人月工资收入，请按实际口径调整。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fundWage",
+        "label": "公积金缴费工资（不同时填写）",
+        "unit": "元",
+        "type": "number",
+        "help": "通常为员工本人上年度月平均工资；新参加工作一般按第二个月工资、新调入按调入后工资核定。留空沿用主表工资。城市上下限齐全时自动计算基数。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fundRate",
+        "label": "公积金缴存比例（个人与公司各）",
+        "unit": "%",
+        "type": "number",
+        "min": 5,
+        "max": 12,
+        "help": "个人与单位各按此比例；不确定可留空，本次结果将不含公积金。",
+        "optional": true,
+        "advanced": false
+      },
+      {
+        "key": "supplementRate",
+        "label": "补充公积金比例",
+        "unit": "%",
+        "type": "number",
+        "value": 0,
+        "max": 5,
+        "when": {
+          "key": "city",
+          "values": [
+            "上海"
+          ]
+        },
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "injuryRate",
+        "label": "单位经办核定的实际工伤比例",
+        "unit": "%",
+        "type": "number",
+        "max": 10,
+        "help": "请填已应用行业类别和浮动档次后的实际比例。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "pensionBase",
+        "label": "养老已核定基数（仅数据缺口时补充）",
+        "unit": "元",
+        "type": "number",
+        "baseKind": "pension",
+        "help": "仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "medicalBase",
+        "label": "医疗与生育已核定基数（仅数据缺口时补充）",
+        "unit": "元",
+        "type": "number",
+        "baseKind": "medical",
+        "help": "仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "unemploymentBase",
+        "label": "失业已核定基数（仅数据缺口时补充）",
+        "unit": "元",
+        "type": "number",
+        "baseKind": "unemployment",
+        "help": "仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "injuryBase",
+        "label": "工伤已核定基数（仅数据缺口时补充）",
+        "unit": "元",
+        "type": "number",
+        "baseKind": "injury",
+        "help": "仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fundBase",
+        "label": "公积金已核定基数（仅数据缺口时补充）",
+        "unit": "元",
+        "type": "number",
+        "baseKind": "fund",
+        "help": "仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "pensionP",
+        "label": "养老个人比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "pensionP",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "pensionC",
+        "label": "养老公司比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "pensionC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "medicalP",
+        "label": "医保个人比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "medicalP",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "medicalC",
+        "label": "医保公司比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "medicalC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "medicalExtraC",
+        "label": "医疗附加公司比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "medicalExtraC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "birthC",
+        "label": "单列生育公司比例（已含则填0）（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "birthC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "unemploymentP",
+        "label": "失业个人比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "unemploymentP",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "unemploymentC",
+        "label": "失业公司比例（网站尚缺依据，可补充）",
+        "unit": "%",
+        "type": "number",
+        "policyKey": "unemploymentC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fixedP",
+        "label": "个人固定附加费（月）（网站尚缺依据，可补充）",
+        "unit": "元",
+        "type": "number",
+        "policyKey": "fixedP",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fixedC",
+        "label": "公司固定附加费（月）（网站尚缺依据，可补充）",
+        "unit": "元",
+        "type": "number",
+        "policyKey": "fixedC",
+        "optional": true,
+        "advanced": true
+      },
+      {
+        "key": "fundRounding",
+        "label": "当地公积金金额取整规则（待确认）",
+        "type": "select",
+        "options": [
+          [
+            "0",
+            "单位和个人各四舍五入至元"
+          ],
+          [
+            "2",
+            "单位和个人各四舍五入至分"
+          ]
+        ],
+        "policyKey": "fundRounding",
+        "optional": true,
+        "advanced": true
+      }
+    ],
+    "note": "普通企业职工口径。目录覆盖不代表所有参数完整：有官方依据且适用的参数自动采用；缺项不会按0处理。城市与月份决定政策上下限，员工缴费工资决定个人基数，上下限齐全时自动保底、封顶。医保按实际类型选择；苏州目前仅接入吴江医疗费率，不能替代工业园区等其他口径。工伤实际费率、公积金单位选定比例需自行提供。固定附加费按本月实际应缴额填写，不将年缴费用擅自摊到每月。公积金按当地取整规则、个人与公司相同比例测算；不支持减免、缓缴、特殊人群。",
+    "status": "live"
+  },
+  {
+    "id": "date-calculator",
+    "name": "日期计算器",
+    "short": "日期计算",
+    "icon": "calendar",
+    "category": "日常效率",
+    "description": "计算两个日期的间隔，或推算指定天数前后的日期。",
+    "tag": "自然日 · 可批量",
+    "color": "sand",
+    "fields": [
+      {
+        "key": "dateMode",
+        "label": "计算方式",
+        "type": "select",
+        "options": [
+          [
+            "interval",
+            "日期间隔"
+          ],
+          [
+            "offset",
+            "日期推算"
+          ]
+        ],
+        "value": "interval"
+      },
+      {
+        "key": "start",
+        "label": "起始日期",
+        "type": "date"
+      },
+      {
+        "key": "end",
+        "label": "结束日期",
+        "type": "date",
+        "when": {
+          "key": "dateMode",
+          "values": [
+            "interval"
+          ]
+        }
+      },
+      {
+        "key": "includeStart",
+        "label": "是否计入起始当天",
+        "type": "select",
+        "options": [
+          [
+            "no",
+            "不计入起始当天"
+          ],
+          [
+            "yes",
+            "起止当天均计入"
+          ]
+        ],
+        "value": "no",
+        "when": {
+          "key": "dateMode",
+          "values": [
+            "interval"
+          ]
+        }
+      },
+      {
+        "key": "direction",
+        "label": "推算方向",
+        "type": "select",
+        "options": [
+          [
+            "after",
+            "往后"
+          ],
+          [
+            "before",
+            "往前"
+          ]
+        ],
+        "value": "after",
+        "when": {
+          "key": "dateMode",
+          "values": [
+            "offset"
+          ]
+        }
+      },
+      {
+        "key": "days",
+        "label": "推算天数",
+        "type": "number",
+        "unit": "天",
+        "integer": true,
+        "min": 0,
+        "max": 36500,
+        "when": {
+          "key": "dateMode",
+          "values": [
+            "offset"
+          ]
+        }
+      }
+    ],
+    "note": "按自然日计算，不扣除周末和法定节假日，不自动判断合同、试用期、仲裁等法定期限的起算或届满规则。日期间隔默认不计入起始当天，可切换为起止均计入。",
+    "status": "live"
+  },
+  {
+    "id": "income-tax",
+    "name": "个税计算器",
+    "short": "个税",
+    "icon": "receipt",
+    "category": "薪酬社保",
+    "description": "工资与奖金如何分配？按金额和比例测算最低全年税额。",
+    "tag": "工资 / 奖金 / 金额分配",
+    "color": "purple",
+    "fields": [
+      {
+        "key": "taxMode",
+        "label": "计算场景",
+        "type": "select",
+        "options": [
+          [
+            "salary",
+            "工资 · 累计预扣"
+          ],
+          [
+            "bonus",
+            "全年一次性奖金 · 单独计税"
+          ],
+          [
+            "compare",
+            "工资与奖金 · 全年税额对比"
+          ],
+          [
+            "optimize",
+            "HR参考 · 工资奖金金额分配"
+          ]
+        ],
+        "value": "salary"
+      },
+      {
+        "key": "allocationStage",
+        "label": "本次金额所处阶段",
+        "type": "select",
+        "options": [
+          [
+            "planning",
+            "尚未发放，薪酬构成可依法调整"
+          ],
+          [
+            "received",
+            "已发放 / 已确定为同一笔年终奖"
+          ]
+        ],
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "optimize"
+          ]
+        },
+        "help": "已取得的一笔年终奖不能任意拆分。发放前测算也不改变工资、奖金的真实性和资格要求。"
+      },
+      {
+        "key": "year",
+        "label": "实际取得收入年度",
+        "type": "number",
+        "unit": "年",
+        "integer": true,
+        "min": 2019,
+        "max": 2027,
+        "value": 2026,
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "bonus",
+            "compare",
+            "optimize"
+          ]
+        },
+        "help": "按实际领取年度判断，不按奖金对应的考核年度。当前政策核验至2027年。"
+      },
+      {
+        "key": "bonus",
+        "label": "本次奖金 / 十三薪金额",
+        "type": "number",
+        "unit": "元",
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "bonus",
+            "compare",
+            "optimize"
+          ]
+        }
+      },
+      {
+        "key": "eligible",
+        "label": "本次收入是否符合全年一次性奖金条件",
+        "type": "select",
+        "options": [
+          [
+            "yes",
+            "已确认符合"
+          ],
+          [
+            "no",
+            "不符合 / 尚未确认"
+          ]
+        ],
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "bonus",
+            "compare",
+            "optimize"
+          ]
+        },
+        "help": "“十三薪”名称本身不能确定资格，需符合全年考核等政策条件。"
+      },
+      {
+        "key": "priorMethod",
+        "label": "本年度此前奖金计税情况",
+        "type": "select",
+        "options": [
+          [
+            "none",
+            "此前未领取奖金且未使用单独计税"
+          ],
+          [
+            "merged",
+            "此前奖金已并入综合所得，全年未用单独计税"
+          ],
+          [
+            "separate",
+            "本人本年已使用一次单独计税（含其他单位）"
+          ]
+        ],
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "bonus",
+            "compare",
+            "optimize"
+          ]
+        }
+      },
+      {
+        "key": "previousBonus",
+        "label": "此前已领奖金金额",
+        "type": "number",
+        "unit": "元",
+        "when": {
+          "key": "priorMethod",
+          "values": [
+            "merged",
+            "separate"
+          ]
+        },
+        "scope": [
+          "compare",
+          "optimize"
+        ],
+        "help": "不计入下方常规收入，再由系统加入；本年仅支持这一笔此前奖金。"
+      },
+      {
+        "key": "annualIncome",
+        "label": "全年其他综合所得收入额",
+        "type": "number",
+        "unit": "元",
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "compare",
+            "optimize"
+          ]
+        },
+        "help": "不含本次和此前奖金；其他综合所得填按税法换算后的收入额，勿直接填劳务报酬总流水。"
+      },
+      {
+        "key": "annualDeduction",
+        "label": "全年免税收入与扣除合计",
+        "type": "number",
+        "unit": "元",
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "compare",
+            "optimize"
+          ]
+        },
+        "help": "包含基本减除费用、个人社保公积金、专项附加及其他依法扣除，避免重复扣除。"
+      },
+      {
+        "key": "annualRelief",
+        "label": "综合所得年度减免税额",
+        "type": "number",
+        "unit": "元",
+        "value": 0,
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "compare",
+            "optimize"
+          ]
+        }
+      },
+      {
+        "key": "income",
+        "label": "本年累计收入",
+        "unit": "元",
+        "type": "number",
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "salary"
+          ]
+        }
+      },
+      {
+        "key": "deduction",
+        "label": "累计免税收入与各项扣除",
+        "unit": "元",
+        "type": "number",
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "salary"
+          ]
+        }
+      },
+      {
+        "key": "relief",
+        "label": "累计减免税额",
+        "unit": "元",
+        "type": "number",
+        "value": 0,
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "salary"
+          ]
+        }
+      },
+      {
+        "key": "paid",
+        "label": "累计已预扣税额",
+        "unit": "元",
+        "type": "number",
+        "value": 0,
+        "when": {
+          "key": "taxMode",
+          "values": [
+            "salary"
+          ]
+        }
+      }
+    ],
+    "note": "适用于居民个人工资薪金一般累计预扣。扣除输入包含累计免税收入、减除费用、专项扣除、专项附加扣除及其他依法扣除；不自动判断扣除资格。工资场景不覆盖特殊预扣规则；全年对比用于测算，不办理汇算申报。 奖金单独计税限每人每纳税年度一次，现行政策延续至2027年末；全年对比只输出数字，不改变申报。",
+    "source": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202501/t474844.html",
+    "status": "live"
+  },
+  {
+    "id": "severance",
+    "name": "离职补偿金计算器",
+    "short": "离职补偿金",
+    "icon": "briefcase",
+    "category": "劳动关系",
+    "description": "按已确认的补偿类型，核算年限、工资封顶及税前金额。",
+    "tag": "N / N+1 / 2N",
+    "color": "sand",
+    "fields": [
+      {
+        "key": "formula",
+        "label": "已确认适用的计算类型",
+        "type": "select",
+        "options": [
+          [
+            "N",
+            "经济补偿 · N"
+          ],
+          [
+            "N1",
+            "第40条未提前30日书面通知 · N+代通知金"
+          ],
+          [
+            "2N",
+            "违法解除 / 终止赔偿 · 2N"
+          ]
+        ]
+      },
+      {
+        "key": "start",
+        "label": "连续工作起始日",
+        "type": "date"
+      },
+      {
+        "key": "end",
+        "label": "劳动关系最后一日（含当日）",
+        "type": "date"
+      },
+      {
+        "key": "average",
+        "label": "解除前12个月平均应得月工资",
+        "type": "number",
+        "unit": "元",
+        "help": "工作不足12个月按实际工作月数平均，包含符合口径的奖金、津贴等。"
+      },
+      {
+        "key": "localAverage",
+        "label": "当地上年度职工月平均工资",
+        "type": "number",
+        "unit": "元",
+        "min": 0.01,
+        "help": "第47条适用的当地政府公布口径；不能直接用社保基数反推或替代。地方补偿参数库尚待核验。"
+      },
+      {
+        "key": "minimum",
+        "label": "当地适用月最低工资",
+        "type": "number",
+        "unit": "元",
+        "min": 0.01
+      },
+      {
+        "key": "lastSalary",
+        "label": "上一个月工资（代通知金基数）",
+        "type": "number",
+        "unit": "元",
+        "when": {
+          "key": "formula",
+          "values": [
+            "N1"
+          ]
+        }
+      }
+    ],
+    "note": "仅计算已确认适用的税前金额，不判断解除是否合法或是否应支付。N：满一年计1个月，余下不满6个月计0.5个月，满6个月计1个月；起止日均计入服务期。月工资高于当地上年度职工月平均工资3倍时，以3倍封顶且年限最多12年；未超过3倍不一律限制12年。平均工资低于当地最低工资按最低工资计算。代通知金按上一个月工资另算，不直接以平均工资替代。2008年前入职等需历史分段的情形暂不支持；不包含特殊人群待遇、欠薪、未休年假或税后金额。",
+    "source": "https://rsj.sh.gov.cn/trlzyhshbzbgz_17256/20200617/t0035_1388322.html",
+    "status": "live"
+  },
+  {
+    "id": "take-home-pay",
+    "name": "到手工资计算器",
+    "short": "到手工资",
+    "icon": "wallet",
+    "category": "薪酬社保",
+    "description": "扣除社保、公积金和个税，快速核对实发工资。",
+    "tag": "工资核对",
+    "color": "blue",
+    "fields": [
+      {
+        "key": "salary",
+        "label": "当期应发工资",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "social",
+        "label": "个人社保金额",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "fund",
+        "label": "个人公积金金额",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "tax",
+        "label": "当期个税金额",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "other",
+        "label": "其他扣款",
+        "unit": "元",
+        "type": "number",
+        "value": 0
+      }
+    ],
+    "note": "实发工资＝应发工资－个人社保－个人公积金－当期个税－其他扣款。个税请填写已核算金额，本工具不将月薪直接套用年度税率。",
+    "status": "live"
+  },
+  {
+    "id": "employment-cost",
+    "name": "用工成本计算器",
+    "short": "用工成本",
+    "icon": "chart",
+    "category": "企业成本",
+    "description": "汇总工资、单位缴费与福利，测算团队用工支出。",
+    "tag": "支持人数汇总",
+    "color": "rose",
+    "fields": [
+      {
+        "key": "salary",
+        "label": "人均月工资",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "social",
+        "label": "人均单位社保",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "fund",
+        "label": "人均单位公积金",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "benefit",
+        "label": "人均其他月支出",
+        "unit": "元",
+        "type": "number",
+        "value": 0
+      },
+      {
+        "key": "people",
+        "label": "人数",
+        "unit": "人",
+        "type": "number",
+        "value": 1,
+        "min": 1,
+        "integer": true
+      },
+      {
+        "key": "months",
+        "label": "测算月数",
+        "unit": "月",
+        "type": "number",
+        "value": 12,
+        "min": 1,
+        "max": 120,
+        "integer": true
+      }
+    ],
+    "note": "按人员成本相同、测算期间不变计算。月成本包含输入的工资、单位社保、公积金及其他支出；不同岗位可批量逐行测算。",
+    "status": "live"
+  },
+  {
+    "id": "salary-budget",
+    "name": "调薪预算计算器",
+    "short": "调薪预算",
+    "icon": "chart",
+    "category": "企业成本",
+    "description": "按金额或比例调整月薪，汇总生效年度增量与部门预算。",
+    "tag": "调薪 / 部门汇总",
+    "color": "rose",
+    "fields": [
+      {
+        "key": "department",
+        "label": "部门",
+        "type": "text",
+        "unit": "",
+        "optional": true
+      },
+      {
+        "key": "currentSalary",
+        "label": "当前月薪",
+        "unit": "元",
+        "type": "number"
+      },
+      {
+        "key": "adjustMode",
+        "label": "调整方式",
+        "type": "select",
+        "value": "percent",
+        "options": [
+          [
+            "percent",
+            "按比例增加"
+          ],
+          [
+            "amount",
+            "按金额增加"
+          ],
+          [
+            "target",
+            "指定调整后月薪"
+          ]
+        ]
+      },
+      {
+        "key": "increaseRate",
+        "label": "增加比例",
+        "unit": "%",
+        "type": "number",
+        "when": {
+          "key": "adjustMode",
+          "values": [
+            "percent"
+          ]
+        }
+      },
+      {
+        "key": "increaseAmount",
+        "label": "增加金额",
+        "unit": "元",
+        "type": "number",
+        "when": {
+          "key": "adjustMode",
+          "values": [
+            "amount"
+          ]
+        }
+      },
+      {
+        "key": "targetSalary",
+        "label": "调整后月薪",
+        "unit": "元",
+        "type": "number",
+        "when": {
+          "key": "adjustMode",
+          "values": [
+            "target"
+          ]
+        }
+      },
+      {
+        "key": "effectiveMonth",
+        "label": "生效月份",
+        "unit": "月",
+        "type": "number",
+        "min": 1,
+        "max": 12,
+        "integer": true,
+        "value": 1
+      }
+    ],
+    "note": "按月薪×实际生效月数测算，生效月计为完整一个月。仅含12个月固定工资，不含奖金、社保、公积金、加班费及其他联动成本；每行一人、同一预算年度，重复行会重复计入。指定目标月薪可测算下降情景，不判断调整是否合法。",
+    "status": "live"
+  },
+  {
+    "id": "hr-metrics",
+    "name": "HR 数据速算",
+    "short": "HR数据",
+    "icon": "chart",
+    "category": "人事数据",
+    "description": "核对人数流转，按明确分母计算入职率、离职率和净增人数。",
+    "tag": "人数 / 比率 / 口径",
+    "color": "blue",
+    "fields": [
+      {
+        "key": "department",
+        "label": "统计部门",
+        "type": "text",
+        "unit": "",
+        "optional": true
+      },
+      {
+        "key": "periodStart",
+        "label": "统计起日",
+        "type": "date",
+        "unit": ""
+      },
+      {
+        "key": "periodEnd",
+        "label": "统计止日",
+        "type": "date",
+        "unit": ""
+      },
+      {
+        "key": "opening",
+        "label": "期初在册人数",
+        "unit": "人",
+        "type": "number",
+        "integer": true
+      },
+      {
+        "key": "closing",
+        "label": "期末在册人数",
+        "unit": "人",
+        "type": "number",
+        "integer": true
+      },
+      {
+        "key": "joined",
+        "label": "期间入职人数",
+        "unit": "人",
+        "type": "number",
+        "integer": true
+      },
+      {
+        "key": "exited",
+        "label": "期间离职人数",
+        "unit": "人",
+        "type": "number",
+        "integer": true
+      },
+      {
+        "key": "transferIn",
+        "label": "调入及其他增加",
+        "unit": "人",
+        "type": "number",
+        "integer": true,
+        "value": 0
+      },
+      {
+        "key": "transferOut",
+        "label": "调出及其他减少",
+        "unit": "人",
+        "type": "number",
+        "integer": true,
+        "value": 0
+      },
+      {
+        "key": "denominator",
+        "label": "比率分母",
+        "type": "select",
+        "value": "average",
+        "options": [
+          [
+            "average",
+            "期初期末平均人数"
+          ],
+          [
+            "opening",
+            "期初人数"
+          ]
+        ]
+      }
+    ],
+    "note": "平均人数=(期初+期末)÷2；入职率=入职÷所选分母，离职率=离职÷所选分母。调入调出另行输入，不与入职离职重复。不存在适用于所有公司的唯一口径；分母为0时比率显示不适用。批量逐行输出，不将不同期间的比率直接相加。",
+    "status": "live"
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "id": "official-1",
+    "name": "中国政府网政策栏目",
+    "region": "全国",
+    "category": "综合政策",
+    "url": "https://www.gov.cn/zhengce/",
+    "description": "国务院政策、部门文件和政策解读",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-2",
+    "name": "国家法律法规数据库",
+    "region": "全国",
+    "category": "法律法规",
+    "url": "https://flk.npc.gov.cn/search",
+    "description": "检索法律法规、效力状态和施行日期",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-3",
+    "name": "人力资源和社会保障部",
+    "region": "全国",
+    "category": "人社与劳动用工",
+    "url": "https://www.mohrss.gov.cn/",
+    "description": "就业、劳动关系、社会保险和人才政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-4",
+    "name": "全国人社政务服务平台",
+    "region": "全国",
+    "category": "人社与劳动用工",
+    "url": "https://www.12333.gov.cn/",
+    "description": "个人及用人单位人社服务和地方窗口",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-5",
+    "name": "国家社会保险公共服务平台",
+    "region": "全国",
+    "category": "社保经办",
+    "url": "https://si.12333.gov.cn/",
+    "description": "全国社会保险公共服务",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-6",
+    "name": "国家税务总局",
+    "region": "全国",
+    "category": "税费政策",
+    "url": "https://www.chinatax.gov.cn/",
+    "description": "税收政策、申报服务与政策解读",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-7",
+    "name": "税务总局政策法规库",
+    "region": "全国",
+    "category": "税费政策",
+    "url": "https://fgk.chinatax.gov.cn/",
+    "description": "按文号、年份和主题检索税费文件",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-8",
+    "name": "国家医疗保障局",
+    "region": "全国",
+    "category": "医保生育",
+    "url": "https://www.nhsa.gov.cn/",
+    "description": "基本医保、生育保险和医保政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-9",
+    "name": "国家医保服务平台",
+    "region": "全国",
+    "category": "医保生育",
+    "url": "https://fuwu.nhsa.gov.cn/",
+    "description": "医保查询及公共服务入口",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-10",
+    "name": "中国就业网",
+    "region": "全国",
+    "category": "招聘与培训",
+    "url": "https://chinajob.mohrss.gov.cn/",
+    "description": "就业动态、企业用人指导与公共就业信息",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-11",
+    "name": "中国公共招聘网",
+    "region": "全国",
+    "category": "招聘与培训",
+    "url": "https://job.mohrss.gov.cn/",
+    "description": "公共招聘与就业服务",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-12",
+    "name": "就业创业和职业培训在线服务平台",
+    "region": "全国",
+    "category": "招聘与培训",
+    "url": "https://jc.mohrss.gov.cn/",
+    "description": "职业培训与人力资源课程",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-13",
+    "name": "国家政务服务平台社保服务",
+    "region": "全国",
+    "category": "社保经办",
+    "url": "https://gjzwfw.www.gov.cn/col/col1111/",
+    "description": "社会保险办事入口与服务查询",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-14",
+    "name": "上海市人社局",
+    "region": "上海",
+    "category": "人社与劳动用工",
+    "url": "https://rsj.sh.gov.cn/",
+    "description": "劳动用工、养老失业工伤与本地政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-15",
+    "name": "上海市医保局",
+    "region": "上海",
+    "category": "医保生育",
+    "url": "https://ybj.sh.gov.cn/",
+    "description": "职工医保、生育待遇和经办指南",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-16",
+    "name": "上海住房公积金网",
+    "region": "上海",
+    "category": "住房公积金",
+    "url": "https://www.shzfgjj.cn/index.html",
+    "description": "缴存、转移、提取与公积金通知",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-17",
+    "name": "上海市税务局",
+    "region": "上海",
+    "category": "税费政策",
+    "url": "https://shanghai.chinatax.gov.cn/",
+    "description": "上海税费政策与办税服务",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-18",
+    "name": "上海一网通办",
+    "region": "上海",
+    "category": "综合政策",
+    "url": "https://zwdt.sh.gov.cn/",
+    "description": "本市政务事项与办事指南",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-19",
+    "name": "北京市人社局",
+    "region": "北京",
+    "category": "人社与劳动用工",
+    "url": "https://rsj.beijing.gov.cn/",
+    "description": "劳动关系、社保和人才政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-20",
+    "name": "北京社会保险网上服务平台",
+    "region": "北京",
+    "category": "社保经办",
+    "url": "https://rsj.beijing.gov.cn/csibiz/",
+    "description": "单位和个人社保业务入口",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-21",
+    "name": "北京市医保局",
+    "region": "北京",
+    "category": "医保生育",
+    "url": "https://ybj.beijing.gov.cn/",
+    "description": "职工医保政策及办事指南",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-22",
+    "name": "北京医保公共服务平台",
+    "region": "北京",
+    "category": "医保生育",
+    "url": "https://ybfw.ybj.beijing.gov.cn/",
+    "description": "医保公共服务与业务办理",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-23",
+    "name": "北京住房公积金网",
+    "region": "北京",
+    "category": "住房公积金",
+    "url": "https://gjj.beijing.gov.cn/web/index/",
+    "description": "缴存基数、缴存比例和业务办理",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-24",
+    "name": "天津市人社局",
+    "region": "天津",
+    "category": "人社与劳动用工",
+    "url": "https://hrss.tj.gov.cn/",
+    "description": "劳动关系与社会保险政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-25",
+    "name": "天津人社政策一点通",
+    "region": "天津",
+    "category": "人社与劳动用工",
+    "url": "https://publicservices.hrss.tj.gov.cn/ecdomain/framework/zcydt/",
+    "description": "人社政策原文和解读查询",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-26",
+    "name": "天津住房公积金管理中心",
+    "region": "天津",
+    "category": "住房公积金",
+    "url": "https://www.zfgjj.cn/tjgjjcms/mainSiteApp/index.html",
+    "description": "缴存、提取、转移与政策公告",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-27",
+    "name": "江苏省人社厅",
+    "region": "江苏",
+    "category": "人社与劳动用工",
+    "url": "https://jshrss.jiangsu.gov.cn/col/col78937/index.html",
+    "description": "省级人社政策及13市人社入口",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-28",
+    "name": "江苏省医保局",
+    "region": "江苏",
+    "category": "医保生育",
+    "url": "https://ybj.jiangsu.gov.cn/",
+    "description": "医保政策、经办服务及解读",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-29",
+    "name": "江苏省税务局",
+    "region": "江苏",
+    "category": "税费政策",
+    "url": "https://jiangsu.chinatax.gov.cn/",
+    "description": "江苏税费政策和社保费征缴信息",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-30",
+    "name": "浙江医保公共服务平台",
+    "region": "浙江",
+    "category": "医保生育",
+    "url": "https://zhyb.ybj.zj.gov.cn/",
+    "description": "医保单位和个人公共服务",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-31",
+    "name": "浙江省税务局",
+    "region": "浙江",
+    "category": "税费政策",
+    "url": "https://zhejiang.chinatax.gov.cn/",
+    "description": "浙江税费政策和办税事项",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-32",
+    "name": "河北省人社公共服务平台",
+    "region": "河北",
+    "category": "人社与劳动用工",
+    "url": "https://www.he.12333.gov.cn/",
+    "description": "省级人社服务及各市入口",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-33",
+    "name": "广东省人社厅",
+    "region": "广东",
+    "category": "人社与劳动用工",
+    "url": "https://hrss.gd.gov.cn/",
+    "description": "劳动用工、就业、社保与人才政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-34",
+    "name": "广东人社公共服务",
+    "region": "广东",
+    "category": "社保经办",
+    "url": "https://ggfw.hrss.gd.gov.cn/gdggfw/online-service",
+    "description": "广东单位及个人人社网上服务",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-35",
+    "name": "广东省医保局",
+    "region": "广东",
+    "category": "医保生育",
+    "url": "https://hsa.gd.gov.cn/",
+    "description": "职工医保、生育保险及省级政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-36",
+    "name": "广东省税务局",
+    "region": "广东",
+    "category": "税费政策",
+    "url": "https://guangdong.chinatax.gov.cn/",
+    "description": "广东税费政策和社会保险费征缴",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-37",
+    "name": "广州人社局",
+    "region": "广东·广州",
+    "category": "人社与劳动用工",
+    "url": "https://rsj.gz.gov.cn/",
+    "description": "广州社保、劳动关系和就业政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-38",
+    "name": "深圳市医疗保障局",
+    "region": "广东·深圳",
+    "category": "医保生育",
+    "url": "https://hsa.sz.gov.cn/",
+    "description": "深圳职工医保与生育保险政策",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-39",
+    "name": "深圳住房公积金管理中心入口",
+    "region": "广东·深圳",
+    "category": "住房公积金",
+    "url": "https://zjj.sz.gov.cn/csml/zfgjjglzx/index.html",
+    "description": "住建局官方公积金管理中心栏目",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-40",
+    "name": "东莞市医保局",
+    "region": "广东·东莞",
+    "category": "医保生育",
+    "url": "https://www.dg.gov.cn/ylbzj/",
+    "description": "东莞医保政策和缴费通知",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-41",
+    "name": "苏州市政府公积金政策检索入口",
+    "region": "江苏·苏州",
+    "category": "综合政策",
+    "url": "https://www.suzhou.gov.cn/",
+    "description": "搜索公积金、人社等本地政策和通知",
+    "checked": "2026-09-27"
+  },
+  {
+    "id": "official-42",
+    "name": "天津港保税区人社通知入口",
+    "region": "天津",
+    "category": "综合政策",
+    "url": "https://www.tjftz.gov.cn/contents/6256/382302.html",
+    "description": "已核对的2026缴费基数通知，非官网首页",
+    "checked": "2026-09-27"
+  }
+]

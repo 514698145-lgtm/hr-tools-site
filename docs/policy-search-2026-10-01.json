@@ -1,0 +1,2217 @@
+{
+  "date": "2026-10-01",
+  "note": "检索线索，不等于已验证政策。已采用数值及逐字段来源见policy-coverage-2026-10-01.json。",
+  "cities": [
+    {
+      "city": "上海",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://shanghai.chinatax.gov.cn/gate/big5/shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202608/t481376.html",
+            "https://www.shanghai.gov.cn/gwk/search/content/dbe0d00f57084f95925e6c6df2f0e15a",
+            "https://shanghai.chinatax.gov.cn/zzzb/zcwj/202508/t477427.html",
+            "https://www.shanghai.gov.cn/nw19726/20200820/0001-19726_14278.html",
+            "https://shanghai.chinatax.gov.cn/gate/big5/shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202508/t477427.html",
+            "https://www.shanghai.gov.cn/nw3936/20200813/0001-3936_121.html",
+            "https://rsj.sh.gov.cn/tdjjf_17554/20260824/t0035_1443297.html",
+            "https://ybj.sh.gov.cn/cb_cbjfl/20260629/84be45c507fd4a648d39cb70e6ca353a.html",
+            "https://www.shanghai.gov.cn/nw26170/20200820/0001-26170_27364.html",
+            "https://ybj.sh.gov.cn/zcjd/20260313/e65ab362a9b3447e95bed82a4ae32e3e.html",
+            "https://www.shanghai.gov.cn/newshanghai2018/zfgb/202602/ZFGB2602.pdf",
+            "https://www.shanghai.gov.cn/newshanghai2018/zfgb/202514/ZFGB2514.pdf",
+            "https://jpg.zfcg.sh.gov.cn/sh-gov-open-doc/1108QZ/d1fa90f4-9f1e-48bc-9e3e-20f8a00c5e5d.pdf",
+            "https://www.shanghai.gov.cn/cmsres/9b/9b3cd50f4f2e4b7b9f0573d853cc6e7c/17e43364cea7e0a5a835dfc0cd2b9560.pdf",
+            "https://www.shqp.gov.cn/edu/edu/upload/202602/0228_154419_287.pdf",
+            "https://rsj.sh.gov.cn/dzb/rsj/2026-01-29/pdf/01.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "北京",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260821_4831679.html",
+            "https://rsj.beijing.gov.cn/xxgk/2024zcwj/202608/t20260821_4831461.html",
+            "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202608/t20260827_4839720.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685_qjd.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://www.beijing.gov.cn/fwcj/jiage/index.html",
+            "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfl/201905/t20190523_75847.html",
+            "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260727_4790223.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201912/t20191218_1266138.html",
+            "https://www.beijing.gov.cn/zhengce/zfwj/zfwj/szfl/201905/t20190523_75695.html",
+            "https://zyk.bjhd.gov.cn/zwdt/tdzt/2018/csrlsb/cjwtcs/shbxdj/202510/t20251022_4790568.shtml",
+            "https://swj.beijing.gov.cn/zwgk/szfgb/202512/P020251210656850568550.pdf",
+            "https://www.beijing.gov.cn/gongkai/caizheng/czzt/2026ys/202602/W020260228597557183535.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "天津",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://tianjin.chinatax.gov.cn/nsrxt/11200000000/0500/050007/20260122141605857.shtml",
+            "https://tianjin.chinatax.gov.cn/11200000000/0300/030005/p20260122110612385.shtml",
+            "https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260122110612385.shtml",
+            "https://www.tj.gov.cn/zmhd/WDK/ZCWD/202607/t20260716_7336560.html",
+            "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+            "https://tianjin.chinatax.gov.cn/11200000000/0300/030004/03000419/20260824171546537.shtml",
+            "https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260204150729406.shtml",
+            "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329216.html",
+            "https://www.tj.gov.cn/sy/tjxw/202608/t20260823_7356881.html",
+            "https://www.tj.gov.cn/zwgk/zfxxgkzl/zlzc/zlgz/202111/t20211118_5712332.html",
+            "https://ybj.sh.gov.cn/cb_cbjfl/20260629/84be45c507fd4a648d39cb70e6ca353a.html",
+            "https://tianjin.chinatax.gov.cn/11200000000/0500/050002/05000201/zxftlist20260522.html",
+            "https://tianjin.chinatax.gov.cn/11200000000/0100/010015/20260422084224273.pdf",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.tj.gov.cn/zmhd/WDK/ZCWD/202607/t20260716_7336560.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260726_4788486.html",
+            "https://www.tj.gov.cn/sy/tjxw/202506/t20250628_6968245.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zfgjj.baoji.gov.cn/zzzb/tzgg/202606/t20260629_1280645.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://www.zhanjiang.gov.cn/attachment/0/33/33971/1363447.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "南京",
+      "searches": []
+    },
+    {
+      "city": "无锡",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/3/art_8539_372104.html",
+            "https://www.wuxi.gov.cn/doc/2001/12/28/4098200.shtml",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://www.wuxi.gov.cn/doc/2025/11/26/4690536.shtml",
+            "https://ylbzj.wuxi.gov.cn/doc/2025/11/26/4690535.shtml",
+            "https://www.wuxi.gov.cn/doc/2016/11/24/1184890.shtml",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://hrss.wuxi.gov.cn/doc/2016/10/13/2117287.shtml",
+            "https://www.wuxi.gov.cn/doc/2025/12/10/4703864.shtml",
+            "https://www.wuxi.gov.cn/doc/2022/12/30/4179407.shtml",
+            "https://www.wuxi.gov.cn/doc/2022/09/15/3814658.shtml",
+            "https://ylbzj.wuxi.gov.cn/doc/2023/12/29/4147542.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.yixing.gov.cn/doc/2026/08/07/1410109.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/03/31/4752666.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/07/21/4807989.shtml",
+            "https://www.yixing.gov.cn/doc/2026/08/07/1410032.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814429.shtml",
+            "https://www.jiangyin.gov.cn/doc/2026/03/31/1389652.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2025/08/07/4625815.shtml",
+            "https://www.wuxi.gov.cn/gjj/zfxxgk/xxgkml/fgwjjjd/index.shtml",
+            "https://www.yixing.gov.cn/doc/2025/08/20/1349939.shtml",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.wuxi.gov.cn/gjj/doc/2024/03/25/4271638.shtml",
+            "https://www.wuxi.gov.cn/gjj/uploadfiles/202508/07/2025080715034312305788.pdf",
+            "https://www.wuxi.gov.cn/gjj/uploadfiles/202408/21/2024082109222513073201.pdf",
+            "https://www.wuxi.gov.cn/gjj/uploadfiles/202407/22/2024072211264731535096.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://www.wuxi.gov.cn/gjj/uploadfiles/202604/29/2026042916401262647544.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "徐州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://jiangsu.chinatax.gov.cn/art/2025/4/3/art_8539_372337.html",
+            "https://ybj.sh.gov.cn/cb_cbjfl/20260629/84be45c507fd4a648d39cb70e6ca353a.html",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://xz.jszwfw.gov.cn/col/col135219/index.html",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.jiyuan.gov.cn/zwgk/zcwd/ylbzj/t899416.html",
+            "https://xzgl.jszwfw.gov.cn/col/col138049/index.html",
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/7/art_8539_372402.html",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://www.jsrd.gov.cn/qwfb/cwhgb/d_11260/202303/P020230320588612490329.pdf",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141145_63230.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.jlrd.gov.cn/jlsjk/202311/P020260309526498862686.pdf",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/post_2199758.html",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020260309527024051151.pdf",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://gjj.xuancheng.gov.cn/News/show/1689694.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://gjj.jinan.gov.cn/col/col111465/art/2026/art_1df4b8a8b2604fd185a8e9130c55a5ba.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://gjj.jinan.gov.cn/col/col65559/art/2026/art_a025e5da370e4af08b1c1214b23a704c.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/gzdt/content/post_2199757.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=18e6ccf5da654641a96a4332eba595ef.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "常州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://jiangsu.chinatax.gov.cn/art/2026/5/22/art_8539_372039.html",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141145_63230.pdf",
+            "https://ybj.sh.gov.cn/cb_cbjfl/20260629/84be45c507fd4a648d39cb70e6ca353a.html",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141024_86926.pdf",
+            "https://ybj.changzhou.gov.cn/content/suitable/show?catid=39343&id=5994",
+            "https://www.changzhou.gov.cn/gi_news/248159944156631",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://ybj.changzhou.gov.cn/html/ybj/2023/KONIQDQB_0417/3214.html",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202140925_46877.pdf",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2022/0523/20220523091752_43289.pdf",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141107_64927.pdf",
+            "https://ybj.changzhou.gov.cn/uploadfile/ybj/2022/0824/20220824162741_83704.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://gjj.changzhou.gov.cn/html/gjj/2026/MHLFKOQA_0706/13971.html",
+            "https://gjj.changzhou.gov.cn/html/gjj/2026/ODOFKMDN_0706/13968.html",
+            "https://gjj.changzhou.gov.cn/content/suitable/show?catid=142&id=13974",
+            "https://www.jintan.gov.cn/html/czjt/2026/JFJLQAOQ_0629/299969.html",
+            "https://www.changzhou.gov.cn/ns_news/91178269393416",
+            "https://gjj.changzhou.gov.cn/html/gjj/2026/MHLFKOQA_0810/14176.html",
+            "https://gjj.changzhou.gov.cn/class/JIPQKDOA/2",
+            "https://www.jintan.gov.cn/html/czjt/2026/QNOJAAMH_0629/30705.html",
+            "https://gjj.changzhou.gov.cn/class/MHLFKOQA",
+            "https://gjj.changzhou.gov.cn/class/JIPQKDOA",
+            "https://gjj.changzhou.gov.cn/class/LNFAKOQO",
+            "https://gjj.changzhou.gov.cn/html/gjj/2026/LPQCMPQB_0629/13939.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://www.jintan.gov.cn/uploadfile/czjt/old/xxgk_pdfs/50647c68-9570-43ad-a03d-7fb867e0a661/3b3003b85e846aa7c5d8da0de10e1ca9.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://www.jintan.gov.cn/uploadfile/czjt/2019/0625/20190625082249_64723.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "苏州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.suzhou.gov.cn/szsrmzf/gbzfgz/202301/52515e6be63f480894127d58afc2eeb3.shtml",
+            "https://ybj.sh.gov.cn/cb_cbjfl/20260629/84be45c507fd4a648d39cb70e6ca353a.html",
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/7/art_8539_372402.html",
+            "https://www.suzhou.gov.cn/szsrmzf/szfgzk/202111/05e8766c617e49b3885d5d57edbd0a7d.shtml",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://ybj.suzhou.gov.cn/szybj/ybzcjd/202512/6e4bfebe14e747d394cc2d0dafd02b52.shtml",
+            "https://ybj.suzhou.gov.cn/szybj/zcfg/202206/d6088b6352844a568868a8abc5077add.shtml",
+            "https://ybj.suzhou.gov.cn/szybj/tzgg/202510/b656b0974c4f497e80f87ed52f24763c.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd4/202609/0b9b2a6a938b41d28e59569e4d466fd9.shtml",
+            "https://ybj.suzhou.gov.cn/szybj/kssrdzc/202512/59f4f0d07efd44048d1f9bd06609e656.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd4/202609/071bb48ab7b4406daefd4bd7d3573a90.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/lhjycjwt/202505/9e5f041a073a440a96a3cf25f7176f5f.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/szfgfxwjk/202203/b42f3eeffa6945d1b68beecb428af9b6/files/80f694449f1c44a69e95336c05c04cb8.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c93e34fe3ffb4c998ad1e1d8b11343a7.shtml",
+            "https://www.suzhou.gov.cn/search4/s?searchWord=2022%E5%B9%B4%E8%8B%8F%E5%B7%9E%E5%85%AC%E7%A7%AF%E9%87%91%E7%BC%B4%E8%B4%B9%E5%9F%BA%E6%95%B0&siteCode=3205000002",
+            "https://www.wujiang.gov.cn/zgwj/c112414/202501/c4d1e493970648c6803e33248d59045d.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/gbzfgz/202301/87bd3ae438074f0ab87576ad9b3f9eac.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/bmwj/202507/77ed052010404c5ca1f35a8bfcaade19.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/bmwj/202605/058f970c689644a5bb1fdb9182db2234.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202605/e6771aa65804486e8d163e8b8fdc39c7.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202509/17d84d42ff4b475aad4e83cbdaa0d4ce.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/gbzfgfxwj/202307/a9296db27eb448628071e7011da166f9.shtml",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://www.taicang.gov.cn/taicang/zfgjjyxqk/202208/6ed6698a14e24532aad7aaf325ef6526/files/904ee50397c2441fa3375f4ea5af24ae.pdf",
+            "http://gjj.suzhou.gov.cn，以下简称苏州公积金网站",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://www.sipac.gov.cn/ldhshbzj/sgszl/202603/134080ccbc07492884e3086dd20a0850/files/24bb48cff548451ab5ed82b2df941c56.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "南通",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://ylbzj.nantong.gov.cn/ntsylbzj/bmwj/content/b1769db4-a1c6-4d89-b8f1-06e89cda5729.html",
+            "https://www.nantong.gov.cn/ntsrmzf/wsgbs/content/cee2c94b-bb1b-421f-9356-a0b42a1a9333.html",
+            "https://ylbzj.nantong.gov.cn/ntsylbzj/bmwj/content/b4c1637d-7f01-4c6c-8efc-754d75b6094a.html",
+            "https://www.nantong.gov.cn/ntsrmzf/ylzcwj/content/7132a520-271c-4ab3-a8e4-999c4394573b.html",
+            "https://www.nantong.gov.cn/ntsrmzf/ylcjwt/content/3fcc1137-a62c-4c8b-8fc3-4d9da2a634ed.html",
+            "https://www.nantong.gov.cn/ntsrmzf/yl/content/858a4a45-db6a-4d36-9bb8-505b83b4f8fc.html",
+            "https://www.nantong.gov.cn/ntsrmzf/ylcjwt/content/e3d83c2c-cf10-475e-be72-ec90912d41ec.html",
+            "https://www.haimen.gov.cn/hmsylbzj/zcwj/content/0f0286ee-68b0-4f18-89d1-fabe1f96a3bf.html",
+            "https://www.nantong.gov.cn/ntsrmzf/2015ndssiq/content/791bc0e8-3b4a-4be3-9059-082214eef8c0.html",
+            "https://www.haian.gov.cn/hasylbzj/gggs/content/d5b28f4e-6c82-451c-857b-8e708596f589.html",
+            "https://rsj.nantong.gov.cn/ntsrsj/ldxx/content/DBAA0A46A034315AE053FD7F520201EC.html",
+            "https://www.nantong.gov.cn/truecms/attachmentController/download.do?id=fd4b880f-c89a-4e3d-9ef9-5cb60e77a991"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.nantong.gov.cn/ntsrmzf/zfzcwj/content/2fb03f43-1ba8-4d07-b18f-771c03e63deb.html",
+            "https://www.nantong.gov.cn/szfgjjglzx/bmwj/content/08d56782-7f29-4ef6-8115-248e206ffbc3.html",
+            "https://www.nantong.gov.cn/ntsrmzf/gjjfwzn/content/79e74e76-62db-4b36-9b9f-8754a4d11e55.html",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/mpost_2199758.html",
+            "https://www.nantong.gov.cn/truecms/visitorController/toInterviewLive.do?interviewId=44886217-4955-466e-9513-23397ba3592c",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.nantong.gov.cn/truecms/visitorController/toInterviewLive.do?interviewId=a76de9b5-1463-44b8-a44c-bb07963d9547",
+            "https://www.nantong.gov.cn/ntsrmzf/gggs/content/32dbe389-b3ac-460e-8a8d-2c1a2ad58447.html",
+            "https://www.nantong.gov.cn/szfgjjglzx/upload/8ca80e2d-2faa-4b6e-a107-8831981867c3.pdf",
+            "https://www.nantong.gov.cn/szfgjjglzx/bmwj/content/9df06ba1-6bfa-4bc9-9a4b-35f5bf0b3665.html",
+            "https://www.nantong.gov.cn/szfgjjglzx/bmwj/content/312da131-fe05-4a4a-93d1-3961691ec17b.html",
+            "https://www.nantong.gov.cn/szfgjjglzx/upload/cfc5ec9c-581c-4a18-ad31-cc7ffbb19016.pdf",
+            "https://www.nantong.gov.cn/szfgjjglzx/upload/2adbac98-3d62-476c-a0a2-071a619e3fd3.pdf",
+            "https://www.nantong.gov.cn/szfgjjglzx/upload/7d626c5d-b54f-4a41-895a-346343068c7c.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "连云港",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/szfgfxwj1/content/cb46d3d9-7f55-4d0c-8a7a-12920601bfaf.html",
+            "https://jiangsu.chinatax.gov.cn/art/2025/4/11/art_8539_373016.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/szfgfxwj1/content/98d8062b-99ac-4368-a6e2-2103dfe4af3b.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/szfgfxwj1/content/cccffb9a-5171-4811-a76a-dd5e4a2bb88e.shtml",
+            "https://www.lyg.gov.cn/zglygzfmhwz/szfgfxwj1/content/bdb59eb0-99ba-44a7-b24c-2a88f8b31c23.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/upload/811c86d2-a98f-4893-a00b-62cb0de633c6.pdf",
+            "https://www.lyg.gov.cn/zglygzfmhwz/fwzx_ylws/content/bc747978-d320-4383-9441-6e0f9f69ed7f.html",
+            "https://jiangsu.chinatax.gov.cn/art/2021/9/15/art_8539_238209.html",
+            "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://www.lyg.gov.cn/TrueCMS/visitorController/letterView.do?id=8053b808-d10a-4a89-bf20-cf649eff5118&mailBoxId=385e79f0-247f-4162-ac8e-9b8489ebe8c0",
+            "https://www.lyg.gov.cn/zglygzfmhwz/szfbgswj1/content/zwgk_d9a6cfdc6c924671adbb044a5029ce3d.html",
+            "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2025/4/11/art_8539_373016.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/spyp1/content/ecc99aed-e208-4b50-a998-fb85b42acf4c.htm",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.lyg.gov.cn/zglygzfmhwz/upload/a69c61c6-a110-4e24-afe8-d077705b34c8.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zffw1/content/fab4f406-2f4e-4913-b372-1497820a35f3.htm",
+            "https://www.lyg.gov.cn/zglygzfmhwz/xwfbh/content/5a72f436-44c0-4f27-9b9d-f5c6be51dace.htm",
+            "https://www.guanyun.gov.cn/TrueCMS/visitorController/letterView.do?id=41f7aa35-839d-4b90-849a-dbf783177210&mailBoxId=91ecc785-5b81-4018-900e-a940d6e6f4c4&site=lygszfgjjglzx",
+            "https://www.lyg.gov.cn/zglygzfmhwz/mtbd/content/241fd61d-0d42-4826-aa5a-ce49b08a0ec1.htm",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.lyg.gov.cn/zglygzfmhwz/cjwt_zffw/content/8f1f3c79-5ff9-46eb-ae95-c839e5a5eb85.htm",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zsk/zsk.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/xwfbh/content/46fe90f7-0373-486e-87fc-f0a01d9f9f88.htm",
+            "https://www.lyg.gov.cn/zglygzfmhwz/fwzx_zffw/content/426cc625-e8c9-4c36-8665-0492a7ee502c.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/gcyw/content/0d48cc0e-d9dd-4884-83b5-9f0d168d5119.htm",
+            "https://www.lyg.gov.cn/zglygzfmhwz/gcyw/content/1452cc9d-63d7-4354-9e1b-46e31815f8a9.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/fbhyg/content/1230281e-e50a-45d6-af2a-25baf60fe1ec.html",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020260309527024051151.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://www.lyg.gov.cn/zglygzfmhwz/upload/22f178c6-8099-4a9b-8c81-74f6b09386f0.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "淮安",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://rsj.huaian.gov.cn/upload/2026-02/44caec05-663a-4032-b917-bf7e4529d432.pdf",
+            "https://jiangsu.chinatax.gov.cn/art/2025/4/21/art_8539_372134.html",
+            "https://www.zghaq.gov.cn/col/904_568817/art/17434368/1744871268496iezqbm7v.html",
+            "https://hajjjskf.jszwfw.gov.cn/col/col138385/index.html",
+            "https://ylbzj.huaian.gov.cn/col/7870_744611/art/17592480/1760694416085FeFuzSFC.html",
+            "https://ylbzj.huaian.gov.cn/col/12724_831277/art/17251200/1739521427379ThvFvTET.html",
+            "https://www.huaian.gov.cn/col/16801_148235/art/16698240/1670923484473YYnfGkUl.html",
+            "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://ylbzj.huaian.gov.cn/col/4215_221348/art/16934976/1694683542570qhwHAPQd.html",
+            "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202606/t20260604_10140414.html",
+            "https://hadz.huaian.gov.cn/upload/2026-04/e71e3b0b-4cf1-4f2b-9cd5-654587a99cd0.pdf",
+            "https://www.huaian.gov.cn/col/14784_377565/art/16751808/1721895094879FCxqbTFw.html",
+            "https://ylbzj.huaian.gov.cn/col/7870_744611/art/o/17539776/1754988604675B6asjQPB.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.zzz.ggj.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.huaian.gov.cn/col/9111_828833/art/17460288/1748331126225jdCf1YIX.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.huaian.gov.cn/col/16657_173466/art/17434368/1745907417283Q5sYQkAJ.html",
+            "https://www.huaian.gov.cn/col/9111_828833/art/17460288/1748331103662bdnJeRDo.html",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://hbzfgjj.huaibei.gov.cn/xwdt/ggtz/58040389.html",
+            "https://www.huaian.gov.cn/col/14795_161776/art/17460288/1748333821612sP5A62Fc.html",
+            "https://hbzfgjj.huaibei.gov.cn/xwdt/zxxw/58047480.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=18e6ccf5da654641a96a4332eba595ef.pdf",
+            "https://daj.huaian.gov.cn/upload/2025-05/578cc58f-455c-44ac-b6bf-a79bd18e297e.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "盐城",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://yc.jszwfw.gov.cn/col/col135318/",
+            "https://jiangsu.chinatax.gov.cn/art/2025/4/11/art_8539_372071.html",
+            "https://ylbzj.yancheng.gov.cn/art/2022/6/4/art_21580_3861582.html",
+            "https://ylbzj.yancheng.gov.cn/art/2024/1/9/art_32878_4132199.html",
+            "https://www.yancheng.gov.cn/art/2023/3/2/art_3195_3970441.html",
+            "https://www.tinghu.gov.cn/art/2019/10/14/art_18999_3385857.html",
+            "https://ylbzj.yancheng.gov.cn/art/2019/4/28/art_21579_3060311.html",
+            "https://www.yandu.gov.cn/art/2023/10/19/art_34282_6691.html",
+            "https://www.songjiang.gov.cn/govxxgk/SHSJ49/2026-03-10/936311af-098f-4a9f-978c-4ee1864fdd5a.html",
+            "https://www.yancheng.gov.cn/art/2022/10/8/art_24488_3930395.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/2026-01/05/814635182468481a83ee30ea74af53dc/files/192b3be398344a16aace3e55fdf37953.pdf",
+            "https://www.yancheng.gov.cn/art/2022/9/29/art_33607_769.html",
+            "https://wap.yancheng.gov.cn/art/2022/10/8/art_25892_3930398.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.yancheng.gov.cn/art/2026/8/5/art_34247_28781.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html",
+            "https://ycgjj.yancheng.gov.cn/art/2025/9/17/art_6592_4366956.html",
+            "https://ycgjj.yancheng.gov.cn/art/2022/9/20/art_6596_3908977.html",
+            "https://www.yancheng.gov.cn/art/2026/2/6/art_13184_4402721.html",
+            "https://ycgjj.yancheng.gov.cn/art/2025/6/30/art_6596_4334818.html",
+            "https://ycgjj.yancheng.gov.cn/art/2020/4/15/art_6596_3355294.html",
+            "https://www.yancheng.gov.cn/art/2025/6/30/art_13185_4334833.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://ycgjj.yancheng.gov.cn/art/2019/4/1/art_6596_3012192.html",
+            "https://www.yancheng.gov.cn/art/2025/12/26/art_13184_4391157.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=e3d8d6b6724d41d7b8f8767f03f3fa24.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=18e6ccf5da654641a96a4332eba595ef.pdf",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020250423484414616675.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=79dc490c3b8d4228bd2e90d9b3a1d97c.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "扬州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/26/art_8539_371928.html",
+            "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2025/3/26/art_8539_371928.html",
+            "https://www.songjiang.gov.cn/govxxgk/SHSJ49/2026-03-10/936311af-098f-4a9f-978c-4ee1864fdd5a.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://ybj.sh.gov.cn/zcjd/20260313/e65ab362a9b3447e95bed82a4ae32e3e.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/2026-01/05/814635182468481a83ee30ea74af53dc/files/192b3be398344a16aace3e55fdf37953.pdf",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/5/22/art_8539_372039.html",
+            "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://www.shanghai.gov.cn/gwk/search/content/e6a4b235d8734ed49ade29f5e05c0aaa?f_link_type=f_linkinlinenote&flow_extra=eyJpbmxpbmVfZGlzcGxheV9wb3NpdGlvbiI6MCwiZG9jX3Bvc2l0aW9uIjowLCJkb2NfaWQiOiIyMGE3NDdhMjkxOWVmZGQ3LTQ4M2ZiNmI1NDQ2MzUxMzIifQ%3D%3D",
+            "https://shanghai.chinatax.gov.cn/zzzb/zcwj/202508/t477427.html",
+            "https://www.jiangsu.gov.cn/art/2022/7/14/art_90838_4387.html",
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/7/art_8539_372402.html",
+            "https://ylbzj.shaoyang.gov.cn/syybj/tzgg/202201/c5e322ca5bcc4d8aae80955be019cf7e/files/65139c8d929442f984c336086c4c89b7.pdf",
+            "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf",
+            "https://www.bengshan.gov.cn/group3/M00/01/C8/wKgQGGfsknuAEBmPACq267fC4Zw651.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://gjj.xuancheng.gov.cn/News/show/1689694.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://ycgjj.yancheng.gov.cn/module/download/downfile.jsp?classid=0&filename=7155be6fea9f4578841669d8b6732693.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "镇江",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://jiangsu.chinatax.gov.cn/art/2025/12/1/art_9426_1674922.html",
+            "https://jiangsu.chinatax.gov.cn/art/2025/4/7/art_8539_372105.html",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://www.zhangye.gov.cn/zyszfxxgk/fdzdgknr_5657/qtfdzdgknr/zfgb/zfgb2026/2026_02/202603/P020260316566271732825.pdf",
+            "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/sbf/202603/t479836.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://jiangsu.chinatax.gov.cn/art/2022/11/14/art_9426_404756.html",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/7/art_8539_372402.html",
+            "https://www.yantai.gov.cn/art/2022/7/21/art_64350_2981072.html",
+            "https://www.jiangsu.gov.cn/art/2024/11/18/art_88959_11424104.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.jlrd.gov.cn/jlsjk/202311/P020260309526498862686.pdf",
+            "https://glj.jiangsu.gov.cn/art/2026/8/3/art_93070_11811982.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/tzgg/content/post_2199759.html",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020260309527024051151.pdf",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/xwfbh/content/5a72f436-44c0-4f27-9b9d-f5c6be51dace.htm",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "泰州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://ylbzj.taian.gov.cn/art/2026/1/20/art_360903_10317752.html",
+            "https://ylbzj.taian.gov.cn/art/2025/9/17/art_360903_10314356.html",
+            "https://ylbzj.taian.gov.cn/art/2025/9/17/art_360903_10314357.html",
+            "https://jiangsu.chinatax.gov.cn/art/2025/3/10/art_8539_372075.html",
+            "https://www.taizhou.gov.cn/ybj/zcfg/art/2020/art_18b0101ec2a847b98b7ec794a7f52dbf.html",
+            "https://www.taizhou.gov.cn/zfxxgk/fdzdgknr/zcwj/qtwj/szfwj/art/2023/art_fe37fe2961064085b91021a2401e1dd2.html",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://www.taian.gov.cn/art/2022/12/12/art_317831_3135.html",
+            "https://www.taizhou.gov.cn/zfxxgk/sqbmml/zfgzbm/sylbzj/fdzdgknr/msgy/ylbz/art/2020/art_b952ad71564c41d3ac06aea159d93a11.html",
+            "https://www.taizhou.gov.cn/zfxxgk/sqbmml/zfgzbm/sylbzj/fdzdgknr/msgy/ylbz/art/2025/art_1b427cabba1c42cf9abc0ef12cebd38c.html",
+            "https://ylbzj.taian.gov.cn/art/2024/1/4/art_86780_10303773.html",
+            "https://ylbzj.taian.gov.cn/art/2024/9/9/art_324120_10307533.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.taizhou.gov.cn/cms_files/filemanager/288403819/attach/20257/dff4402a990f47848635e9a8f78a39ab.pdf?fileName=%E5%85%B3%E4%BA%8E%E6%98%8E%E7%A1%AE%E5%85%A8%E5%B8%822021%E5%B9%B4%E4%B8%8A%E5%8D%8A%E5%B9%B4%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%99%A9%E8%B4%B9%E7%9B%B8%E5%85%B3%E9%97%AE%E9%A2%98%E7%9A%84%E9%80%9A%E7%9F%A5.pdf",
+            "https://scjgj.taizhou.gov.cn/api-gateway/jpaas-web-server/front/document/download?fileName=%E6%B3%B0%E5%B7%9E%E5%B8%82%E5%B8%82%E5%9C%BA%E7%9B%91%E7%9D%A3%E7%AE%A1%E7%90%86%E5%B1%802026%E5%B9%B4%E5%BA%A6%E9%83%A8%E9%97%A8%E9%A2%84%E7%AE%97%E5%85%AC%E5%BC%80.pdf&fileUrl=YW5UzzlvCwcM%2FNHHX%2FtT6BCPrdwVkAIY61en3xH2M1bRXk4gngvQwjr%2BloHA%2BB1tMQI7SYbt%2Bo%2BU6vcbnDulVym3OH1oo6W96c0U80TaSxnviW02CEntDB0ivXHX9jygrXTWf%2FphbVVCzVf%2FI5qJEVd89hrHE9mHsZQ8AJ50gK4%3D"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://gjjzx.taian.gov.cn/art/2026/6/30/art_48042_10296832.html",
+            "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html",
+            "https://www.xinghua.gov.cn/xwzx/bmgg/art/2026/art_d99102db9caf45d589d8d3fe9c31d58a.html",
+            "https://gjj.taizhou.gov.cn/bsfw/bszn/zfgjjjc/art/2025/art_e9c00f660c5447b1a52a449d85fad388.html",
+            "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html",
+            "https://gjjzx.taian.gov.cn/art/2025/7/18/art_45724_10293895.html",
+            "https://nhr.taizhou.gov.cn/dwzw/dzqk/zfgb/2024nd78q/szfbgswj/art/2024/art_21f5d592c8d04c51be1825639126ae93.html",
+            "https://gjj.taizhou.gov.cn/xxgk/fdgknr/zcwj/bmwj/index.html",
+            "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2024/art_f114f89bfca341e19983be08bcba67e5.html",
+            "https://www.xinghua.gov.cn/xwzx/bmgg/art/2025/art_3ab9ef6debed440caa69646f52df784a.html",
+            "https://gjjzx.taian.gov.cn/art/2024/6/28/art_45724_10290334.html",
+            "https://0lhwaf.taizhou.gov.cn/dwzw/dzqk/zfgb/2024nd23q/bmwj/art/2024/art_4e24b07ae89f4a00a98d4a22dfebc2bd.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://gjjzx.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=2608a288c5ac4df58c21f6c0df2b81cb.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.taixing.gov.cn/cms_files/filemanager/2093841808/attach/20237/0c4b71371c2c4c84ab28b860afa88255.pdf?fileName=%E9%99%84%E4%BB%B6%E4%B8%8B%E8%BD%BD.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "宿迁",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://suqian.gov.cn/cnsq/xzgfwj/202401/dfbf65ed914e4c3b840378f9c37e4a42.shtml",
+            "https://jiangsu.chinatax.gov.cn/art/2024/4/29/art_8539_372033.html",
+            "https://www.zgjssw.gov.cn/shixianchuanzhen/suqian/202101/t20210104_6935370.shtml",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.jsrd.gov.cn/qwfb/cwhgb/d_11260/202303/P020230320588612490329.pdf",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://gtm-cn-uqm3dbhc20k.guangdong.chinatax.gov.cn/gdsw/czsw_blzn/2026-01/05/814635182468481a83ee30ea74af53dc/files/192b3be398344a16aace3e55fdf37953.pdf",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html",
+            "https://ylbzj.cq.gov.cn/igixmj/xjgk/202601/tGovMsgBox_1100403.html",
+            "https://www.huma.gov.cn/huma/c100715/202606/c13_339514.shtml",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://banshi.beijing.gov.cn/ftzcjd/202608/t20260831_428686.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://zzgjj.zhengzhou.gov.cn/gjjg/10200414.jhtml",
+            "https://www.nanjing.gov.cn/zxfwn/ztfw/zf/zcxx_74507/zcwj/202608/t20260824_5898449.html",
+            "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/gzdt/content/post_2199757.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.fogang.gov.cn/attachment/0/181/181463/2030776.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "杭州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.nhsa.gov.cn/art/2025/10/22/art_14_18314.html",
+            "https://ql.hangzhou.gov.cn/col/col1229597836/art/2026/art_4c8dce2c0a8b4c0790b5a41ac7fe6bcd.html",
+            "https://www.hzzx.gov.cn/cshz/content/2025-10/21/content_9106848.htm",
+            "https://www.hzzx.gov.cn/cshz/content/2026-09/18/content_9310208.htm",
+            "https://www.nhsa.gov.cn/art/2025/6/16/art_52_16841.html",
+            "https://www.hzzx.gov.cn/cshz/content/2025-10/16/content_9103412.htm",
+            "https://www.hzzx.gov.cn/cshz/content/2026-02/06/content_9174548.htm",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3490830&via=pc",
+            "https://www.hzzx.gov.cn/cshz/content/2026-09/11/content_9304325.htm",
+            "https://www.hzzx.gov.cn/cshz/content/2026-05/28/content_9230386.htm",
+            "https://www.nhsa.gov.cn/art/2026/4/12/art_14_20181.html",
+            "https://www.hzzx.gov.cn/cshz/content/2026-08/14/content_9280108.htm"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://gjj.hangzhou.gov.cn/art/2024/8/1/art_1229468386_1845116.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3747/site/attach/0/38a71fcb8fd94225a8c87f7c62dca822.pdf",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/05/20250605_bca64496953f8dfd1341762cbd97f3d1.pdf",
+            "https://gjj.hangzhou.gov.cn/art/2024/8/1/art_1229810545_58562327.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3149/site/attach/0/f09905e24687427cafefaa040c9d03ac.pdf",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://www.hangzhou.gov.cn/art/2025/3/27/art_1229063383_1850209.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.hzzx.gov.cn/cshz/content/2025-07/16/content_9039745.htm",
+            "https://gjj.hangzhou.gov.cn/art/2023/10/13/art_1229287783_4211757.html",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/10/20250610_51f8f9050dce50e926735ec37c4fb815.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "宁波",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://chinajob.mohrss.gov.cn/c/2026-06-09/554564.shtml",
+            "https://www.nbrd.gov.cn/module/download/downfile.jsp?classid=0&filename=c84fa586668f452b9aac18e021874cc9.pdf",
+            "https://pccz.court.gov.cn/pcgg/ggxq?id=16783248266096640",
+            "https://qf.ningbo.gov.cn/qfpt/rl/index.html",
+            "https://fgw.ln.gov.cn/fgw/index/szyw/2026031611293279804/index.shtml",
+            "https://ybj.ln.gov.cn/ybj/zxzx/gzdt/2026032708471674279/index.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3776/site/attach/0/c84fa586668f452b9aac18e021874cc9.pdf",
+            "https://www.haishu.gov.cn/art/2023/5/22/art_1229564959_1772969.html",
+            "https://app.ningbo.gov.cn/jact/front/mailpubdetail.do?sysid=63&transactId=52023",
+            "https://www.zjg.gov.cn/zjg/shbxe/202602/e9b896770eaf4499ba57f4c3390e1268.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.zzz.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.sipac.gov.cn/szgyyq/zffw_wd/202607/6cdb57afaf3a4421a4a37efe82bfb3b1.shtml",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3499/site/attach/0/c21d9ae06e2549e2b6e53d2c8fd8ab81.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3575/site/attach/0/ebcfc985880e4f129ba3709d753d55a0.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2984/site/attach/0/b4b279a528c44842a87d32023f866103.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "温州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.nhsa.gov.cn/art/2025/6/16/art_52_16841.html",
+            "https://www.hzzx.gov.cn/cshz/content/2026-09/18/content_9310208.htm",
+            "https://www.zuoyun.gov.cn/zyxrmzfz/gsgg/202609/8a8b47b34be847f3bc69964a94606c5d.shtml",
+            "https://chinajob.mohrss.gov.cn/zcms/catalog/8/pc/index_201.shtml",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html",
+            "https://zjic.zj.gov.cn/ywdh/jjyx/202603/t20260319_23996834.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.linyi.gov.cn/zzllms/xwfbh1/17.htm"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.zzz.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://www.ahsz.gov.cn/site/tpl/150897931?rowguid=440c4c1a-7b2a-4120-8b93-da7a8f35ef6f",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2678/site/attach/0/b919de5a6077489f84046f458029a431.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "嘉兴",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://zwdt.sh.gov.cn/govPortals/bsfw/item/29ecc4f0-600a-417d-8d1f-6b0868f3afc1",
+            "https://chinajob.mohrss.gov.cn/zcms/catalog/77/Html5/index_129.shtml",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.pinghu.gov.cn/art/2024/7/1/art_1229591437_5324895.html",
+            "https://www.hyxjw.gov.cn/szyw/202601/t20260123_6601373.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://gjj.jiaxing.gov.cn/art/2025/8/1/art_1229354700_2560953.html",
+            "https://www.zzz.ggj.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://gjj.jiaxing.gov.cn/art/2024/4/29/art_1229564145_2518823.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.jiaxing.gov.cn/module/download/downfile.jsp?classid=0&filename=36bb6fe3c0974811a64ea72e8ba578cb.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2949/site/attach/0/20e2e1e887a3462183fd0dde7054e912.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "湖州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.chizhou.gov.cn/OpennessContent/show/1721362.html",
+            "https://chinajob.mohrss.gov.cn/zcms/catalog/8/pc/index_3831.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.ahgc.gov.cn/SpecialTopic/show/ghlt/773186.html",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html",
+            "https://chinajob.mohrss.gov.cn/zcms/catalog/8/pc/index_2103.shtml",
+            "https://www.hyxjw.gov.cn/szyw/202601/t20260123_6601373.shtml",
+            "https://data.zjzwfw.gov.cn/dopServer/index.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.hunan.gov.cn/hnyw/sy/hnyw1/202607/t20260710_34023538.html",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.changzhou.gov.cn/ns_news/36178270553557",
+            "https://hzgjj.huzhou.gov.cn/art/2013/3/20/art_1229208804_54661226.html",
+            "https://gjj.changzhou.gov.cn/html/gjj/2026/LNJPFIPE_0810/14182.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/10/20250610_51f8f9050dce50e926735ec37c4fb815.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3674/site/attach/0/9aab1b2a03184a06958590cd3e2a3a7b.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "绍兴",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://data.sx.gov.cn/kf/open/column",
+            "https://zhejiang.chinatax.gov.cn/art/2026/3/15/art_26194_650586.html",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2949/site/attach/0/7466aef60a2645b59c02116801ab2450.pdf",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2949/site/attach/0/20e2e1e887a3462183fd0dde7054e912.pdf",
+            "https://zzgjj.zhengzhou.gov.cn/gjjg/10200414.jhtml",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.ahsz.gov.cn/site/label/8888?isJson=true&labelName=searchDataList&pageSize=10&typeCode=knowledgeBase",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "金华",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.yw.gov.cn/art/2025/10/11/art_1229187636_59561490.html",
+            "https://www.yw.gov.cn/art/2025/9/30/art_1229355138_4302715.html",
+            "https://www.yw.gov.cn/art/2025/12/5/art_1229142865_1832814.html",
+            "https://chinajob.mohrss.gov.cn/zcms/catalog/8/pc/index_2377.shtml",
+            "https://www.nhsa.gov.cn/art/2026/4/12/art_14_20181.html",
+            "https://www.jianchuan.gov.cn/jcxrmzf/c107037/pc/content/2019227437613748224/content_2019227437613748224.html",
+            "https://www.yw.gov.cn/art/2026/1/4/art_1229142865_1833022.html",
+            "https://www.jianchuan.gov.cn/jcxrmzf/c106097/pc/102098/pc/content/2039538819898863616/content_2039538819898863616.html",
+            "https://www.leshan.gov.cn/lsswszf/zzzqgsgg/780883649544261.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.yw.gov.cn/art/2025/7/11/art_1229136563_59536248.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://gjj.hnhx.gov.cn/wz/newsDetail.data?id=2026AAUAAIAips",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://www.sm.gov.cn/zw/ztzl/smszfgjjzt/bsfw_21866/jshdzl/202207/P020220701308816352541.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://zfgjj.luan.gov.cn/group1/M00/14/1B/wKgSGWkuV26AVEQNAAMWPthkb0M088.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "衢州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3084/site/attach/0/b15951e87ff749dea3a65417fa497a8a.pdf",
+            "https://qzybj.quanzhou.gov.cn/xwzx/ybdt/202605/t20260525_3294145.htm",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.hyxjw.gov.cn/szyw/202601/t20260123_6601373.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/post_2199758.html",
+            "https://zwfw.gansu.gov.cn/jingtai/zczx/tzgg/art/2026/art_e845ba08a530494cad35b8cbfb68b2ec.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2167/site/attach/0/1acd499bc7864fe79d164d2b2abfa90b.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "舟山",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://fgw.ln.gov.cn/fgw/index/szyw/2026031611293279804/index.shtml",
+            "https://searching.hunan.gov.cn/hunan/971207000/all?q=%E6%B5%99%E6%B1%9F%E8%88%9F%E5%B1%B1%E5%93%AA%E9%87%8C%E5%8F%AF%E4%BB%A5%E6%89%BEAV%E7%94%B7%E4%BC%98%E9%99%AA%E5%96%9D%3F+-+%E8%88%9F%E5%B1%B1AV%E7%94%B7%E4%BC%98.%E2%9C%94%EF%B8%8Fbaoyangya.com",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.jcgov.gov.cn/dtxx/gwyyw/202603/t20260315_2330000.shtml",
+            "https://fzggw.cq.gov.cn/zfxxgk/fdzdgknr/ghxx/gmjjhshfzgh/202503/t20250304_14367700.html",
+            "https://fsfgw.fushun.gov.cn/zwgk/002006/20260320/69664b14-b679-4afd-b1cb-c58bd470b553.html",
+            "https://data.zjzwfw.gov.cn/dopServer/index.html",
+            "https://swj.ezhou.gov.cn/xxgk/fdzdgknr/sswghxx/202605/t20260520_765262.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://zwfw.gansu.gov.cn/jingtai/zczx/tzgg/art/2026/art_e845ba08a530494cad35b8cbfb68b2ec.html",
+            "https://zwfw.gansu.gov.cn/minxian/sbqd/sbggdt/art/2026/art_0a2100a967c045ccb9c93de2bb96492f.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.qingdao.gov.cn/ywdt/zwzl/zxwdpt_00/zxwdpt_39/202607/t20260706_10652736.shtml",
+            "https://gjj.zhumadian.gov.cn/tzggwj/20305.jhtml",
+            "https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://zfgjj.fuzhou.gov.cn/zwgk/gzdt/tzgg/202606/t20260630_5341026.htm",
+            "https://www.shcn.gov.cn/col5943/20260713/1313700.html",
+            "https://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/dfxfgzfgzhgfxwj/gfxwj/202401/P020240125750041583552.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2476/site/attach/0/4nj-1-2/%E8%88%9F%E5%B1%B1%E5%B9%B4%E9%89%B4%EF%BC%882022%EF%BC%89.pdf",
+            "https://www.sm.gov.cn/zw/ztzl/smszfgjjzt/bsfw_21866/jshdzl/202207/P020220701308816352541.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "台州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://chinajob.mohrss.gov.cn/zcms/search/result?PageIndex=528&Query=%E6%A0%87%E5%87%86&SiteID=1&TitleOnly=N&usingSynonym=N",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://tzhl.jsjc.gov.cn/wenhua/202603/t20260305_1313420.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.hzlz.gov.cn/articles/28928.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://gjj.taizhou.gov.cn/bsfw/bszn/zfgjjjc/art/2025/art_e9c00f660c5447b1a52a449d85fad388.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3162/site/attach/0/8a121a62afed40b7a6075c8a757c81c9.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3747/site/attach/0/38a71fcb8fd94225a8c87f7c62dca822.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "丽水",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.luoshan.gov.cn/2025/11-05/727947.html",
+            "https://www.sdqixia.gov.cn/col/col51135/art/2026/art_579fa998787c49b5b7f9b69b6762257a.html",
+            "https://www.hzlz.gov.cn/articles/28928.html",
+            "https://www.zjsjw.gov.cn/toutiao/202601/t20260122_23914681.shtml",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_a370eab8e0ec495da61c189c93d70407.html",
+            "https://www.zjlgbj.gov.cn/col/col1229717082/art/2026/art_78f40ed08c0d4b96bcaa142de014aaf0.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.zzz.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://zwfw.gansu.gov.cn/jingtai/zczx/tzgg/art/2026/art_e845ba08a530494cad35b8cbfb68b2ec.html",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://zwfw.gansu.gov.cn/pingchuan/zczx/tzgg/art/2026/art_334da06898ac4f93a3a9d6b627b79fe4.html",
+            "https://gjj.jinan.gov.cn/col/col111465/art/2026/art_1df4b8a8b2604fd185a8e9130c55a5ba.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/post_2199758.html",
+            "https://gjj.jinan.gov.cn/col/col65559/art/2026/art_a025e5da370e4af08b1c1214b23a704c.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3674/site/attach/0/9aab1b2a03184a06958590cd3e2a3a7b.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3659/site/attach/0/02994a125b4a44db9d2e002fb7702a93.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3674/site/attach/0/0deef821aeb0423fa2c0d65911c03750.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "石家庄",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://ylbzj.sjz.gov.cn/attachments/1/202501/09/%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E8%81%8C%E5%B7%A5%E5%9F%BA%E6%9C%AC%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%E7%9A%84%E9%80%9A%E7%9F%A5%EF%BC%88%E7%9F%B3%E6%94%BF%E8%A7%84%E3%80%942024%E3%80%957%E5%8F%B7%EF%BC%8920250109102709301.pdf?sid=db0f01ed-ea27-4e37-8eec-24a6ca038ddb",
+            "https://ybj.zibo.gov.cn/gongkai/channel_c_5f9fa491ab327f36e4c1305f_n_1605682451.4189/doc_5fc5e5d349267571581fa300_d8c8bafbfe057cfd4ec79a9281452dfd.pdf",
+            "https://www.jzs.gov.cn/columns/080c4cf2-16c8-4998-9e21-c496c23baa93/202502/27/6395330a-9011-4829-8cf8-c64eec418e90.html",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=565123",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=539094",
+            "https://www.sjz.gov.cn/columns/b69e27e8-4d0f-4b31-a67c-06481996d304/202406/03/cb74880a-e25d-454b-aa1a-506c4f79a496.html",
+            "https://ylbzj.sjz.gov.cn/zmhd/ylbzjhd/zfxxinfolist.jsp?cid=1259811582187&wid=301",
+            "https://www.sjz.gov.cn/columns/7133f160-f760-4531-987a-2ec35f29d239/201912/13/cc298e6f-e2ea-4656-8c55-410b649f1572.html",
+            "https://www.gc.gov.cn/columns/f144c2a8-8f30-4b5d-85a7-f8054f1d8a22/202407/02/6c9b80eb-4f91-44e0-a8d9-c5dd43c16c8d.html",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=516201",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=538978",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=554143",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=497835",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=585474",
+            "https://www.gc.gov.cn/attachments/1/202501/08/%E3%80%8A%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E7%94%9F%E8%82%B2%E4%BF%9D%E9%99%A9%E5%92%8C%E8%81%8C%E5%B7%A5%E5%9F%BA%E6%9C%AC%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9%E5%90%88%E5%B9%B6%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99%E7%9A%84%E9%80%9A%E7%9F%A5%E3%80%8B%E7%9F%B3%E5%8C%BB%E4%BF%9D%E8%A7%84%E3%80%942025%E3%80%951%E5%8F%B720250108141747807.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://banshi.beijing.gov.cn/ftzcjd/202608/t20260831_428686.html",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=552456",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=579774",
+            "https://qqhr.zwfw.hlj.gov.cn/tsfwzq/gjjfwzq/bmzc/dk/art/2026/art_3cc86a4eeb6642b2a55e3ffcd766369a.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://swj.hebei.gov.cn/system/2025/06/27/030348674.shtml",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.sjz.gov.cn/zmhd/zfxxdetail.jsp?id=588275",
+            "https://www.sjz.gov.cn/yjsgk/attachments/1/202602/12/%E7%9F%B3%E5%AE%B6%E5%BA%84%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E7%AE%A1%E7%90%86%E4%B8%AD%E5%BF%832026%E5%B9%B4%E5%8D%95%E4%BD%8D%E9%A2%84%E7%AE%97%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%80%2020260212145437349.pdf?sid=168406af-3364-482c-8f14-a8032a5144c2",
+            "https://szgjj.hebei.gov.cn/2024-06/26/cada744b-7e23-4e1c-a82c-e9a25a14d387.pdf",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020250423484414616675.pdf",
+            "https://szgjj.hebei.gov.cn/upload/file/20230423/843c686a-0432-44bc-8b80-703a1fe7bc11.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "唐山",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.tangshan.gov.cn/zhuzhan/sjrmzfzhengcejiedu/20150826/914111.html",
+            "https://www.nanpu.gov.cn/news/333.html",
+            "https://tianjin.chinatax.gov.cn/11200000000/0100/010003/20260309090732684.shtml",
+            "https://tsgjlyd.tangshan.gov.cn/gjlyd/xwdt/20251111/1640636.html",
+            "https://www.tsgxq.gov.cn/info/14360/category/12",
+            "https://www.tsgxq.gov.cn/info/category/19/gongkai/7916",
+            "https://ybj.sh.gov.cn/zcjd/20250225/6ad4b3deb233457298f65fbc287a125e.html",
+            "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202606/t20260604_10140414.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.songjiang.gov.cn/govxxgk/SHSJ49/2025-02-20/be7f0881-c2f5-4a6f-b43c-b80a03cf3e8f.html",
+            "https://czt.qinghai.gov.cn/static/media/20240205084525_435.pdf",
+            "https://ylbzj.shaoyang.gov.cn/syybj/tzgg/202201/c5e322ca5bcc4d8aae80955be019cf7e/files/65139c8d929442f984c336086c4c89b7.pdf",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.tsgxq.gov.cn/info/15801/category/12",
+            "https://www.tjbc.gov.cn/zwgk/zfxxgk/xxgk_wbj/zjyq_xxgk_ybj/xxgk_fdzdgk_ybj/xxgk_qtfdgkxx_ybj/202012/P020201229842985471045.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.tangshan.gov.cn/zhuzhan/gz/20241211/1621749.html",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://zwfw.gansu.gov.cn/pingchuan/zczx/tzgg/art/2026/art_334da06898ac4f93a3a9d6b627b79fe4.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://gjj.smx.gov.cn/621/2026/7/2278804.html",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://www.taixing.gov.cn/cms_files/filemanager/2093841808/attach/20237/0c4b71371c2c4c84ab28b860afa88255.pdf?fileName=%E9%99%84%E4%BB%B6%E4%B8%8B%E8%BD%BD.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "秦皇岛",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.qetdz.gov.cn/PUBLIC/UploadsSubsite/63242c1eadeb9.pdf",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.qhdcaw.gov.cn/pacd/2912.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202307/t20230724_483312.html",
+            "https://www.qetdz.gov.cn/PUBLIC/UploadsSubsite/62abf515a863c.pdf",
+            "https://czt.qinghai.gov.cn/static/media/20220129042338_478.pdf",
+            "https://czt.qinghai.gov.cn/static/media/20240205084525_435.pdf",
+            "https://ylbz.al.gov.cn/info/1234/14842.htm",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/202304/1cc10e3372f4406b8e85aa72fdc01eef/files/42451d3e3b7d434bab1b848cec84b08c.pdf",
+            "https://www.qingdao.gov.cn/ywdt/zwzl/zxwdpt_00/zxwdpt_31/202606/t20260608_10629499.shtml",
+            "https://www.qetdz.gov.cn/Content/info/cid/38/id/145454",
+            "https://www.qingdao.gov.cn/zwgk/xxgk/ybj/gkml/zcjd/202303/t20230327_7088246.shtml",
+            "https://rst.ln.gov.cn/rst/rdzcybw/03551A97ACB84E5FBBB51B67599E2DD7/index.shtml",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://yngm.gov.cn/zfxxgk_gmx_spsx/artview/1142/205606.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://gjj.zhumadian.gov.cn/tzggwj/20305.jhtml",
+            "https://www.qingdao.gov.cn/ywdt/zwzl/zxwdpt_00/zxwdpt_39/202607/t20260706_10652736.shtml",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/mpost_2199758.html",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://zwfw.gansu.gov.cn/minxian/sbqd/sbggdt/art/2026/art_0a2100a967c045ccb9c93de2bb96492f.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://www.xjcbcr.gov.cn/xjcbcr/c115375/202312/9f75eb2b86bd404da93c5aaa48b381c0/files/%E5%87%8F%E8%BD%BB%E4%BC%81%E4%B8%9A%E8%B4%9F%E6%8B%85%E6%94%BF%E7%AD%96%E6%B1%87%E7%BC%96%EF%BC%882023%E5%B9%B4%E7%AC%AC1%E5%AD%A3%E5%BA%A6%EF%BC%89.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "邯郸",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.chengan.gov.cn/zfxxgk/view.jsp?id=6837&xxfl=0404",
+            "https://www.chengan.gov.cn/zfxxgk/view_ifr.jsp?id=23380",
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.chengan.gov.cn/zfxxgk/view_ifr.jsp?id=27335",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201110/t20111026_139149.html",
+            "https://www.hysgq.gov.cn/DFS//file/2021/09/10/202109101101439196ijm8l.pdf",
+            "https://www.yudu.gov.cn/ydxxxgk/c108263/202606/1c641dcde0ea49d48da433d882009931.shtml",
+            "https://hdsswj.hd.gov.cn/keditor/attached/file/20231207/20231207145109_98529.pdf",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://www.geermu.gov.cn/mn/uploads/file/20230317/20230317115014_794.pdf",
+            "https://ylbzj.shaoyang.gov.cn/syybj/tzgg/202201/c5e322ca5bcc4d8aae80955be019cf7e/files/65139c8d929442f984c336086c4c89b7.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://housefund.hd.gov.cn/",
+            "https://qqhr.zwfw.hlj.gov.cn/tsfwzq/gjjfwzq/bmzc/dk/art/2026/art_3cc86a4eeb6642b2a55e3ffcd766369a.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://szgjj.hebei.gov.cn/2026-07/13/content_9535177.htm",
+            "https://www.jlrd.gov.cn/jlsjk/202311/P020260309526498862686.pdf",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/post_2199758.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://gjj.hnhx.gov.cn/wz/newsDetail.data?id=2026AAUAAIAips",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020250423484414616675.pdf",
+            "https://szgjj.hebei.gov.cn",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://szgjj.hebei.gov.cn/2024-04/08/bfccea73-c59e-40f4-845c-96348b77c6f2.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "邢台",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://info.xingtai.gov.cn/single/14/320358.html",
+            "https://info.nangong.gov.cn/content/11076/38521.html",
+            "https://info.nangong.gov.cn/content/11076/37338.html",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://wsjkw.xingtai.gov.cn/uploadfiles/file/20240930/20240930182112_43975.pdf",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202606/t20260604_10140414.html",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://www.longyao.gov.cn/single/29/29260.html",
+            "https://www.baiyin.gov.cn/ybj/bmyw/art/2023/art_d9562dad82b2495f8f5fc2daa1e5e91c.html",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201110/t20111026_139149.html",
+            "https://www.tjbc.gov.cn/zwgk/zfxxgk/xxgk_wbj/zjyq_xxgk_ybj/xxgk_fdzdgk_ybj/xxgk_qtfdgkxx_ybj/202012/P020201229842985471045.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1832/site/attach/0/52052fd85d3445f6abf64cdf1bd68b86.pdf",
+            "https://www.yantai.gov.cn/cms_files/complat3/49/attach/202512/48f4630e27fe4a0e82657e285fad0cfb.pdf",
+            "https://zyk.bjhd.gov.cn/zwdt/tdzt/2018/csrlsb/cjwtcs/shbxdj/202510/t20251022_4790568.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.zzz.ggj.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zwfw.gansu.gov.cn/pingchuan/zczx/tzgg/art/2026/art_334da06898ac4f93a3a9d6b627b79fe4.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://szgjj.hebei.gov.cn/2024-04/08/bfccea73-c59e-40f4-845c-96348b77c6f2.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "保定",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://xushui.gov.cn/zfxxgk/fdzdgknr/zdly/yb/666154467123269.html",
+            "https://xushui.gov.cn/zfxxgk/fdzdgknr/zdly/yb/666154323206213.html",
+            "https://www.laishui.gov.cn/index.php?a=show&c=index&catid=299&id=16132&m=content",
+            "https://www.laishui.gov.cn/index.php?a=show&c=index&catid=299&id=13264&m=content",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.hunan.gov.cn/hnszf/xxgk/wjk/szfbgt/202301/t20230105_29175016.html",
+            "https://tyjspt.weihai.gov.cn/jact/front/mailpubdetail.do?sysid=61&transactId=171295",
+            "https://www.boye.gov.cn/zwgkcontent-1656-41425.html",
+            "https://ybj.shandong.gov.cn/module/download/downfile.jsp?classid=0&filename=1320917b6fad446bb457ebb14eacf28a.pdf",
+            "https://zyk.bjhd.gov.cn/zwdt/tdzt/2018/csrlsb/cjwtcs/shbxdj/202510/t20251022_4790568.shtml",
+            "https://www.baoshan.gov.cn/info/14186/9812204.htm",
+            "https://www.tjbc.gov.cn/zwgk/zfxxgk/xxgk_wbj/zjyq_xxgk_ybj/xxgk_fdzdgk_ybj/xxgk_qtfdgkxx_ybj/202012/P020201229842985471045.pdf",
+            "https://www.kdl.gov.cn/Public/uploads/2022/10/30/20221030083036789920.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://bdgjj.baoding.gov.cn/tzgg/18869177.jhtml",
+            "https://bdgjj.baoding.gov.cn/",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://bdgjj.baoding.gov.cn/ywzntq/17199108.jhtml",
+            "https://bdgjj.baoding.gov.cn/gj/14675174.jhtml",
+            "https://bdgjj.baoding.gov.cn/lyglb/index.jhtml",
+            "https://bdgjj.baoding.gov.cn/gj/9894186.jhtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://bdgjj.baoding.gov.cn/gj/12258538.jhtml",
+            "https://bdgjj.baoding.gov.cn/gj/16785891.jhtml",
+            "https://bdgjj.baoding.gov.cn/agglb/index.jhtml",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://bdgjj.baoding.gov.cn/u/cms/www/202507/01162900xamt.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "张家口",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://chinajob.mohrss.gov.cn/h5/c/2025-07-14/442972.shtml",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202307/t20230724_483312.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://ybj.zibo.gov.cn/gongkai/channel_c_5f9fa491ab327f36e4c1305f_n_1605682451.4189/doc_5fc5e5d349267571581fa300_d8c8bafbfe057cfd4ec79a9281452dfd.pdf",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://ylbz.al.gov.cn/info/1234/14842.htm",
+            "https://czt.qinghai.gov.cn/static/media/20240205084525_435.pdf",
+            "https://www.qetdz.gov.cn/Content/info/cid/38/id/145454",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/202304/1cc10e3372f4406b8e85aa72fdc01eef/files/42451d3e3b7d434bab1b848cec84b08c.pdf",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/201110/t20111026_139149.html",
+            "https://www.cangyuan.gov.cn/zfxxgk_cyx_sjx/artview/1142/335151.html?chapter=null&ml=null&year=null",
+            "https://czj.gz.gov.cn/attachment/7/7880/7880094/9485335.pdf",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://www.kdl.gov.cn/Public/uploads/2022/10/30/20221030083036789920.pdf",
+            "https://yngm.gov.cn/zfxxgk_gmx_spsx/artview/1142/205606.html",
+            "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=27316"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/mpost_2199758.html",
+            "https://www.bypc.gov.cn/zfxxgk/fdzdgknr/hygq/rdhy/art/2026/art_98d5b37b884841388e8cab2c0b4c2649.html",
+            "https://gjj.smx.gov.cn/621/2026/7/2278804.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://szgjj.hebei.gov.cn/2024-04/08/bfccea73-c59e-40f4-845c-96348b77c6f2.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "承德",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://ylbzj.chengde.gov.cn/art/2025/12/31/art_1120_1109393.html",
+            "https://www.chengde.gov.cn/art/2021/11/26/art_11903_819091.html",
+            "https://www.chengde.gov.cn/art/2021/12/31/art_362_826421.html",
+            "https://www.chengde.gov.cn/art/2022/1/10/art_9940_899367.html",
+            "https://ylbzj.chengde.gov.cn/art/2025/8/27/art_3237_1105050.html",
+            "https://ylbzj.chengde.gov.cn/art/2025/12/31/art_1121_1109394.html",
+            "https://ylbzj.chengde.gov.cn/art/2021/12/24/art_1121_823854.html",
+            "https://www.chengde.gov.cn/art/2023/1/5/art_9934_934735.html",
+            "https://ylbzj.chengde.gov.cn/art/2025/10/31/art_1120_1089955.html",
+            "https://www.chengde.gov.cn/attach/0/5890282b4edc4ab584d3988d2cb9d2a0.pdf",
+            "https://ylbzj.chengde.gov.cn/art/2020/12/18/art_1120_676950.html",
+            "https://www.chengde.gov.cn/art/2016/11/30/art_9943_305630.html",
+            "https://www.chengde.gov.cn/art/2024/7/18/art_9949_1028841.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.chengde.gov.cn/art/2026/2/2/art_360_1102883.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.chengde.gov.cn/art/2026/5/24/art_360_1115804.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.chengde.gov.cn/art/2025/3/21/art_9943_1059146.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.zzz.ggj.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.chengde.gov.cn/attach/0/7fc6995777814ced94e59dd805310a0c.pdf",
+            "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260726_4788486.html",
+            "https://www.chengde.gov.cn/art/2024/3/29/art_9943_994768.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://www.chengde.gov.cn/attach/0/b0626d1e42ec463b80aa1fa0cd9e53f7.pdf",
+            "https://www.chengde.gov.cn/attach/0/bc13117f7adb49febd858cccb4198f80.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "沧州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://public.zhengzhou.gov.cn/attachment/%E9%83%91%E5%B7%9E%E5%B8%82%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E5%8A%9E%E5%85%AC%E5%8E%85%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E9%83%91%E5%B7%9E%E5%B8%82%E8%81%8C%E5%B7%A5%E5%9F%BA%E6%9C%AC%E5%8C%BB%E7%96%97%E4%BF%9D%E9%99%A9%E5%8A%9E%E6%B3%95%E7%9A%84%E9%80%9A%E7%9F%A5.pdf?B8WJWFcdltkc9DH_tR7pz0E-LAK6CwMWRXqu7z5_2DLEa9ngVAgubaAS6iD8jBiqjp4LbL64ntbQvfnmPVcSNcQfPuVH=",
+            "https://ybj.zibo.gov.cn/gongkai/channel_c_5f9fa491ab327f36e4c1305f_n_1605682451.4189/doc_5fc5e5d349267571581fa300_d8c8bafbfe057cfd4ec79a9281452dfd.pdf",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://ybj.suzhou.gov.cn/szybj/jbyl/202312/02cdab8af734457583046b3617304de2.shtml",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://www.suzhou.gov.cn/szsrmzf/bmwj/202312/520891b6afe947829a4fd939c7f82fa7.shtml",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://public.zhengzhou.gov.cn/?a=zcwdpt&d=1905&page=3",
+            "https://ylbzj.shaoyang.gov.cn/syybj/tzgg/202201/c5e322ca5bcc4d8aae80955be019cf7e/files/65139c8d929442f984c336086c4c89b7.pdf",
+            "https://ybj.suzhou.gov.cn/szybj/jbyl/202006/36e4aa43245845fd943931df491d775f.shtml",
+            "https://www.hysgq.gov.cn/DFS//file/2021/09/10/202109101101439196ijm8l.pdf",
+            "https://public.zhengzhou.gov.cn/zcwdpt/6356416.jhtml",
+            "https://public.zhengzhou.gov.cn/D0107Y/248209.jhtml",
+            "https://www.zibo.gov.cn/gongkai/site_srmzfbgs/channel_5fba29e82bbfd70c4b847118/doc_63944508e365c6544d5a7964_9d1a244ff4b89d25237c56ee68e6cfa4.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.zzz.ggj.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.suzhou.gov.cn/szsrmzf/rdwd5/202607/c877a79aa35e4c4fa00aa3ef7391bf39.shtml",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zfgjj.ganzhou.gov.cn/gzszfjj/c103430/202107/a6a711adbf854d3eb97b854f2d63c6e3/files/557d3a21a5934f5ab5c68233629f6a1f.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://www.taixing.gov.cn/cms_files/filemanager/2093841808/attach/20237/0c4b71371c2c4c84ab28b860afa88255.pdf?fileName=%E9%99%84%E4%BB%B6%E4%B8%8B%E8%BD%BD.pdf",
+            "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web3149/site/attach/0/f09905e24687427cafefaa040c9d03ac.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "廊坊",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.lf.gov.cn/Item/139689.aspx?sourceid=134445&sourcenodeid=1011",
+            "https://www.lf.gov.cn/Item/140982.aspx",
+            "https://www.lf.gov.cn/Item/140851.aspx",
+            "https://www.lf.gov.cn/Item/116813.aspx",
+            "https://zfxxgk.lf.gov.cn/upload/file/20250206/6387443711686442688205513.pdf",
+            "https://www.lf.gov.cn/Item/116803.aspx",
+            "https://www.lf.gov.cn/Item/127334.aspx",
+            "https://gzw.lf.gov.cn/UploadFiles/xxgk/2025/9/202509121042439896.pdf",
+            "https://www.lf.gov.cn/Item/139689.aspx?sourceid=140852&sourcenodeid=1010",
+            "https://www.lf.gov.cn/Item/128767.aspx",
+            "https://www.lf.gov.cn/Item/134418.aspx",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.lf.gov.cn/Item/152630.aspx",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://qqhr.zwfw.hlj.gov.cn/tsfwzq/gjjfwzq/bmzc/dk/art/2026/art_3cc86a4eeb6642b2a55e3ffcd766369a.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://zfgjj.changzhi.gov.cn/zcfg/zxwj/202607/t20260701_3181422.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202607/t20260726_4788486.html",
+            "https://www.lf.gov.cn/Item/139689.aspx?sourceid=155350&sourcenodeid=1010",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://www.fogang.gov.cn/attachment/0/181/181463/2030776.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zfgjj.luan.gov.cn/group1/M00/14/1B/wKgSGWkuV26AVEQNAAMWPthkb0M088.pdf",
+            "https://gjj.tl.gov.cn/doc/ucap/1676766850592583680/document/20230725/2g5tlrEh.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "衡水",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://ybj.zibo.gov.cn/gongkai/channel_c_5f9fa491ab327f36e4c1305f_n_1605682451.4189/doc_5fc5e5d349267571581fa300_d8c8bafbfe057cfd4ec79a9281452dfd.pdf",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://public.zhengzhou.gov.cn/?a=zcwdpt&d=1905&page=3",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://www.hengyang.gov.cn/xxgk/fgwj/gssjszbmwj/20201118/i2211150.html",
+            "https://www.hyyfq.gov.cn/zwgk/bmxxgkml/qzfzcbm/ybj/zcwj/20201118/i2210392.html",
+            "https://ybj.wuhan.gov.cn/zwgk_52/zcfgyjd/zcwd/202112/t20211220_1877197.shtml",
+            "https://www.hysgq.gov.cn/DFS//file/2021/09/10/202109101101439196ijm8l.pdf",
+            "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202606/t20260604_10140414.html",
+            "https://ybj.hunan.gov.cn/ybj/zcjd/202301/t20230105_29175595.html",
+            "https://public.zhengzhou.gov.cn/zcwdpt/6356416.jhtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1832/site/attach/0/52052fd85d3445f6abf64cdf1bd68b86.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3114/site/attach/0/028bb21981854b7194474d72d62c51bf.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3221/site/attach/0/734ce246875145199089322817396b33.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://zfgjj.xuchang.gov.cn/zxdt/001002/20260721/0cf451fb-6add-455c-b15f-859e247937cd.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+            "https://www.hengyang.gov.cn/xxgk/dtxx/bmdt/20230328/i2972010.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.suzhou.gov.cn/szsrmzf/zwgg/202607/501539493f89439aa33768e34a069914.shtml",
+            "https://zzgjj.zhengzhou.gov.cn/gjjg/10200414.jhtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://szgjj.hebei.gov.cn/2024-04/08/bfccea73-c59e-40f4-845c-96348b77c6f2.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zfgjj.lyg.gov.cn/lygszfgjjglzx/upload/d9ea3dcf-7215-45ec-94e3-654046e2c962.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "雄安新区",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.xiongan.gov.cn/2023-06/29/c_1212239207.htm",
+            "https://www.xiongan.gov.cn/2023-07/02/c_1212240035.htm",
+            "https://www.xiongan.gov.cn/2022-07/06/c_1211664611.htm",
+            "https://www.xiongan.gov.cn/20260930/13a0d0c4f0864f42a1851bb12f78eee3/c.html",
+            "https://www.xiongan.gov.cn/20260930/e49d071db0dd4cac8d6cb6891d0070ad/c.html",
+            "https://www.xiongan.gov.cn/2023-02/02/c_1211724475.htm",
+            "https://www.xiongan.gov.cn/2022-08/04/c_1211673140.htm",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web1832/site/attach/0/52052fd85d3445f6abf64cdf1bd68b86.pdf",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://www.xiongan.gov.cn/1211353373_16626023009141n.pdf",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html",
+            "https://www.xiongan.gov.cn/20250704/9803740367c24b049c3e402eb8823d1b/c.html",
+            "https://www.xiongan.gov.cn/20260402/02517b23440c4c1aaa4390168e57cc43/c.html",
+            "https://www.xiongan.gov.cn/2023-01/08/c_1211715842.htm",
+            "https://www.xiongan.gov.cn/2023-01/08/c_1211715847.htm",
+            "https://banshi.beijing.gov.cn/ftzcjd/202608/t20260831_428686.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.xiongan.gov.cn/2021-03/09/c_1211058146.htm",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.bjft.gov.cn/fengtaibao/resfile/2025-09-19/05/ftb-20250919-005.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "定州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://ybj.zibo.gov.cn/gongkai/channel_c_5f9fa491ab327f36e4c1305f_n_1605682451.4189/doc_5fc5e5d349267571581fa300_d8c8bafbfe057cfd4ec79a9281452dfd.pdf",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://ybj.shanxi.gov.cn/xxfb/fdzdgknr/gzdt/202606/t20260604_10140414.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/202304/1cc10e3372f4406b8e85aa72fdc01eef/files/42451d3e3b7d434bab1b848cec84b08c.pdf",
+            "https://ylbz.al.gov.cn/info/1234/14842.htm",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://czt.qinghai.gov.cn/static/media/20240205084525_435.pdf",
+            "https://ybj.wuhan.gov.cn/bsfw/cjwtjd/202012/t20201228_1572224.shtml",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3221/site/attach/0/734ce246875145199089322817396b33.pdf",
+            "https://www.changzhou.gov.cn/ns_news/287176550841846",
+            "https://www.qetdz.gov.cn/Content/info/cid/38/id/145454",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2778/site/attach/0/3de1c492f33c4f21acd8468c2d258b09.pdf",
+            "https://www.hbhr.gov.cn/ztzl/hrqhqzcfwzl/sj/zcwj/cy/202311/t20231103_587345.html",
+            "https://www.cangyuan.gov.cn/zfxxgk_cyx_sjx/artview/1142/335151.html?chapter=null&ml=null&year=null",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://zwfw.gansu.gov.cn/jingtai/zczx/tzgg/art/2026/art_e845ba08a530494cad35b8cbfb68b2ec.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.changzhou.gov.cn/ns_news/295178356439102",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://zwfw.gansu.gov.cn/minxian/sbqd/sbggdt/art/2026/art_0a2100a967c045ccb9c93de2bb96492f.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.shcn.gov.cn/col5943/20260720/1314089.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/85de0d044a1447d893acda535ba52ca2.pdf",
+            "https://www.tsrdw.gov.cn/uploadfile/2025/1210/20251210051824800.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.fogang.gov.cn/attachment/0/181/181463/2030776.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "辛集",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://xy.xinji.gov.cn/article-details/city_statute/87b1d846-f107-4a21-95f7-2fbf967fe832",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://xinjiang.chinatax.gov.cn/htdq/tzgg/202506/t20250604_148543.html",
+            "https://www.qinshui.gov.cn/ztzl_369/2025nzt/ybzc_123/202509/t20250924_2267454.shtml",
+            "https://www.kulun.gov.cn/jczwgkpt/jczwgkbzmlyssqk/swgl/ssqk_21534/202505/t20250512_945142.html",
+            "https://www.yudu.gov.cn/ydxxxgk/c108263/202606/1c641dcde0ea49d48da433d882009931.shtml",
+            "https://tianjin.chinatax.gov.cn/11200000000/0100/010003/20260309090732684.shtml",
+            "https://yc.gov.cn/ycsrmzf/c102111/202603/423233.shtml",
+            "https://ylbzj.cq.gov.cn/igixmj/xjgk/202601/tGovMsgBox_1100403.html",
+            "https://m.sd.gov.cn/jpaas-jpolicy-web-server/front/info/detail?iid=8266639ebf644f25aa4b32d6de5bbc61",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333",
+            "https://ylbz.al.gov.cn/info/1234/14842.htm",
+            "https://www.nx.gov.cn/zwgk/zfgb_75479/2022/202504/P020250416791503010224.pdf",
+            "https://www.xjht.gov.cn/xjht/c128261/202512/ae7d01ce074040ff9fbde864510d3163/files/1233015216.pdf",
+            "https://czt.qinghai.gov.cn/static/media/20240205084525_435.pdf",
+            "https://www.kdl.gov.cn/Public/uploads/2022/10/30/20221030083036789920.pdf",
+            "https://ncx.nc.gov.cn/ncxrmzf/file/uploadfiles/202005/20/2020052016394055097709.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.beijing.gov.cn/zhengce/zhengcefagui/202608/t20260824_4834975.html",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.zzz.ggj.gov.cn/html/xwzx/tzgg/19329.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.qingdao.gov.cn/ywdt/zwzl/zxwdpt_00/zxwdpt_39/202607/t20260706_10652736.shtml",
+            "https://zwfw.gansu.gov.cn/minxian/sbqd/sbggdt/art/2026/art_0a2100a967c045ccb9c93de2bb96492f.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zzgjj.zhengzhou.gov.cn/gjjg/10200414.jhtml",
+            "https://zfgjj.fuzhou.gov.cn/zwgk/gzdt/tzgg/202606/t20260630_5341026.htm",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://szgjj.hebei.gov.cn/2025-06/26/31288bf7-e0fe-4672-9647-4cb37052463f.pdf",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://www.jlrd.gov.cn/jlsjk/202504/P020250423484414616675.pdf",
+            "https://szgjj.hebei.gov.cn/2024-06/26/cada744b-7e23-4e1c-a82c-e9a25a14d387.pdf",
+            "https://zjj.sz.gov.cn/attachment/1/1695/1695300/12700397.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "广州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
+            "https://czj.gz.gov.cn/attachment/7/7970/7970897/10680089.pdf",
+            "https://www.gz.gov.cn/zfjgzy/gzsrmzfbgt/zfxxgkml/bmwj/gz/content/post_4435111.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/gzswwwsbfyhzc/2024-02/29/content_9e708f1c2b204599b6fcd7081ceac0f6.shtml",
+            "https://www.gz.gov.cn/attachment/7/7462/7462653/9256935.pdf",
+            "https://gzw.gz.gov.cn/gk/zcfg/zcfgwj/content/post_2781746.html",
+            "https://www.gz.gov.cn/xw/tzgg/content/post_10596116.html",
+            "https://www.gz.gov.cn/gzybj/gkmlpt/content/8/8689/mpost_8689981.html",
+            "https://www.by.gov.cn/zwgk/zdlyxxgkzl/jsjfxxgkzl/fjyhzc/content/post_10038482.html",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://www.thnet.gov.cn/gzthqjj/gkmlpt/content/9/9619/post_9619106.html",
+            "https://www.gz.gov.cn/xw/zwlb/bmdt/content/mpost_8772553.html",
+            "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689748.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.yuexiu.gov.cn/ggfw/ztfw/zf/zcfg/content/post_10338196.html",
+            "https://sfj.gz.gov.cn/ztlm/fzxc/xfks/content/post_10879358.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://www.gz.gov.cn/zwfw/zxfw/zffw/content/post_10137850.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.zc.gov.cn/fw/ztfw/grfw/zffw/content/post_3850096.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzzfgjjglzx/content/post_9357011.html",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.gz.gov.cn/attachment/7/7462/7462776/9259200.pdf",
+            "https://www.zhanjiang.gov.cn/attachment/0/33/33971/1363447.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3168/site/attach/0/dd04434030194a88b3b81bd3b3e03718.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "深圳",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://hsa.sz.gov.cn/zwgk/zdlyxxgk/ggxyxx/content/post_12575350.html",
+            "https://hsa.sz.gov.cn/gkmlpt/content/12/12567/post_12567884.html",
+            "https://www.sz.gov.cn/cn/xxgk/zfxxgj/zcfg/content/post_10826877.html",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3330310&via=pc",
+            "https://hsa.sz.gov.cn/fzlm/znts/zcwd/ylbz/content/post_11092741.html",
+            "https://hsa.sz.gov.cn/ztzl/szsylbzbf/content/post_10875761.html",
+            "https://hsa.sz.gov.cn/gkmlpt/content/10/10979/mpost_10979462.html",
+            "https://www.sz.gov.cn/gkmlpt/content/7/7786/post_7786762.html?jump=false",
+            "https://www.sz.gov.cn/hdjl/ywzsk/ylbzj/ylbzdy/content/mpost_12928857.html",
+            "https://hsa.sz.gov.cn/szsylbzjwzgkml/szsylbzjwzgkml/ywzsk/ylbzdy/content/post_10981681.html",
+            "https://sf.sz.gov.cn/fggzsjcx/content/post_10826935.html",
+            "https://www.lg.gov.cn/bmzz/bljdb/wmfw/bmfw/content/post_12593144.html",
+            "https://www.szft.gov.cn/attachment/1/1684/1684324/12655285.pdf",
+            "https://www.sz.gov.cn/attachment/1/1361/1361055/10865827.pdf",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3463076&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3461939&via=pc",
+            "https://www.sz.gov.cn/hdjl/ywzsk/jsj/zfgjj/content/mpost_12893587.html",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3464389&via=pc",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3474931&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3465088&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3464757&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3476289&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3466589&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3466070&via=pc",
+            "https://www.sz.gov.cn/hdjlpt/detail?pid=3468849&via=pc",
+            "https://zjj.sz.gov.cn/attachment/1/1695/1695300/12700397.pdf",
+            "https://zjj.sz.gov.cn/attachment/1/1681/1681418/12641963.pdf",
+            "https://sf.sz.gov.cn/attachment/0/952/952336/9612448.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "珠海",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://guangdong.chinatax.gov.cn/gdsw/zhsw_tzgg/2021-04/23/content_8ac132c9cad44d749fd0572b10175551.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/zhsw_gkwj/2020-03/17/content_771133d4627e4014aad1cbe5e6b41c78.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/zhsw_gkwj/2020-03/17/content_9d00e03cf6074e40a7834dc65bb058bf.shtml",
+            "https://ybj.qinghai.gov.cn/20260605/e9d225fa2da34a688eec48fb5c02cb8b/c.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/zhsw_tzgg/2021-04/23/content_53da49a16f7840818c9a63e6f4e80c84.shtml",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://gtm-cn-uqm3dbhc20k.guangdong.chinatax.gov.cn/gdsw/zhsw_gkwj/2020-03/17/content_9d00e03cf6074e40a7834dc65bb058bf.shtml",
+            "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+            "https://www.jiangmen.gov.cn/jmybj/attachment/0/375/375170/3483733.pdf",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-12/26/content_1ef0102803aa439da6549c69b4caa81e.shtml",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://www.yunfu.gov.cn/yfybj/gkmlpt/content/1/1968/mpost_1968662.html",
+            "https://www.tongzhou.gov.cn/tzqrmzf/wdzsk/content/493da5f6-867f-4c22-bdae-53ed6c2d9b10.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/",
+            "https://banshi.beijing.gov.cn/zcjd/202608/t20260831_428685.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/xwfbh/content/5a72f436-44c0-4f27-9b9d-f5c6be51dace.htm",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.sz.gov.cn/hdjl/ywzsk/jsj/zfgjj/content/post_12893587.html",
+            "https://gjj.sg.gov.cn/xwzx/tzgg/content/post_2860060.html",
+            "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/tzgg/content/post_2199759.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/dfxfgzfgzhgfxwj/gfxwj/202401/P020240125750041583552.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.sm.gov.cn/zw/ztzl/smszfgjjzt/bsfw_21866/jshdzl/202207/P020220701308816352541.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "佛山",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-12/26/content_1ef0102803aa439da6549c69b4caa81e.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-01/08/content_a3ced0f7fb44401dbfdea5966f3c14d0.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_gkwj/2023-12/21/content_d56235e679a84e33b6edfa2f1cff9f6d.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2023-01/29/content_008a174e86604f79b5ad8480870dfb79.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_gkwj/2020-03/09/content_4a6f90fed9b6470da51b4bb69454f386.shtml",
+            "https://www.yunfu.gov.cn/yfybj/gkmlpt/content/1/1968/mpost_1968662.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2018-12/28/content_b2336520cbb94b2b95e33e75bf24fdb1.shtml",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://www.bengshan.gov.cn/group3/M00/01/C8/wKgQGGfsknuAEBmPACq267fC4Zw651.pdf",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_gkwj/2016-11/15/content_d182ce3552f54558b1caf5a92a8fd72b.shtml"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://gjj.beijing.gov.cn/web/zwgk61/2024zcjd/744103386/index.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://sdjy.shunde.gov.cn/index/policy/detail.html?id=2814",
+            "https://gjj.jinan.gov.cn/col/col111465/art/2026/art_1df4b8a8b2604fd185a8e9130c55a5ba.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zfgjj/zwgk/tzgg/content/post_2199759.html",
+            "https://www.sz.gov.cn/hdjl/ywzsk/jsj/zfgjj/content/mpost_12893587.html",
+            "https://www.shanwei.gov.cn/swszfjj/gkmlpt/content/1/1271/post_1271476.html",
+            "https://gjj.jinan.gov.cn/col/col65559/art/2026/art_a025e5da370e4af08b1c1214b23a704c.html?type=4JnkXemNbirDhO2Om8bBC",
+            "https://gjj.sg.gov.cn/xwzx/tzgg/content/post_2860060.html",
+            "https://zjt.fujian.gov.cn/xxgk/zfxxgkzl/xxgkml/dfxfgzfgzhgfxwj/gfxwj/202401/P020240125750041583552.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://www.zhanjiang.gov.cn/attachment/0/33/33971/1363447.pdf",
+            "https://zfgjj.xa.gov.cn/web_files/zfgjj/file/2025/06/25/202506251400547990338.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "惠州",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2022-10/26/content_fbb5d48712034a23baee0dbff51bd257.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2025-12/11/content_e5065243847d4b23a370554853ced49c.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_zcjd/2022-11/30/content_7736035c128f46ef9c4e648ca0432551.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/flb1/city_list.shtml",
+            "https://ybj.jiyuan.gov.cn/20497/jczwgk/zcwd/t899416.html",
+            "https://www.longmen.gov.cn/xzfbm/lmxylbzj/zwgk/ywgz/content/post_5218696.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_tzgg/2024-12/27/content_db1acb513acb41f1a417398ac5770e94.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2023-02/21/content_4935ce15957e472995dfd5496390f63a.shtml",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2023-04/26/content_76fc0064f6b443bfaec3f77a0f4ae32c.shtml",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://gtm-cn-uqm3dbhc20k.guangdong.chinatax.gov.cn/gdsw/zcwj1/2021-12/29/content_29aa7fdf59384ee6b04a3f3b39853821.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/hzsw_tzgg/2020-07/01/0c0a34e70830418291fecf314172c2e4/files/0347d2966f5f4d48bd69f539b74eba38.PDF",
+            "https://www.hsxzf.gov.cn/ybj/xxgk/zfwj/content_18333"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.shcn.gov.cn/col5943/20260629/1313166.html",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5739439.html",
+            "https://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/mpost_5556445.html",
+            "https://hzgjj.huizhou.gov.cn/zmhd/zcwdzsk/mindex.html",
+            "https://sjgjj.gzgjj.gov.cn/gdwxxxfb/hzsdt/1056.jhtml",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.ahsz.gov.cn/site/label/8888?isJson=true&labelName=searchDataList&pageSize=10&typeCode=knowledgeBase",
+            "https://gjj.sg.gov.cn/xwzx/tzgg/content/post_2860060.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgjj.xa.gov.cn/web_files/zfgjj/file/2025/06/25/202506251400547990338.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3168/site/attach/0/dd04434030194a88b3b81bd3b3e03718.pdf",
+            "https://qzgjj.quanzhou.gov.cn/zwgk/fgwj/zcfg/202506/P020250624386667850203.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "东莞",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html",
+            "https://www.dg.gov.cn/zwgk/zfxxgkml/sylbzj/content/post_4481570.html",
+            "https://www.dg.gov.cn/zwgk/zfxxgkml/szfbgs/zcwj/gfxwj/content/post_4554768.html",
+            "https://www.dg.gov.cn/ylbzj/xxcx/zcwj/content/mpost_4558081.html",
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4322/post_4322506.html",
+            "https://www.dg.gov.cn/zwgk/zfgb/szfwj/content/post_342471.html",
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4479/post_4479485.html",
+            "https://www.dg.gov.cn/zwgk/zfxxgkml/sylbzj/content/post_4322505.html",
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4566/post_4566695.html",
+            "https://www.dg.gov.cn/zwgk/jdhy/xwfbh/content/post_4132389.html",
+            "https://www.dg.gov.cn/zwgk/zfgb/szfwj/content/post_2421586.html",
+            "https://www.dg.gov.cn/zwgk/zfxxgkml/sylbzj/content/post_4554988.html",
+            "https://dghrss.dg.gov.cn/attachment/0/346/346783/4401676.pdf",
+            "https://www.dg.gov.cn/attachment/0/231/231016/4132524.pdf",
+            "https://www.dg.gov.cn/attachment/0/75/75990/3677213.pdf",
+            "https://www.dg.gov.cn/attachment/0/264/264382/4413333.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html",
+            "https://dggjj.dg.gov.cn/zzzq/xwzx/content/post_4519680.html",
+            "https://dggjj.dg.gov.cn/bmfw/lhjyjcl/content/post_4523031.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://zzz.gov.cn/html/zcfg/zhzs1/19333.html",
+            "https://dggjj.dg.gov.cn/ymys/tzggwq/content/post_4247637.html",
+            "https://dggjj.dg.gov.cn/gkmlpt/content/4/4352/post_4352958.html",
+            "https://dggjj.dg.gov.cn/zwfw/bszn/dksp/zfgjjdkzcgf/content/post_4523969.html",
+            "https://dggjj.dg.gov.cn/gkmlpt/content/0/80/post_80853.html",
+            "https://dggjj.dg.gov.cn/hdjl/cjwt/content/post_4470441.html",
+            "https://www.beijing.gov.cn/zhengce/zcjd/202608/t20260825_4835519.html",
+            "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html",
+            "https://www.dg.gov.cn/attachment/0/403/403894/4520874.pdf",
+            "https://www.dg.gov.cn/attachment/0/349/349969/4411336.pdf",
+            "https://www.dg.gov.cn/attachment/0/211/211250/4084928.pdf",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "中山",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf",
+            "https://guangdong.chinatax.gov.cn/gdsw/sbfxgzcwj/2026-02/11/content_3089fff43fb34aca976f0ae2e6e717c3.shtml",
+            "https://hsa.zs.gov.cn/zwgk/zcgw/qtwj/content/post_2566024.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/zssw_rdwt/2023-06/09/content_269d37a7e08c420dbd1a2afe9eb5b7f1.shtml",
+            "https://www.zs.gov.cn/gkmlpt/content/1/1992/post_1992194.html",
+            "https://www.zs.gov.cn/zwgk/zfgb/zfgb202115/szfwj/content/post_2018475.html",
+            "https://www.zs.gov.cn/tzz/wgk/fwgk/content/post_2586283.html",
+            "https://www.zs.gov.cn/tzz/wgk/fwgk/content/post_2615559.html",
+            "https://www.taian.gov.cn/module/download/downfile.jsp?classid=0&filename=0d420a6237c44839a5b7a393e493ea5f.pdf",
+            "https://hsa.zs.gov.cn/zwgk/zcgw/zcjd/content/post_2015582.html",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://hsa.zs.gov.cn/zwgk/gfxwj/content/post_2015577.html",
+            "https://hsa.zs.gov.cn/attachment/0/493/493513/2373853.pdf",
+            "https://hsa.zs.gov.cn/gkmlpt/content/2/2583/post_2583314.html"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2646/post_2646242.html",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "http://bsdt.zsgjj.org.cn/nbp/",
+            "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html",
+            "https://zszfgjj.zs.gov.cn/tzgg/",
+            "https://zsdata.zs.gov.cn/web/dataServerView?batchId=ff8080819daf4f90019f3638da3111a8&entitiInfoId=ff808081759803b10175b515e8924f90&id=ff808081759803b10175b515e3914f8e&viewType=attachmentBrowse",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://zszfgjj.zs.gov.cn/zwgk/ndbg/content/post_2600133.html",
+            "https://zszfgjj.zs.gov.cn/zwgk/wgk/fwgk/",
+            "https://www.zs.gov.cn/zwgk/fggw/bsgfxwj/content/post_2400757.html",
+            "https://www.shpt.gov.cn/sqjd-jiedaozhen/bmts-sqjd/20260708/971254.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://www.zs.gov.cn/zwgk/fggw/bsgfxwj/content/post_2537122.html",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2247/site/attach/0/bce7734ec37e4608af15daf6bddf6c97.pdf",
+            "https://www.zs.gov.cn/attachment/0/545/545248/2540454.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3168/site/attach/0/dd04434030194a88b3b81bd3b3e03718.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "江门",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3413909.html",
+            "https://www.jiangmen.gov.cn/home/bmdt/content/post_3418420.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3226805.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3418469.html",
+            "https://www.jiangmen.gov.cn/jmybj/gkmlpt/content/3/3418/post_3418470.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/jmsw_gkwj/2023-12/26/content_f7775e53c6204aed863c9a781d3c1b29.shtml",
+            "https://www.jiangmen.gov.cn/jmybj/gkmlpt/content/3/3214/mpost_3214513.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zcfg/shbx/content/post_868847.html",
+            "https://www.jiangmen.gov.cn/newzwgk/zfgb/zfgb2010d5q/sfbgswjxd/content/mpost_434187.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/ssfgjms/2023-01/11/content_7ece03befbda4ccf8b205bb73525eeee.shtml",
+            "https://www.cnts.gov.cn/jmtssybj/gkmlpt/content/3/3415/post_3415704.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/tzgg/content/post_3214512.html",
+            "https://www.heshan.gov.cn/attachment/0/213/213795/2513870.pdf",
+            "https://www.jiangmen.gov.cn/attachment/0/216/216138/2526049.pdf",
+            "https://www.jiangmen.gov.cn/attachment/0/353/353906/3373613.pdf",
+            "https://www.heshan.gov.cn/attachment/0/253/253124/2757343.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gsgg/content/post_3460171.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/jmszc/content/post_3258680.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://www.jiangmen.gov.cn/newzwgk/fggw/zfxxgkzl/content/post_1041240.html",
+            "https://www.jiangmen.gov.cn/gzhd/zhzw/content/post_2758455.html",
+            "https://www.jiangmen.gov.cn/jmzjj/gkmlpt/content/3/3523/post_3523486.html",
+            "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html",
+            "https://www.jiangmen.gov.cn/home/bmdt/content/post_3259175.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/jmszc/content/post_2888086.html",
+            "https://www.jiangmen.gov.cn/zwgk/zfgb/2023/8/content/post_3465992.html",
+            "https://www.jiangmen.gov.cn/gzhd/msrx/wqhg/content/post_3341549.html",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf",
+            "https://www.jiangmen.gov.cn/attachment/0/141/141647/2108060.pdf",
+            "https://www.jiangmen.gov.cn/jmzjj/attachment/0/364/364042/3424115.pdf",
+            "https://www.kaiping.gov.cn/attachment/0/22/22681/530788.pdf",
+            "https://www.jiangmen.gov.cn/attachment/0/368/368694/3453246.pdf"
+          ]
+        }
+      ]
+    },
+    {
+      "city": "肇庆",
+      "searches": [
+        {
+          "category": "社保医保",
+          "urls": [
+            "https://guangdong.chinatax.gov.cn/gdsw/zqsw_sbfblzn/city_list.shtml",
+            "https://www.yunfu.gov.cn/yfybj/gkmlpt/content/1/1968/mpost_1968662.html",
+            "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-12/26/content_1ef0102803aa439da6549c69b4caa81e.shtml",
+            "https://www.huma.gov.cn/huma/c100715/202606/c13_339514.shtml",
+            "https://guangdong.chinatax.gov.cn/zqgkml/zqdzgkml_qttzgg/2021-03/10/content_c168b28fa6024ddea22a578638792692.shtml",
+            "https://guangdong.chinatax.gov.cn/zqgkml/zqgngkml_qttzgg/2020-07/09/content_1b7a33e4dfbe4eed8507469b33a39ffc.shtml",
+            "https://guangdong.chinatax.gov.cn/gdsw/zqsw_sbfblzn/2024-11/21/content_8dbb1cc3bc06409c9dda5db0daedbe0e.shtml",
+            "https://sfj.weihai.gov.cn/module/download/downfile.jsp?classid=0&filename=4ea51afbd1a944a39f8d404720125397.pdf&showname=%E5%A8%81%E6%B5%B7%E5%B8%82%E6%83%A0%E4%BC%81%E6%94%BF%E7%AD%96%E5%B7%A5%E5%85%B7%E6%B1%87%E7%BC%96%EF%BC%88%E7%AC%AC%E4%BA%94%E6%89%B9%EF%BC%89.pdf",
+            "https://www.fuzhou.gov.cn/zwgk/zdlyxxgk/shbz/yilbx/202509/P020251009652403112624.pdf",
+            "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html",
+            "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202304/t20230426_477778.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3413909.html",
+            "https://guangdong.chinatax.gov.cn/gdsw/czsw_blzn/202304/1cc10e3372f4406b8e85aa72fdc01eef/files/42451d3e3b7d434bab1b848cec84b08c.pdf"
+          ]
+        },
+        {
+          "category": "公积金",
+          "urls": [
+            "https://www.jinan.gov.cn/col/col118356/art/2026/art_ed04eb4c16c642c2806a93329182b906.html",
+            "https://www.lyg.gov.cn/zglygzfmhwz/sbjy/content/1003320003207002512300050.shtml",
+            "https://zwfw.gansu.gov.cn/jingtai/zczx/tzgg/art/2026/art_e845ba08a530494cad35b8cbfb68b2ec.html",
+            "https://www.ganzhou.gov.cn/zfxxgk/c100442fq/202607/114bd80e0daf4adbb2f07780c32a416b.shtml",
+            "https://www.zhanjiang.gov.cn/zfgjj/gkmlpt/content/2/2199/post_2199758.html",
+            "https://zwfw.gansu.gov.cn/minxian/sbqd/sbggdt/art/2026/art_0a2100a967c045ccb9c93de2bb96492f.html",
+            "https://zszfgjj.zs.gov.cn/ttxw/gab/tzgg/content/post_2630607.html",
+            "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html",
+            "https://www.fuzhou.gov.cn/zgfzhd/znhd/fzzfgjjzx/zfgjjjc/202607/t20260724_5350255.htm",
+            "https://gjj.sg.gov.cn/xwzx/tzgg/content/post_2860060.html",
+            "https://www.qingdao.gov.cn/ywdt/zwzl/zxwdpt_00/zxwdpt_39/202607/t20260706_10652736.shtml",
+            "https://www.hbqj.gov.cn/xwzx/jrqj/qjyw/202607/t20260708_5973070.html",
+            "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf",
+            "https://www.sz.gov.cn/attachment/1/1695/1695002/12690785.pdf",
+            "https://www.fogang.gov.cn/attachment/0/181/181463/2030776.pdf",
+            "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/06/11/20250611_7596d650949af6aea1df78bcf197dd53.pdf",
+            "https://www.zhanjiang.gov.cn/attachment/0/33/33971/1363447.pdf",
+            "https://gjj.ahsz.gov.cn/group1/M00/00/F8/Cp8OO2i_08iAWKBVAAJegGoe0uQ918.pdf"
+          ]
+        }
+      ]
+    }
+  ]
+}

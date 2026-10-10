@@ -1,0 +1,13 @@
+{
+  "deploymentEnabled": false,
+  "pageApproval": "pending",
+  "siteUrl": null,
+  "repository": "https://github.com/514698145-lgtm/hr-tools-site",
+  "ossBucket": null,
+  "ossRegion": null,
+  "cdnDomain": null,
+  "searchSubmissionEnabled": false,
+  "scheduledPolicyUpdatesEnabled": false,
+  "deploymentRequested": true,
+  "runtimeApiReady": false
+}

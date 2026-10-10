@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "candidate-info",
+    "title": "面试资料填写表",
+    "description": "候选人面试前填写与岗位相关的基本资料",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "应聘岗位",
+      "姓名或候选人编号",
+      "联系电话（按需）",
+      "联系邮箱（按需）",
+      "可到岗日期",
+      "期望薪酬范围",
+      "相关教育经历",
+      "相关工作经历",
+      "岗位相关技能",
+      "作品或项目链接（选填）",
+      "本人补充说明"
+    ]
+  },
+  {
+    "id": "hiring-request",
+    "title": "招聘需求申请表",
+    "description": "用人部门提出岗位与人员需求",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "申请部门",
+      "岗位名称",
+      "需求人数",
+      "新增或补缺",
+      "需求原因",
+      "工作地点",
+      "核心职责",
+      "任职要求",
+      "预算范围",
+      "计划到岗日期",
+      "需求负责人",
+      "审批记录"
+    ]
+  },
+  {
+    "id": "job-profile",
+    "title": "岗位说明书填写表",
+    "description": "梳理岗位职责和任职要求",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "岗位名称",
+      "所属部门",
+      "汇报岗位",
+      "岗位目标",
+      "主要职责",
+      "协作关系",
+      "必需技能",
+      "经验要求",
+      "工作地点",
+      "工作条件",
+      "编制人",
+      "确认日期"
+    ]
+  },
+  {
+    "id": "interview-score",
+    "title": "面试评价记录表",
+    "description": "基于岗位要求记录面试证据与评价",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "ledger",
+    "fields": [
+      "候选人编号",
+      "应聘岗位",
+      "面试轮次",
+      "面试日期",
+      "面试官",
+      "评价维度",
+      "提问内容",
+      "行为或作品证据",
+      "评分（自定量表）",
+      "待核实事项",
+      "下一步安排"
+    ]
+  },
+  {
+    "id": "interview-schedule",
+    "title": "面试安排表",
+    "description": "统一安排时间、面试官和沟通状态",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "ledger",
+    "fields": [
+      "候选人编号",
+      "岗位",
+      "轮次",
+      "日期",
+      "开始时间",
+      "结束时间",
+      "地点或会议链接",
+      "面试官",
+      "候选人确认状态",
+      "改期记录",
+      "负责人"
+    ]
+  },
+  {
+    "id": "candidate-tracker",
+    "title": "候选人跟进台账",
+    "description": "跟进从投递到入职的招聘进度",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "ledger",
+    "fields": [
+      "候选人编号",
+      "岗位",
+      "来源渠道",
+      "投递日期",
+      "当前阶段",
+      "最近联系日期",
+      "后续行动",
+      "下次跟进日期",
+      "负责人",
+      "结案状态",
+      "备注"
+    ]
+  },
+  {
+    "id": "offer-checklist",
+    "title": "录用条件核对表",
+    "description": "发出录用信息前核对已批准的条件",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "form",
+    "fields": [
+      "候选人编号",
+      "岗位",
+      "工作地点",
+      "拟到岗日期",
+      "拟定工资构成",
+      "拟定福利",
+      "条件批准记录",
+      "待确认事项",
+      "信息核对人",
+      "沟通日期",
+      "候选人反馈"
+    ]
+  },
+  {
+    "id": "channel-review",
+    "title": "招聘渠道效果登记表",
+    "description": "汇总渠道投入与招聘转化的原始数据",
+    "category": "招聘面试",
+    "categoryId": "recruitment",
+    "kind": "ledger",
+    "fields": [
+      "统计期间",
+      "渠道名称",
+      "投递数量",
+      "有效候选人数",
+      "面试人数",
+      "录用人数",
+      "实际到岗人数",
+      "渠道支出",
+      "数据口径",
+      "负责人",
+      "备注"
+    ]
+  },
+  {
+    "id": "onboarding-checklist",
+    "title": "新员工入职办理清单",
+    "description": "按责任人追踪入职准备和办理事项",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "部门",
+      "岗位",
+      "到岗日期",
+      "办理事项",
+      "所需材料或动作",
+      "责任部门",
+      "负责人",
+      "计划完成日",
+      "实际完成日",
+      "完成状态",
+      "备注"
+    ]
+  },
+  {
+    "id": "employee-register",
+    "title": "员工基本信息登记表",
+    "description": "建立岗位相关的基础人员记录",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "姓名",
+      "部门",
+      "岗位",
+      "工作地点",
+      "入职日期",
+      "工作邮箱",
+      "工作联系方式",
+      "直属负责人",
+      "资料更新日期"
+    ]
+  },
+  {
+    "id": "document-receipt",
+    "title": "入职资料接收核对表",
+    "description": "只登记材料收取状态，避免重复存放证件信息",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "材料名称",
+      "收集用途",
+      "是否必要",
+      "原件查验状态",
+      "接收日期",
+      "接收人",
+      "存放位置或系统索引",
+      "退还或删除日期",
+      "备注"
+    ]
+  },
+  {
+    "id": "orientation-plan",
+    "title": "新员工融入计划表",
+    "description": "安排首日、首周和首月的融入任务",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "阶段",
+      "任务主题",
+      "具体内容",
+      "协作人",
+      "计划日期",
+      "完成日期",
+      "确认方式",
+      "反馈",
+      "负责人"
+    ]
+  },
+  {
+    "id": "probation-goals",
+    "title": "试用期目标确认表",
+    "description": "明确岗位任务、评价依据和沟通安排",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "评价期间",
+      "目标事项",
+      "交付要求",
+      "衡量标准",
+      "所需支持",
+      "计划完成日",
+      "沟通日期",
+      "员工确认记录",
+      "负责人确认记录"
+    ]
+  },
+  {
+    "id": "probation-review",
+    "title": "试用期跟进记录表",
+    "description": "记录阶段反馈、支持事项与实际表现",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "跟进日期",
+      "阶段目标",
+      "实际进展",
+      "具体事实",
+      "员工反馈",
+      "需要支持",
+      "后续动作",
+      "责任人",
+      "下次沟通日"
+    ]
+  },
+  {
+    "id": "conversion-review",
+    "title": "转正评估记录表",
+    "description": "汇总目标达成证据与已确认的评估结果",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "入职日期",
+      "评估日期",
+      "目标达成情况",
+      "工作证据",
+      "员工自述",
+      "直属负责人评价",
+      "待解决事项",
+      "评估结论记录",
+      "确认人"
+    ]
+  },
+  {
+    "id": "mentor-log",
+    "title": "带教记录表",
+    "description": "追踪带教任务和新员工反馈",
+    "category": "入职转正",
+    "categoryId": "onboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "导师",
+      "带教主题",
+      "任务或示范内容",
+      "带教日期",
+      "实践完成情况",
+      "反馈",
+      "后续练习",
+      "下次检查日"
+    ]
+  },
+  {
+    "id": "attendance-check",
+    "title": "月度考勤核对表",
+    "description": "核对排班、出勤和异常处理记录",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "ledger",
+    "fields": [
+      "月份",
+      "员工编号",
+      "部门",
+      "应出勤天数",
+      "实际出勤天数",
+      "请假天数",
+      "缺卡次数",
+      "异常说明",
+      "核对依据",
+      "员工确认状态",
+      "核对人"
+    ]
+  },
+  {
+    "id": "leave-request",
+    "title": "请假申请记录表",
+    "description": "登记请假期间、类型及审批记录",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门",
+      "假别",
+      "开始日期时间",
+      "结束日期时间",
+      "申请时长",
+      "时长单位",
+      "工作衔接安排",
+      "申请日期",
+      "审批记录",
+      "实际销假时间"
+    ]
+  },
+  {
+    "id": "overtime-record",
+    "title": "加班申请与确认表",
+    "description": "区分申请时段与实际确认时段",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "工作日期",
+      "申请开始时间",
+      "申请结束时间",
+      "工作任务",
+      "批准记录",
+      "实际开始时间",
+      "实际结束时间",
+      "确认时长",
+      "处理方式记录",
+      "确认人"
+    ]
+  },
+  {
+    "id": "timeoff-ledger",
+    "title": "调休登记台账",
+    "description": "追踪已确认的调休额度和使用记录",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "额度来源索引",
+      "确认日期",
+      "增加时数",
+      "使用时数",
+      "剩余时数（人工核对）",
+      "使用日期",
+      "审批记录",
+      "核对人",
+      "备注"
+    ]
+  },
+  {
+    "id": "annual-leave",
+    "title": "年休假额度核对表",
+    "description": "按已核定口径记录额度和使用情况",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "ledger",
+    "fields": [
+      "年度",
+      "员工编号",
+      "核定依据索引",
+      "已核定额度天数",
+      "已使用天数",
+      "剩余天数（人工核对）",
+      "计划休假日期",
+      "核对日期",
+      "核对人",
+      "待确认事项"
+    ]
+  },
+  {
+    "id": "shift-roster",
+    "title": "员工排班表",
+    "description": "记录每人每日的排班和调整",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "部门",
+      "日期",
+      "班次名称",
+      "计划开始时间",
+      "计划结束时间",
+      "休息时段",
+      "工作地点",
+      "调整原因",
+      "确认人"
+    ]
+  },
+  {
+    "id": "attendance-correction",
+    "title": "考勤异常更正表",
+    "description": "记录缺卡、误记等异常的核对过程",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "异常日期",
+      "异常类型",
+      "原记录",
+      "申请更正内容",
+      "事实依据索引",
+      "申请日期",
+      "核对人",
+      "处理结果",
+      "处理日期"
+    ]
+  },
+  {
+    "id": "business-trip",
+    "title": "出差登记表",
+    "description": "记录出差计划、工作交接与返回情况",
+    "category": "考勤休假",
+    "categoryId": "attendance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门",
+      "出差目的",
+      "目的地",
+      "开始日期",
+      "结束日期",
+      "工作安排",
+      "交接联系人",
+      "审批记录",
+      "实际返回日期",
+      "备注"
+    ]
+  },
+  {
+    "id": "payroll-check",
+    "title": "工资核对表",
+    "description": "核对已计算的工资组成和扣款",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "工资月份",
+      "员工编号",
+      "基本工资",
+      "浮动工资",
+      "津贴补贴",
+      "应发合计（人工填写）",
+      "个人社保",
+      "个人公积金",
+      "个税",
+      "其他扣款",
+      "实发金额（人工填写）",
+      "核对人"
+    ]
+  },
+  {
+    "id": "salary-change",
+    "title": "调薪申请记录表",
+    "description": "记录已申请的薪酬变化及批准信息",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "原薪酬构成",
+      "拟调整薪酬构成",
+      "调整原因",
+      "拟生效日期",
+      "预算影响",
+      "申请人",
+      "审批记录",
+      "员工沟通记录"
+    ]
+  },
+  {
+    "id": "bonus-allocation",
+    "title": "奖金发放核对表",
+    "description": "登记已确定的奖金金额和申报口径",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "奖金项目",
+      "考核期间",
+      "拟发放日期",
+      "税前金额",
+      "已确认计税方式",
+      "本年此前奖金情况",
+      "审批记录",
+      "税额核对状态",
+      "经办人"
+    ]
+  },
+  {
+    "id": "social-fund-ledger",
+    "title": "社保公积金办理台账",
+    "description": "跟踪参保、基数调整和办理结果",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "参保城市",
+      "办理月份",
+      "事项类型",
+      "险种或公积金",
+      "核定基数",
+      "单位费率记录",
+      "个人费率记录",
+      "提交日期",
+      "办理结果",
+      "经办人"
+    ]
+  },
+  {
+    "id": "benefit-claim",
+    "title": "员工福利申领表",
+    "description": "记录福利项目的申请与领取",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门",
+      "福利项目",
+      "申请数量",
+      "申请依据",
+      "申请日期",
+      "审核记录",
+      "领取日期",
+      "领取确认",
+      "经办人"
+    ]
+  },
+  {
+    "id": "payroll-issue",
+    "title": "薪资疑问处理记录表",
+    "description": "追踪工资疑问、核对及反馈",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "工资月份",
+      "疑问提交日期",
+      "涉及项目",
+      "疑问描述",
+      "核对依据索引",
+      "核对结果",
+      "处理动作",
+      "处理反馈日期",
+      "经办人"
+    ]
+  },
+  {
+    "id": "payroll-input",
+    "title": "工资变动数据收集表",
+    "description": "薪资核算前汇总经确认的输入数据",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "工资月份",
+      "员工编号",
+      "变动项目",
+      "变动金额或数量",
+      "单位",
+      "生效日期",
+      "来源部门",
+      "批准记录",
+      "提交人",
+      "复核状态"
+    ]
+  },
+  {
+    "id": "benefit-budget",
+    "title": "薪酬福利预算表",
+    "description": "按部门及项目登记预算与实际支出",
+    "category": "薪酬福利",
+    "categoryId": "payroll",
+    "kind": "ledger",
+    "fields": [
+      "预算期间",
+      "部门",
+      "成本项目",
+      "计划人数",
+      "预算金额",
+      "实际金额",
+      "差异金额（人工填写）",
+      "差异说明",
+      "数据来源",
+      "负责人"
+    ]
+  },
+  {
+    "id": "training-needs",
+    "title": "培训需求调查表",
+    "description": "收集岗位能力需求和希望获得的支持",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "form",
+    "fields": [
+      "部门或匿名编号",
+      "岗位类别",
+      "当前工作难点",
+      "希望提升的能力",
+      "拟学习主题",
+      "应用场景",
+      "期望培训形式",
+      "可参加时间",
+      "优先级",
+      "补充意见"
+    ]
+  },
+  {
+    "id": "training-plan",
+    "title": "年度培训计划表",
+    "description": "安排课程、对象、时间与预算",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "年度",
+      "培训项目",
+      "目标能力",
+      "培训对象",
+      "计划人数",
+      "形式",
+      "讲师或供应方",
+      "计划日期",
+      "预算金额",
+      "组织人",
+      "验收方式"
+    ]
+  },
+  {
+    "id": "training-signin",
+    "title": "培训签到表",
+    "description": "记录实际参与和完成状态",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "课程名称",
+      "培训日期",
+      "员工编号",
+      "部门",
+      "签到时间",
+      "签退时间",
+      "参加状态",
+      "完成确认",
+      "组织人"
+    ]
+  },
+  {
+    "id": "training-feedback",
+    "title": "培训反馈表",
+    "description": "收集对内容、讲师与应用效果的评价",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "form",
+    "fields": [
+      "课程名称",
+      "培训日期",
+      "反馈编号（可匿名）",
+      "与工作相关程度",
+      "内容清晰程度",
+      "练习实用程度",
+      "可应用的收获",
+      "仍有疑问",
+      "改进意见"
+    ]
+  },
+  {
+    "id": "training-assessment",
+    "title": "培训考核记录表",
+    "description": "记录课程考核标准及实际结果",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "课程名称",
+      "员工编号",
+      "考核日期",
+      "考核形式",
+      "评价标准",
+      "实际表现或成绩",
+      "是否完成",
+      "补充学习安排",
+      "评价人"
+    ]
+  },
+  {
+    "id": "training-transfer",
+    "title": "培训应用跟踪表",
+    "description": "跟踪培训之后在岗位中的实际应用",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "课程名称",
+      "计划应用事项",
+      "应用日期",
+      "实践记录",
+      "成果证据",
+      "遇到困难",
+      "所需支持",
+      "跟进人",
+      "下次复盘日期"
+    ]
+  },
+  {
+    "id": "development-plan",
+    "title": "个人发展计划表",
+    "description": "由员工与负责人共同记录能力发展目标",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "发展目标",
+      "当前能力",
+      "需要提升的能力",
+      "行动事项",
+      "支持资源",
+      "完成期限",
+      "检查节点",
+      "进展记录"
+    ]
+  },
+  {
+    "id": "trainer-register",
+    "title": "内部讲师与课程台账",
+    "description": "维护内部课程、讲师和授课记录",
+    "category": "培训发展",
+    "categoryId": "learning",
+    "kind": "ledger",
+    "fields": [
+      "讲师编号",
+      "所属部门",
+      "专业领域",
+      "课程名称",
+      "适用对象",
+      "课程目标",
+      "授课时长",
+      "最近授课日期",
+      "反馈摘要",
+      "课程资料索引"
+    ]
+  },
+  {
+    "id": "performance-goals",
+    "title": "绩效目标设定表",
+    "description": "对齐评价周期内的目标与衡量方式",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "评价周期",
+      "目标事项",
+      "衡量标准",
+      "目标值",
+      "权重（自定）",
+      "支持条件",
+      "确认日期",
+      "确认记录"
+    ]
+  },
+  {
+    "id": "performance-self",
+    "title": "绩效自评表",
+    "description": "员工填写目标完成情况和事实依据",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "评价周期",
+      "目标事项",
+      "完成情况",
+      "实际结果",
+      "工作证据",
+      "遇到的困难",
+      "需要的支持",
+      "自评说明"
+    ]
+  },
+  {
+    "id": "performance-review",
+    "title": "绩效评价记录表",
+    "description": "依已确定规则记录评价和事实依据",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "评价周期",
+      "目标或能力项",
+      "适用标准",
+      "实际结果",
+      "证据索引",
+      "评价记录",
+      "评价人",
+      "评价日期",
+      "员工反馈"
+    ]
+  },
+  {
+    "id": "performance-talk",
+    "title": "绩效面谈记录表",
+    "description": "记录反馈沟通、分歧和后续行动",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "面谈日期",
+      "参与人",
+      "肯定事项及证据",
+      "待改善事项及证据",
+      "员工反馈",
+      "已达成共识",
+      "仍有分歧",
+      "行动安排",
+      "复盘日期"
+    ]
+  },
+  {
+    "id": "improvement-plan",
+    "title": "绩效改善跟进表",
+    "description": "追踪具体改善任务和支持落实",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "改善事项",
+      "期望结果",
+      "可衡量标准",
+      "公司支持",
+      "责任人",
+      "完成期限",
+      "检查日期",
+      "实际进展",
+      "双方反馈"
+    ]
+  },
+  {
+    "id": "promotion-review",
+    "title": "晋升评估记录表",
+    "description": "记录岗位要求、候选证据和评审意见",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "现岗位职级",
+      "拟任岗位职级",
+      "岗位要求",
+      "相关成果",
+      "能力证据",
+      "待补充信息",
+      "评审意见",
+      "评审日期",
+      "结果记录"
+    ]
+  },
+  {
+    "id": "talent-inventory",
+    "title": "人才盘点记录表",
+    "description": "基于工作事实记录能力和发展方向",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "岗位",
+      "岗位关键性",
+      "已验证能力",
+      "关键成果",
+      "发展意愿",
+      "待培养能力",
+      "发展动作",
+      "评估日期",
+      "评估人"
+    ]
+  },
+  {
+    "id": "succession-plan",
+    "title": "关键岗位接续计划表",
+    "description": "记录关键岗位的接续准备和培养动作",
+    "category": "绩效人才",
+    "categoryId": "performance",
+    "kind": "ledger",
+    "fields": [
+      "关键岗位",
+      "岗位要求",
+      "候选人编号",
+      "当前准备情况",
+      "经验差距",
+      "培养动作",
+      "支持资源",
+      "计划完成日期",
+      "负责人",
+      "复盘记录"
+    ]
+  },
+  {
+    "id": "contract-ledger",
+    "title": "劳动合同管理台账",
+    "description": "登记合同签订、期限及后续跟进节点",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "合同类型记录",
+      "签订日期",
+      "起始日期",
+      "到期日期",
+      "约定岗位",
+      "签收状态",
+      "档案索引",
+      "跟进日期",
+      "经办人"
+    ]
+  },
+  {
+    "id": "renewal-tracker",
+    "title": "合同续签跟进表",
+    "description": "跟踪到期沟通与手续完成情况",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "现合同到期日期",
+      "首次沟通日期",
+      "员工反馈",
+      "单位处理记录",
+      "待办事项",
+      "计划完成日",
+      "实际完成日",
+      "档案索引",
+      "负责人"
+    ]
+  },
+  {
+    "id": "employee-change",
+    "title": "员工异动登记表",
+    "description": "记录调岗、调部门等已确认变化",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "异动类型",
+      "原部门岗位",
+      "新部门岗位",
+      "拟生效日期",
+      "变动原因",
+      "沟通记录",
+      "审批记录",
+      "实际生效日期",
+      "经办人"
+    ]
+  },
+  {
+    "id": "employee-talk",
+    "title": "员工沟通记录表",
+    "description": "客观记录工作沟通及跟进事项",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "员工编号或匿名编号",
+      "沟通日期",
+      "沟通主题",
+      "参与人",
+      "事实记录",
+      "员工意见",
+      "支持需求",
+      "后续行动",
+      "负责人",
+      "跟进日期"
+    ]
+  },
+  {
+    "id": "issue-followup",
+    "title": "员工诉求处理台账",
+    "description": "记录诉求受理、核实、处理及反馈",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "ledger",
+    "fields": [
+      "受理编号",
+      "受理日期",
+      "诉求类别",
+      "事实摘要",
+      "期望处理",
+      "核实记录",
+      "处理措施",
+      "负责人",
+      "反馈日期",
+      "办理状态"
+    ]
+  },
+  {
+    "id": "policy-receipt",
+    "title": "制度培训与接收记录表",
+    "description": "记录已提供的制度材料和说明过程",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "制度或材料名称",
+      "材料适用日期",
+      "提供方式",
+      "提供日期",
+      "培训或说明安排",
+      "疑问记录",
+      "接收确认",
+      "经办人"
+    ]
+  },
+  {
+    "id": "satisfaction-survey",
+    "title": "员工工作体验调查表",
+    "description": "匿名收集工作支持和协作体验",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "form",
+    "fields": [
+      "问卷编号（匿名）",
+      "岗位类别（选填）",
+      "工作目标清晰程度",
+      "资源支持情况",
+      "协作沟通体验",
+      "反馈渠道体验",
+      "学习支持体验",
+      "最希望改善的事项",
+      "补充意见"
+    ]
+  },
+  {
+    "id": "hr-documents",
+    "title": "人事档案目录与查阅台账",
+    "description": "登记档案项目及受控查阅记录",
+    "category": "员工关系",
+    "categoryId": "relations",
+    "kind": "ledger",
+    "fields": [
+      "员工编号或档案编号",
+      "材料类别",
+      "档案索引",
+      "归档日期",
+      "保管责任人",
+      "查阅目的",
+      "获批记录",
+      "查阅日期",
+      "归还或关闭日期",
+      "备注"
+    ]
+  },
+  {
+    "id": "departure-register",
+    "title": "离职事项登记表",
+    "description": "记录已确认的离职安排与办理节点",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号",
+      "部门岗位",
+      "事项提出日期",
+      "事项类型记录",
+      "拟最后工作日",
+      "已确认最后工作日",
+      "沟通记录",
+      "待办事项",
+      "办理负责人",
+      "进度"
+    ]
+  },
+  {
+    "id": "exit-interview",
+    "title": "离职面谈记录表",
+    "description": "记录自愿反馈和工作体验",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "form",
+    "fields": [
+      "员工编号或匿名编号",
+      "面谈日期",
+      "参与人",
+      "员工自愿说明的原因",
+      "工作体验反馈",
+      "改进意见",
+      "待处理疑问",
+      "后续联系安排（自愿）",
+      "记录人"
+    ]
+  },
+  {
+    "id": "work-handover",
+    "title": "工作交接清单",
+    "description": "逐项交接任务、资料和待办事项",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "移交人编号",
+      "接收人",
+      "交接事项",
+      "当前进度",
+      "资料位置",
+      "未完成事项",
+      "风险或注意事项",
+      "计划交接日",
+      "完成确认",
+      "复核人"
+    ]
+  },
+  {
+    "id": "asset-return",
+    "title": "办公资产归还清单",
+    "description": "核对领用资产与归还状态",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "资产名称",
+      "资产编号",
+      "领用数量",
+      "归还数量",
+      "归还日期",
+      "状态说明",
+      "接收人",
+      "待处理事项"
+    ]
+  },
+  {
+    "id": "access-close",
+    "title": "账号权限关闭清单",
+    "description": "跟踪账号、权限与访问的移交或关闭",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "系统或资源名称",
+      "账号标识",
+      "权限范围",
+      "处理方式",
+      "计划操作时间",
+      "实际操作时间",
+      "操作人",
+      "复核人",
+      "完成状态"
+    ]
+  },
+  {
+    "id": "departure-settlement",
+    "title": "离职结算核对表",
+    "description": "登记已核算的工资、费用和结算状态",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "结算期间",
+      "项目名称",
+      "已确认金额",
+      "计算或审批依据索引",
+      "计划支付日",
+      "实际支付日",
+      "确认状态",
+      "经办人",
+      "待处理事项"
+    ]
+  },
+  {
+    "id": "departure-process",
+    "title": "离职手续办理清单",
+    "description": "按部门跟踪交接、结算与材料提供",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "办理事项",
+      "责任部门",
+      "办理人",
+      "计划完成日",
+      "完成日期",
+      "完成状态",
+      "凭证索引",
+      "员工反馈",
+      "备注"
+    ]
+  },
+  {
+    "id": "departure-proof",
+    "title": "离职相关材料交付记录表",
+    "description": "记录材料制作、核对及交付事实",
+    "category": "离职交接",
+    "categoryId": "offboarding",
+    "kind": "ledger",
+    "fields": [
+      "员工编号",
+      "材料名称",
+      "需核对的信息",
+      "制作日期",
+      "核对人",
+      "交付方式",
+      "交付日期",
+      "接收记录",
+      "补充事项",
+      "经办人"
+    ]
+  }
+]

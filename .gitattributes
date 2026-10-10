@@ -1,0 +1,2 @@
+# Preserve exact bytes: offline workbook source hashes include line endings.
+* -text

@@ -1,0 +1,13 @@
+HR 表格库统一字体：Noto Sans CJK SC
+
+正文使用 Regular，标题和表头使用同一字体的 Bold。字体依据 SIL Open Font License 1.1 免费使用、商用和随模板分发；完整授权见 LICENSE.txt。字体不得单独售卖。
+
+首次使用：关闭 Word / Excel，双击两个 .otf 文件并选择“安装”，然后重新打开模板。macOS 可通过“字体册”安装。字体安装一次即可，不需要逐份更改模板。
+
+Word / Excel 文件内已指定相同的中英文与数字字体，但没有嵌入完整中文字库。如果电脑未安装字体，Office/WPS可能自动替换成其他字体，影响粗细、换行和排版。手机及部分在线编辑器不一定支持自定义字体，显示可能有差异。
+
+官方来源（原始未修改字体文件）：
+https://github.com/notofonts/noto-cjk/tree/main/Sans/OTF/SimplifiedChinese
+https://github.com/notofonts/noto-cjk/blob/main/Sans/LICENSE
+
+文件：NotoSansCJKsc-Regular.otf、NotoSansCJKsc-Bold.otf

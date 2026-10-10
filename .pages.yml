@@ -1,0 +1,165 @@
+# 内容管理配置。仅文章和公开图片；不得放入工资表、用户记录或凭据。
+media:
+  input: public/media
+  output: /media
+  extensions: [jpg, jpeg, png, webp, avif]
+content:
+  - name: articles
+    label: HR资讯
+    type: collection
+    path: content/articles
+    format: yaml-frontmatter
+    subfolders: false
+    filename: "{fields.slug}.md"
+    view:
+      primary: title
+      sort: publishedAt
+      order: desc
+    fields:
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: slug, label: 固定网址标识（英文小写和短横线）, type: string, required: true }
+      - { name: description, label: 摘要与搜索描述, type: text, required: true }
+      - name: status
+        label: 发布状态
+        type: select
+        default: draft
+        options:
+          values: [draft, published]
+      - { name: author, label: 作者, type: string, required: true }
+      - name: publishedAt
+        label: 发布时间（含时区，例如 2026-10-01T09:00:00+08:00）
+        type: string
+        required: true
+      - name: updatedAt
+        label: 实际修改时间（含时区）
+        type: string
+      - name: category
+        label: 内容分类
+        type: select
+        required: true
+        options:
+          values: [最新资讯, 相关政策, 工具使用, HR实务]
+      - { name: tags, label: 标签, type: string, list: true }
+      - { name: cover, label: 封面, type: image }
+      - { name: coverAlt, label: 封面说明, type: string }
+      - { name: relatedTools, label: 关联工具标识, type: string, list: true }
+      - { name: sources, label: 来源网址, type: string, list: true }
+      - { name: seoTitle, label: SEO标题（留空使用文章标题）, type: string }
+      - { name: seoDescription, label: SEO描述（留空使用摘要）, type: text }
+      - { name: shareImage, label: 搜索与社交分享图, type: image }
+      - { name: noindex, label: 不允许收录, type: boolean, default: false }
+      - { name: body, label: 正文（从二级标题开始）, type: rich-text, required: true }
+
+  - name: guide
+    label: 使用导览（直接更新当前手册）
+    type: file
+    path: content/guide.md
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: body, label: 当前使用说明, type: rich-text, required: true }
+
+  - name: seo-site
+    label: SEO · 全站设置
+    type: file
+    path: content/seo/site.md
+    format: yaml-frontmatter
+    fields:
+      - { name: siteName, label: 网站名称, type: string, required: true }
+      - { name: titleSuffix, label: 搜索标题后缀, type: string, required: true }
+      - { name: siteUrl, label: 正式域名（https开头，不含路径，上线时填写）, type: string }
+      - { name: allowIndexing, label: 允许搜索收录（确认上线后开启）, type: boolean, default: false }
+      - { name: shareImage, label: 默认分享图, type: image }
+      - { name: googleVerification, label: Google公开meta验证码, type: string }
+      - { name: bingVerification, label: 必应公开meta验证码, type: string }
+      - { name: baiduVerification, label: 百度公开meta验证码, type: string }
+
+  - name: seo-pages
+    label: SEO · 工具与栏目页面
+    type: collection
+    path: content/seo/pages
+    format: yaml-frontmatter
+    subfolders: false
+    view:
+      primary: seoTitle
+    fields:
+      - { name: path, label: 已有页面路径（如 /templates/，不能用来创建页面）, type: string, required: true }
+      - { name: seoTitle, label: 搜索标题, type: string }
+      - { name: seoDescription, label: 搜索描述, type: text }
+      - { name: shareImage, label: 页面分享图（留空使用全站）, type: image }
+      - { name: noindex, label: 不允许收录, type: boolean, default: false }
+
+  - name: policies
+    label: 政策知识库
+    type: collection
+    path: content/policies
+    format: yaml-frontmatter
+    subfolders: false
+    filename: "{fields.slug}.md"
+    fields:
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: slug, label: 固定网址标识, type: string, required: true }
+      - { name: category, label: 工作场景, type: string, required: true }
+      - { name: description, label: 摘要, type: text, required: true }
+      - { name: keyPoint, label: 关键数字或结论, type: string, required: true }
+      - name: status
+        label: 发布状态
+        type: select
+        default: draft
+        options:
+          values: [draft, published]
+      - { name: scope, label: 适用范围与例外, type: text, required: true }
+      - { name: checkedAt, label: 资料核对日（YYYY-MM-DD）, type: string, required: true }
+      - { name: reviewAfter, label: 计划复核日（不是政策失效日）, type: string, required: true }
+      - { name: sources, label: 官方HTTPS来源, type: string, list: true, required: true }
+      - { name: relatedTools, label: 关联工具标识, type: string, list: true }
+      - { name: seoTitle, label: SEO标题, type: string }
+      - { name: seoDescription, label: SEO描述, type: text }
+      - { name: noindex, label: 不允许收录, type: boolean, default: false }
+      - { name: body, label: 正文, type: rich-text, required: true }
+
+  - name: enterprise-services
+    label: 人力窝 · 企业服务
+    type: file
+    path: content/enterprise-services.md
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: 页面标题, type: string, required: true }
+      - { name: description, label: 页面摘要, type: text, required: true }
+      - { name: headline, label: 主标题, type: string, required: true }
+      - { name: intro, label: 开场介绍, type: text, required: true }
+      - { name: contactEmail, label: 公开商务邮箱, type: string, required: true }
+      - { name: officialUrl, label: 官网HTTPS地址, type: string, required: true }
+      - { name: contactPhone, label: 联系电话（上线前确认）, type: string }
+      - { name: wechatQr, label: 联系栏微信二维码, type: image }
+      - { name: consultationFormUrl, label: 咨询表单HTTPS链接（上线前确认）, type: string }
+      - { name: launchConfirmed, label: 已向用户确认表单和五项官网链接及联系信息, type: boolean, default: false }
+      - { name: checkedAt, label: 信息核对日期, type: string }
+      - name: services
+        label: 服务项目
+        type: object
+        list: true
+        fields:
+          - { name: id, label: 英文标识（保留已有值以兼容工具入口）, type: string, required: true }
+          - { name: title, label: 服务名称, type: string, required: true }
+          - { name: scenario, label: 适用场景, type: string, required: true }
+          - { name: description, label: 服务介绍, type: text, required: true }
+          - { name: tags, label: 服务标签, type: string, list: true }
+          - { name: source, label: 官网介绍HTTPS链接（上线前确认）, type: string }
+      - { name: body, label: 页尾说明, type: rich-text }
+      - { name: seoTitle, label: SEO标题, type: string }
+      - { name: seoDescription, label: SEO描述, type: text }
+
+  - name: friend-links
+    label: 页尾友情链接
+    type: file
+    path: content/friend-links.md
+    format: yaml-frontmatter
+    fields:
+      - name: links
+        label: 友情链接
+        type: object
+        list: true
+        fields:
+          - { name: name, label: 网站名称, type: string, required: true }
+          - { name: url, label: HTTPS网址, type: string, required: true }

@@ -1,0 +1,4762 @@
+[
+  {
+    "id": "candidate-info",
+    "title": "面试资料填写表",
+    "references": [
+      {
+        "title": "面试表格模板-招聘登记评分word和excel版免费下载（共15款精选模板） - 趣帮office教程网",
+        "url": "https://www.quoffice.com/39393.html"
+      },
+      {
+        "title": "面试表Word模板_面试表Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/mianshibiao.html"
+      },
+      {
+        "title": "面试记录表模版 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-33652"
+      },
+      {
+        "title": "免费面试表单模板下载与在线填写 | PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/tag/interview-zh"
+      },
+      {
+        "title": "应聘登记表 / 入职登记表 / 离职证明 Word 模板免费下载（可打印） | 棱镜简历",
+        "url": "https://prismresume.cn/templates/free-download/hr"
+      },
+      {
+        "title": "应聘人员登记表(通用版)Word模板下载_编号lxwmenky_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lxwmenky.html"
+      },
+      {
+        "title": "面试表格模板下载-excel表格制作面试-我拉网",
+        "url": "https://www.55.la/excel/so_ms/list_c_1.html"
+      },
+      {
+        "title": "面试表免费下载_懒人办公",
+        "url": "https://www.lanren.work/word/106474.html"
+      },
+      {
+        "title": "面试表格怎么填写，应聘登记表怎么填写才规范？- 企拓网",
+        "url": "https://www.qituowang.com/portal/159157.html"
+      },
+      {
+        "title": "应聘人员登记表模板 | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/applicant-registration-form"
+      },
+      {
+        "title": "面试记录表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/mianshijilubiao.html"
+      },
+      {
+        "title": "个人简历表格免费下载（Word 电子版）带照片位可打印 | 棱镜简历",
+        "url": "https://prismresume.cn/templates/free-download/table"
+      },
+      {
+        "title": "<tr>",
+        "url": "https://zwxajh.com/lcggzy_nas/de5ea09d-e4de-447c-9f3e-b1b703facc0c/0b735367-9256-4cd9-90c8-207f621d4c77/%E8%81%8A%E8%B4%A2%E9%87%87%E3%80%942022%E3%80%9524%E5%8F%B7-%E8%81%8A%E5%9F%8E%E5%B8%82%E8%B4%A2%E6%94%BF%E5%B1%80%E5%85%B3%E4%BA%8E%E8%BD%AC%E5%8F%91%E3%80%8A%E5%B1%B1%E4%B8%9C%E7%9C%81%E6%94%BF%E5%BA%9C%E9%87%87%E8%B4%AD%E8%AF%84%E5%AE%A1%E4%B8%93%E5%AE%B6%E7%AE%A1%E7%90%86%E5%AE%9E%E6%96%BD%E5%8A%9E%E6%B3%95%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A5.pdf"
+      },
+      {
+        "title": "面试所需资料——个人资料",
+        "url": "https://www.aavisa.com/upload/file/20221220100929703%E7%BE%8E%E5%9B%BD%E6%97%85%E6%B8%B8.pdf"
+      },
+      {
+        "title": "页面上方是“简历填写表”的",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220302/5518814a-33fc-4157-afad-34f259699592/2203020843002767.pdf"
+      },
+      {
+        "title": "某某公司人力手册",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/a97782e665e29ce6dfd9e1da70681c3e.pdf"
+      },
+      {
+        "title": "（1）依据背景资料，结合模特实际情况，考生进行现场咨询，完整地填写符合企业行政岗位面试职业女性的形象设计咨询表。",
+        "url": "https://www.shmfmr.net/uploads/xingxiangsheji/%E5%BD%A2%E8%B1%A1%E8%AE%BE%E8%AE%A1%E5%B8%88-5%E7%BA%A7-%E6%8C%87%E5%AF%BC%E6%89%8B%E5%86%8C.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "hiring-request",
+    "title": "招聘需求申请表",
+    "references": [
+      {
+        "title": "Position Requisition Form | PDF",
+        "url": "https://www.scribd.com/document/561214013/Position-Requisition-Form"
+      },
+      {
+        "title": "招聘需求申请表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-12802/"
+      },
+      {
+        "title": "表单：招聘需求申请表 (模板九） | PDF",
+        "url": "https://www.scribd.com/document/798129814/%E8%A1%A8%E5%8D%95-%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E7%94%B3%E8%AF%B7%E8%A1%A8-%E6%A8%A1%E6%9D%BF%E4%B9%9D"
+      },
+      {
+        "title": "招聘岗位需求申请表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/vnbevndz.html"
+      },
+      {
+        "title": "部门人员招聘需求申请表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebadoor.html"
+      },
+      {
+        "title": "2026年度招聘需求申请表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b514e9cf9e6c826b3d03/"
+      },
+      {
+        "title": "表单：招聘需求申请表 (模板二） | PDF",
+        "url": "https://www.scribd.com/document/798129805/%E8%A1%A8%E5%8D%95-%E6%8B%9B%E8%81%98%E9%9C%80%E6%B1%82%E7%94%B3%E8%AF%B7%E8%A1%A8-%E6%A8%A1%E6%9D%BF%E4%BA%8C"
+      },
+      {
+        "title": "单击此处添加您的标题文字",
+        "url": "https://chinajob.mohrss.gov.cn/upload/resources/file/2020/03/23/80744.pdf"
+      },
+      {
+        "title": "招聘申请表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5067.html"
+      },
+      {
+        "title": "招聘需求申请表 (9).docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0130/8002075044010042.shtm"
+      },
+      {
+        "title": "Google 表单招聘申请表模板",
+        "url": "https://www.formmaker.us/zh/blog/google-forms-job-application-template.html"
+      },
+      {
+        "title": "2026年度招聘需求登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b4ebe9cf9e6c826b3c26/"
+      },
+      {
+        "title": "招聘需求表(新)_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/fcacf0fab9524ce6f3e21988"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】1.支持建设一批中药材生产基地，打造一批中药材良种繁育基地，培育一",
+        "url": "https://zwfwj.dazhou.gov.cn/uploadfile/50/Attachment/1b526acfb3.pdf"
+      },
+      {
+        "title": "1 | 沟通的内容 外部招聘的必要性和原因 | 原因",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200115/%E6%8B%9B%E8%81%98%E9%83%A8%E9%97%A8%E5%B8%AE%E5%8A%A9%E7%94%A8%E4%BA%BA%E9%83%A8%E9%97%A8%E5%8E%98%E6%B8%85%E7%94%A8%E4%BA%BA%E9%9C%80%E6%B1%82%E8%A1%A8.pdf"
+      },
+      {
+        "title": "附件：企业招聘需求调研表",
+        "url": "https://fao.zibo.gov.cn/module/download/downfile.jsp?classid=0&filename=fe11f82499b6439984baef5cfe7c33e5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "job-profile",
+    "title": "岗位说明书填写表",
+    "references": [
+      {
+        "title": "<td>岗位名称</td",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225401895.PDF"
+      },
+      {
+        "title": "岗位说明书表格范本 - e商务",
+        "url": "https://bodocs.net/doc/3c7938836.html"
+      },
+      {
+        "title": "岗位说明书填写说明Word模板下载_编号lnrxjpod_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lnrxjpod.html"
+      },
+      {
+        "title": "岗位说明书模版和填写说明Word模板下载_编号qgmjxepx_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qgmjxepx.html"
+      },
+      {
+        "title": "岗位说明书表格 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13562/"
+      },
+      {
+        "title": "关于编制岗位说明书的通知",
+        "url": "https://xxgk.hbue.edu.cn/49/75/c1888a149877/page.htm"
+      },
+      {
+        "title": "02年杜范本稿",
+        "url": "https://sbgysfw.sysc.tsinghua.edu.cn/tsinghua.war/tsinghua.api/file/b607986951804c368041fe3cd09849cd"
+      },
+      {
+        "title": "岗位说明书_历史项目_免费模板_问卷网",
+        "url": "https://www.wenjuan.com/j/MBvQbm/"
+      },
+      {
+        "title": "招聘岗位说明表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qyjdpzwg.html"
+      },
+      {
+        "title": "岗位说明书表格 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-12712/"
+      },
+      {
+        "title": "岗位说明书模板和样本_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/d1d321daf40c7c3c07cb71a9"
+      },
+      {
+        "title": "2026年岗位说明书备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b116e9cf9e6c826b254e/"
+      },
+      {
+        "title": "岗位说明书模板.xlsx_搜弘文库",
+        "url": "https://wenku.chochina.com/doc/121988.html"
+      },
+      {
+        "title": "岗位说明书-Word模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/word/detail/502973.html"
+      },
+      {
+        "title": "的编写，并形成汇编。完整的职位说明书包含了职位基本信息、工作职责及任职资格三大部分内容（图4-10）。",
+        "url": "https://file.m12333.cn/upfile/download/0ab4236d-ce59-0de8-1b52-d8d99a72ec94.pdf"
+      },
+      {
+        "title": "Microsoft Word - WQ-1FM.doc",
+        "url": "https://wqxuetang.oss-cn-beijing.aliyuncs.com/upload/source/2a/2afad9f232be9971babd056dce1c7c87"
+      },
+      {
+        "title": "2. 岗位编码，填写",
+        "url": "https://www.imac.edu.cn/u/cms/www.xxgk/202510/30112756vsfp.pdf"
+      },
+      {
+        "title": "--- | --- |",
+        "url": "https://handbook.sansi.io/appendix_a_about/%E5%B2%97%E4%BD%8D%E8%AF%B4%E6%98%8E%E4%B9%A6_%E8%BD%AF%E4%BB%B6%E7%A0%94%E7%A9%B6%E6%89%80_%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88.pdf"
+      },
+      {
+        "title": "职位说明书",
+        "url": "https://zh.wikipedia.org/wiki/%E8%81%8C%E4%BD%8D%E8%AF%B4%E6%98%8E%E4%B9%A6"
+      }
+    ]
+  },
+  {
+    "id": "interview-score",
+    "title": "面试评价记录表",
+    "references": [
+      {
+        "title": "面试记录表模版 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-33652"
+      },
+      {
+        "title": "评价表Word模板文档下载_图客巴巴",
+        "url": "https://www.tuke88.com/soword/pingjiabiao.html"
+      },
+      {
+        "title": "面试评价记录表WORD模板下载_v9lw24w73a_图客巴巴",
+        "url": "https://www.tuke88.com/sucai/v9lw24w73a.html"
+      },
+      {
+        "title": "面试评价记录表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-12764/"
+      },
+      {
+        "title": "面试评价表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4861.html"
+      },
+      {
+        "title": "面试评估表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/mianshipinggubiao.html"
+      },
+      {
+        "title": "面试评价表Word模板_面试评价表Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/mianshipingjiabiao.html"
+      },
+      {
+        "title": "面试评价表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lmnomvym.html"
+      },
+      {
+        "title": "教学评估表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/jiaoxuepinggubiao.html"
+      },
+      {
+        "title": "面试评估表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/mianshipinggubiao.html"
+      },
+      {
+        "title": "招聘面试Excel模板_在线下载_蓝山办公",
+        "url": "https://www.office.cn/excel/13978245.html"
+      },
+      {
+        "title": "人事招聘面试面谈记录表excelWord模板下载_编号zbbwrpox_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zbbwrpox.html"
+      },
+      {
+        "title": "一、评价",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/41270647e80ddb177bc1749e23448e3e.pdf"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "010 企业招聘面试评价表",
+        "url": "https://lawyeah-lawdata.oss-cn-beijing.aliyuncs.com/law_books/8379276c539352ef2c6ec9156ce6b45d.978-7-5118-2750-0.pdf"
+      },
+      {
+        "title": "某某公司人力手册",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/a97782e665e29ce6dfd9e1da70681c3e.pdf"
+      },
+      {
+        "title": "主考官：__________  监督员：________",
+        "url": "https://rsc.jxutcm.edu.cn/__local/2/9E/E8/D3CE709AB737EEBCD3C8C159ACF_B682CBA0_7863B.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "interview-schedule",
+    "title": "面试安排表",
+    "references": [
+      {
+        "title": "面接日程調整表のExcelテンプレート（無料）｜採用板",
+        "url": "https://saiyo.tenkenban.com/template/mensetsu-nittei-chosei/?from=mensetsu-kotsuhi"
+      },
+      {
+        "title": "Interview Schedule Template: 6 Free Templates | FirstHR",
+        "url": "https://firsthr.app/templates/hiring/interview-schedule-template"
+      },
+      {
+        "title": "面接予定表テンプレート | Excelフリーソフト館 - 無料ダウンロード",
+        "url": "https://templateexcel.com/blog-entry-3028.html"
+      },
+      {
+        "title": "人力工作面试计划表模版 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-23612"
+      },
+      {
+        "title": "面试安排表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/mianshianpaibiao.html"
+      },
+      {
+        "title": "外教招聘与求职工具 – Z Teachers 找外教",
+        "url": "https://zteachers.com/index.php/tools/"
+      },
+      {
+        "title": "企业招聘面试候选人名单与进度跟踪表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/interview-candidate-tracker-excel/"
+      },
+      {
+        "title": "面试安排表_历史项目_免费模板_问卷网",
+        "url": "https://www.wenjuan.com/slp/quymymq/"
+      },
+      {
+        "title": "面试日程统筹看板 · Codex 上手指南",
+        "url": "https://codex.ifq.ai/zh/cases/hr-interview-schedule-board"
+      },
+      {
+        "title": "面试表Word模板_面试表Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/mianshibiao.html"
+      },
+      {
+        "title": "面试预约",
+        "url": "https://www.sheetize.app/zh-hant/templates/calendars/interview-appointment/"
+      },
+      {
+        "title": "excel怎么做面试表 | PingCode智库",
+        "url": "https://docs.pingcode.com/baike/4212642"
+      },
+      {
+        "title": "<th",
+        "url": "https://www.swfu.edu.cn/__local/9/72/D2/7E38A995D86A0D93588D8531829_1430444D_13F2A.pdf?e=.pdf"
+      }
+    ]
+  },
+  {
+    "id": "candidate-tracker",
+    "title": "候选人跟进台账",
+    "references": [
+      {
+        "title": "销售跟进记录与客户推进管理模板｜免费下载与使用示例 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/sales-operations/customer-contact-log/"
+      },
+      {
+        "title": "含示例数据的申请人跟踪表格模板",
+        "url": "https://www.jodoo.com/zh-cn/ai/%E7%94%B3%E8%AF%B7%E4%BA%BA%E8%B7%9F%E8%B8%AA%E8%A1%A8%E6%A0%BC%E6%A8%A1%E6%9D%BF"
+      },
+      {
+        "title": "招聘跟进表：免费模板与招聘流程管理指南",
+        "url": "https://lessie.cn/blog/recruitment-tracker"
+      },
+      {
+        "title": "客户跟进Excel模板下载_客户跟进Excel模板表格免费下载_熊猫办公",
+        "url": "https://www.tukuppt.com/speciall/kehugenjin.html"
+      },
+      {
+        "title": "企业招聘面试候选人名单与进度跟踪表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/interview-candidate-tracker-excel/"
+      },
+      {
+        "title": "销售提案跟进管理模板｜免费下载与使用示例 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/sales-operations/proposal-follow-up/"
+      },
+      {
+        "title": "客户跟进表怎么做：跟进记录联动，谁该回访自动排出来 — 超级表 TableDI",
+        "url": "https://www.tabledi.com.cn/solutions/customer-followup/"
+      },
+      {
+        "title": "招募追蹤表：免費範本與完整招聘流程管理指南",
+        "url": "https://lessie.cn/zh-tw/blog/recruitment-tracker"
+      },
+      {
+        "title": "招聘候选人跟踪器模板 | 实时状态、负责人和提醒",
+        "url": "https://www.jodoo.com/zh-cn/ai/recruitment-candidate-tracker"
+      },
+      {
+        "title": "含示例資料的應徵者追蹤表格模板",
+        "url": "https://www.jodoo.com/zh-tw/ai/%E6%87%89%E5%BE%B5%E8%80%85%E8%BF%BD%E8%B9%A4%E8%A9%A6%E7%AE%97%E8%A1%A8%E7%AF%84%E6%9C%AC"
+      },
+      {
+        "title": "無料の応募者追跡スプレッドシートテンプレート | Smartsheet",
+        "url": "https://jp.smartsheet.com/content/applicant-tracking-templates"
+      },
+      {
+        "title": "客户开发跟进表素材_客户开发跟进表图片_客户开发跟进表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/kehukaifagenjinbiao.html"
+      },
+      {
+        "title": "CN 114911557 A",
+        "url": "https://patentimages.storage.googleapis.com/05/a7/78/3fe294f5ff0045/CN114911557A.pdf"
+      },
+      {
+        "title": "【NTKO Office文档控件缺省模板】",
+        "url": "https://www.gdep.edu.cn/__local/F/3A/21/F20DBC9285E499CD51A426921CB_62205C72_4FB96.pdf"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.qast.org.cn/cms_files/filemanager/641833458/attach/202412/1FE158AC09B5FB2A6DDEFBD7A60EA83D.pdf"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "《迪拜 CMA 第五类牌照（Category 5 – 资本市场授权投资顾问许可",
+        "url": "https://www.jrp-hk.com/uploads/soft/20260226/1772118243.pdf"
+      },
+      {
+        "title": "PowerPoint Presentation",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200110/%E6%8B%9B%E8%81%98%E8%BF%90%E8%90%A5%E4%B8%AD%E5%BF%83%E5%BB%BA%E8%AE%BE%20---%E7%9B%B4%E9%94%80%E4%BD%93%E7%B3%BBHR.pdf"
+      }
+    ]
+  },
+  {
+    "id": "offer-checklist",
+    "title": "录用条件核对表",
+    "references": [
+      {
+        "title": "新员工录用条件确认表〖excel模板下载〗-包图网",
+        "url": "https://m.ibaotu.com/sucai/19626736.html"
+      },
+      {
+        "title": "录用条件确认书(附件2)Word模板下载_编号qvbjdgab_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qvbjdgab.html"
+      },
+      {
+        "title": "录用条件确认书(附件2)Word模板下载_编号qdorpbrn_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qdorpbrn.html"
+      },
+      {
+        "title": "Offer Letter 模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/offer-letter-moban"
+      },
+      {
+        "title": "试用期录用条件确认书范文Word模板下载_编号qojmerax_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qojmerax.html"
+      },
+      {
+        "title": "员工入职录用条件确认函Word模板下载_编号qddybgjz_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qddybgjz.html"
+      },
+      {
+        "title": "2026年录用通知收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b5d8e9cf9e6c826b4284"
+      },
+      {
+        "title": "员工入职录用条件确认函Word模板下载_编号qpzkxzar_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qpzkxzar.html"
+      },
+      {
+        "title": "乙方：　　　　　　　　　身份",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "录用条件Word模板_录用条件Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/luyongtiaojian.html"
+      },
+      {
+        "title": "人员试用申请及核定表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-9309/"
+      },
+      {
+        "title": "试用期录用条件确认函Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/shiyongqiluyongtiaojianquerenhan.html"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.cdkfq.gov.cn/uploadnew/202310/25/202310251051171998.pdf"
+      },
+      {
+        "title": "HR 模板中心 - 人事圈",
+        "url": "https://renshiquan.com/templates/"
+      },
+      {
+        "title": "下载模板后，请勿改变模板格式，按照样例填写相应内容，信息务必准确。表格内容不得有空，",
+        "url": "https://www.jiangmen.gov.cn/attachment/0/335/335569/3279189.pdf"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "附件                                              样表",
+        "url": "https://www.gxufe.edu.cn/wwwservice/download?client=pc&fileid=a6dade47-860e-4789-941e-d36ed083f188.docx&open=true"
+      },
+      {
+        "title": "《分析化学》投稿简则（2021 版）",
+        "url": "https://www.scicloudcenter.com/CJAC/fileNotLogin/view/1380444275661213696"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "channel-review",
+    "title": "招聘渠道效果登记表",
+    "references": [
+      {
+        "title": "招聘渠道登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5d9cbe9cf9e6c8266a3bb"
+      },
+      {
+        "title": "招聘渠道登记表-调查问卷模板-问卷网",
+        "url": "https://tencent.wenjuan.com/m/lib_detail/69c5d9cbe9cf9e6c8266a3bb/"
+      },
+      {
+        "title": "招聘渠道效果报表如何自动生成？HR一键闭环 - 实在智能",
+        "url": "https://www.ai-indeed.com/encyclopedia/19417.html"
+      },
+      {
+        "title": "招聘渠道效果评估与优化收集表_倍市得",
+        "url": "https://bestcem.com/lib/all_all/69c4b5dee9cf9e6c826054d9"
+      },
+      {
+        "title": "招聘来源收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5d9c1e9cf9e6c8266a334/"
+      },
+      {
+        "title": "2026年招聘渠道效果评估与需求收集表_倍市得",
+        "url": "https://bestcem.com/lib/all_all/69c6b520e9cf9e6c826b3dbe"
+      },
+      {
+        "title": "招聘渠道数据分析表：优化招聘，提升效率，降低成本",
+        "url": "https://www.jiushuyun.com/blog/rs/40544.html"
+      },
+      {
+        "title": "单击此处添加您的标题文字",
+        "url": "https://chinajob.mohrss.gov.cn/upload/resources/file/2020/03/23/80744.pdf"
+      },
+      {
+        "title": "招聘渠道评估表word模板_〖Word文档模板下载〗_办公资源网",
+        "url": "https://www.bangongziyuan.com/word/detail-29239.html?ops_request_misc=4317136d14e51ecd3c0536b06aa3f162&request_id=53cbf3c387326f93aec424ca96de9448"
+      },
+      {
+        "title": "搭建说明 - 简道云 - 解决方案",
+        "url": "https://hc.jiandaoyun.com/solution/16498"
+      },
+      {
+        "title": "招聘渠道填写指南：如何精准选择招聘渠道？ • i人事",
+        "url": "https://blog.ihr360.com/p/17267/"
+      },
+      {
+        "title": "招聘渠道分析表EXCEL-HR人力资源管理案例网",
+        "url": "https://www.hrsee.com/?id=2008"
+      },
+      {
+        "title": "招聘渠道效果分析Excel-HR人力资源管理案例网",
+        "url": "https://www.hrsee.com/?id=2463"
+      },
+      {
+        "title": "附件2：预算主管部门公开样张",
+        "url": "https://www.shqp.gov.cn/jinz/jinz/upload/202210/1021_102743_916.pdf"
+      },
+      {
+        "title": "分类号：                                             密    级：",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=14e99ddb4d31b0ade6d1dd1dda72f06c&objid=56_57_55_57_49"
+      },
+      {
+        "title": "为某咨询公司开发人才管理产品",
+        "url": "https://download.wanwang.xin/contents/sitefiles2067/10338254/files/888199..pdf?auth_key=1772590920-e392307b80b2460f9b0214b182653767-0-018b3b906fb3ff4708edc5efe8a1e24f&response-content-disposition=inline%3Bfilename%3D%25e6%259b%25b4%25e9%25ab%2598%25e6%25b0%25b4%25e5%2587%2586%25e7%259a%2584%25e6%2599%25ba%25e8%2583%25bd%25e4%25ba%25a7%25e5%2593%2581%25e5%25bc%2580%25e5%258f%2591-TsingtaoAI.pdf"
+      },
+      {
+        "title": "分类号：                                             密    级：公开",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=abed69a5546d708a51fda58dc33c7d58&objid=55_55_51_57_50"
+      }
+    ]
+  },
+  {
+    "id": "onboarding-checklist",
+    "title": "新员工入职办理清单",
+    "references": [
+      {
+        "title": "免费新员工入职清单模板｜HR入职流程表｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/new-employee-onboarding-checklist-template"
+      },
+      {
+        "title": "员工入职手续Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/yuangongruzhishouxu.html"
+      },
+      {
+        "title": "员工入职清单 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/employee-onboarding-checklist-doc"
+      },
+      {
+        "title": "(完整版)新员工入职手续清单Word模板下载_编号qynyawow_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qynyawow.html"
+      },
+      {
+        "title": "新员工入职清单模板 | 入职任务与就绪状态",
+        "url": "https://www.jodoo.com/zh-cn/ai/new-hire-checklist"
+      },
+      {
+        "title": "免费员工入职清单模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/employee-onboarding-checklist-form-template"
+      },
+      {
+        "title": "新员工入职清单 | DataScope Forms",
+        "url": "https://datascope.io/library/zh-CN/template/%E6%96%B0%E5%91%98%E5%B7%A5%E5%85%A5%E8%81%8C%E6%B8%85%E5%8D%95ecdb6?id=134055&share_id=f34111ea54c8ad04b2137b6fffcc7c2f"
+      },
+      {
+        "title": "入职清单模板 | Slack",
+        "url": "https://slack.com/intl/zh-my/templates/new-hire-onboarding"
+      },
+      {
+        "title": "006新员工入职清单_word文档在线阅读与下载_免费文档",
+        "url": "https://www.mianfeiwendang.com/doc/353de519a62093156a28644e"
+      },
+      {
+        "title": "新员工入职材料清单Word模板下载_编号qrgyzemj_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qrgyzemj.html"
+      },
+      {
+        "title": "新员工入职准备检查清单模板｜权限、设备与任务",
+        "url": "https://www.jodoo.com/zh-cn/ai/new-employee-setup-checklist"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "新员工入职流程",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/8d65131237050e953d4e079db338064c.pdf"
+      },
+      {
+        "title": "新员工入职流程",
+        "url": "https://www.starhr.com.cn/learn/data/upload/20210923/8d65131237050e953d4e079db338064c.pdf"
+      },
+      {
+        "title": "  - 售后",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/appv2/attachment/8EF/2CA/A20/00000000008EF2CAA20.20240926022559.50463781603668322554673278727073.pdf"
+      }
+    ]
+  },
+  {
+    "id": "employee-register",
+    "title": "员工基本信息登记表",
+    "references": [
+      {
+        "title": "员工基本信息登记表Word模板下载_编号qwmzbwbn_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qwmzbwbn.html"
+      },
+      {
+        "title": "员工基本信息表excel模板 - 登记表模板 - Excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/2011001.html"
+      },
+      {
+        "title": "入职员工基本信息表自动可视化Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/grgxzxaw.html"
+      },
+      {
+        "title": "人员信息登记表(基本信息)Word模板下载_编号qepwdjzw_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qepwdjzw.html"
+      },
+      {
+        "title": "员工基础信息登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5d278e9cf9e6c82667cca/"
+      },
+      {
+        "title": "员工信息登记表模板_员工信息登记表模板范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10010459.htm"
+      },
+      {
+        "title": "员工信息登记表范本Word模板下载_编号qepwvxom_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qepwvxom.html"
+      },
+      {
+        "title": "员工信息Excel模板下载_员工信息Excel模板表格免费下载_熊猫办公",
+        "url": "https://www.tukuppt.com/speciall/yuangongxinxi.html"
+      },
+      {
+        "title": "信息登记表素材_信息登记表模板_信息登记表设计图片免费下载-众图网",
+        "url": "https://www.ztupic.com/tupian/xinxidengjibiao/0-0-1-75-1.html"
+      },
+      {
+        "title": "员工基本信息登记表标准模板合集-百度文库",
+        "url": "https://wenku.baidu.com/aggs/e39d73bfc77da26925c5b05f.html"
+      },
+      {
+        "title": "员工信息登记表（含紧急联系人）范本 | 法之易",
+        "url": "https://www.fazhiyi.com/5427/"
+      },
+      {
+        "title": "登记表Excel模板_登记表Excel表格_免费下载_Work办公",
+        "url": "https://www.workbangong.com/xlssearch/dengjibiao.html"
+      },
+      {
+        "title": "<t",
+        "url": "https://stcsm.sh.gov.cn/cmsres/8a/8a630c32743a425d9370eb77b835357f/654468cc4311070ee88f3cd3dcdf4976.pdf"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.shanghai.gov.cn/cmsres/fc/fc8fd13a64a64282814394b07b3f85c6/06773cac055c2159f52d32183723f2cb.pdf"
+      },
+      {
+        "title": "<tr><td>申报单位名称</td><td>",
+        "url": "https://stcsm.sh.gov.cn/cmsres/08/08d1507d44a54af7be65879ffd179abf/044be9ef3ceb395197acb91fa09cbb3a.pdf"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.cdkfq.gov.cn/uploadnew/202310/25/202310251051171998.pdf"
+      },
+      {
+        "title": "标题",
+        "url": "https://hrss.jl.gov.cn/shbx/ylbx/jgsydwylbx/201703/P020170327502775899842.pdf"
+      },
+      {
+        "title": "1、填写企业基本信息，点击保存。如下图所示：",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3164/site/attach/0/d36085926eeb48ac85ccf430011da943.pdf"
+      }
+    ]
+  },
+  {
+    "id": "document-receipt",
+    "title": "入职资料接收核对表",
+    "references": [
+      {
+        "title": "外籍员工入职资料清单",
+        "url": "https://www.vieter.com/tools/employee-onboarding.html"
+      },
+      {
+        "title": "档案移交(接收)登记表样Word模板下载_编号leoorrdb_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/leoorrdb.html"
+      },
+      {
+        "title": "新入职员工资料交接登记表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakpypvw.html"
+      },
+      {
+        "title": "新员工HR入职核对清单PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/new-employee-hr-onboarding-checklist"
+      },
+      {
+        "title": "档案移交表素材_档案移交表图片_档案移交表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/danganyijiaobiao.html"
+      },
+      {
+        "title": "HR 模板中心 - 人事圈",
+        "url": "https://renshiquan.com/templates/"
+      },
+      {
+        "title": "入职登记表模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/ruzhi-dengji-moban"
+      },
+      {
+        "title": "工作交接表模板：离职、调动通用交接表 -〖快客excel〗",
+        "url": "https://www.kkexcel.com/biaoge/renshi/81.html"
+      },
+      {
+        "title": "免费新员工入职清单模板｜HR入职流程表｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/new-employee-onboarding-checklist-template"
+      },
+      {
+        "title": "2026版版通用入职申请表与员工信息登记表标准全套模板适用场景解读与验收检查表全套模板.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0516/7124031125011112.shtm"
+      },
+      {
+        "title": "入职服务交付物清单：从资料到档案的交接说明 - 锐驰企业服务有限公司",
+        "url": "https://www.ruichicomp.com/article-009.html"
+      },
+      {
+        "title": "总  目  录",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/464fb3625718697e5913fcff196c96f0.pdf"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "https://dzht.hrss.hangzhou.gov.cn/",
+        "url": "https://dzht.hzrs.hangzhou.gov.cn/docs/_book/econtract/file/%E6%9D%AD%E5%B7%9E%E4%BA%BA%E7%A4%BE%E7%BD%91%E7%AD%BE%E7%94%B5%E5%AD%90%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E4%BC%81%E4%B8%9AHR%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C.pdf"
+      },
+      {
+        "title": "员工入职项目分享",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200110/%E5%91%98%E5%B7%A5%E5%85%A5%E8%81%8C%E9%A1%B9%E7%9B%AE%E5%88%86%E4%BA%AB.pdf"
+      }
+    ]
+  },
+  {
+    "id": "orientation-plan",
+    "title": "新员工融入计划表",
+    "references": [
+      {
+        "title": "试用期管理 - 人事圈",
+        "url": "https://renshiquan.com/zhaopin/shiyongqiguanli"
+      },
+      {
+        "title": "新员工融入计划表.doc_搜弘文库",
+        "url": "https://mwenku.chochina.com/doc/144778.html"
+      },
+      {
+        "title": "新员工带教计划表素材_新员工带教计划表图片_新员工带教计划表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/xinyuangongdaijiaojihuabiao.html"
+      },
+      {
+        "title": "Roche Template",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200110/%E4%B8%8E%E4%BC%81%E4%B8%9A%E6%88%98%E7%95%A5%E7%9B%B8%E7%BB%93%E5%90%88%E7%9A%84%E5%AD%A6%E4%B9%A0%E4%B8%8E%E5%8F%91%E5%B1%95%E4%BD%93%E7%B3%BB.pdf"
+      },
+      {
+        "title": "新人留存与关怀 - 人事圈",
+        "url": "https://renshiquan.com/zhaopin/xinrenliucun"
+      },
+      {
+        "title": "新员工入职 30 天培训与带教计划｜免费下载 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/service-operations/onboarding-30-day-plan/"
+      },
+      {
+        "title": "免费员工入职清单模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/employee-onboarding-checklist-form-template"
+      },
+      {
+        "title": "新员工的员工计划表怎么安排？员工培训计划一览",
+        "url": "https://www.canva.cn/learn/staff-schedule/"
+      },
+      {
+        "title": "入职新员工培训Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/ruzhixinyuangongpeixun.html"
+      },
+      {
+        "title": "90 天计划模板模板 | Confluence",
+        "url": "https://wac-cdn.atlassian.com/zh/software/confluence/templates/90-day-plan"
+      },
+      {
+        "title": "淡绿简约新员工入职培训计划表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/mvabdymg.html"
+      },
+      {
+        "title": "新员工入职培训计划模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/depdoabv.html"
+      },
+      {
+        "title": "新员工入职培训计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/yaxgegjw.html"
+      },
+      {
+        "title": "  - 售后",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/appv2/attachment/8EF/2CA/A20/00000000008EF2CAA20.20240926022559.50463781603668322554673278727073.pdf"
+      },
+      {
+        "title": "“小新甘”新员工融入计划：",
+        "url": "https://www.ganlee.com.cn/uploads/files/2024/1209/DmahPW04xrvWZnI3mZ1vZywPsxB00bT1ePz3dYxR.pdf"
+      },
+      {
+        "title": "新员工融入与入职管理研究报告",
+        "url": "https://www.hrecchina.org/UpLoadFile/20201231/%E6%96%B0%E5%91%98%E5%B7%A5%E8%9E%8D%E5%85%A5%E4%B8%8E%E5%85%A5%E8%81%8C%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.pdf"
+      },
+      {
+        "title": "新员工融入与入职管理研究报告",
+        "url": "https://www.hrecchina.org/UpLoadFile/20210223/%E6%96%B0%E5%91%98%E5%B7%A5%E8%9E%8D%E5%85%A5%E4%B8%8E%E5%85%A5%E8%81%8C%E7%AE%A1%E7%90%86%E7%A0%94%E7%A9%B6%E6%8A%A5%E5%91%8A.pdf"
+      }
+    ]
+  },
+  {
+    "id": "probation-goals",
+    "title": "试用期目标确认表",
+    "references": [
+      {
+        "title": "新入社員の目標設定シート｜記入例つき無料Excelテンプレート｜育成板",
+        "url": "https://ikusei.tenkenban.com/template/goal-shinjin/"
+      },
+      {
+        "title": "新员工试用期考核目标确认书_夸克文档",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/6B28D8A4B22898587C33E9C96DFA6DAD"
+      },
+      {
+        "title": "Probation Period Goals and Assessment Form | PDF",
+        "url": "https://www.scribd.com/document/899287989/%E8%AF%95%E7%94%A8%E6%9C%9F%E5%91%98%E5%B7%A5%E7%9B%AE%E6%A0%87%E4%BB%BB%E5%8A%A1%E4%B9%A6%E5%8F%8A%E8%80%83%E6%A0%B8%E8%A1%A8-26"
+      },
+      {
+        "title": "新员工试用期目标任务及培训计划跟踪表Word模板下载_编号rjvrwxdz_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rjvrwxdz.html"
+      },
+      {
+        "title": "试用期转正评估SOP资料包.docx - 人人文库",
+        "url": "https://www.renrendoc.com/paper/532030575.html"
+      },
+      {
+        "title": "员工转正评估与试用期管理SOP转正申请表评价表面谈记录表与风险控制模板.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0703/7166110013011130.shtm"
+      },
+      {
+        "title": "2026员工转正评估资料包.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0629/7103160023011126.shtm"
+      },
+      {
+        "title": "北京爱蔓达咨询顾问工作室",
+        "url": "https://eurus-site.oss-cn-beijing.aliyuncs.com/af9dd196-1fb1-4fac-83d9-fbc4f0693944.pdf"
+      },
+      {
+        "title": "如何进行试用期管理 | Moka用户中心",
+        "url": "https://mokapeople.dochelp.cn/d/1707289644633264129.html"
+      },
+      {
+        "title": "试用期员工跟踪考核表——员工篇 - 表单模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/612ca4de2bc3ca56175cbd90/"
+      },
+      {
+        "title": "制造业技术员90天绩效评估表 | PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/manufacturing-technician-90-day-performance-review"
+      },
+      {
+        "title": "员工试用期备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5d6a6e9cf9e6c826696a0"
+      },
+      {
+        "title": "新员工试用期跟踪综合评估表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/jpyekrmm.html"
+      },
+      {
+        "title": "人力资源管理制度",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/7b12dbe2eac42e602ba1e931e158c7b2.pdf"
+      },
+      {
+        "title": "【使用角色或对象】：人事部门指定人员。",
+        "url": "https://www.seeyon.com/Public/uploads/Resources/2024-07-02/668397a1b4339.pdf"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://www.dxh.gov.cn/ZWGK/bmxxgk/bwbjxxgk/qczj/zcwj/202505/P020250516591990813011.pdf"
+      },
+      {
+        "title": "HR-001",
+        "url": "https://www.star-hr.net/learn/data/upload/20210923/9d35a3e26e34e6a8a5812e177dd5c9d0.pdf"
+      }
+    ]
+  },
+  {
+    "id": "probation-review",
+    "title": "试用期跟进记录表",
+    "references": [
+      {
+        "title": "新员工试用期跟踪综合评估表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/jpyekrmm.html"
+      },
+      {
+        "title": "实习登记表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/shixidengjibiao.html"
+      },
+      {
+        "title": "试用期跟进表 - 云应用中心",
+        "url": "https://mall.seeyon.com/tp/portal/goods/index?id=1343"
+      },
+      {
+        "title": "公司新员工试用期跟踪考核评价表Word模板下载_编号labgeppb_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/labgeppb.html"
+      },
+      {
+        "title": "新员工试用期目标任务及培训计划跟踪表Word模板下载_编号rjvrwxdz_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rjvrwxdz.html"
+      },
+      {
+        "title": "试用期员工记录表模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/gbbdkuns.html"
+      },
+      {
+        "title": "公司新员工试用期跟踪考核表Word模板 (2)--3A办公资源网",
+        "url": "https://jiuyuantou.com/word/gongwen/23509.html"
+      },
+      {
+        "title": "人力资源管理制度",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/7b12dbe2eac42e602ba1e931e158c7b2.pdf"
+      },
+      {
+        "title": "试用期员工跟踪考核表——员工篇 - 表单模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/612ca4de2bc3ca56175cbd90/"
+      },
+      {
+        "title": "试用期管理 - 人事圈",
+        "url": "https://renshiquan.com/zhaopin/shiyongqiguanli"
+      },
+      {
+        "title": "入职新员工培训Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/ruzhixinyuangongpeixun.html"
+      },
+      {
+        "title": "2026员工入职转正离职全流程表格包_入职清单试用期跟踪交接权限关闭含样例.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0710/7162120134011131.shtm"
+      },
+      {
+        "title": "2025试用期员工转正面谈表",
+        "url": "https://www.biaogedaquan.com/zhuanti/404929.html"
+      },
+      {
+        "title": "人力资源管理制度",
+        "url": "https://chinastar1.com/learn/data/upload/20210923/7b12dbe2eac42e602ba1e931e158c7b2.pdf"
+      },
+      {
+        "title": "1",
+        "url": "https://jzcg.pbc.gov.cn/gpx-bid-file/ZZZZZZ/gpx-template/2025/8/12/2c96d1ad986566d901989d1190555489.pdf?accessCode=eb312f1f5a09e1d1b6ef8cd4008c8d08"
+      },
+      {
+        "title": "1",
+        "url": "https://jzcg.pbc.gov.cn/gpx-bid-file/ZZZZZZ/gpx-template/2025/2/19/2c96d1ad9426abd201951d753a587f02.pdf?accessCode=7b83cc33743426db34d099d57bb3ba9b"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "conversion-review",
+    "title": "转正评估记录表",
+    "references": [
+      {
+        "title": "员工转正评估表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/kbwgrwkd.html"
+      },
+      {
+        "title": "员工转正评估表excel模板 - 绩效考核模板 - Excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/2011171.html"
+      },
+      {
+        "title": "试用期员工评估表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/shiyongqiyuangongpinggubiao.html"
+      },
+      {
+        "title": "员工转正评估表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-10719/"
+      },
+      {
+        "title": "转正评估表Word模板_转正评估表Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/wordmuban/zhuanzhengpinggubiao.html"
+      },
+      {
+        "title": "灰色简约试用期员工考核转正评估表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebgjyan.html"
+      },
+      {
+        "title": "员工转正评估表excel模板_完美办公",
+        "url": "https://www.777ppt.com/detail?mat_id=2011171"
+      },
+      {
+        "title": "(完整版)新员工转正评估表Word模板下载_编号evpmwoyy_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/evpmwoyy.html"
+      },
+      {
+        "title": "试用期员工转正评估表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lvvmened.html"
+      },
+      {
+        "title": "员工考核评估表素材_员工考核评估表图片_员工考核评估表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/yuangongkaohepinggubiao.html"
+      },
+      {
+        "title": "员工评估表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/yuangongpinggu.html"
+      },
+      {
+        "title": "员工评估表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/yuangongpinggubiao.html"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "某某公司人力手册",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/a97782e665e29ce6dfd9e1da70681c3e.pdf"
+      },
+      {
+        "title": "<td",
+        "url": "https://www.xhtu.com.cn/ueditor/php/upload/file/20241109/1731103526558448.pdf"
+      },
+      {
+        "title": "温馨提示：本样表仅供参考，请依照实际情况填写！",
+        "url": "https://sfj.shenyang.gov.cn/zmhd/bgxz/202310/P020241015776963212732.pdf"
+      },
+      {
+        "title": "人力资源管理制度",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/7b12dbe2eac42e602ba1e931e158c7b2.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "mentor-log",
+    "title": "带教记录表",
+    "references": [
+      {
+        "title": "個別指導記録簿のExcelテンプレート（無料）｜育成板｜教育と資格の記録をExcelで",
+        "url": "https://ikusei.tenkenban.com/template/shido-kirokubo/"
+      },
+      {
+        "title": "新员工入职 30 天培训与带教计划｜免费下载 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/service-operations/onboarding-30-day-plan/"
+      },
+      {
+        "title": "教学计划记录表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/6055.html"
+      },
+      {
+        "title": "2025新人带教表（试行版） | PDF",
+        "url": "https://www.scribd.com/document/876147874/2025%E6%96%B0%E4%BA%BA%E5%B8%A6%E6%95%99%E8%A1%A8-%E8%AF%95%E8%A1%8C%E7%89%88"
+      },
+      {
+        "title": "教师文档模板库 · 21 份详版模板免费下载（教案/听评课/班主任/教研） - 学导航 Didakte",
+        "url": "https://www.didakte.com/templates/"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://www.yuexiu.gov.cn/attachment/7/7033/7033848/8003396.pdf"
+      },
+      {
+        "title": "学校学生辅导记录表格模板 - Excel模板免费下载_畅榴云Excel模板",
+        "url": "https://www.changliuyun.com/workspace/excel/maab8px3ZYUkbDVR00yZs0wmyz4"
+      },
+      {
+        "title": "告别手忙脚乱：小班老师必备的“听课记录表”Excel高效管理指南 | TrueSight",
+        "url": "https://tsight.io/articles/18069018"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://www.lw.gov.cn/gzlwwj/attachment/7/7943/7943091/10588583.pdf"
+      },
+      {
+        "title": "最新听课记录表_最新听课记录表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10023567.htm"
+      },
+      {
+        "title": "教学听课记录表EXCEL模板 - 包站长",
+        "url": "https://www.511doc.com/biaoge/447002.html"
+      },
+      {
+        "title": "授课和作业情况记录表模板 - 免费在线表单 - 金数据模板中心",
+        "url": "https://jinshuju.net/templates/F527DB"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.med66.com/upload/resources/file/2022/10/26/645709.pdf"
+      },
+      {
+        "title": "课堂听课记录excel模板 - 教学表模板 - Excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/2001966.html"
+      },
+      {
+        "title": "听课记录表_听课记录表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10012621.htm"
+      },
+      {
+        "title": "DB 64/T 1559",
+        "url": "https://mca.nx.gov.cn/zzb/zcfg_71749/201907/P020190711318075642434.pdf"
+      },
+      {
+        "title": "标准名称",
+        "url": "https://mca.nx.gov.cn/zwgk/zcfg/zcwj/201907/P020190711318075642434.pdf"
+      },
+      {
+        "title": "<td>姓名</",
+        "url": "https://cohd.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=07aa5394fb364ceabfd453e39f13b82e.pdf"
+      }
+    ]
+  },
+  {
+    "id": "attendance-check",
+    "title": "月度考勤核对表",
+    "references": [
+      {
+        "title": "考勤表 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/kaoqinbiao-moban-excel/"
+      },
+      {
+        "title": "考勤管理模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/attendance-management/"
+      },
+      {
+        "title": "蓝色简约员工月度考勤表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/jpybzdbx.html"
+      },
+      {
+        "title": "部门员工月度考勤表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/yazpvbkz.html"
+      },
+      {
+        "title": "办公模版下载工具-月度考勤统计表Excel模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/1691"
+      },
+      {
+        "title": "免费可编辑的考勤表模板 | Microsoft Excel",
+        "url": "https://excel.cloud.microsoft/create/zh-hans/attendance-sheet-templates/"
+      },
+      {
+        "title": "员工月度考勤统计表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/depppebd.html"
+      },
+      {
+        "title": "2026年月度考勤登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bd15e9cf9e6c826b6e8f/"
+      },
+      {
+        "title": "工地月度考勤表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rrxnbmdp.html"
+      },
+      {
+        "title": "员工月考勤表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5049.html"
+      },
+      {
+        "title": "员工月度上班考勤表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebrdopw.html"
+      },
+      {
+        "title": "月度考勤统计表免费下载_懒人办公",
+        "url": "https://www.lanren.work/excel/104889.html"
+      },
+      {
+        "title": "30.1 员工考勤记录表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "<td",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "功能入口：考勤管理-人员考勤月表输入工程名称、企业名称、班组名称（可以同时选",
+        "url": "https://llt.caihcloud.com/group1/M00/C9/B7/ChUbD2CwdoSAa4hrANQ39j-MuRA436.pdf"
+      },
+      {
+        "title": "<table",
+        "url": "https://file.m12333.cn/upfile/download/84c8595c-099d-183e-5332-ad0a4bdfeaef.pdf"
+      },
+      {
+        "title": "中华人民共和国",
+        "url": "https://www.dzggzy.cn/dzsggzy/4f5ffde5-30e7-43a7-ba02-1070284514fc/fdc9abd6-ae62-4aa8-9ebf-5838af9de9f8/%E6%8B%9B%E6%A0%87%E6%96%87%E4%BB%B6%E6%AD%A3%E6%96%87%E8%AE%BE%E5%A4%87.pdf"
+      },
+      {
+        "title": "2.33.4 新增（设置）检查表：点击【新增】按钮，配置检查表，用户可以选择新建空白检查表或根据模板新建。",
+        "url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150401/gpx-tender/2023/12/6/402881d28c3ed2dc018c3f31c77856f2.pdf?accessCode=a45de86493f716baeb848092d6472e6b"
+      }
+    ]
+  },
+  {
+    "id": "leave-request",
+    "title": "请假申请记录表",
+    "references": [
+      {
+        "title": "员工请假申请单(样表)_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/fbc90cba11bbe7887814e614"
+      },
+      {
+        "title": "请假申请表模板 | PTO 审批与工作交接安排",
+        "url": "https://www.jodoo.com/zh-cn/ai/time-off-request-form"
+      },
+      {
+        "title": "免费 员工请假追踪表 Excel 和 Google Sheets 电子表格模板 | FinancialAha!",
+        "url": "https://www.financialaha.com/zh/free-spreadsheet-templates/payroll-hr/employee-leave-tracker/"
+      },
+      {
+        "title": "请假申请管理模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/leave-request-management/"
+      },
+      {
+        "title": "请假申请表模板｜PTO 审批、工作覆盖与状态跟踪",
+        "url": "https://www.jodoo.com/zh-cn/ai/leave-request-form"
+      },
+      {
+        "title": "请假申请表模板 — 调查示例与表格",
+        "url": "https://www.limesurvey.org/zh/template/time-off-request-form-tpl"
+      },
+      {
+        "title": "请假申请二维码模板-草料二维码",
+        "url": "https://cli.im/template/detail/121463558"
+      },
+      {
+        "title": "免费请假审批表模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/leave-petition-form-template"
+      },
+      {
+        "title": "員工請假追蹤範本：免費、可編輯 XLSX | WPS AI",
+        "url": "https://www.wps.ai/zh-hk/resources/templates/spreadsheets/employee-leave-tracker/"
+      },
+      {
+        "title": "蓝色简约员工请假申请审批表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/grgdjenm.html"
+      },
+      {
+        "title": "请假申请表-表单模板-问卷网",
+        "url": "https://www.wenjuan.com/j/rmUrma/"
+      },
+      {
+        "title": "职工请假表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13384/"
+      },
+      {
+        "title": "30.3 假期申请表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "附件五《请（休）假审批表》",
+        "url": "https://lingshancishan.oss-cn-shanghai.aliyuncs.com/file/65d85b039ad5b36eb7d6cde744bfd59f20405e51d1c2d.pdf"
+      },
+      {
+        "title": "<td></td>",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3452/site/attach/0/39d8a3137cb14d02a3d003874ef06d31.pdf"
+      },
+      {
+        "title": "工伤假",
+        "url": "https://renshi.cswcxyedu.cn/__local/B/3E/28/49F75E6C4A77F5A16656EA1D036_88EFC767_15A0F.pdf"
+      },
+      {
+        "title": "<td>姓名</",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2647/site/attach/0/cc2755a1042b44c48f60b81a25e73e6b.pdf"
+      },
+      {
+        "title": "①先在【高级搜索】设置导",
+        "url": "https://qiqiaowbg.do1.com.cn/assets/word/handbook.pdf?v16.10="
+      }
+    ]
+  },
+  {
+    "id": "overtime-record",
+    "title": "加班申请与确认表",
+    "references": [
+      {
+        "title": "加班审批记录模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/overtime-approval-log/"
+      },
+      {
+        "title": "企业员工加班申请与工时记录表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/overtime-record-sheet-excel/"
+      },
+      {
+        "title": "加班申請審批範本｜免費下載與系統化範例 | Finite Field",
+        "url": "https://finitefield.org/zhtw/excel-templates/human-resources/overtime-approval-log/"
+      },
+      {
+        "title": "〖表單範例〗- 加班申請單 | 101EIP.net",
+        "url": "https://www.101eip.net/jp/%E3%80%90%E8%A1%A8%E5%96%AE%E7%AF%84%E4%BE%8B%E3%80%91-%E5%8A%A0%E7%8F%AD%E7%94%B3%E8%AB%8B%E5%96%AE/"
+      },
+      {
+        "title": "加班申请表模板 | 2026 | 可自定义 | HR 管理 | Jibble | 吉贝儿",
+        "url": "https://www.jibble.io/zh-hans/%E8%B5%84%E6%BA%90/%E5%8A%A0%E7%8F%AD%E7%94%B3%E8%AF%B7%E8%A1%A8%E6%A8%A1%E6%9D%BF"
+      },
+      {
+        "title": "加班确认表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5e096e9cf9e6c8266cc28/"
+      },
+      {
+        "title": "<tr><td>姓名</td>",
+        "url": "https://file.m12333.cn/upfile/download/84c8595c-099d-183e-5332-ad0a4bdfeaef.pdf"
+      },
+      {
+        "title": "HRBG016员工自愿加班申请确认表_word文档在线阅读与下载_免费文档",
+        "url": "https://www.mianfeiwendang.com/doc/552edf8ad5cc5d4974226010"
+      },
+      {
+        "title": "加班表格模板下载-excel表格制作加班-我拉网",
+        "url": "https://www.55.la/excel/so_jiaban/list_c_1.html"
+      },
+      {
+        "title": "Free Overtime Request Forms",
+        "url": "https://www.smartsheet.com/content/overtime-request-form-templates"
+      },
+      {
+        "title": "加班申請相關表單",
+        "url": "https://www.cjshs.tn.edu.tw/p/405-1000-6702%2Cc520.php?Lang=zh-tw"
+      },
+      {
+        "title": "加班表格模板下载-excel表格制作加班-我拉网",
+        "url": "https://www.55.la/excel/so_jiaban/list_n_1.html"
+      },
+      {
+        "title": "30.4 加班审批单（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "Form Lemburan | PDF",
+        "url": "https://www.scribd.com/document/1030529660/FORM-LEMBURAN-1-1"
+      },
+      {
+        "title": "国家统计局嘉善调查队文件",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3187/site/attach/0/7da551eb71a84d2fbfb8c053b32af4a8.pdf"
+      },
+      {
+        "title": "附件：　　　　　　　　　　　　　　　　　　　　　　　　　编号：JB____",
+        "url": "https://nit.buaa.edu.cn/__local/6/B7/01/D099E0482EA8AC6C0A19A2C4B39_E7D50680_1F3BC4.pdf"
+      },
+      {
+        "title": "Hong Kong ICAC",
+        "url": "https://cpas.icac.hk/UPloadImages/InfoFile/cate_43/2016/d6b8f78f-8674-4a63-9642-3540623ffa5f.pdf"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "timeoff-ledger",
+    "title": "调休登记台账",
+    "references": [
+      {
+        "title": "考勤表 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/kaoqinbiao-moban-excel/"
+      },
+      {
+        "title": "节假日排班表素材_节假日排班表图片_节假日排班表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/jiejiaripaibanbiao.html"
+      },
+      {
+        "title": "加班审批记录模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/overtime-approval-log/"
+      },
+      {
+        "title": "规章制度制定 - 人事圈",
+        "url": "https://renshiquan.com/laodong/guizhangzhidu"
+      },
+      {
+        "title": "考勤表怎么做：打卡记录汇总成月度考勤，加班调休自动统计 — 超级表 TableDI",
+        "url": "https://www.tabledi.com.cn/solutions/attendance/"
+      },
+      {
+        "title": "企业员工考勤、加班与调休一体化管理汇总表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/attendance-overtime-leave-balance/"
+      },
+      {
+        "title": "轮休表1_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/3fae178f75aaf9968ae184a7"
+      },
+      {
+        "title": "员工考勤加班调休汇总表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5013.html"
+      },
+      {
+        "title": "2025年排班表（通用版）-表格大全网",
+        "url": "https://www.biaogedaquan.com/doc/ab4411616948.html"
+      },
+      {
+        "title": "加班调休表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/jiabandiaoxiubiao.html"
+      },
+      {
+        "title": "2026年休假信息登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c68827e9cf9e6c826a6204"
+      },
+      {
+        "title": "30.3 假期申请表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "加班调休表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/jiabandiaoxiu.html"
+      },
+      {
+        "title": "某某公司人力手册",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/a97782e665e29ce6dfd9e1da70681c3e.pdf"
+      },
+      {
+        "title": "4.2.8.5 出差登记",
+        "url": "https://product-upload-picture.bj.bcebos.com/c4558999-b333-4e4b-9e82-a4efd526878e/e037af25-9bbb-4d57-93b1-56cd5dc19fb0/1/tutorial__9bb4cc1f-138d-4334-9d42-72a2c042399c.pdf"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://www.changzhi.gov.cn/xxgkml/zfxxgkml/szfgzbm/sczj/czsrmzf/tzgggs_3402/202601/P020260120381766804913.pdf"
+      }
+    ]
+  },
+  {
+    "id": "annual-leave",
+    "title": "年休假额度核对表",
+    "references": [
+      {
+        "title": "办公模版下载工具-员工年假核算表EXCEL模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/1279"
+      },
+      {
+        "title": "有給休暇管理表（管理簿）テンプレート 無料｜年5日取得アラート付きExcel 登録不要｜テンプレートフリー",
+        "url": "https://template-free.jp/rodo/yukyu-kanri/"
+      },
+      {
+        "title": "休暇管理表：Excelで作成、計算式は入力済み、2種類のフォーマット - 無料でダウンロードできるテンプレート",
+        "url": "https://www.usefulhp.com/business/kyuukakannrihyou.html"
+      },
+      {
+        "title": "有給休暇管理表の無料Excelテンプレート｜残日数と年5日の取得状況を自動で計算 | Bizroute",
+        "url": "https://exia.co.jp/bizroute/yukyu_templatehtml"
+      },
+      {
+        "title": "请假申请管理模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/leave-request-management/"
+      },
+      {
+        "title": "有給休暇取得表｜無料のExcelテンプレート・1枚で21名管理できる - 無料テンプレートのダウンロード",
+        "url": "https://www.usefulful.net/tplate/syanai124.htm"
+      },
+      {
+        "title": "休假申請管理範本｜免費下載與系統範例 | Finite Field",
+        "url": "https://finitefield.org/zhtw/excel-templates/human-resources/leave-request-management/"
+      },
+      {
+        "title": "企业HR员工年假天数与工龄自动换算查询表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/annual-leave-calculator/"
+      },
+      {
+        "title": "有給休暇管理表（個人用）・Excel〖見本付き〗｜bizocean（ビズオーシャン）",
+        "url": "https://www.bizocean.jp/doc/detail/554547/"
+      },
+      {
+        "title": "<td",
+        "url": "https://file.m12333.cn/upfile/download/84c8595c-099d-183e-5332-ad0a4bdfeaef.pdf"
+      },
+      {
+        "title": "「有給休暇管理表」のテンプレート（書式）無料ダウンロード｜ビジネスフォーマット（雛形）のテンプレートBANK",
+        "url": "https://www.templatebank.com/contents/paid-leave-record"
+      },
+      {
+        "title": "有給管理表：Excelで作成したテンプレート・雛形 - 無料でダウンロードできるフォーマット（テンプレート・雛形）",
+        "url": "https://www.free-format.com/business/yuukyuukannrihyou.html"
+      },
+      {
+        "title": "有給休暇の管理表（無料Excelテンプレート）｜付与日数と年5日の取得義務まで自動で出ます | 副業ポートフォリオ",
+        "url": "https://satoru-log.jp/2026/09/15/tool-053/"
+      },
+      {
+        "title": "Microsoft Word - 工作制度3.28OK.doc",
+        "url": "https://dangqun.jsxishan.gov.cn/jjw/uploadfiles/202009/25/2020092515395530045870.pdf"
+      },
+      {
+        "title": "30.3 假期申请表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "<tr><t",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "文档标题",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/appv2/attachment/D7F/09A/889/0000000000D7F09A889.20251120020533.dbcf09b506634b78a393d74bd18c21d0.pdf"
+      },
+      {
+        "title": "2023年度机关工作人员应休未休年休假报酬补贴备案表",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3557/site/attach/0/d7a69d15825747899e5ef1a9f52c8b7a.pdf"
+      }
+    ]
+  },
+  {
+    "id": "shift-roster",
+    "title": "员工排班表",
+    "references": [
+      {
+        "title": "排班表 Excel 模板 - 免費下載（內建 30 個公式） | 簡報雲PPT",
+        "url": "https://pptx.com.tw/spreadsheets/shift-schedule"
+      },
+      {
+        "title": "Excel 試算表模板 - 免費線上 Excel 範本 | 簡報雲PPT",
+        "url": "https://pptx.com.tw/spreadsheets"
+      },
+      {
+        "title": "公司员工排班表表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zanjmeba.html"
+      },
+      {
+        "title": "员工排班表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lzmrmewj.html"
+      },
+      {
+        "title": "〖排班表〗免費 Excel 範本下載，員工排班、輪班等主管模板",
+        "url": "https://www.techmarks.com/shift-schedule-template/"
+      },
+      {
+        "title": "員工排班表（版面 02） - 排班表與值班表 Excel 模板免費下載 | 簡報雲PPT",
+        "url": "https://pptx.com.tw/excel-library/shift-roster-02"
+      },
+      {
+        "title": "免费员工排班表模板 | 企业与门店排班 | 2026 | Jibble | 吉贝儿",
+        "url": "https://www.jibble.io/zh-hans/%E8%B5%84%E6%BA%90/%E5%91%98%E5%B7%A5%E6%8E%92%E7%8F%AD%E8%A1%A8%E6%A8%A1%E6%9D%BF"
+      },
+      {
+        "title": "排班表Excel模板下载_排班表Excel模板表格免费下载_熊猫办公",
+        "url": "https://www.tukuppt.com/speciall/paibanbiao.html"
+      },
+      {
+        "title": "公司员工排班表表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/kbpnyeon.html"
+      },
+      {
+        "title": "员工排班表自动统计Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/wwmrewpj.html"
+      },
+      {
+        "title": "月排班表 Excel 模板 - 免費下載（內建 140 個公式） | 簡報雲PPT",
+        "url": "https://pptx.com.tw/spreadsheets/monthly-shift-schedule"
+      },
+      {
+        "title": "员工排班表EXCEL模板下载_0aykpklgm9_图客巴巴",
+        "url": "https://www.tuke88.com/sucai/0aykpklgm9.html"
+      },
+      {
+        "title": "1、班次（1~12:正常考勤 32/空:节假日 33:出差 34:请",
+        "url": "https://download.hw99.com/hanwang/hwzy/Manual/HF36.pdf"
+      },
+      {
+        "title": "A Great Workforce, Gaia Works.",
+        "url": "https://assets.gaiaworks.cn/gaiaworks/uploads/2018/03/%E9%9B%B6%E5%94%AE%E4%B8%9A%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://shiyongwendangg.pek3b.qingstor.com/%E5%96%94%E8%B6%A3%E4%BA%BA%E4%BA%8B%E9%80%9A%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.pdf"
+      },
+      {
+        "title": "(19)中华人民共和国国家知识产权局",
+        "url": "https://patentimages.storage.googleapis.com/83/46/a2/0ee6e4f74bdac8/CN112258150A.pdf"
+      },
+      {
+        "title": "政府采购项目",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/zone/2025/1/12/project/gpx-template/8a69c5549a644c2c019bfe63109f7ed7.pdf?accessCode=428a1a22c45bc964fbe953960a2d5d1b"
+      },
+      {
+        "title": "哈密市公共资源交易服务中心",
+        "url": "https://qccdata.qichacha.com/tenderV2Attach/850179601cb4c530756d373452442b62.pdf"
+      },
+      {
+        "title": "【PartyLin】EXCEL VBA 會計福音-薪資單(動態)-自動列印|特休天數",
+        "url": "https://www.reddit.com/r/u_Partylin/comments/iye06w"
+      }
+    ]
+  },
+  {
+    "id": "attendance-correction",
+    "title": "考勤异常更正表",
+    "references": [
+      {
+        "title": "免费可编辑的考勤表模板 | Microsoft Excel",
+        "url": "https://excel.cloud.microsoft/create/zh-hans/attendance-sheet-templates/"
+      },
+      {
+        "title": "wps表格考勤表模板(公司考勤工资表模板格式样板范例范本) - 正数办公",
+        "url": "https://www.itzhengshu.com/wps/18484.html"
+      },
+      {
+        "title": "考勤表 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/kaoqinbiao-moban-excel/"
+      },
+      {
+        "title": "考勤管理模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/attendance-management/"
+      },
+      {
+        "title": "考勤异常公布记录Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/jpyyypbx.html"
+      },
+      {
+        "title": "员工考勤跟踪器模板 | 实时状态、负责人和提醒",
+        "url": "https://www.jodoo.com/zh-cn/ai/employee-attendance-tracker"
+      },
+      {
+        "title": "2026年考勤异常登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bc95e9cf9e6c826b6b45/"
+      },
+      {
+        "title": "考勤软件7.2",
+        "url": "https://download.hw99.com/hanwang/hwzy/Manual/AttendanceManagementSoftware.pdf"
+      },
+      {
+        "title": "考勤表模板excel格式免费下载（精选模板10款） - 趣帮office教程网",
+        "url": "https://www.quoffice.com/45778.html"
+      },
+      {
+        "title": "钉钉模板中心-异常考勤审批",
+        "url": "https://appcenter.dingtalk.com/template/detail.html?subTopicCode=test_002&templateId=24256&topicCode=topic_group_template_category"
+      },
+      {
+        "title": "在线办公工具 - 图片 PDF Excel · 工资证明可选",
+        "url": "https://wanggoubijia.cn/"
+      },
+      {
+        "title": "免费工时记录模板：工时表、政策与表单 | Clockspot",
+        "url": "https://www.clockspot.com/zh-hans/templates"
+      },
+      {
+        "title": "考勤异常处理单_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/1d506a0286bb006002af8797"
+      },
+      {
+        "title": "文档标题",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/appv2/attachment/D7F/09A/889/0000000000D7F09A889.20251120020533.dbcf09b506634b78a393d74bd18c21d0.pdf"
+      },
+      {
+        "title": "30.1 员工考勤记录表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "项目编号：2023CGSF056",
+        "url": "https://ggzyjyzx.tl.gov.cn/tlsggzy/ReadAttachFile.aspx?AttachID=5f6778f6-0267-4779-8e87-88ffd99a33f7"
+      },
+      {
+        "title": "<td",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "Hong Kong ICAC",
+        "url": "https://cpas.icac.hk/UPloadImages/InfoFile/cate_43/2016/d6b8f78f-8674-4a63-9642-3540623ffa5f.pdf"
+      }
+    ]
+  },
+  {
+    "id": "business-trip",
+    "title": "出差登记表",
+    "references": [
+      {
+        "title": "2026年出差申请登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bc5ee9cf9e6c826b69de/"
+      },
+      {
+        "title": "人员外出登记表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-10111/"
+      },
+      {
+        "title": "出差报告表表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/enxjkkdx.html"
+      },
+      {
+        "title": "30.2 出差申请表（样表）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/2dbe6ca29213d09e7d827806034e3e4a.pdf"
+      },
+      {
+        "title": "2026年出差记录登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bc67e9cf9e6c826b6aa2/"
+      },
+      {
+        "title": "第二部分　高效的行政事务支持",
+        "url": "https://res.qyxzfw.com/xingzhengmoban/mb0213_153939.pdf"
+      },
+      {
+        "title": "灰色出差登记表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-10544/"
+      },
+      {
+        "title": "出差记录登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4bc9be9cf9e6c82608251/"
+      },
+      {
+        "title": "出差申请登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4bcc0e9cf9e6c8260831c"
+      },
+      {
+        "title": "2026年出差天数登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c7c67be9cf9e6c8270c2c5/"
+      },
+      {
+        "title": "出差审批单表格模板合集-百度文库",
+        "url": "https://wenku.baidu.com/aggs/cbeda2a8d1f34693daef3e00.html"
+      },
+      {
+        "title": "因公出差报备表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakxjgox.html"
+      },
+      {
+        "title": "附件三：员工出差登记表.docx-原创力文档",
+        "url": "https://max.book118.com/html/2024/0321/8025057000006050.shtm"
+      },
+      {
+        "title": "行政院人事行政總處全球資訊網-DGPA--人事個案智慧共享整合平臺",
+        "url": "https://www.dgpa.gov.tw/acase/information?pid=10406&uid=559"
+      },
+      {
+        "title": "出差审批单（填写示例）",
+        "url": "https://www.tarp.edu.cn/jihuacaiwuchu/upload/files/2023/12/3643d91f93fabec0.pdf"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.ganzhou.gov.cn/zfxxgk/c116532/202310/69d860595fd74935b00af4c46d69f252/files/3a7b3995ab9b43e1988f75927e1fa41b.pdf"
+      },
+      {
+        "title": "- 1 -",
+        "url": "https://szj.chengde.gov.cn/attach/0/ab3facfeedb94643a67454efd6e75372.pdf"
+      },
+      {
+        "title": "<td>项",
+        "url": "https://cwc.ytu.edu.cn/__local/9/45/6D/DD9A0809794BE812B6FE891E96E_B19B573B_6A9ED.pdf"
+      }
+    ]
+  },
+  {
+    "id": "payroll-check",
+    "title": "工资核对表",
+    "references": [
+      {
+        "title": "工资表 Excel 模板免费下载（含公式和企业成本） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/gongzibiao-moban-excel/"
+      },
+      {
+        "title": "工资、个税、劳务费与用工成本计算器 - 小微算",
+        "url": "https://xiaoweisuan.cn/"
+      },
+      {
+        "title": "2026 年度工资表 Excel/WPS 模板（12个月累计个税） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/niandu-gongzibiao-excel-wps/"
+      },
+      {
+        "title": "在线办公工具 - 图片 PDF Excel · 工资证明可选",
+        "url": "https://wanggoubijia.cn/"
+      },
+      {
+        "title": "薪资确认表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5e7dee9cf9e6c8266fa05"
+      },
+      {
+        "title": "工资核算表素材_工资核算表图片_工资核算表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/gongzihesuanbiao.html"
+      },
+      {
+        "title": "2026年工资条备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bf58e9cf9e6c826b7a10/"
+      },
+      {
+        "title": "简约工资审核表excel模板 - 工资表模板 - Excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/2008925.html"
+      },
+      {
+        "title": "员工工资查询表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4982.html"
+      },
+      {
+        "title": "工资表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5125.html"
+      },
+      {
+        "title": "新进员工职级薪资核定表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebraadx.html"
+      },
+      {
+        "title": "某某公司人力手册",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/a97782e665e29ce6dfd9e1da70681c3e.pdf"
+      },
+      {
+        "title": "Excel工资表模板下载_2026年最好最简单的员工工资表格式范本大全",
+        "url": "https://gzt.mayihr.com/excelgongzibiaomoban/index/flg/2/page/10"
+      },
+      {
+        "title": "✧",
+        "url": "https://service.static.chanjet.com/wenku_img_cdn/img/04%E5%A5%BD%E4%BC%9A%E8%AE%A1%E6%97%97%E8%88%B0%E7%89%88%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C-%E4%B8%87%E5%AE%87%E9%9D%92%EF%BC%8811%E6%9C%88%E6%9B%B4%E6%96%B0%EF%BC%89.pdf"
+      },
+      {
+        "title": "(4) 检查工资表、年终奖金计算表，核对销售人员职工薪酬记录是否完整准确；",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420463.PDF"
+      },
+      {
+        "title": "中智管理咨询有限公司 PPT应用标准模板",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2588/site/attach/0/9307afc7f43e457e8a959a8b82bddb93.pdf"
+      }
+    ]
+  },
+  {
+    "id": "salary-change",
+    "title": "调薪申请记录表",
+    "references": [
+      {
+        "title": "调薪审批登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4bfdce9cf9e6c826094f9/"
+      },
+      {
+        "title": "调薪申请表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5c755e9cf9e6c8266491d/"
+      },
+      {
+        "title": "员工调薪表(模板)",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/0EC7DD53785CDA3357C70D2F5FC98B09"
+      },
+      {
+        "title": "调薪申请表_调薪申请表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10022809.htm"
+      },
+      {
+        "title": "2026年度调薪申请备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bffee9cf9e6c826b7d56/"
+      },
+      {
+        "title": "调薪申请收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5e7ebe9cf9e6c8266fa9c/"
+      },
+      {
+        "title": "员工调薪申请表_员工调薪申请表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10022808.htm"
+      },
+      {
+        "title": "薪酬管理申请流程表格怎么做？详细步骤与注意事项解析 • i人事",
+        "url": "https://blog.ihr360.com/p/369175/"
+      },
+      {
+        "title": "2011新版《人力资源管理工具箱》（人力资源管理表单范本、绩效考核指标及实战运用范本） | PDF",
+        "url": "https://www.scribd.com/document/927858533/2011%E6%96%B0%E7%89%88-%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%E7%AE%B1-%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86%E8%A1%A8%E5%8D%95%E8%8C%83%E6%9C%AC-%E7%BB%A9%E6%95%88%E8%80%83%E6%A0%B8%E6%8C%87%E6%A0%87%E5%8F%8A%E5%AE%9E%E6%88%98%E8%BF%90%E7%94%A8%E8%8C%83%E6%9C%AC"
+      },
+      {
+        "title": "调薪备案申请表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5c787e9cf9e6c82664abb/"
+      },
+      {
+        "title": "调薪申请表 - 包站长",
+        "url": "https://www.511doc.com/biaoge/446047.html"
+      },
+      {
+        "title": "调薪申请表模板：一张纸背后的博弈 | TrueSight",
+        "url": "https://tsight.io/articles/7805539"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "浙江大学人才派遣员工调薪申请表",
+        "url": "https://hr.zju.edu.cn/_upload/article/files/fe/62/cff0091f486698c4817e925ca569/0ae1a648-404c-45dc-af6d-8cf3865dd93b.pdf"
+      },
+      {
+        "title": "浙江大学劳务派遣员工批量调薪申请表",
+        "url": "https://hr.zju.edu.cn/_upload/article/files/fe/62/cff0091f486698c4817e925ca569/9162b359-a37b-464d-a100-d977ab8d3e8d.pdf"
+      }
+    ]
+  },
+  {
+    "id": "bonus-allocation",
+    "title": "奖金发放核对表",
+    "references": [
+      {
+        "title": "奖金发放表Excel图表模板素材图片下载-素材编号08472331-素材天下图库",
+        "url": "https://www.sucaisucai.com/sucai/08472331.html"
+      },
+      {
+        "title": "办公模版下载工具-员工奖金核定表word模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/697"
+      },
+      {
+        "title": "2026年度奖励奖金备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6fc5ee9cf9e6c826cd660/"
+      },
+      {
+        "title": "免费企业员工薪资明细统计表 - Excel模板免费下载_畅榴云Excel模板",
+        "url": "https://www.changliuyun.com/workspace/excel/J1Z6w9BzKwH1ORBJbAwgt6bDekNq"
+      },
+      {
+        "title": "发放表格模板下载-excel表格制作发放-我拉网",
+        "url": "https://www.55.la/excel/so_fafang/list_h_1.html"
+      },
+      {
+        "title": "工资表 Excel 模板免费下载（含公式和企业成本） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/gongzibiao-moban-excel/"
+      },
+      {
+        "title": "奖金表格模板下载-excel表格制作奖金-我拉网",
+        "url": "https://www.55.la/excel/so_jiangjin/"
+      },
+      {
+        "title": "奖励奖金备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4fa79e9cf9e6c8261f030"
+      },
+      {
+        "title": "办公模版下载工具-自动打印奖金发放表excel模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/615"
+      },
+      {
+        "title": "工作奖金核定表Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/vnbevwnn.html"
+      },
+      {
+        "title": "奖学金发放表-学生(模板参考)-德州学院-校友会教育发展基金会",
+        "url": "https://www.dzu.edu.cn/xyh/info/1038/1523.htm"
+      },
+      {
+        "title": "佣金发放表.xls-资源下载佰策地产文库dcbbs.com",
+        "url": "https://www.dcbbs.com/d-28593.html"
+      },
+      {
+        "title": "附件1",
+        "url": "https://static.cninfo.com.cn/finalpage/2016-04-25/1202228104.PDF"
+      },
+      {
+        "title": "(4) 检查工资表、年终奖金计算表，核对销售人员职工薪酬记录是否完整准确；",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-07-11/1225420463.PDF"
+      }
+    ]
+  },
+  {
+    "id": "social-fund-ledger",
+    "title": "社保公积金办理台账",
+    "references": [
+      {
+        "title": "<4D6963726F736F667420576F7264202D203132303620D7A1B7BFB9ABBBFDBDF0D2B5CEF1B1EAD7BC2DC1E1A1A2B1F82E646F63>",
+        "url": "https://zjt.gxzf.gov.cn/zfxxgk/fdzdgknr/wjtz/P020241226620138833218.pdf"
+      },
+      {
+        "title": "职工“退休一件事”申报表（样表）",
+        "url": "https://spdt.qingdao.gov.cn/gxbcyjs/file/zgtxyjs/sqclxx/txyjssbb.pdf"
+      },
+      {
+        "title": "单位为职工办理住房公积金年度缴存基数申报（跨年清册核定）操作详解",
+        "url": "https://gjj.beijing.gov.cn/web/zwfw5/386727/386730/386733/387178/index.html"
+      },
+      {
+        "title": "人事管理台账图文详解，如何高效制作人事管理台账？ • i人事",
+        "url": "https://blog.ihr360.com/p/407091/"
+      },
+      {
+        "title": "3.5.7 福利台账 · GitBook",
+        "url": "https://help.ihr360.com/hr_cnb_sipf.html"
+      },
+      {
+        "title": "社保公积金表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/shebaogongjijin5227.html"
+      },
+      {
+        "title": "住房公积金单位登记开户操作详解",
+        "url": "https://gjj.beijing.gov.cn/web/zwfw5/386727/386730/386733/11098838/index.html"
+      },
+      {
+        "title": "1 总 则······································",
+        "url": "https://file.m12333.cn/upfile/download/6d4b0489-bc4d-2907-32c9-915f7ce216ff.pdf"
+      },
+      {
+        "title": "社保公积金计算器表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/ldrgkwzx.html"
+      },
+      {
+        "title": "社保公积金缴纳明细表格excel模板 - 爱办公",
+        "url": "https://www.ibangong.net/5195.html"
+      },
+      {
+        "title": "工资表 Excel 模板免费下载（含公式和企业成本） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/gongzibiao-moban-excel/"
+      },
+      {
+        "title": "单位为职工缴存住房公积金操作详解",
+        "url": "https://gjj.beijing.gov.cn/web/zwfw5/386727/386730/386733/387172/index.html"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220316/924c4809-adf1-491c-bdfc-651755aa884b/2203160648255479.pdf"
+      },
+      {
+        "title": "中山市住房公积金管理中心政务网站",
+        "url": "https://zszfgjj.zs.gov.cn/xzzx/gjywlxz/content/post_91392.html"
+      },
+      {
+        "title": "住房公积金管理中心",
+        "url": "https://www.pjgjj.cn/"
+      },
+      {
+        "title": "表格下载",
+        "url": "https://zfgjj.xuchang.gov.cn/cjsfw/008001/20171226/7d428a00-7357-4636-a78e-6e3ab48e379f.html"
+      }
+    ]
+  },
+  {
+    "id": "benefit-claim",
+    "title": "员工福利申领表",
+    "references": [
+      {
+        "title": "员工福利领取表素材_员工福利领取表图片_员工福利领取表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/yuangongfulilingqubiao.html"
+      },
+      {
+        "title": "简约员工福利发放登记表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/wwmydpbo.html"
+      },
+      {
+        "title": "人事部员工福利领取登记表_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/yhjqjdfd.html"
+      },
+      {
+        "title": "〖範例表單-財務管理〗福利金申請單 | 101Form.net",
+        "url": "https://www.101form.net/tw/form-welfareapplicationform/"
+      },
+      {
+        "title": "共通性 - 人力資源處",
+        "url": "https://hr.isu.edu.tw/page/%E5%85%B1%E9%80%9A%E6%80%A7-xRYZSHmxh3jp"
+      },
+      {
+        "title": "劳保发放表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/laobaofafangbiao.html"
+      },
+      {
+        "title": "福利发放表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/fulifafangbiao.html"
+      },
+      {
+        "title": "领取表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/lingqu.html"
+      },
+      {
+        "title": "单位福利领取登记表下载-Excel表格-办图网",
+        "url": "https://www.888ppt.com/excelbiaoge/6652cbfc549bbddc12239683.html"
+      },
+      {
+        "title": "空白演示",
+        "url": "https://www.firstpvm.com/files/a5b169fe-2914-463b-8ad3-fa5fb9af5172%2F%E7%A6%8F%E6%96%AF%E7%89%B92024%E5%B9%B4%E5%BA%A6%E7%8E%AF%E5%A2%83%E3%80%81%E7%A4%BE%E4%BC%9A%E5%8F%8A%E6%B2%BB%E7%90%86%EF%BC%88ESG%EF%BC%89%E6%8A%A5%E5%91%8A.pdf"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "钉钉模板中心-员工福利申请",
+        "url": "https://appcenter.dingtalk.com/template/detail.html?lwfrom=2017120202092064202920001&source=1102&subTopicCode=industry_topic_fuwuye&templateId=31497&topicCode=topic_group_template_industry"
+      },
+      {
+        "title": "基隆市政府社會處－勞工規則及福利－勞動部勞工福利相關表格",
+        "url": "https://www.klcg.gov.tw/tw/social/4894-315264.html"
+      },
+      {
+        "title": "橘色福利领取登记表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-10247/"
+      }
+    ]
+  },
+  {
+    "id": "payroll-issue",
+    "title": "薪资疑问处理记录表",
+    "references": [
+      {
+        "title": "数据模板：薪资处理",
+        "url": "https://processmind.com/zh/chixu-liucheng-gaijin/%E8%96%AA%E8%B5%84%E5%A4%84%E7%90%86/data-template"
+      },
+      {
+        "title": "数据模板：薪资处理 - UKG Pro",
+        "url": "https://processmind.com/zh/%E6%8C%81%E7%BB%AD%E6%B5%81%E7%A8%8B%E6%94%B9%E8%BF%9B/%E8%96%AA%E8%B5%84%E5%A4%84%E7%90%86/ukg/data-template"
+      },
+      {
+        "title": "数据模板：薪资处理 - ADP Workforce Now｜ProcessMind",
+        "url": "https://processmind.com/zh/%E6%8C%81%E7%BB%AD%E6%B5%81%E7%A8%8B%E6%94%B9%E8%BF%9B/%E8%96%AA%E8%B5%84%E5%A4%84%E7%90%86/adp/data-template"
+      },
+      {
+        "title": "简约薪资等级表记录表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/kbwxzamy.html"
+      },
+      {
+        "title": "数据模板：薪资处理 - UKG Pro",
+        "url": "https://processmind.com/zh/chixu-liucheng-gaijin/%E8%96%AA%E8%B5%84%E5%A4%84%E7%90%86/ukg/data-template"
+      },
+      {
+        "title": "中华人民共和国人力资源和社会保障部",
+        "url": "https://www.mohrss.gov.cn/tjdc/qyxcdc"
+      },
+      {
+        "title": "工资查询登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4bf77e9cf9e6c826091af/"
+      },
+      {
+        "title": "2026年工资条备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bf58e9cf9e6c826b7a10/"
+      },
+      {
+        "title": "数字企业云门户用户手册(V3.0) | 数字企业云门户用户手册(V3.0)",
+        "url": "https://help.icloudportal.com/v3.0/"
+      },
+      {
+        "title": "2026年岗位薪资登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b163e9cf9e6c826b26ae/"
+      },
+      {
+        "title": "工资登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5c47de9cf9e6c8266382e/"
+      },
+      {
+        "title": "XXYYMMDDXX 02 16《一般业务调研提纲》 | PDF",
+        "url": "https://www.scribd.com/document/984692350/XXYYMMDDXX-02-16-%E4%B8%80%E8%88%AC%E4%B8%9A%E5%8A%A1%E8%B0%83%E7%A0%94%E6%8F%90%E7%BA%B2"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "员的薪资。为了监测这一活动，需要下列内容：",
+        "url": "https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Handbooks/population-and-housing-censuses/SeriesF_83-C.pdf"
+      },
+      {
+        "title": "3",
+        "url": "https://www.nhc.gov.cn/cmsresources/wsb/cmsrsdocument/doc11547.pdf"
+      },
+      {
+        "title": "PPT定制",
+        "url": "https://rsj.huaibei.gov.cn/mongo1/436bacdb96dc4ba4ae0be7e901b4ee28.pdf"
+      },
+      {
+        "title": "（5）对工资项目的运算结果要能够进行手工调整；",
+        "url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150429/gpx-tender/2023/11/16/402881dd8bb25430018bd759df8c065c.pdf?accessCode=cc03042366e7ef7067fb737c4f01cb15"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "payroll-input",
+    "title": "工资变动数据收集表",
+    "references": [
+      {
+        "title": "员工薪资信息收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5d66de9cf9e6c826694a9/"
+      },
+      {
+        "title": "2026年薪酬信息备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6beb2e9cf9e6c826b766d/"
+      },
+      {
+        "title": "工资表 Excel 模板免费下载（含公式和企业成本） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/gongzibiao-moban-excel/"
+      },
+      {
+        "title": "2026 年度工资表 Excel/WPS 模板（12个月累计个税） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/niandu-gongzibiao-excel-wps/"
+      },
+      {
+        "title": "2026年基本工资登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6bed4e9cf9e6c826b772a/"
+      },
+      {
+        "title": "中华人民共和国人力资源和社会保障部",
+        "url": "https://www.mohrss.gov.cn/tjdc/qyxcdc"
+      },
+      {
+        "title": "基本薪资收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5e75de9cf9e6c8266f5fc/"
+      },
+      {
+        "title": "员工薪资变动单_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/aec135ca81991f56fb9c6514"
+      },
+      {
+        "title": "办公模版下载工具-工资变更申请表Excel模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/1698"
+      },
+      {
+        "title": "6机关及事业单位工作人员工资变动审批表_6xls_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/314802e85e09067d27768c72"
+      },
+      {
+        "title": "工资和津贴变动审核表表〖excel模板下载〗-包图网",
+        "url": "https://m.ibaotu.com/sucai/317272.html"
+      },
+      {
+        "title": "调薪信息收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5c783e9cf9e6c82664a59/"
+      },
+      {
+        "title": "一套表统计调查制度（2024年统计年报和2025年定期统计报表）国家统计局制定",
+        "url": "https://tjj.dg.gov.cn/attachment/0/344/344134/4391759.pdf"
+      },
+      {
+        "title": "✧",
+        "url": "https://service.static.chanjet.com/wenku_img_cdn/img/04%E5%A5%BD%E4%BC%9A%E8%AE%A1%E6%97%97%E8%88%B0%E7%89%88%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C-%E4%B8%87%E5%AE%87%E9%9D%92%EF%BC%8811%E6%9C%88%E6%9B%B4%E6%96%B0%EF%BC%89.pdf"
+      },
+      {
+        "title": "<visual_element id=\"e1\">",
+        "url": "https://file.m12333.cn/upfile/download/bc314b9e-7214-3461-1147-d14d71af4228.pdf"
+      },
+      {
+        "title": "Perancangan basisdata sistem informasi penggajian",
+        "url": "https://arxiv.org/abs/1302.0337"
+      }
+    ]
+  },
+  {
+    "id": "benefit-budget",
+    "title": "薪酬福利预算表",
+    "references": [
+      {
+        "title": "工资表 Excel 模板免费下载（含公式和企业成本） - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/gongzibiao-moban-excel/"
+      },
+      {
+        "title": "薪資計算表 Excel 模板 - 免費下載（內建 61 個公式） | 簡報雲PPT",
+        "url": "https://pptx.com.tw/spreadsheets/payroll-calculator"
+      },
+      {
+        "title": "230+ 人事 專業 Excel 模板，薪酬福利 Excel 免費下載 - Pikbest",
+        "url": "https://zh.pikbest.com/excel/personnel/salaries-and-benefits/f"
+      },
+      {
+        "title": "《薪酬设计与员工激励全案》第46章 企业薪酬设计实用表格 - 厚海网",
+        "url": "https://m.houhaiwang.com/library/chapter/68886/46.html"
+      },
+      {
+        "title": "免费 工资预算表 Excel 和 Google Sheets 电子表格模板 | FinancialAha!",
+        "url": "https://www.financialaha.com/zh/free-spreadsheet-templates/personal-budgeting/paycheck-budget/"
+      },
+      {
+        "title": "企业员工年度福利与成本支出动态统计分析表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/annual-benefits-report-excel/"
+      },
+      {
+        "title": "薪酬预算excel模板免费下载，如何高效制定企业薪酬预算表？ | 零代码企业数字化知识站",
+        "url": "https://www.jiandaoyun.com/news/article/68c0077e229b892d524be3bd"
+      },
+      {
+        "title": "薪酬福利模型表格模板-免费薪酬福利模型excel表格下载-千库网",
+        "url": "https://588ku.com/excel/131334550.html"
+      },
+      {
+        "title": "新年度部门工资预算表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4777.html"
+      },
+      {
+        "title": "2026年度预算编制表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c7cddde9cf9e6c8270dcdb/"
+      },
+      {
+        "title": "办公模版下载工具-新年度部门工资预算表Excel模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/1062"
+      },
+      {
+        "title": "福利发放表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/fulifafangbiao.html"
+      },
+      {
+        "title": "<tr><th colspan=\"3\">工资福利",
+        "url": "https://www.chaisang.gov.cn/zwgk/zfxxgk/bmxxgk/czj/zdgk_148171/qzbmczyjsgk/202602/P020260210627083177857.pdf"
+      },
+      {
+        "title": "基本支出——工资福利支出预算表",
+        "url": "https://www.chaisang.gov.cn/zwgk/zfxxgk/xzxxgk/mhlz/zdgk_149013/ndczyjsjsgjf_149025/202602/P020260203602415331860.pdf"
+      },
+      {
+        "title": "人员类项目预算表—工资福利支出",
+        "url": "https://www.whkfq.gov.cn/xxgk/fdzdgk/ysjs/sgjf/kfqsgjf/cxjsj/202301/P020230817327865919564.pdf"
+      },
+      {
+        "title": "  <th colspan=\"3\">",
+        "url": "https://spbmj.lasa.gov.cn/xzspj/czys/202006/0cf2b6a8ecf8472a96c9ca31679c312c/files/66775471863f4882a3b1d86d0316d3a2.pdf"
+      },
+      {
+        "title": "单位：128001—平江县市场监督管理局本级",
+        "url": "https://www.pingjiang.gov.cn/uploadfiles/202401/2024012410095456140.pdf"
+      },
+      {
+        "title": "单位：606001-平江县科学技术协会本级  金额",
+        "url": "https://www.pingjiang.gov.cn/uploadfiles/202401/2024012410584847499.pdf"
+      },
+      {
+        "title": "谈谈灵活就业相关 2  数据",
+        "url": "https://www.reddit.com/r/u_Spiritual-Interest23/comments/1ua3x9g/%E8%B0%88%E8%B0%88%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E7%9B%B8%E5%85%B3_2_%E6%95%B0%E6%8D%AE/"
+      }
+    ]
+  },
+  {
+    "id": "training-needs",
+    "title": "培训需求调查表",
+    "references": [
+      {
+        "title": "培训需求调查统计表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4877.html"
+      },
+      {
+        "title": "培训需求调查表_问卷调查模板_问卷星",
+        "url": "https://www.wjx.cn/mobile/publicsurveyslist.aspx?id=10006"
+      },
+      {
+        "title": "培训需求调查表_培训需求调查表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10010941.htm"
+      },
+      {
+        "title": "培训需求调查统计表表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qxxzxgvr.html"
+      },
+      {
+        "title": "培训需求调查表_问卷星",
+        "url": "https://www.wjx.cn/xz/260305416.aspx"
+      },
+      {
+        "title": "培训需求调查表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/5637363bf7405b38ebc80c89"
+      },
+      {
+        "title": "员工培训需求调查表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/55d2c628f7405b63c504e94b"
+      },
+      {
+        "title": "培训需求调查统计表免费下载_办公汇",
+        "url": "https://www.bgbgh.com/excel/104934.html"
+      },
+      {
+        "title": "培训需求调查统计表-我拉网",
+        "url": "https://www.55.la/excel/1905379.html"
+      },
+      {
+        "title": "员工培训需求调查表Excel模板-我拉网",
+        "url": "https://www.55.la/excel/1904461.html"
+      },
+      {
+        "title": "〖培训需求模板大全〗培训需求_需求调查表_胜任素质模型免费下载丨蚂蚁HR博客",
+        "url": "https://www.mayihr.com/blog/peixunxuqiumoban"
+      },
+      {
+        "title": "培训需求调查表_历史项目_免费模板_问卷网",
+        "url": "https://www.wenjuan.com/j/QNz6nm/"
+      },
+      {
+        "title": "表 3-1 培训需求问卷调查表",
+        "url": "https://file.m12333.cn/upfile/download/0ab4236d-ce59-0de8-1b52-d8d99a72ec94.pdf"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "I",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=33af7e75e31f33bc186de59de0bbd01b&objid=50_50_54_50_49"
+      },
+      {
+        "title": "北京市人力资源和社会保障局 文件",
+        "url": "https://www.bjfsh.gov.cn/ztzx/wqzt/zdlyzfgkzt/qjqd/fshcyjy/wgjyzc/202104/P020210414423835810280.pdf"
+      },
+      {
+        "title": "<tr><td></td><td></td>",
+        "url": "https://qxb-img-osscache.qixin.com/standards/6115c036c8e4086f46d06a56ee98d09e.pdf"
+      },
+      {
+        "title": "附件3：培训需求调查问卷",
+        "url": "https://statics.scnu.edu.cn/pics/jjy/2014/0610/20140610040401969.pdf"
+      }
+    ]
+  },
+  {
+    "id": "training-plan",
+    "title": "年度培训计划表",
+    "references": [
+      {
+        "title": "公司部门年度培训计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/vnjaxpny.html"
+      },
+      {
+        "title": "年度培训计划表—汇总表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakpgpmg.html"
+      },
+      {
+        "title": "培训年度计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/jpyeaenx.html"
+      },
+      {
+        "title": "公司年度培训需求计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebmpoew.html"
+      },
+      {
+        "title": "通用年度培训计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/aebmpjwr.html"
+      },
+      {
+        "title": "年度培训计划模板汇编-Word模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/word/detail/310585.html"
+      },
+      {
+        "title": "年度培训计划模板汇编-Word模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/word/detail/310580.html"
+      },
+      {
+        "title": "部门年度培训计划表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/pgbomoep.html"
+      },
+      {
+        "title": "企业年度培训计划表excel模板 - 工作计划模板 - Excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/2012561.html"
+      },
+      {
+        "title": "淡蓝简约年度培训计划表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/kbwzopnw.html"
+      },
+      {
+        "title": "培训计划表模板excel免费下载（精选模板6款） - 趣帮office教程网",
+        "url": "https://www.quoffice.com/46444.html"
+      },
+      {
+        "title": "护理培训体系建设 — 护士通资源中心",
+        "url": "https://www.hushitong.com/resource-training.html"
+      },
+      {
+        "title": "（二）上年度培训工作总结",
+        "url": "https://www.szlhq.gov.cn/attachment/1/1611/1611644/12305927.pdf"
+      },
+      {
+        "title": "终身职业技能培训载体建设项目",
+        "url": "https://hrss.sz.gov.cn/attachment/1/1610/1610127/12299109.pdf"
+      },
+      {
+        "title": "企业年度培训计划管理实践调研报告",
+        "url": "https://www.hrecchina.org/UpLoadFile/20201030/%E4%BC%81%E4%B8%9A%E5%B9%B4%E5%BA%A6%E5%9F%B9%E8%AE%AD%E8%AE%A1%E5%88%92%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pdf"
+      },
+      {
+        "title": "2018 年9 月",
+        "url": "https://www.naea.edu.cn/eportal/fileDir/jxbgw/resource/cms/article/18106/91277/2020052211520170599.pdf"
+      },
+      {
+        "title": "3.1.1 培训计划管理",
+        "url": "https://www.scsio.cas.cn/news/tztg/202101/W020210114629764490923.pdf"
+      }
+    ]
+  },
+  {
+    "id": "training-signin",
+    "title": "培训签到表",
+    "references": [
+      {
+        "title": "培训签到表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/oakpbnjg.html"
+      },
+      {
+        "title": "签到表 - ppt模板/word模板/excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/muban/4491034/"
+      },
+      {
+        "title": "培训签到表模板_培训签到表模板范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10007275.htm"
+      },
+      {
+        "title": "人员培训班签到表EXCEL模板下载_5a520e2oka_图客巴巴",
+        "url": "https://www.tuke88.com/sucai/5a520e2oka.html"
+      },
+      {
+        "title": "培训签到表模板下载素材下载-众图网",
+        "url": "https://www.ztupic.com/sucai/457175.html"
+      },
+      {
+        "title": "培训签到表模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/klonhkse.html"
+      },
+      {
+        "title": "培训班签到表_培训班签到表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10007445.htm"
+      },
+      {
+        "title": "签到表模板excel文件免费下载（精选模板11款） - 趣帮office教程网",
+        "url": "https://www.quoffice.com/46626.html"
+      },
+      {
+        "title": "培训计划签到表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/oarzejjb.html"
+      },
+      {
+        "title": "通用培训签到表",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/A2A88A2CE39BE8A2D5FCA273C678AD40"
+      },
+      {
+        "title": "培训签到记录表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/enpvyevv.html"
+      },
+      {
+        "title": "附件五：《系统使用培训签到表》",
+        "url": "https://zhumadian.zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/henan/rootfiles/2025/11/04/e520e9e6c6da4a4f9cbf284478d93f56.pdf"
+      },
+      {
+        "title": "培训签到表素材_培训签到表模板_培训签到表设计图片免费下载-众图网",
+        "url": "https://www.ztupic.com/tupian/peixunqiandaobiao.html"
+      },
+      {
+        "title": "附件五：《系统使用培训签到表》",
+        "url": "https://nanyang.zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/henan/rootfiles/2025/10/21/b434b965f5884b3096ddc1ab3cdc3075.pdf"
+      },
+      {
+        "title": "培训过程我公司根据控制程序，将培训记录文件存档。包含培训签到表、培训课件、培训",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610001/2025/12/1/8a69c0099aa4931f019ad76061181045/gpx-contract/8a69c21f9a63addd019c360d9dc600f5.pdf?accessCode=6ad163b5e43ce2401361e035e85d7a08"
+      },
+      {
+        "title": "附件五：《系统使用培训签到表》",
+        "url": "https://zhongmou.zfcg.henan.gov.cn/cmsweb81e27e/henan/rootfiles/2025/11/10/8a19729320db4e1f9dcf0d98371cf2d1.pdf"
+      },
+      {
+        "title": "1",
+        "url": "https://www.bjdch.gov.cn/zwgk/tzgg/202507/P020250821517722548938.pdf"
+      }
+    ]
+  },
+  {
+    "id": "training-feedback",
+    "title": "培训反馈表",
+    "references": [
+      {
+        "title": "学员核对表的培训反馈表 | DataScope Forms - 学员核对表的培训反馈表546b8",
+        "url": "https://datascope.io/library/zh-CN/template/%E5%AD%A6%E5%91%98%E6%A0%B8%E5%AF%B9%E8%A1%A8%E7%9A%84%E5%9F%B9%E8%AE%AD%E5%8F%8D%E9%A6%88%E8%A1%A8546b8?id=157922&share_id=e95eed8df9abff4631aff5fe3215d6fc"
+      },
+      {
+        "title": "培训学员反馈表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4878.html"
+      },
+      {
+        "title": "培训效果反馈表(模板) - 360文档中心",
+        "url": "https://www.360docs.net/doc/6c9062960.html"
+      },
+      {
+        "title": "培训情况反馈表模板(1) - 文档之家",
+        "url": "https://www.doczj.com/doc/0710830057.html"
+      },
+      {
+        "title": "培训反馈表清单 | DataScope Forms - 培训反馈表清单1b4e0",
+        "url": "https://datascope.io/library/zh-CN/template/%E5%9F%B9%E8%AE%AD%E5%8F%8D%E9%A6%88%E8%A1%A8%E6%B8%85%E5%8D%951b4e0?id=131662&share_id=9986c62a951d58e2316193624276771f"
+      },
+      {
+        "title": "培训反馈表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/peixunfankuibiao.html"
+      },
+      {
+        "title": "培训反馈模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/training-feedback-template/"
+      },
+      {
+        "title": "教育培训Excel模板_教育培训Excel表格_免费下载_Work办公",
+        "url": "https://www.workbangong.com/xlssearch/jiaoyupeixun.html"
+      },
+      {
+        "title": "培训反馈表清单 | DataScope Forms - form-7440e692",
+        "url": "https://datascope.io/library/he/template/form-7440e692"
+      },
+      {
+        "title": "橙色简约教学反馈表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/grgdjegm.html"
+      },
+      {
+        "title": "培训学员反馈表免费下载_懒人办公",
+        "url": "https://www.lanren.work/excel/104928.html"
+      },
+      {
+        "title": "意见反馈表Excel模板_在线下载_蓝山办公",
+        "url": "https://www.office.cn/excel/71235649.html"
+      },
+      {
+        "title": "<table id",
+        "url": "https://www.nc.gov.cn/ncszf/shbz/201909/d2c6d561d2e94405af179dfc1c8caf78/files/b99396b1b18a4d7e9d73724f5772b99d.pdf"
+      },
+      {
+        "title": "Microsoft Word - 00-82080.doc",
+        "url": "https://unstats.un.org/unsd/demographic-social/Standards-and-Methods/files/Handbooks/crvs/Series_F84-C.pdf"
+      },
+      {
+        "title": "社会情感学习培训手册-较大原版的副本5",
+        "url": "https://www.unicef.cn/media/19026/file/%E7%A4%BE%E4%BC%9A%E6%83%85%E6%84%9F%E5%AD%A6%E4%B9%A0%E5%9F%B9%E8%AE%AD%E6%89%8B%E5%86%8C%EF%BC%88%E4%B8%8B%E5%86%8C%EF%BC%89.pdf"
+      },
+      {
+        "title": "与培训评估转化",
+        "url": "https://cos.hrtools.club/6/58667/pdf/17469690655542cb2620bde9d7ce2f89f451bbdfdef76.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "training-assessment",
+    "title": "培训考核记录表",
+    "references": [
+      {
+        "title": "通用员工培训考核记录表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakpgdab.html"
+      },
+      {
+        "title": "培训记录表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/peixunjilubiao.html"
+      },
+      {
+        "title": "培训过程我公司根据控制程序，将培训记录文件存档。包含培训签到表、培训课件、培训",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610001/2025/12/1/8a69c0099aa4931f019ad76061181045/gpx-contract/8a69c21f9a63addd019c360d9dc600f5.pdf?accessCode=6ad163b5e43ce2401361e035e85d7a08"
+      },
+      {
+        "title": "员工培训考核表(表格模板、DOC格式)_夸克文档",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/AE2FF98A6B27E957BF4B24A72F1E3F4A"
+      },
+      {
+        "title": "JJG",
+        "url": "https://scjg.hubei.gov.cn/zfxxgk/zcwj/qtwj/202403/P020240318550127058370.pdf"
+      },
+      {
+        "title": "人员培训考核表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5699.html"
+      },
+      {
+        "title": "员工培训Excel模板_在线下载_蓝山办公",
+        "url": "https://www.office.cn/excel/24169758.html"
+      },
+      {
+        "title": "培训记录表格模板",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/4F3AA0EB12D82B7AB202FD86AC60CED8"
+      },
+      {
+        "title": "培训效果考核表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/wwmraxnz.html"
+      },
+      {
+        "title": "培训效果满意度反馈表模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/fuatvfut.html"
+      },
+      {
+        "title": "培训考核表_培训考核表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10008062.htm"
+      },
+      {
+        "title": "培训记录表模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/oezedblj.html"
+      },
+      {
+        "title": "培训考核表_培训考核表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10008367.htm"
+      },
+      {
+        "title": "员工培训考核表word模板 - 绩效考核模板 - Word模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/1001230.html"
+      },
+      {
+        "title": "附件三培训/考核报告表培训/考核报告表<table>",
+        "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/MHGZ/201606/P020160622506765870491.pdf"
+      },
+      {
+        "title": "企业营业执照正副本扫描件或营业执照",
+        "url": "https://zjt.hubei.gov.cn/bmdt/ztzl/zcwd/202202/P020221208396489235612.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "training-transfer",
+    "title": "培训应用跟踪表",
+    "references": [
+      {
+        "title": "培训日志 应用 — 免费开源模板 | Craft",
+        "url": "https://www.craft.do/zh-CN/app-templates/training-log"
+      },
+      {
+        "title": "研修管理表｜記入例つき無料Excelテンプレート｜育成板",
+        "url": "https://ikusei.tenkenban.com/template/kenshu-kanrihyo/"
+      },
+      {
+        "title": "WPS智能表格团队学习管理方案，零代码搭建企业培训系统实现进度自动跟踪与数据隐私保护",
+        "url": "https://365.wps.cn/content/83f20b4dfbf24feabb4809d27934e39a.html"
+      },
+      {
+        "title": "培训表Excel表格模板_培训表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/peixunbiao.html"
+      },
+      {
+        "title": "Free Employee Training Tracker Template | Google Sheets & Excel | Sheetrix",
+        "url": "https://sheetrix.com/templates/employee-training-tracker/"
+      },
+      {
+        "title": "用于安全合规的员工培训跟踪器 | Jodoo",
+        "url": "https://www.jodoo.com/zh-cn/ai/employee-training-tracker"
+      },
+      {
+        "title": "培训表表格模板下载-excel表格制作培训表-我拉网",
+        "url": "https://www.55.la/excel/so_peixunbiao/"
+      },
+      {
+        "title": "绩效跟踪的记录应当连同训练记录一起保存，记录表格示例如下：",
+        "url": "https://www.caac.gov.cn/PHONE/HDJL/YJZJ/202304/P020230413539122426748.pdf"
+      },
+      {
+        "title": "Excel课后跟踪评估表（员工版）",
+        "url": "https://www.wenjuan.com/s/fq26Bvc/"
+      },
+      {
+        "title": "培训与能力管理工作流 | Jodoo",
+        "url": "https://www.jodoo.com/zh-cn/ai/use-cases/training-competency-management"
+      },
+      {
+        "title": "培训课程操作模板|净土",
+        "url": "https://www.jodoo.com/zh-cn/ai/use-cases/training-course-operations"
+      },
+      {
+        "title": "培訓計劃出席記錄範本：免費、可編輯 XLSX | WPS AI",
+        "url": "https://www.wps.ai/zh-hk/resources/templates/spreadsheets/training-plan-attendance/"
+      },
+      {
+        "title": "培训记录表清单 | DataScope Forms",
+        "url": "https://datascope.io/library/zh-CN/template/%E5%9F%B9%E8%AE%AD%E8%AE%B0%E5%BD%95%E8%A1%A8%E6%B8%85%E5%8D%95b0a0e?id=427380&share_id=f6fc9c6fdb10dcf7c872ebf41d52cb48"
+      },
+      {
+        "title": "中华人民共和国国家环境保护标准",
+        "url": "https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/other/xxbz/201109/W020120130583057645247.pdf"
+      },
+      {
+        "title": "I",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=33af7e75e31f33bc186de59de0bbd01b&objid=50_50_54_50_49"
+      },
+      {
+        "title": "（1）应用学员考勤表、学员研修手册和学员档案袋等评价工具，考核学员出勤情况和",
+        "url": "https://www.moe.gov.cn/ewebeditor/uploadfile/2012/10/12/20121012170215824.pdf"
+      },
+      {
+        "title": "Adaptive Decontamination of the Training Set: A Unified Formulation for Discriminative Visual Tracking",
+        "url": "https://arxiv.org/abs/1609.06118"
+      },
+      {
+        "title": "Learning the Model Update for Siamese Trackers",
+        "url": "https://arxiv.org/abs/1908.00855"
+      }
+    ]
+  },
+  {
+    "id": "development-plan",
+    "title": "个人发展计划表",
+    "references": [
+      {
+        "title": "(完整版)个人发展计划(idp)Word模板下载_编号qjeyjnrb_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qjeyjnrb.html"
+      },
+      {
+        "title": "个人发展计划清单 | DataScope Forms",
+        "url": "https://datascope.io/zh-CN/template/%E4%B8%80%E8%88%AC/%E4%B8%AA%E4%BA%BA%E5%8F%91%E5%B1%95%E8%AE%A1%E5%88%92%E6%B8%85%E5%8D%958d209?id=314268"
+      },
+      {
+        "title": "Excel 的免费项目规划跟踪器模板 | Microsoft Excel",
+        "url": "https://excel.cloud.microsoft/create/zh-hans/planner-tracker-templates/"
+      },
+      {
+        "title": "Excel 的免费项目规划跟踪器模板 | Microsoft Excel",
+        "url": "https://excel.cloud.microsoft/create/zh-hans/planner-tracker-templates/?source=create_flow"
+      },
+      {
+        "title": "企业绩效管理与人才盘点模板包-13 人才发展计划与成长路径图 - 在线模板社区",
+        "url": "https://www.edrawmax.cn/templates/file/1119467/"
+      },
+      {
+        "title": "2026年个人目标规划表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c69bf7e9cf9e6c826abe3f/"
+      },
+      {
+        "title": "Microsoft PowerPoint - D2S3- mike liang 企业人才盘点 [兼容模式]",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200109/%E4%BC%81%E4%B8%9A%E4%BA%BA%E6%89%8D%E7%9B%98%E7%82%B9.pdf"
+      },
+      {
+        "title": "Quip - 个人发展计划",
+        "url": "https://quip.com/intl/zh_CN/templates/individual-development-plan"
+      },
+      {
+        "title": "怎样写个人发展计划书（精选模板）_范本下载|华律网",
+        "url": "https://www.66law.cn/contractmodel/7115730.aspx"
+      },
+      {
+        "title": "计划表 - ppt模板/word模板/excel模板 - 可牛办公",
+        "url": "https://o.keniu.com/muban/9447343/"
+      },
+      {
+        "title": "个人工作计划进度表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5893.html"
+      },
+      {
+        "title": "个人专业成长计划表-Word模板下载_编号lxvrraap_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lxvrraap.html"
+      },
+      {
+        "title": "专业成长申报表模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/professional-growth-declaration-form-template/"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "计划周期：从____",
+        "url": "https://jlf-test.oss-cn-beijing.aliyuncs.com/2024/8/1/1722476737239-aae3d0fa.pdf"
+      },
+      {
+        "title": "PowerPoint Presentation",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200109/S2%20%E8%8B%B1%E8%81%94%E7%B3%96%E4%B8%9A%20%EF%BC%884.18-%E4%BA%BA%E6%89%8D%E7%9B%98%E7%82%B9%E5%92%8C%E4%BA%BA%E6%89%8D%E6%A2%AF%E9%98%9F%E5%BB%BA%E8%AE%BE%EF%BC%89.pdf"
+      },
+      {
+        "title": "1",
+        "url": "https://www.lvziku.cn/Uploads/Editor/2019-01-30/5c5148ec74fcf.pdf"
+      }
+    ]
+  },
+  {
+    "id": "trainer-register",
+    "title": "内部讲师与课程台账",
+    "references": [
+      {
+        "title": "社内講師実施記録表｜記入例つき無料Excelテンプレート｜育成板",
+        "url": "https://ikusei.tenkenban.com/template/shanai-koshi-jisshi/"
+      },
+      {
+        "title": "讲师Excel表格模板_讲师Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/jiangshi.html"
+      },
+      {
+        "title": "购项目（二",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/zone/2025/1/12/project/gpx-template/8a69c82c9a637a1c019b0789f7cd18be.pdf?accessCode=e5911a04017f292264379e08ae46110d"
+      },
+      {
+        "title": "培训表Excel表格模板_培训表Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/peixunbiao.html"
+      },
+      {
+        "title": "第四届中国企业内部讲师管理实践调研报告",
+        "url": "https://www.hrecchina.org/UpLoadFile/20201030/%E7%AC%AC%E5%9B%9B%E5%B1%8A%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%86%85%E9%83%A8%E8%AE%B2%E5%B8%88%E7%AE%A1%E7%90%86%E5%AE%9E%E8%B7%B5%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pdf"
+      },
+      {
+        "title": "〖培训〗公司内部讲师培训效果评分表.xlsx_搜弘文库",
+        "url": "https://mwenku.chochina.com/doc/46069.html"
+      },
+      {
+        "title": "培训讲师管理制度 - 文档之家",
+        "url": "https://www.doczj.com/doc/5a14618733.html"
+      },
+      {
+        "title": "university-teacher-skills/skills/admin-reporting/SKILL.md at main · EtherealMingo/university-teacher-skills · GitHub",
+        "url": "https://github.com/EtherealMingo/university-teacher-skills/blob/main/skills/admin-reporting/SKILL.md"
+      },
+      {
+        "title": "05 培训管理制度 | PDF",
+        "url": "https://www.scribd.com/document/655071708/05-%E5%9F%B9%E8%AE%AD%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6"
+      },
+      {
+        "title": "如何使用讲师培训报表-培训宝",
+        "url": "https://www.91pxb.com/faq-472-477.html"
+      },
+      {
+        "title": "附件2：《内部讲师试讲评估表》",
+        "url": "https://www.cspengyuan.com/pengyuancmscn/disclosure/control-business/Internal-control-system/20220520171048144/%E4%B8%AD%E8%AF%81%E9%B9%8F%E5%85%83%E8%B5%84%E4%BF%A1%E8%AF%84%E4%BC%B0%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-%E5%9F%B9%E8%AE%AD%E7%AE%A1%E7%90%86%E5%88%B6%E5%BA%A6_20220520213916959.pdf"
+      },
+      {
+        "title": "第三届 中国企业内部讲师管理实践调研报告",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200305/%E7%AC%AC%E4%B8%89%E5%B1%8A%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%86%85%E9%83%A8%E8%AE%B2%E5%B8%88%E5%9B%A2%E9%98%9F%E5%BB%BA%E7%AB%8B%E4%B8%8E%E5%8F%91%E5%B1%95%E8%B0%83%E7%A0%94%E6%8A%A5%E5%91%8A.pdf"
+      },
+      {
+        "title": "企业年度培训计划及执行记录表.doc - 人人文库",
+        "url": "https://www.renrendoc.com/paper/475597524.html"
+      }
+    ]
+  },
+  {
+    "id": "performance-goals",
+    "title": "绩效目标设定表",
+    "references": [
+      {
+        "title": "ipd-hardware-implementation/templates/hr/03-performance-management.md at main · Panicheartan/ipd-hardware-implementation · GitHub",
+        "url": "https://github.com/Panicheartan/ipd-hardware-implementation/blob/main/templates/hr/03-performance-management.md"
+      },
+      {
+        "title": "目标设定模板 | ONLYOFFICE | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/goal-setting-worksheet-1-0"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://www.dxh.gov.cn/ZWGK/bmxxgk/bwbjxxgk/qczj/zcwj/202505/P020250516591990813011.pdf"
+      },
+      {
+        "title": "绩效目标申报表（样表）",
+        "url": "https://www.geermu.gov.cn/mn/uploads/file/20240104/20240104115117_729.pdf"
+      },
+      {
+        "title": "绩效目标申报表（样表）",
+        "url": "https://www.geermu.gov.cn/mn/uploads/file/20230418/20230418165028_157.pdf"
+      },
+      {
+        "title": "超实用！10个绩效方案表格模板，让你的团队效率翻倍 | Worktile内容博客",
+        "url": "https://worktile.com/solution-1/archives/37884"
+      },
+      {
+        "title": "目标设定工作表 | Atlassian Team Playbook",
+        "url": "https://www.atlassian.com/zh/team-playbook/examples/goal-setting"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.nxxj.gov.cn/xxgk_13648/zfxxgkml/czzjc/zfys/202111/W020211125339538363332.pdf"
+      },
+      {
+        "title": "年度绩效考核表 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/annual-performance-review-form-pdf"
+      },
+      {
+        "title": "员工绩效目标值表格模板提升效率，如何制定最佳方案？ • 简道云",
+        "url": "https://www.jiandaoyun.com/nblog/66732/"
+      },
+      {
+        "title": "绩效考核表模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/jixiao-kaohe-muban"
+      },
+      {
+        "title": "设定目标素材_设定目标图片_设定目标免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/shedingmubiao.html"
+      },
+      {
+        "title": "<td>项目名称",
+        "url": "https://www.jiangmen.gov.cn/bsfw/xmsb/201902/P020190212608016866366.pdf"
+      },
+      {
+        "title": "OKR目标管理表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-12218/"
+      },
+      {
+        "title": "OKR目标管理绩效考核表EXCEL模版模板下载_badnnm77q9_图客巴巴",
+        "url": "https://www.tuke88.com/sucai/badnnm77q9.html"
+      },
+      {
+        "title": "员工绩效管理目标设定与跟踪表.doc - 人人文库",
+        "url": "https://www.renrendoc.com/paper/466945445.html"
+      },
+      {
+        "title": "绩效目标申报表_绩效目标申报表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10017615.htm"
+      },
+      {
+        "title": "1",
+        "url": "https://www.lvziku.cn/Uploads/Editor/2019-01-30/5c5148ec74fcf.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "performance-self",
+    "title": "绩效自评表",
+    "references": [
+      {
+        "title": "《表格 1-1 绩效自评表》",
+        "url": "https://www.szft.gov.cn/attachment/1/1214/1214082/10235181.pdf"
+      },
+      {
+        "title": "绩效评价表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5676.html"
+      },
+      {
+        "title": "绩效考核表模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/jixiao-kaohe-muban"
+      },
+      {
+        "title": "免费员工绩效评估表模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/employee-performance-evaluation-form-template"
+      },
+      {
+        "title": "绩效评估模板 | ONLYOFFICE | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/performance-review-1-1"
+      },
+      {
+        "title": "  <td",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web149/site/attach/0/55ce7b47e8b1466b9d39a69e6f2fccd5.pdf"
+      },
+      {
+        "title": "年度绩效考核表 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/annual-performance-review-form-pdf"
+      },
+      {
+        "title": "2026员工绩效评价表模板-表格大全网",
+        "url": "https://www.biaogedaquan.com/soexcel/186239.html"
+      },
+      {
+        "title": "免费 AI 员工绩效评估表单生成器 | Makeform",
+        "url": "https://www.makeform.ai/zh-Hans/tools/ai-employee-performance-review-generator"
+      },
+      {
+        "title": "年度员工绩效考核表PDF模板下载",
+        "url": "https://templates.platoforms.com/zh/pdf/annual-employee-performance-review-pdf"
+      },
+      {
+        "title": "一般性项目绩效自评表表样：",
+        "url": "https://www.wz.gov.cn/bmjz_89642/bm/wsjkwyh/zwgk_94848/fdzdgknr_94850/ysjs_94857/202411/W020241108579123560166.pdf"
+      },
+      {
+        "title": "2026年个人绩效收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6be15e9cf9e6c826b7377/"
+      },
+      {
+        "title": "通用绩效考核表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5713.html"
+      },
+      {
+        "title": "2026年劳动表现登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6f97de9cf9e6c826cc59c/"
+      },
+      {
+        "title": "绩效考核评分表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5673.html"
+      },
+      {
+        "title": "附件1.公开模板",
+        "url": "https://www.sz.gov.cn/attachment/1/1437/1437369/9477714.pdf"
+      },
+      {
+        "title": "项目支出绩效自评表  |  |  |  |  |  |  |  |",
+        "url": "https://www.lg.gov.cn/attachment/1/1428/1428729/11048178.pdf"
+      },
+      {
+        "title": "项目支出绩效自评表  |  |  |  |  |  |  |",
+        "url": "https://www.lg.gov.cn/attachment/1/1573/1573454/11912925.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "performance-review",
+    "title": "绩效评价记录表",
+    "references": [
+      {
+        "title": "绩效考核记录表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5672.html"
+      },
+      {
+        "title": "绩效评价表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5676.html"
+      },
+      {
+        "title": "績效考核表 Excel 模板 - 免費下載（內建 12 個公式） | 簡報雲PPT",
+        "url": "https://pptx.com.tw/spreadsheets/performance-review"
+      },
+      {
+        "title": "绩效考核表模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/jixiao-kaohe-muban"
+      },
+      {
+        "title": "年度绩效考核表 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/annual-performance-review-form-pdf"
+      },
+      {
+        "title": "免费员工绩效评估表模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/employee-performance-evaluation-form-template"
+      },
+      {
+        "title": "绩效评估模板 | ONLYOFFICE | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/performance-review-1-1"
+      },
+      {
+        "title": "2026员工绩效评价表模板-表格大全网",
+        "url": "https://www.biaogedaquan.com/soexcel/186239.html"
+      },
+      {
+        "title": "一般企业通用员工绩效评价表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-12480/"
+      },
+      {
+        "title": "企业员工绩效考核评价表通用模板 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13545/"
+      },
+      {
+        "title": "HR绩效管理全套资料，最新最全素材工具，复制粘贴工作不动脑|bgwd.net - 办公文档吧",
+        "url": "https://bgwd.net/1029805.html"
+      },
+      {
+        "title": "年度员工绩效考核表PDF模板下载",
+        "url": "https://templates.platoforms.com/zh/pdf/annual-employee-performance-review-pdf"
+      },
+      {
+        "title": "附件4：访谈主要信息记录汇总表及访谈提纲样表",
+        "url": "https://www.xialuqu.gov.cn/czzj2/xlq/202502/P020250226691740002975.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      },
+      {
+        "title": "1",
+        "url": "https://www.lvziku.cn/Uploads/Editor/2019-01-30/5c5148ec74fcf.pdf"
+      },
+      {
+        "title": "填报单位(盖章) ：武汉市黄陂区木兰",
+        "url": "https://www.huangpi.gov.cn/jxzl/mlx_jxzl/fdzdgknr_mlx/czzj_mlx/czyjs_mlx/202110/P020240306431418313059.pdf"
+      },
+      {
+        "title": "公开报告模板",
+        "url": "https://www.hc.gov.cn/bmjd/bm_100475/wsjkw/zwgk_101427/fdzdgknr_101429/ysjs_101436/js/202109/W020210926639919182698.pdf"
+      },
+      {
+        "title": "标准名称",
+        "url": "https://jjxxw.cq.gov.cn/zwgk_213/zcwj/qtwj/202406/W020240613600139128297.pdf"
+      }
+    ]
+  },
+  {
+    "id": "performance-talk",
+    "title": "绩效面谈记录表",
+    "references": [
+      {
+        "title": "员工绩效面谈记录表excel模板素材图片下载-素材编号02482649-素材天下图库",
+        "url": "https://www.sucaisucai.com/sucai/02482649.html"
+      },
+      {
+        "title": "绩效反馈面谈记录表Word模板下载_编号lkrpjgjx_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lkrpjgjx.html"
+      },
+      {
+        "title": "绩效考核面谈记录表Word模板下载_编号qjknzoeb_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qjknzoeb.html"
+      },
+      {
+        "title": "企业员工绩效反馈面谈记录表Word模板下载_编号lrxreoxb_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lrxreoxb.html"
+      },
+      {
+        "title": "员工绩效面谈记录表-员工绩效面谈表范本-Word模板下载_编号qxwxwybp_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qxwxwybp.html"
+      },
+      {
+        "title": "ipd-hardware-implementation/templates/hr/03-performance-management.md at main · Panicheartan/ipd-hardware-implementation · GitHub",
+        "url": "https://github.com/Panicheartan/ipd-hardware-implementation/blob/main/templates/hr/03-performance-management.md"
+      },
+      {
+        "title": "绩效模板下载-word绩效精品模板素材下载-我拉网",
+        "url": "https://www.55.la/word/so_jixiao/"
+      },
+      {
+        "title": "公司员工绩效面谈记录表Word模板_〖Word文档模板下载〗_办公资源网",
+        "url": "https://m.bangongziyuan.com/word/detail-26380.html"
+      },
+      {
+        "title": "人力资源管理绩效考核表填写范例.doc - 人人文库",
+        "url": "https://www.renrendoc.com/paper/459343982.html"
+      },
+      {
+        "title": "企业员工绩效反馈面谈记录表范本Word模板下载_编号lgxendje_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lgxendje.html"
+      },
+      {
+        "title": "绩效结果应用 - 人事圈",
+        "url": "https://renshiquan.com/jixiao/jixiaojieguo"
+      },
+      {
+        "title": "绩效面谈表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5e57ee9cf9e6c8266ea49/"
+      },
+      {
+        "title": "第八章绩效反馈与面谈",
+        "url": "https://fztr.file.gkfz.net/pdf/eb9827fee603e2339d1901a6409a880f.pdf"
+      },
+      {
+        "title": "分类号：                                                         密    级：",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=ac7bd0bbf163a34b3c5431abaa186b0f&objid=56_52_55_57_49"
+      },
+      {
+        "title": "NO",
+        "url": "https://www.crrcgc.cc/Portals/243/Uploads/Files/2018/7-17/636674138389612458.pdf"
+      },
+      {
+        "title": "企业标准",
+        "url": "https://www.ictbda.com/upload/default/20231214/1c95cdfebbcf7141b20b7df18e6c5bb2.pdf"
+      },
+      {
+        "title": "分类号：                                                        密    级：",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=5939ae791aded9c26807fc2f7cc61e8c&objid=49_49_57_52_49"
+      },
+      {
+        "title": "员工绩效管理手册（草案）",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/ace394abd868b3c7547c7ab60ca3f6fb.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "improvement-plan",
+    "title": "绩效改善跟进表",
+    "references": [
+      {
+        "title": "2021年员工绩效改进计划及效果跟踪表下载-Excel表格-办图网",
+        "url": "https://www.888ppt.com/excelbiaoge/23d89d02da3211cc11618839.html"
+      },
+      {
+        "title": "绩效改进计划（PIP） - 人事圈",
+        "url": "https://renshiquan.com/jixiao/pip"
+      },
+      {
+        "title": "绩效改善计划模板模板 | Confluence",
+        "url": "https://www.atlassian.com/zh/software/confluence/templates/performance-improvement-plan"
+      },
+      {
+        "title": "实战型绩效考核管理办法-三茅资料-,,,,,,,-hr资料包-三茅人力资源网",
+        "url": "https://zl.sanmao.com/hr/zt/2311550"
+      },
+      {
+        "title": "员工绩效跟踪模板：Excel 与 Jodoo 两种方式",
+        "url": "https://www.jodoo.com/zh-cn/ai/%E5%91%98%E5%B7%A5%E7%BB%A9%E6%95%88%E8%B7%9F%E8%B8%AA%E6%A8%A1%E6%9D%BF"
+      },
+      {
+        "title": "客户意见反馈情况跟进表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rrxbzraw.html"
+      },
+      {
+        "title": "绩效改善计划模板模板 | Confluence",
+        "url": "https://wac-cdn.atlassian.com/zh/software/confluence/templates/performance-improvement-plan"
+      },
+      {
+        "title": "培训复盘没效果？制作问题改进跟踪表的落地方法 | 零代码企业数字化知识站",
+        "url": "https://www.jiandaoyun.com/news/article/68513ff1229b892d52444dbc"
+      },
+      {
+        "title": "绩效改进计划清单 | DataScope Forms",
+        "url": "https://datascope.io/zh-CN/template/%E4%B8%80%E8%88%AC/%E7%BB%A9%E6%95%88%E6%94%B9%E8%BF%9B%E8%AE%A1%E5%88%92%E6%B8%85%E5%8D%953adec?id=156501"
+      },
+      {
+        "title": "绩效改进计划清单 | DataScope Forms",
+        "url": "https://datascope.io/library/zh-CN/template/%E7%BB%A9%E6%95%88%E6%94%B9%E8%BF%9B%E8%AE%A1%E5%88%92%E6%B8%85%E5%8D%95e8374?id=150047&share_id=2b6aa037993ea2d250b5c6c1a57c33d7"
+      },
+      {
+        "title": "服务质量监控评分与反馈表｜免费下载 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/service-operations/service-quality-scorecard/"
+      },
+      {
+        "title": "客户跟进表怎么做：跟进记录联动，谁该回访自动排出来 — 超级表 TableDI",
+        "url": "https://www.tabledi.com.cn/solutions/customer-followup/"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://www.dxh.gov.cn/ZWGK/bmxxgk/bwbjxxgk/qczj/zcwj/202505/P020250516591990813011.pdf"
+      },
+      {
+        "title": "1",
+        "url": "https://www.lvziku.cn/Uploads/Editor/2019-01-30/5c5148ec74fcf.pdf"
+      },
+      {
+        "title": "<tr",
+        "url": "https://www.nx.gov.cn/zwgk/zdlygk/czzjzdjc/202107/P020210727605293666740.pdf"
+      },
+      {
+        "title": "公开报告模板",
+        "url": "https://www.hc.gov.cn/xxgk/qzfwj/czyjs/js/bmjs/qwbb/202209/W020231023650728932371.pdf"
+      },
+      {
+        "title": "<t",
+        "url": "https://www.dzq.gov.cn/dzqzf/czys/202007/1f24db9dc6204dd39e0ad9ab97577172/files/ee63e06a72f14b28874f17051d730beb.pdf"
+      },
+      {
+        "title": "二级项目支出绩效目标申报表 项目编码： | 440304251413101901004 | | 项目",
+        "url": "https://www.szft.gov.cn/attachment/1/1698/1698979/12656861.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "promotion-review",
+    "title": "晋升评估记录表",
+    "references": [
+      {
+        "title": "晋升评估表素材_晋升评估表图片_晋升评估表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/jinshengpinggubiao.html"
+      },
+      {
+        "title": "附件1 202__年 岗位职级晋升申请评估表",
+        "url": "https://static.cninfo.com.cn/finalpage/2022-07-30/1214171223.PDF"
+      },
+      {
+        "title": "公司职员晋升评估表Word模板下载_编号lkwppeov_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lkwppeov.html"
+      },
+      {
+        "title": "数据开发组，数据工程师，晋升职级t6，晋升评估表：通用能力：执行力、沟通能力、学习能力，专业技能：需求理解、软件设计、工程实现、项目管理、上线复盘，后续发展预期：Word模板下载_编号gnwzpwwk_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/gnwzpwwk.html"
+      },
+      {
+        "title": "员工晋升评估表Word模板下载_编号qzgxxwxo_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qzgxxwxo.html"
+      },
+      {
+        "title": "员工晋升评估表Word模板下载_编号rjvdxbrk_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rjvdxbrk.html"
+      },
+      {
+        "title": "北京大学人事部",
+        "url": "https://hr.pku.edu.cn/xzzx/jspg/jyxl/index.htm"
+      },
+      {
+        "title": "内部晋升评估表Word模板下载_编号lvxzyjak_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lvxzyjak.html"
+      },
+      {
+        "title": "晉升 Excel 範本免費下載｜晉升 Excel 表格模板 – Pikbest",
+        "url": "https://zh.pikbest.com/free-excel/%E6%99%89%E5%8D%87.html"
+      },
+      {
+        "title": "360度评估通用模板_LETOU官方网站模板_AskForm问智道",
+        "url": "https://cif2019.com/general360assess/slash_index.html"
+      },
+      {
+        "title": "优为集团员工晋升评估表_历史项目_免费模板_问卷网",
+        "url": "https://www.wenjuan.com/slp/rUJ3Uv6/"
+      },
+      {
+        "title": "员工晋升评估表格.docx-原创力文档",
+        "url": "https://max.book118.com/html/2021/0812/8115006011003133.shtm"
+      },
+      {
+        "title": "员工晋升评估及职业规划标准工具.doc - 人人文库",
+        "url": "https://www.renrendoc.com/paper/516729733.html"
+      },
+      {
+        "title": "<td>姓名",
+        "url": "https://www.zzsqmc.edu.cn/__local/E/FD/11/898DE2912C26D96FCCA8B70889D_4847565F_5BBA9.pdf"
+      },
+      {
+        "title": "（附件4） 评审表表格模板",
+        "url": "https://www.whsia.org.cn/ueditor/php/upload/file/20210901/1630480456688516.pdf"
+      },
+      {
+        "title": "原部门",
+        "url": "https://static-oforms.onlyoffice.com/_acfe918511.pdf"
+      },
+      {
+        "title": "中国农业大学晋升 六 级管理职员业绩表",
+        "url": "https://jwc.cau.edu.cn/module/download/downfile.jsp?classid=0&filename=a5727089b47742e89ac06f651d220b58.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "talent-inventory",
+    "title": "人才盘点记录表",
+    "references": [
+      {
+        "title": "人才盘点表_人才盘点表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10016459.htm"
+      },
+      {
+        "title": "121.人才盘点excel模板、ppt资料集 - 卷卷人力管理学堂",
+        "url": "https://www.xudamiao.com/3/material.html?action=detail&id=126"
+      },
+      {
+        "title": "人才盘点表格(全套).xlsx_搜弘文库",
+        "url": "https://mwenku.chochina.com/doc/54221.html"
+      },
+      {
+        "title": "阿里人才盘点模板 - 皮皮虾",
+        "url": "https://www.pptku.net/doc/241977388.html"
+      },
+      {
+        "title": "人才盘点评估表 - 管理版 - 文档之家",
+        "url": "https://www.doczj.com/doc/bd13238933.html"
+      },
+      {
+        "title": "〖表格〗人才盘点表.xlsx_搜弘文库",
+        "url": "https://mwenku.chochina.com/doc/53735.html"
+      },
+      {
+        "title": "人才盘点表格大全.xlsx_搜弘文库",
+        "url": "https://wenku.chochina.com/doc/54216.html"
+      },
+      {
+        "title": "人才盘点表下载_人才盘点表最新电脑版_人才盘点表官方免费下载_51下载",
+        "url": "https://www.51xiazai.cn/soft/10016459.htm"
+      },
+      {
+        "title": "人才盘点工具模板.xls_组织",
+        "url": "https://www.sohu.com/a/408428992_180059"
+      },
+      {
+        "title": "第2章：招聘与人才管理",
+        "url": "https://zsc.github.io/enterprise_management_tutorial/html/chapter2.html"
+      },
+      {
+        "title": "人才盘点表-管理人员-测评模板-问卷网",
+        "url": "https://www.wenjuan.com/slp/U3QNBbT/"
+      },
+      {
+        "title": "企业绩效管理与人才盘点模板包-09 人才盘点九宫格矩阵 - 在线模板社区",
+        "url": "https://www.edrawmax.cn/templates/file/1119471/"
+      },
+      {
+        "title": "PowerPoint 演示文稿",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200109/%E7%AE%A1%E7%90%86%E4%BA%BA%E6%89%8D%E6%A2%AF%E9%98%9F%E5%BB%BA%E8%AE%BE%20%E7%99%BE%E4%BA%8B%EF%BC%88%E4%B8%AD%E5%9B%BD%EF%BC%89.pdf"
+      },
+      {
+        "title": "PowerPoint 演示文稿",
+        "url": "https://www.transtalent.cn/wp-content/uploads/2023/06/%E3%80%90%E5%88%86%E4%BA%AB%E7%89%88%E3%80%9120230602%E5%B9%B4%E7%BB%88%E7%9B%98%E7%82%B9%E5%A4%A7%E4%BD%9C%E6%88%98_DDILEAF.pdf"
+      },
+      {
+        "title": "PowerPoint 演示文稿",
+        "url": "https://www.guanaitong.com/uploadfile/2018/0903/201809031535952989.pdf"
+      }
+    ]
+  },
+  {
+    "id": "succession-plan",
+    "title": "关键岗位接续计划表",
+    "references": [
+      {
+        "title": "Free Business Transition Plan Templates | Smartsheet",
+        "url": "https://www.smartsheet.com/transition-plan-templates"
+      },
+      {
+        "title": "Free Succession Planning Templates | Smartsheet",
+        "url": "https://www.smartsheet.com/succession-planning-templates"
+      },
+      {
+        "title": "Free Workforce Planning Templates | Smartsheet",
+        "url": "https://www.smartsheet.com/workforce-planning-templates"
+      },
+      {
+        "title": "Plan de sucesión Excel - Plantilla gratis (2026)",
+        "url": "https://excelrrhh.com/plantilla/plan-de-sucesion/"
+      },
+      {
+        "title": "Free Succession Planning Template (Excel and PDF)",
+        "url": "https://successionstack.com/resources/templates/succession-planning-template"
+      },
+      {
+        "title": "Succession Planning Template and Checklist | Free PDF, Word and Excel | Disprz",
+        "url": "https://disprz.ai/template/succession-planning-template"
+      },
+      {
+        "title": "企业人才建设方案 思维导图模板_ProcessOn思维导图、流程图",
+        "url": "https://www.processon.com/view/631300faf346fb55d89b7420"
+      },
+      {
+        "title": "Succession Planning Template - Engagedly",
+        "url": "https://engagedly.com/templates/succession-planning-template/"
+      },
+      {
+        "title": "过渡计划模板模板 | Confluence",
+        "url": "https://www.atlassian.com/zh/software/confluence/templates/transition-plan"
+      },
+      {
+        "title": "详解华为干部管理工具三件套：TSP(人才继任计划)、MFP(经理反馈计划)和AAD(年度任命决定) - 安谋咨询",
+        "url": "https://www.niuhrd.com/articles/xiang-jie-hua-wei-gan-bu-guan-li-gong-ju-san-jian-tao-ren-cai-ji-ren-ji-hua-jing-li-fan-kui-ji-hua-h/"
+      },
+      {
+        "title": "主讲人：唐洁",
+        "url": "https://img03.71360.com/w3/we2kwp/20231208/a81c690b6638a0c5092716a214c5f5f2.pdf?dl=1&dlf=%E8%AE%A1%E5%88%92%E7%AE%A1%E7%90%86%E8%AF%BE%E4%BB%B6%281%29.pdf"
+      },
+      {
+        "title": "继任者计划.docx_搜弘文库",
+        "url": "https://mwenku.chochina.com/doc/24376.html"
+      },
+      {
+        "title": "Succession Planning Template: A Free, Editable Framework (Plus How to Use It) | TalentGuard",
+        "url": "https://www.talentguard.com/blog/how-to-design-a-succession-planning-template"
+      }
+    ]
+  },
+  {
+    "id": "contract-ledger",
+    "title": "劳动合同管理台账",
+    "references": [
+      {
+        "title": "劳动合同管理台账模板,律师精选4篇_范本下载|华律网",
+        "url": "https://www.66law.cn/contractmodel/7610095.aspx"
+      },
+      {
+        "title": "公司合同管理台账Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/oakbmdwk.html"
+      },
+      {
+        "title": "2025出入库管理台账范本",
+        "url": "https://www.biaogedaquan.com/zhuanti/352072.html"
+      },
+      {
+        "title": "劳动合同管理台账及劳动合同签订续签变更解除审批表Word模板下载_编号lgnmzkgo_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/lgnmzkgo.html"
+      },
+      {
+        "title": "简洁实用公司合同管理台账Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/grgdzbpo.html"
+      },
+      {
+        "title": "劳动合同管理台账",
+        "url": "https://m.liuxue86.com/k_%E5%8A%B3%E5%8A%A8%E5%90%88%E5%90%8C%E7%AE%A1%E7%90%86%E5%8F%B0%E8%B4%A6/"
+      },
+      {
+        "title": "用 SeaTable 记录和管理合同台账 - SeaTable-Customer-Story",
+        "url": "https://docs.seatable.cn/published/seatable-customer-story/%E6%A1%88%E4%BE%8B%7C%E7%94%A8SeaTable%E8%AE%B0%E5%BD%95%E5%92%8C%E7%AE%A1%E7%90%86%E5%90%88%E5%90%8C%E5%8F%B0%E8%B4%A6.md"
+      },
+      {
+        "title": "人力资源常用管理制度与通用模板256页 - 资料下载 - 经管资料网",
+        "url": "https://www.168i.cn/soft/show.asp?id=301706"
+      },
+      {
+        "title": "公司合同管理台账 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-8021/"
+      },
+      {
+        "title": "广州市劳动合同法-广州市劳动合同法Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/search/excel_guangzhoushilaodonghetongfa.html"
+      },
+      {
+        "title": "可查询合同管理台账 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-7541/"
+      },
+      {
+        "title": "excel模板免费下载_excel实用表格模板大全 -〖快客excel〗",
+        "url": "https://www.kkexcel.com/biaoge/"
+      },
+      {
+        "title": "Administrator",
+        "url": "https://hazjj.huaian.gov.cn/upload/2026-06/a4a48ad3-1261-48e0-bcc5-c07645e6b03b.pdf"
+      },
+      {
+        "title": "10. 劳资专管员劳动合同；",
+        "url": "https://zjt.fujian.gov.cn/xxgk/zxwj/202012/P020201204567557645828.pdf"
+      },
+      {
+        "title": "正文文件",
+        "url": "https://file.m12333.cn/upfile/download/b29479a5-a494-4697-3b47-864ea921ddb2.pdf"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://changzhi.gov.cn/xxgkml/zfxxgkml/szfgzbm/szfbzhcxjsglj/czsrmzf/SSJYGK/SJCCSXQD/202304/P020230406608642807747.pdf"
+      }
+    ]
+  },
+  {
+    "id": "renewal-tracker",
+    "title": "合同续签跟进表",
+    "references": [
+      {
+        "title": "合同续约跟踪器模板｜通知期与审核",
+        "url": "https://www.jodoo.com/zh-cn/ai/contract-renewal-tracker"
+      },
+      {
+        "title": "项目合同续签表模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/project-contract-renewal-form-template/"
+      },
+      {
+        "title": "合同续签申请表｜评审与状态",
+        "url": "https://www.jodoo.com/zh-cn/ai/contract-renewal-request-form"
+      },
+      {
+        "title": "维修合约延期表格模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/maintenance-contract-extension-form-template/"
+      },
+      {
+        "title": "2026年合同续签登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b6f5e9cf9e6c826b49bc/"
+      },
+      {
+        "title": "跟进备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c601ece9cf9e6c82679a1a/"
+      },
+      {
+        "title": "合同续签备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5dc68e9cf9e6c8266b426/"
+      },
+      {
+        "title": "2026年合同期限登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b6b9e9cf9e6c826b479e/"
+      },
+      {
+        "title": "合同续签管理软件 | Jodoo 工作流模板",
+        "url": "https://www.jodoo.com/zh-cn/ai/use-cases/contract-renewal-software"
+      },
+      {
+        "title": "合同续签登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c4b767e9cf9e6c8260610b/"
+      },
+      {
+        "title": "稳定续租表格模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/stable-lease-renewal-form-template/"
+      },
+      {
+        "title": "無料・登録不要の契約更新管理表Excelテンプレート｜使い方・システム化の判断基準 | 脱エクセル研究所",
+        "url": "https://www.bitlight.co.jp/office-ai/datsu-excel/contract-renewal-management-template"
+      },
+      {
+        "title": "<td>采购人</t",
+        "url": "https://cms.dlvtc.edu.cn/UploadFile/10793/2024/1715751401766.pdf"
+      },
+      {
+        "title": "统一工作台｜基础设置｜条款与模板｜相对方管理｜合同风险｜合同起草｜合同评审｜签",
+        "url": "https://www.seeyon.com/Public/uploads/Resources/2024-07-02/668366ead4c10.pdf"
+      },
+      {
+        "title": "<tr><td colsp",
+        "url": "https://www.dongzhi.gov.cn/file_cz/3/202405/2024052457183c38abd249f19ac6b1b51a5a092d.pdf"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.sjzlq.gov.cn/attachments/1/202405/15/%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%B8%82%E4%BA%BA%E7%A4%BE%E5%B1%80%E5%8A%B3%E5%8A%A8%E5%85%B3%E7%B3%BB%E5%B7%A5%E4%BD%9C%E6%94%BF%E7%AD%96%E9%9B%86%E9%94%A620240515135447311.pdf"
+      },
+      {
+        "title": "<t",
+        "url": "https://rs.tongchuan.gov.cn/u/cms/www/202502/18165244mbtk.pdf?type=3"
+      },
+      {
+        "title": "附件3：绵阳职业技术学院合同用工续签合同审核表",
+        "url": "https://rsc.mypt.edu.cn/__local/8/7A/18/5B700D903C907CB1C5526BBF385_74A2943A_3F4E4.pdf"
+      }
+    ]
+  },
+  {
+    "id": "employee-change",
+    "title": "员工异动登记表",
+    "references": [
+      {
+        "title": "员工登记表模板_员工登记表模板范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10010436.htm"
+      },
+      {
+        "title": "钉钉模板中心-岗位、薪资异动申请表",
+        "url": "https://appcenter.dingtalk.com/template/detail.html?lwfrom=2017120202092064202920001&source=1102&subTopicCode=industry_topic_fuwuye&templateId=19460&topicCode=topic_group_template_industry"
+      },
+      {
+        "title": "应聘登记表 / 入职登记表 / 离职证明 Word 模板免费下载（可打印） | 棱镜简历",
+        "url": "https://prismresume.cn/templates/free-download/hr"
+      },
+      {
+        "title": "调动人员情况登记表样表_人才人事_苏州市人力资源和社会保障局",
+        "url": "https://hrss.suzhou.gov.cn/jsszhrss/rsgl/202104/d8edac86864343bf989490421080f2d4.shtml"
+      },
+      {
+        "title": "异动备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5eac7e9cf9e6c82670a05/"
+      },
+      {
+        "title": "异动申请表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5ea8ce9cf9e6c826708cf/"
+      },
+      {
+        "title": "调动人员情况登记表_调动人员情况登记表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10015743.htm"
+      },
+      {
+        "title": "调出部门登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c5a0aae9cf9e6c82657a89/"
+      },
+      {
+        "title": "调动人员情况登记表样表_人才人事_苏州市人力资源和社会保障局 28365365体育官网_365提款限制_皇冠365体育下载",
+        "url": "https://wttt2.com/hrss/jsszhrss/rsgl/202104/d8edac86864343bf989490421080f2d4/"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "人事变动申请表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-11594/"
+      },
+      {
+        "title": "17.1 人员异动明细表",
+        "url": "https://shiyongwendangg.pek3b.qingstor.com/%E5%96%94%E8%B6%A3%E4%BA%BA%E4%BA%8B%E9%80%9A%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C.pdf"
+      },
+      {
+        "title": "人员内部调动申请表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/4907.html"
+      },
+      {
+        "title": "转正管理 - 人事圈",
+        "url": "https://renshiquan.com/zhaopin/zhuanzhengguanli"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.sqq.gov.cn/attach/0/c6c6089045964ebd8a9588b58bb33014.pdf"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.cdkfq.gov.cn/uploadnew/202310/25/202310251051171998.pdf"
+      }
+    ]
+  },
+  {
+    "id": "employee-talk",
+    "title": "员工沟通记录表",
+    "references": [
+      {
+        "title": "员工沟通记录表范例_员工沟通记录表范例范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10023116.htm"
+      },
+      {
+        "title": "员工沟通记录表-20260918.docx - 人人文库",
+        "url": "https://www.renrendoc.com/paper/536530430.html"
+      },
+      {
+        "title": "员工沟通记录表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/621c9b64e6dfbb50e91ad276"
+      },
+      {
+        "title": "员工沟通记录表模板 - 百度爱伴功",
+        "url": "https://abg.baidu.com/view/e8f06445b307e87101f696d7"
+      },
+      {
+        "title": "沟通记录表(员工关系)〖excel模板下载〗-包图网",
+        "url": "https://m.ibaotu.com/sucai/146779.html"
+      },
+      {
+        "title": "绩效沟通记录表素材_绩效沟通记录表图片_绩效沟通记录表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/jixiaogoutongjilubiao.html"
+      },
+      {
+        "title": "员工沟通记录表-20221010.docx",
+        "url": "https://www.renrendoc.com/paper/224587897.html"
+      },
+      {
+        "title": "客户沟通记录表素材_客户沟通记录表图片_客户沟通记录表免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/kehugoutongjilubiao.html"
+      },
+      {
+        "title": "员工沟通记录表使用技巧，提升团队协作 | 零代码企业数字化知识站",
+        "url": "https://www.jiandaoyun.com/news/article/687636c9229b892d525df0bf"
+      },
+      {
+        "title": "员工沟通记录表 - 百度文库",
+        "url": "https://wenku.baidu.com/view/f547fc88fab069dc5022019e?bfetype=new&pcf=2"
+      },
+      {
+        "title": "绩效沟通表模板免费下载-工图网",
+        "url": "https://www.900ppt.com/soexcel/6574718.html"
+      },
+      {
+        "title": "员工沟通记录表 - 百度文库",
+        "url": "https://wenku.baidu.com/view/a2844b79a66e58fafab069dc5022aaea998f41b2?bfetype=new&pcf=2"
+      },
+      {
+        "title": "PowerPoint 演示文稿",
+        "url": "https://www.hrecchina.org/UpLoadFile/20240423/BS1-%E5%8D%8E%E8%83%9C%E5%A4%A9%E6%88%90-%E4%BA%BA%E6%95%88%E7%AE%A1%E7%90%86%E4%B8%8B%E9%94%80%E5%94%AE%E4%BA%BA%E6%89%8D%E7%9A%84%E6%9C%89%E6%95%88%E6%BF%80%E5%8A%B1%E4%B8%8E%E7%AE%A1%E6%8E%A7.pdf"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C9E7BBE1D4F0C8CEB1A8B8E6323032325BCDD1C3DCB0E65D2E646F63>",
+        "url": "https://shzr.saq.org.cn/cgbg/2020/index?dwmc=%E4%B8%8A%E6%B5%B7%E6%B5%B7%E9%B9%B0%E6%9C%BA%E6%A2%B0%E5%8E%82&handler=Fj&nf=2023"
+      },
+      {
+        "title": "15-1 微信沟通记录",
+        "url": "https://www.csrc.gov.cn/csrc/c100090/c1520457/1520457/files/%E4%BC%9A%E8%AE%A1%E5%B8%88%E5%85%B3%E4%BA%8E%E5%8F%91%E8%A1%8C%E6%B3%A8%E5%86%8C%E7%8E%AF%E8%8A%82%E8%A1%A5%E5%85%85%E5%8F%8D%E9%A6%88%E6%84%8F%E8%A7%81%E8%90%BD%E5%AE%9E%E5%87%BD%E7%9A%84%E5%9B%9E%E5%A4%8D.pdf"
+      },
+      {
+        "title": "与业务负责人 / 经理非正式沟通",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200115/%E6%8B%9B%E8%81%98%E5%9B%A2%E9%98%9F%E4%B8%8E%E4%B8%9A%E5%8A%A1%E8%B4%9F%E8%B4%A3%E4%BA%BA%20%EF%BC%8C%E7%BB%8F%E7%90%86%E9%9D%9E%E6%AD%A3%E5%BC%8F%E6%B2%9F%E9%80%9A%E5%BA%94%E5%85%B3%E6%B3%A8%E7%9A%84%E4%BF%A1%E6%81%AF%E8%A1%A8.pdf"
+      },
+      {
+        "title": "1 | 沟通的内容 外部招聘的必要性和原因 | 原因",
+        "url": "https://www.hrecchina.org/UpLoadFile/20200115/%E6%8B%9B%E8%81%98%E9%83%A8%E9%97%A8%E5%B8%AE%E5%8A%A9%E7%94%A8%E4%BA%BA%E9%83%A8%E9%97%A8%E5%8E%98%E6%B8%85%E7%94%A8%E4%BA%BA%E9%9C%80%E6%B1%82%E8%A1%A8.pdf"
+      }
+    ]
+  },
+  {
+    "id": "issue-followup",
+    "title": "员工诉求处理台账",
+    "references": [
+      {
+        "title": "服务工单记录模板｜免费下载与系统示例 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/service-operations/service-ticket-log/"
+      },
+      {
+        "title": "问题解决记录模板 | 免费下载 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/customer-support/issue-resolution-log/"
+      },
+      {
+        "title": "人事管理台账图文详解，如何高效制作人事管理台账？ • i人事",
+        "url": "https://blog.ihr360.com/p/407091/"
+      },
+      {
+        "title": "免费员工投诉表单模板｜PlatoForms",
+        "url": "https://templates.platoforms.com/zh/form/employee-complaint-forms"
+      },
+      {
+        "title": "员工申诉投诉表 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/hr-grievance-complaint-form-pdf"
+      },
+      {
+        "title": "クレーム対応記録票｜Excel作成の項目が異なる2種類の雛形が無料です",
+        "url": "https://free-hinagata.com/hinagata/biz-claim.html"
+      },
+      {
+        "title": "クレーム一覧表｜Excel作成の無料テンプレート・目次のような表",
+        "url": "https://www.muryo-na-template.net/business/claimichiran.html"
+      },
+      {
+        "title": "2026版售后维修工单执行手册与复盘表模板S075（含台账模板、复盘表与责任矩阵）-20260625194800.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0625/8016067045010104.shtm"
+      },
+      {
+        "title": "Employee Relations Case Log (Free Template)",
+        "url": "https://peopleopsclub.com/resources/employee-relations-case-log"
+      },
+      {
+        "title": "工单分派记录模板 | 免费下载 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/customer-support/ticket-routing-log/"
+      },
+      {
+        "title": "学党史个人问题整改台账表",
+        "url": "https://www.biaogedaquan.com/zhuanti/336886.html"
+      },
+      {
+        "title": "<tr>",
+        "url": "https://www.zgqx.gov.cn/qx/c01012/1902558009871908864/Mj5gjDZX.pdf"
+      },
+      {
+        "title": "员工档案管理台账模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/odpagtdf.html"
+      },
+      {
+        "title": "落 实 台 账（模板）",
+        "url": "https://wlt.hlj.gov.cn/wlt/c114145/202311/31681074/files/%E2%80%9C%E6%96%87%E6%97%85%E4%BD%93%E9%AA%8C%E5%AE%98%E2%80%9D%E4%BD%93%E9%AA%8C%E8%AF%84%E5%88%86%E8%A1%A8%E3%80%81%E2%80%9C%E6%96%87%E6%97%85%E4%BD%93%E9%AA%8C%E5%AE%98%E2%80%9D%E5%88%B6%E5%BA%A6%E8%B4%A3%E4%BB%BB%E6%B8%85%E5%8D%95%EF%BC%88%E6%A8%A1%E6%9D%BF%EF%BC%89%E3%80%81%E2%80%9C%E6%96%87%E6%97%85%E4%BD%93%E9%AA%8C%E5%AE%98%E2%80%9D%E5%88%B6%E5%BA%A6%E8%90%BD%E5%AE%9E%E5%8F%B0%E8%B4%A6%EF%BC%88%E6%A8%A1%E6%9D%BF%29-20231103112656615.pdf"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "保障农民工资支付备检台账目录类别  | 序号  | 台账内容  | 台账要求",
+        "url": "https://www.lg.gov.cn/attachment/0/938/938442/9287224.pdf"
+      },
+      {
+        "title": "“一本账”，以“服务包”企业诉求走访、三方检查走访、属地自主上报等途径收集企业诉求，统一形成问题台账，落实“首接负责制”，由部门及属地双主责共同推进，疑难问题定期报请区领导调度，充分发挥政府“店小二”“服务员”作用，切实解决企业困难，助力其轻装上阵、释放活力。探索政府统筹、企业共建模式，破解企业水、电、燃气等生产基础设施难以连通，形成各产业功能区市政管线“一张网”。探索政府统筹、企业共建模式，破解公交车、接驳大巴难以触达，员工居住难以落实等配套缺失的突出问题，形成各产业功能区交通服务“多条线”、职工居住“一张图”。探索智能匹配，主动推送政策直达企业。借助“经济大脑”平台，智能筛选符合企业自身领域最新发布政策，平台直接发送至企业中层，由企业找政策变为政策找企业。",
+        "url": "https://www.bjtzh.gov.cn/bjtz/xhtml/pdf/zfgb_23_5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "policy-receipt",
+    "title": "制度培训与接收记录表",
+    "references": [
+      {
+        "title": "员工培训记录表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakpgdrb.html"
+      },
+      {
+        "title": "入职岗前培训记录表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rrxnznkm.html"
+      },
+      {
+        "title": "ICS 03.120.99",
+        "url": "https://www.sz.gov.cn/attachment/1/1516/1516468/11841091.pdf"
+      },
+      {
+        "title": "ICS 03.120.99",
+        "url": "https://www.sz.gov.cn/attachment/1/1502/1502844/11672540.pdf"
+      },
+      {
+        "title": "通用员工培训考核记录表模版Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/zakpgdab.html"
+      },
+      {
+        "title": "员工培训记录表模板 | 可填写PDF表格",
+        "url": "https://templates.platoforms.com/zh/pdf/staff-training-record-pdf"
+      },
+      {
+        "title": "新员工入职培训相关表格_范本下载|华律网",
+        "url": "https://www.66law.cn/contractmodel/5830030.aspx"
+      },
+      {
+        "title": "入职新员工培训Excel表格模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/excelmuban/ruzhixinyuangongpeixun.html"
+      },
+      {
+        "title": "培训记录表清单 | DataScope Forms",
+        "url": "https://datascope.io/library/zh-CN/template/%E5%9F%B9%E8%AE%AD%E8%AE%B0%E5%BD%95%E8%A1%A8%E6%B8%85%E5%8D%95b0a0e?id=427380&share_id=f6fc9c6fdb10dcf7c872ebf41d52cb48"
+      },
+      {
+        "title": "新员工入职培训记录表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/oarzembd.html"
+      },
+      {
+        "title": "员工培训记录表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/oarzenwp.html"
+      },
+      {
+        "title": "新员工入职培训登记表：从记录完成到确认掌握 - UMU",
+        "url": "https://www.umu.cn/content/xin-yuan-gong-ru-zhi-pei-xun-deng-ji-biao_fc9bd8"
+      },
+      {
+        "title": "培训记录表格模板",
+        "url": "https://doc.quark.cn/preview/shiyongmoban-biaogemoban-qita/4F3AA0EB12D82B7AB202FD86AC60CED8"
+      },
+      {
+        "title": "培训记录表模板_人事行政Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/oezedblj.html"
+      },
+      {
+        "title": "课程名称 _______________________________",
+        "url": "https://xny.ztt.cn/upload/compliance/CN/13.%E4%B8%AD%E5%A4%A9%E7%A7%91%E6%8A%80_%E3%80%8A%E5%91%98%E5%B7%A5%E5%90%88%E8%A7%84%E5%9F%B9%E8%AE%AD%E5%AE%9E%E6%96%BD%E7%BB%86%E5%88%99%E3%80%8B.pdf"
+      },
+      {
+        "title": "企业营业执照正副本扫描件或营业执照",
+        "url": "https://zjt.hubei.gov.cn/bmdt/ztzl/zcwd/202202/P020221208396489235612.pdf"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "satisfaction-survey",
+    "title": "员工工作体验调查表",
+    "references": [
+      {
+        "title": "员工体验 调查模板、示例和表单",
+        "url": "https://www.limesurvey.org/zh/template/hr-templates/employee-experience-templates"
+      },
+      {
+        "title": "员工问卷调查 调查模板、示例和表单",
+        "url": "https://www.limesurvey.org/zh/template/hr-templates/employee-questionnaire-templates"
+      },
+      {
+        "title": "职场人一周工作状态与体验反馈调查-表单模板-问卷网",
+        "url": "https://www.wenjuan.com/j/uYfyEjP/"
+      },
+      {
+        "title": "员工工作体验调查问卷（学术研究）",
+        "url": "https://www.wjx.cn/vm/OMNIfik.aspx"
+      },
+      {
+        "title": "员工满意度调查表模板 — 调查示例与表格",
+        "url": "https://www.limesurvey.org/zh/template/employee-satisfaction-form-tpl"
+      },
+      {
+        "title": "免費員工反饋表單模板 — 打造更好文化 | FormLM",
+        "url": "https://formlm.me/home/zh-hant/template/form/employee-feedback-form.html"
+      },
+      {
+        "title": "职业满意度调查表模板 — 调查示例与表格",
+        "url": "https://www.limesurvey.org/zh/template/career-satisfaction-form-tpl"
+      },
+      {
+        "title": "模板中心｜员工满意度调研问卷模板 - 飞书官网",
+        "url": "https://www.feishu.cn/template/employee-satisfaction-survey-questionnaire-template"
+      },
+      {
+        "title": "设计模板 - 问卷调查页面",
+        "url": "https://www.apple.com.cn/business/docs/resources/Mac_at_Work_Employee_Choice_Communications_Kit_Guide_CNSC.pdf"
+      },
+      {
+        "title": "员工工作调查问卷模板 - 免费在线表单 - 金数据模板中心",
+        "url": "https://jinshuju.net/templates/07VHZA"
+      },
+      {
+        "title": "员工工作满意度调查模板 — 调查示例与表格",
+        "url": "https://www.limesurvey.org/zh/template/employee-job-satisfaction-survey-tpl"
+      },
+      {
+        "title": "人力资源 调查模板、示例和表单",
+        "url": "https://www.limesurvey.org/zh/template/hr-templates"
+      },
+      {
+        "title": "企业员工体验综合调查问卷 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/6a6cf16b6099d831e682b8b8/"
+      },
+      {
+        "title": "附录　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　石河子大学硕士学位论文",
+        "url": "https://lwtj.shzu.edu.cn/openfile?dbid=72&lwsing=784da329fed006e2780dfbe27c3586e5&objid=52_52_48_54_50"
+      },
+      {
+        "title": "员工调查问卷",
+        "url": "https://public-pages-files-2025.frontiersin.org/articles/681910/file/Data_Sheet_2.pdf/681910_supplementary-materials_datasheets_2_pdf/3"
+      },
+      {
+        "title": "员工调查问卷",
+        "url": "https://public-pages-files-2025.frontiersin.org/articles/681910/file/data_sheet_2.pdf/681910_supplementary-materials_datasheets_2_pdf/3"
+      },
+      {
+        "title": "2、关注员工的培训体验感和反馈",
+        "url": "https://img203.kttx.cn/images/files/20220818/e559da74685b4de4b8034944bb12ce79.pdf"
+      },
+      {
+        "title": "问答题，员工拿着调查表将调查表模板的内容抄录在自己的调查表上面即可。除此之外，员工们没有接受任何关于职业安全的培训。",
+        "url": "https://chinalaborwatch.org/wp-content/uploads/2021/04/2013-10_Mattel_report-Chinese.pdf"
+      },
+      {
+        "title": "青年劳动调查问卷｜工劳小报 #26",
+        "url": "https://www.reddit.com/r/China_irl/comments/15gv9ez"
+      },
+      {
+        "title": "The Human Evaluation Datasheet 1.0: A Template for Recording Details of Human Evaluation Experiments in NLP",
+        "url": "https://arxiv.org/abs/2103.09710"
+      }
+    ]
+  },
+  {
+    "id": "hr-documents",
+    "title": "人事档案目录与查阅台账",
+    "references": [
+      {
+        "title": "2.2.6.1 干部档案报表示例 · HReport",
+        "url": "https://hreport.umsp.com.cn/book/02-%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/2.2.6-%E5%B9%B2%E9%83%A8%E6%A1%A3%E6%A1%88%E6%8A%A5%E8%A1%A8%E7%A4%BA%E4%BE%8B/2.2.6.1-%E5%B9%B2%E9%83%A8%E4%BA%BA%E4%BA%8B%E6%A1%A3%E6%A1%88%E7%9B%AE%E5%BD%95.html"
+      },
+      {
+        "title": "企业HR员工花名册与人事档案信息管理总台账Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/employee-personnel-record-roster/"
+      },
+      {
+        "title": "人事行政多维表格业务系统-飞书官网",
+        "url": "https://www.feishu.cn/template/human-resources-administration-template-group"
+      },
+      {
+        "title": "人事管理台账图文详解，如何高效制作人事管理台账？ • i人事",
+        "url": "https://blog.ihr360.com/p/407091/"
+      },
+      {
+        "title": "员工档案目录Word模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/pgxdepaj.html"
+      },
+      {
+        "title": "Excel模板大全_精美表格模板下载_办公资源网",
+        "url": "https://www.bangongziyuan.com/search/val-taizhang-type-2.html"
+      },
+      {
+        "title": "员工信息管理模板 | Finite Field",
+        "url": "https://finitefield.org/zh/excel-templates/human-resources/employee-information-management/"
+      },
+      {
+        "title": "人事档案员工信息台账及人员结构分析表Excel(设置自动提醒)免费下载丨蚂蚁HR博客",
+        "url": "https://www.mayihr.com/blog/renshidangantaizhang"
+      },
+      {
+        "title": "人事档案登记及查询管理系统表格Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/qgamonov.html"
+      },
+      {
+        "title": "重庆市人力资源和社会保障",
+        "url": "https://rlsbj.cq.gov.cn/zwgk_182/zfxxgkml/zdwjhb/202102/P020210223643781285182.pdf"
+      },
+      {
+        "title": "<",
+        "url": "https://bmj.wuhan.gov.cn/fgbzk/dazzcfgk/202312/P020231229644208662132.pdf"
+      },
+      {
+        "title": "excel怎么做人事档案表？详细步骤与模板推荐教程 | 零代码企业数字化知识站",
+        "url": "https://www.jiandaoyun.com/news/article/68c2aee0229b892d52adce2a"
+      },
+      {
+        "title": "档案接收",
+        "url": "https://banshi.beijing.gov.cn/pubtask/task/1/110000000000/b763ef47-c474-479c-b755-bf204b445798.html?locationCode=110000000000"
+      },
+      {
+        "title": "地方标准",
+        "url": "https://si12333.cn/upfile/download/90772b18-b5a5-1ae3-35ba-ad07fb1c8899.pdf"
+      },
+      {
+        "title": "<tr><th>目录序号</th><th>档案",
+        "url": "https://www.lg.gov.cn/attachment/0/627/627568/7602889.pdf"
+      },
+      {
+        "title": "文书范本｜员工档案；档案目录卡；档案内容登记簿；档案明细表；人事档案资料卡",
+        "url": "https://lawyeah-lawdata.oss-cn-beijing.aliyuncs.com/law_books/8379276c539352ef2c6ec9156ce6b45d.978-7-5118-2750-0.pdf"
+      },
+      {
+        "title": "人事档案",
+        "url": "https://zh.wikipedia.org/wiki/%E4%BA%BA%E4%BA%8B%E6%A1%A3%E6%A1%88"
+      }
+    ]
+  },
+  {
+    "id": "departure-register",
+    "title": "离职事项登记表",
+    "references": [
+      {
+        "title": "公司离职人员登记表word模板 - 考勤登记模板 - Word模板 - 可牛办公",
+        "url": "https://o.keniu.com/t/1001126.html"
+      },
+      {
+        "title": "离职登记表（附：离职证明模板）免费下载丨蚂蚁HR博客",
+        "url": "https://www.mayihr.com/blog/lizhidengjibiao"
+      },
+      {
+        "title": "员工信息表离职入职登记表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/depdjdyb.html"
+      },
+      {
+        "title": "简洁员工入职离职登记表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/depdjobd.html"
+      },
+      {
+        "title": "应聘登记表 / 入职登记表 / 离职证明 Word 模板免费下载（可打印） | 棱镜简历",
+        "url": "https://prismresume.cn/templates/free-download/hr"
+      },
+      {
+        "title": "2026年自动离职登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b982e9cf9e6c826b5932/"
+      },
+      {
+        "title": "2026年离职申请登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b8bee9cf9e6c826b53a4/"
+      },
+      {
+        "title": "HR 模板中心 - 人事圈",
+        "url": "https://renshiquan.com/templates/"
+      },
+      {
+        "title": "2026年离职时间登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c689b8e9cf9e6c826a6a94/"
+      },
+      {
+        "title": "员工离职登记表excel模板_完美办公",
+        "url": "https://2f.zhhainiao.com/detail?mat_id=2003376"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.cdkfq.gov.cn/uploadnew/202310/25/202310251051171998.pdf"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.sqq.gov.cn/attach/0/c6c6089045964ebd8a9588b58bb33014.pdf"
+      },
+      {
+        "title": "企业员工离职申请表格〖完整模版〗 - 吾爱文档",
+        "url": "https://www.5idoc.com/doc/2e13728560.html"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "简约员工离职交接表Word模板 - 吾爱文档",
+        "url": "https://www.5idoc.com/doc/0a19798467.html"
+      },
+      {
+        "title": "<",
+        "url": "https://si12333.cn/upfile/download/d902f503-750e-7256-d5d2-29d6a433dbb1.pdf"
+      },
+      {
+        "title": "条文",
+        "url": "https://lawyeah-lawdata.oss-cn-beijing.aliyuncs.com/law_books/8379276c539352ef2c6ec9156ce6b45d.978-7-5118-2750-0.pdf"
+      }
+    ]
+  },
+  {
+    "id": "exit-interview",
+    "title": "离职面谈记录表",
+    "references": [
+      {
+        "title": "離職面談記錄表範本下載（英文版）- hkhrtool.com",
+        "url": "https://hkhrtool.com/hr-templates/exit-interview-form"
+      },
+      {
+        "title": "员工离职面谈记录表模板_企业管理Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/hctwlgyb.html"
+      },
+      {
+        "title": "离职面谈记录表_离职面谈记录表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10023108.htm"
+      },
+      {
+        "title": "员工离职访谈素材_员工离职访谈图片_员工离职访谈免费模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/tupian/yuangonglizhifangtan.html"
+      },
+      {
+        "title": "离职面谈记录表_离职面谈记录表范文模板_华军软件园",
+        "url": "https://www.onlinedown.net/soft/10023108.htm"
+      },
+      {
+        "title": "离职面谈记录表图片-离职面谈记录表素材免费下载-包图网",
+        "url": "https://m.ibaotu.com/tupian/lizhimiantanjilubiao.html"
+      },
+      {
+        "title": "员工离职面谈表 | 可填写PDF模板",
+        "url": "https://templates.platoforms.com/zh/pdf/employee-exit-interview-form-pdf"
+      },
+      {
+        "title": "员工离职面谈记录表-Word模板下载_编号ljwbdxzo_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/ljwbdxzo.html"
+      },
+      {
+        "title": "面谈记录表表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/miantanjilubiao.html"
+      },
+      {
+        "title": "员工离职面谈记录表_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/67e11f561c1907f40029821d"
+      },
+      {
+        "title": "2025员工离职薪资结算确认单",
+        "url": "https://www.biaogedaquan.com/zhuanti/478186.html"
+      },
+      {
+        "title": "员工离职面谈记录表word模板_完美办公",
+        "url": "https://www.777ppt.com/detail?mat_id=2006378"
+      },
+      {
+        "title": "HR-001",
+        "url": "https://www.star-hr.net/learn/data/upload/20210923/9d35a3e26e34e6a8a5812e177dd5c9d0.pdf"
+      },
+      {
+        "title": "新员工入职流程",
+        "url": "https://www.starhr.com.cn/learn/data/upload/20210923/8d65131237050e953d4e079db338064c.pdf"
+      },
+      {
+        "title": "员工离职面谈记录表",
+        "url": "https://whpu.91wllm.cn/attachment/whpu/ueditor/file/20251013/7442_%E5%A4%AA%E7%B2%AE%E9%9B%86%E5%9B%A2-2026%E5%B1%8A%E7%A7%8B%E5%AD%A3%E6%A0%A1%E6%8B%9B%E6%8B%9B%E8%81%98%E7%AE%80%E7%AB%A0.pdf"
+      },
+      {
+        "title": "A boxed form titl",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/41270647e80ddb177bc1749e23448e3e.pdf"
+      }
+    ]
+  },
+  {
+    "id": "work-handover",
+    "title": "工作交接清单",
+    "references": [
+      {
+        "title": "工作交接清单Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/yaxzpame.html"
+      },
+      {
+        "title": "工作交接清单Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/kbpnymon.html"
+      },
+      {
+        "title": "公司工作交接清单Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/grgporny.html"
+      },
+      {
+        "title": "工作交接清单表模板_企业管理Excel模板下载-蓝山办公",
+        "url": "https://www.office.cn/muban/sbdbzevl.html"
+      },
+      {
+        "title": "工作交接清單 Excel 範本免費下載｜工作交接清單 Excel 表格模板 – Pikbest",
+        "url": "https://zh.pikbest.com/free-excel/%E5%B7%A5%E4%BD%9C%E4%BA%A4%E6%8E%A5%E6%B8%85%E5%96%AE.html"
+      },
+      {
+        "title": "工作交接清单明细表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/wwmknwkd.html"
+      },
+      {
+        "title": "离职工作交接清单模板 | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/exit-job-handover-checklist"
+      },
+      {
+        "title": "工作交接明细清单表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-8464/"
+      },
+      {
+        "title": "工作交接明细清单表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13910/"
+      },
+      {
+        "title": "工作交接清单——工作清单_word文档在线阅读与下载_无忧文档",
+        "url": "https://www.51wendang.com/doc/dd16d0b25486f9ceca9361d5"
+      },
+      {
+        "title": "交接清单Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/enpaxwan.html"
+      },
+      {
+        "title": "工作交接明细清单表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13907/"
+      },
+      {
+        "title": "0-离职人 入职日期 | 1-名字",
+        "url": "https://static-oforms.onlyoffice.com/_ab45645566.pdf"
+      },
+      {
+        "title": "",
+        "url": "https://sugh.szu.edu.cn/Sites/Uploaded/File/2019/03/116368790171293745692069349.pdf"
+      },
+      {
+        "title": "<td>移交人</",
+        "url": "https://www.hnxxc.com/uploadfile/2022/8/cbb75245-738e-451b-b2ce-226628d70b15.pdf"
+      },
+      {
+        "title": "<tr><td>姓名</",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "<tr><th>项目</th><th>数量</",
+        "url": "https://www.gc.gov.cn/attachments/1/202403/25/%E5%85%B3%E4%BA%8E%E5%8D%B0%E5%8F%91%E3%80%8A%E4%BB%A3%E7%90%86%E8%AE%B0%E8%B4%A6%E5%9F%BA%E7%A1%80%E5%B7%A5%E4%BD%9C%E8%A7%84%E8%8C%83%EF%BC%88%E8%AF%95%E8%A1%8C%EF%BC%89%E3%80%8B%E7%9A%84%E9%80%9A%E7%9F%A520240325090921259.pdf?sid=e389640a-de94-42a4-b142-8062a2317fc5"
+      },
+      {
+        "title": "  <th>项目</th",
+        "url": "https://sthjj.lasa.gov.cn/sthjj/czys/202401/996f928f68ac49fe9cff8fa241daa4d4/files/968038d3dde04877bcebe4841db040da.pdf"
+      }
+    ]
+  },
+  {
+    "id": "asset-return",
+    "title": "办公资产归还清单",
+    "references": [
+      {
+        "title": "Employee Asset Return Form Template | Free Download | HiveDesk",
+        "url": "https://www.hivedesk.com/resources/employee-asset-return-form"
+      },
+      {
+        "title": "Office Asset Return Checklist | Free Exit Clearance Tool",
+        "url": "https://www.syntavox.com/tools/office-asset-return-checklist"
+      },
+      {
+        "title": "员工资产归还表单模板｜设备归还与结案",
+        "url": "https://www.jodoo.com/zh-cn/ai/employee-asset-return-form"
+      },
+      {
+        "title": "辦公資產登記範本：免費、可編輯 XLSX | WPS AI",
+        "url": "https://www.wps.ai/zh-hk/resources/templates/spreadsheets/office-asset-register/"
+      },
+      {
+        "title": "Office Asset List Template in PDF",
+        "url": "https://www.generalblue.com/office-asset-list-template/p/t8c1y9qv4"
+      },
+      {
+        "title": "资产交接与归还检查清单指南 | Jodoo",
+        "url": "https://www.jodoo.com/zh-cn/ai/guides/asset-equipment-control/asset-handover-return-checklist"
+      },
+      {
+        "title": "固定资产移交清单-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5203.html"
+      },
+      {
+        "title": "2026年归还入库登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c79ba9e9cf9e6c826fc255/"
+      },
+      {
+        "title": "Employee Asset Handover ∞ Template",
+        "url": "https://translate.hicom-asia.com/template/employee-asset-handover/"
+      },
+      {
+        "title": "企业资产追踪及使用记录标准化模板.doc - 人人文库",
+        "url": "https://www.renrendoc.com/paper/466947165.html"
+      },
+      {
+        "title": "2026年领用归还记录登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c79be1e9cf9e6c826fc3ef/"
+      },
+      {
+        "title": "单位现有设备情况调查统计表 - 畅榴云模板",
+        "url": "https://www.changliuyun.com/workspace/excel/mBvLkKLZl1TjY9ao8weotEQgvXY"
+      },
+      {
+        "title": "资产管理业务指南",
+        "url": "https://zhc.dicp.ac.cn/htgs/1.pdf"
+      },
+      {
+        "title": "Microsoft Word - 青财采（2025）12号.doc",
+        "url": "https://www.shqp.gov.cn/fina/fina/upload/202503/0307_103041_174.pdf"
+      },
+      {
+        "title": "No:0000001",
+        "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3095/site/attach/0/3bfe183c74e9400b8a60320beebf8b9d.pdf"
+      }
+    ]
+  },
+  {
+    "id": "access-close",
+    "title": "账号权限关闭清单",
+    "references": [
+      {
+        "title": "〖範例表單-管理營運〗系統帳號停用檢核表 | 101EIP.net",
+        "url": "https://www.101eip.net/tw/%E3%80%90%E7%AF%84%E4%BE%8B%E8%A1%A8%E5%96%AE-%E7%AE%A1%E7%90%86%E7%87%9F%E9%81%8B%E3%80%91%E7%B3%BB%E7%B5%B1%E5%B8%B3%E8%99%9F%E5%81%9C%E7%94%A8%E6%AA%A2%E6%A0%B8%E8%A1%A8/"
+      },
+      {
+        "title": "〖範例表單-管理營運〗系統帳號停用檢核表 | 101Form.net",
+        "url": "https://www.101form.net/tw/%E3%80%90%E7%AF%84%E4%BE%8B%E8%A1%A8%E5%96%AE-%E7%AE%A1%E7%90%86%E7%87%9F%E9%81%8B%E3%80%91%E7%B3%BB%E7%B5%B1%E5%B8%B3%E8%99%9F%E5%81%9C%E7%94%A8%E6%AA%A2%E6%A0%B8%E8%A1%A8/"
+      },
+      {
+        "title": "停用审批登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c63778e9cf9e6c8268d206/"
+      },
+      {
+        "title": "應用範例04-系統權限申請單 | e秒簽雲端服務 - 一等一科技",
+        "url": "https://www.edetw.com/ex-system/"
+      },
+      {
+        "title": "软件访问终止离职表单模板 | SurveyMars",
+        "url": "https://surveymars.com/zh-Hans/templates/software-access-termination-offboarding-form-template/"
+      },
+      {
+        "title": "用户账号申请表模板 | 受理、分派与状态跟踪",
+        "url": "https://www.jodoo.com/zh-cn/ai/user-account-request-form"
+      },
+      {
+        "title": "如何在 IDaaS 云平台特权管理（PAM）中创建和管理权限模板-应用身份服务 (IDaaS)(IDaaS)-阿里云帮助中心",
+        "url": "https://help.aliyun.com/zh/idaas/eiam/user-guide/pam-permission-template"
+      },
+      {
+        "title": "员工离职核对清单模板 | 权限移除与资产归还",
+        "url": "https://www.jodoo.com/zh-cn/ai/employee-exit-checklist"
+      },
+      {
+        "title": "WPS 365兼职人员企业账号管理上手实践：临时员工快速开通、文档沙箱权限管控与生命周期自动回收",
+        "url": "https://365.wps.cn/content/a6134166db4f47e68f1e3cd2d9064cb1.html"
+      },
+      {
+        "title": "2026员工入职—试用—转正—异动—离职全流程SOP工具包｜清单·评分表·交接·资产与权限关闭.docx-原创力文档",
+        "url": "https://max.book118.com/html/2026/0715/8137133120010110.shtm"
+      },
+      {
+        "title": "User Access Review Template (Excel, SOC 2 / ISO 27001 Evidence)",
+        "url": "https://www.securityscientist.net/blog/user-access-review-template/"
+      },
+      {
+        "title": "账号审批登记表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c636cce9cf9e6c8268ce78/"
+      },
+      {
+        "title": "用户指南",
+        "url": "https://support.huaweicloud.com/intl/zh-cn/usermanual-codeartsrepo/%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97-%E5%AE%A2%E6%BB%A1-%E5%9B%BD%E9%99%85%E7%AB%99%28pdf%29%282025%29-pdf.pdf"
+      },
+      {
+        "title": "TAM零信任身份服务中心",
+        "url": "https://mkp-res.hc-cdn.com/marketplace/public/app/attachment/20220509/3b2f821e-c1ca-46e9-b5b0-bd0ce4c7b5c3/2205090814426481.pdf"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20B8BDBCFED2BBA3BACAAFD3CDCAAFBBAFD0D0D2B5C4DAB2BFBFD8D6C6B2D9D7F7D6B8C4CFA3A8D5F7C7F3D2E2BCFBB8E5A3A9>",
+        "url": "https://m.mof.gov.cn/tzgg/201303/P020130319403899550891.pdf"
+      },
+      {
+        "title": "1",
+        "url": "https://www.hc-software.cn/hcgis/support/adminmanual.pdf"
+      }
+    ]
+  },
+  {
+    "id": "departure-settlement",
+    "title": "离职结算核对表",
+    "references": [
+      {
+        "title": "员工离职结算表-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5016.html"
+      },
+      {
+        "title": "离职交接清单 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/lizhi-jiaojie-qingdan/"
+      },
+      {
+        "title": "员工离职结算单-Excel表格模板下载-AiPPT",
+        "url": "https://www.aippt.cn/template/excel/detail/5017.html"
+      },
+      {
+        "title": "2026年离职结算信息收集表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b936e9cf9e6c826b5693/"
+      },
+      {
+        "title": "离职交接单模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/lizhi-jiaojie-moban"
+      },
+      {
+        "title": "离职PPT背景PPT模板2026免费下载_Work办公",
+        "url": "https://www.workbangong.com/search/comp_10028_0_0_1_lizhi2.html"
+      },
+      {
+        "title": "结算单Excel模板_在线下载_蓝山办公",
+        "url": "https://www.office.cn/excel/62781439.html"
+      },
+      {
+        "title": "离职交接表单模板免费下载-职场办公-团鱼坡",
+        "url": "https://tuanyupo.com/zhichang/218.html"
+      },
+      {
+        "title": "2025员工离职薪资结算确认单",
+        "url": "https://www.biaogedaquan.com/zhuanti/478186.html"
+      },
+      {
+        "title": "办公模版下载工具-员工离职交接表Excel模板下载-Flash中心",
+        "url": "https://office.flash.cn/detail/2021"
+      },
+      {
+        "title": "离职工资结算表-离职表模板(通用）免费下载丨蚂蚁HR博客",
+        "url": "https://www.mayihr.com/blog/lizhigongzijiesuanbiao"
+      },
+      {
+        "title": "员工离职结算表.xlsx-excel免费模板下载 - 记灵工具",
+        "url": "https://remeins.com/index/resitem/62f6192febc25"
+      },
+      {
+        "title": "项目编号：SXJTZB-ZC-CS20240329",
+        "url": "https://www.ccgp-shaanxi.gov.cn/gpx-bid-file/ZF_JGBM_000003/610101/2024/4/9/8a69c7f78e467b79018e8290ea247460/gpx-template/8a69c9158eae33e8018f22761c9f7531.pdf?accessCode=c0f4c1b909c0da11f2d99326bdfb281a"
+      },
+      {
+        "title": "员工招聘、入职、转正、调动、离职管理制度",
+        "url": "https://docreadh.mbalib.com/doc/pdf/8/8c/8c47476eb10d05828d1e190bc6be843d.pdf?auth_key=1771407159-1e06d2fc72b40e9598aeffff4f231bad-0-7e95fbaec12782ae5e35c0991fc80677"
+      },
+      {
+        "title": "广州市海珠区劳动人事争议仲裁委员会",
+        "url": "https://www.haizhu.gov.cn/attachment/7/7941/7941883/10584205.pdf"
+      },
+      {
+        "title": "➢ 应提供业务流程监控功能，支持职工发起转正、离职、职务评审等业务申请，流程相关人",
+        "url": "https://www.ccgp-neimenggu.gov.cn/gpx-bid-file/150404/gpx-template/2024/8/14/402881d29122686d0191505719c01c9c.pdf?accessCode=40fc6b6bcc19868bcf664f8714e03fc3"
+      },
+      {
+        "title": "模块三!酒店薪酬管理与绩效考核",
+        "url": "https://oss0.changxianggu.com/book/chapter/269_9787040542837.pdf"
+      },
+      {
+        "title": "<table id=\"e1\">",
+        "url": "https://static.sse.com.cn/stock/disclosure/announcement/c/202003/000177_20200310_7ZII.pdf"
+      }
+    ]
+  },
+  {
+    "id": "departure-process",
+    "title": "离职手续办理清单",
+    "references": [
+      {
+        "title": "Excel模板大全_精美表格模板下载_办公资源网",
+        "url": "https://www.bangongziyuan.com/search/val-yuangonglizhi-type-2.html"
+      },
+      {
+        "title": "人事知识点模板制作模板工具 - Coze 精选",
+        "url": "https://www.coze.cn/gallery/detail/69840ff9f077f301f9ebeef3.html"
+      },
+      {
+        "title": "离职交接清单 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/lizhi-jiaojie-qingdan/"
+      },
+      {
+        "title": "离职交接管理 - 人事圈",
+        "url": "https://renshiquan.com/laodong/lizhijiaojie"
+      },
+      {
+        "title": "员工离职申请及审批流程表Excel模板|思库文档网",
+        "url": "https://www.skdoc.com/employee-resignation-approval-process/"
+      },
+      {
+        "title": "离职手续清单表填写指南，离职手续清单表怎么填写？ • i人事",
+        "url": "https://blog.ihr360.com/p/19444/"
+      },
+      {
+        "title": "离职交接表 EXCEL模板 免费下载 - 爱给网",
+        "url": "https://www.aigei.com/ppt/excel/li_zhi_jia/?page=2"
+      },
+      {
+        "title": "离职交接单模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/lizhi-jiaojie-moban"
+      },
+      {
+        "title": "离职面谈清单、离职手续表、交接清单免费下载丨蚂蚁HR博客",
+        "url": "https://www.mayihr.com/blog/lizhishouxubiao"
+      },
+      {
+        "title": "<4D6963726F736F667420576F7264202D20C8CBC1A6D7CAD4B4C1F7B3CCCAD6B2E12E646F63>",
+        "url": "https://www.yygongzi.com/attachment/20240227/7be9cd50563b4cffa6ce51a9a6b9dbd5.pdf"
+      },
+      {
+        "title": "离职表格模板下载-excel表格制作离职-我拉网",
+        "url": "https://www.55.la/excel/so_lz/"
+      },
+      {
+        "title": "简约员工离职交接表Word模板 - 吾爱文档",
+        "url": "https://www.5idoc.com/doc/0a19798467.html"
+      },
+      {
+        "title": "员工离职交接清单(模版) - 吾爱文档",
+        "url": "https://www.5idoc.com/doc/3f7064919.html"
+      },
+      {
+        "title": "人力资源管理制度",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210923/76931cf7c5b3c52043f9bc0db25e26ec.pdf"
+      },
+      {
+        "title": "办理离职手续清单",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/c79378632c2c9600c1771d2adcc43649.pdf"
+      },
+      {
+        "title": "<tr><td>姓名</",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "附件7：",
+        "url": "https://static.cninfo.com.cn/finalpage/2017-04-29/1203427526.PDF"
+      },
+      {
+        "title": "0-离职人 入职日期 | 1-名字",
+        "url": "https://static-oforms.onlyoffice.com/_ab45645566.pdf"
+      }
+    ]
+  },
+  {
+    "id": "departure-proof",
+    "title": "离职相关材料交付记录表",
+    "references": [
+      {
+        "title": "离职交接清单 CSV 模板下载，可用 Excel/WPS 打开 - 小微算",
+        "url": "https://xiaoweisuan.cn/templates/lizhi-jiaojie-qingdan/"
+      },
+      {
+        "title": "离职工作物品交接表Excel模板下载_熊猫办公",
+        "url": "https://www.tukuppt.com/muban/rrxmkrvk.html"
+      },
+      {
+        "title": "交付表格模板大全下载_图客巴巴",
+        "url": "https://www.tuke88.com/soexcel/jiaofu.html"
+      },
+      {
+        "title": "离职交接单模板 - 人事圈",
+        "url": "https://renshiquan.com/templates/lizhi-jiaojie-moban"
+      },
+      {
+        "title": "离职员工工作移交单模板，如何高效完成工作交接？ • 简道云",
+        "url": "https://www.jiandaoyun.com/nblog/66241/"
+      },
+      {
+        "title": "离职工作交接清单模板 | ONLYOFFICE",
+        "url": "https://templates.onlyoffice.com/zh/exit-job-handover-checklist"
+      },
+      {
+        "title": "2026年离职交接备案表 - 问卷调查调研模板 | 问卷网",
+        "url": "https://www.wenjuan.com/lib_detail_full/69c6b913e9cf9e6c826b55e8/"
+      },
+      {
+        "title": "2025资料交接表",
+        "url": "https://www.biaogedaquan.com/zhuanti/462885.html"
+      },
+      {
+        "title": "离职工作交接明细表 | Excel免费模板下载",
+        "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-13930/"
+      },
+      {
+        "title": "简约员工离职交接表Word模板 - 吾爱文档",
+        "url": "https://www.5idoc.com/doc/0a19798467.html"
+      },
+      {
+        "title": "工作交接表模板：离职、调动通用交接表 -〖快客excel〗",
+        "url": "https://www.kkexcel.com/biaoge/renshi/81.html"
+      },
+      {
+        "title": "离职交接表_离职交接表范文模板_华军软件园",
+        "url": "https://m.onlinedown.net/soft/10002593.htm"
+      },
+      {
+        "title": "标题",
+        "url": "https://www.cdkfq.gov.cn/uploadnew/202310/25/202310251051171998.pdf"
+      },
+      {
+        "title": "<tr><td>姓名</",
+        "url": "https://file.m12333.cn/upfile/download/4238d458-ac81-5f00-d37c-e2eb95df645a.pdf"
+      },
+      {
+        "title": "【申兑指南（快申快享/其他）模板】",
+        "url": "https://dzs.sczwfw.gov.cn/module/download/downfile.jsp?classid=0&filename=08aa47242b7f419596b9f287cb62d22a.pdf"
+      },
+      {
+        "title": "广州市海珠区劳动人事争议仲裁委员会",
+        "url": "https://www.haizhu.gov.cn/attachment/7/7234/7234824/8805899.pdf"
+      },
+      {
+        "title": "办理离职手续清单",
+        "url": "https://www.chinastar1.com/learn/data/upload/20210924/c79378632c2c9600c1771d2adcc43649.pdf"
+      }
+    ]
+  }
+]

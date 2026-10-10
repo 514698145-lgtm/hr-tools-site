@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.research/
+.memory/
+.learnings/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+.astro/
+reports/
+uploads-private/
+
+.local/
+outputs/
+
+# Rebuilt from editable templates and font sources on every build.
+public/downloads/hr-templates/all-templates.zip
+public/downloads/hr-templates/*-collection.zip
+public/downloads/template-fonts/font-package.zip
