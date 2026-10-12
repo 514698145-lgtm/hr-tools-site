@@ -1,5 +1,6 @@
 import http from 'node:http';
 import {readFile} from 'node:fs/promises';
+import {realpathSync} from 'node:fs';
 import {isIP} from 'node:net';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -48,7 +49,7 @@ export async function createRuntimeServer({origin, directory, password} = {}) {
   return server;
 }
 
-if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+if (process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const port = Number(process.env.PORT || 4323);
   if (!Number.isInteger(port) || port < 1 || port > 65535) throw new Error('Invalid PORT');
   const server = await createRuntimeServer({origin: process.env.HR_PUBLIC_ORIGIN,

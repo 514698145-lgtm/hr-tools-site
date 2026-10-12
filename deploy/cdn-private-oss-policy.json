@@ -1,0 +1,13 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["oss:Get*", "oss:List*"],
+      "Resource": [
+        "acs:oss:*:*:hrtoolkit-site-hk",
+        "acs:oss:*:*:hrtoolkit-site-hk/*"
+      ]
+    }
+  ]
+}
