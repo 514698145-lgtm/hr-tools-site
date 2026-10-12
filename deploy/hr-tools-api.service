@@ -1,0 +1,29 @@
+[Unit]
+Description=HR workspace feedback and game API
+After=network.target
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Service]
+Type=simple
+User=hr-tools
+Group=hr-tools
+WorkingDirectory=/opt/hr-tools/current
+Environment=NODE_ENV=production
+Environment=PORT=4323
+Environment=FEEDBACK_DATA_DIR=/var/lib/hr-tools
+EnvironmentFile=/etc/hr-tools/runtime.env
+ExecStart=/usr/bin/node /opt/hr-tools/current/scripts/runtime-server.mjs
+Restart=on-failure
+RestartSec=5
+StateDirectory=hr-tools
+StateDirectoryMode=0700
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/hr-tools
+
+[Install]
+WantedBy=multi-user.target
