@@ -12,6 +12,12 @@ def check_release(root):
     services, _ = parse_article((root / 'content/enterprise-services.md').read_text(encoding='utf-8-sig'))
     seo, _ = parse_article((root / 'content/seo/site.md').read_text(encoding='utf-8-sig'))
     missing = []
+    maintenance_path = root / 'config/maintenance.json'
+    maintenance = json.loads(maintenance_path.read_text(encoding='utf-8-sig')) if maintenance_path.exists() else {}
+    if not maintenance.get('weeklyReviewAuthorized') or not maintenance.get('cloudTimerVerified'):
+        missing.append('每周内容与政策巡检尚未在云端安装并实测')
+    if not maintenance.get('endToEndPublicationVerified'):
+        missing.append('政策更新到模板/构建/OSS/CDN/公网的完整发布链路尚未验收')
     for key in ('repository', 'siteUrl', 'ossBucket', 'ossRegion', 'cdnDomain'):
         if not config.get(key):
             missing.append(f'尚未配置 {key}')

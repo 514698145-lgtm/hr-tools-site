@@ -20,6 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - run: python scripts/build_watch_manifest.py --check
       - run: node --test tests/*.test.mjs
       - run: python scripts/build.py
       - run: python -m unittest discover -s tests -v

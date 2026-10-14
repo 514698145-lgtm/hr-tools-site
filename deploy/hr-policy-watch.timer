@@ -1,0 +1,11 @@
+[Unit]
+Description=Check HR content and policy sources every Monday (Shanghai time)
+
+[Timer]
+OnCalendar=Mon *-*-* 08:17:00 Asia/Shanghai
+Persistent=true
+AccuracySec=1min
+Unit=hr-policy-watch.service
+
+[Install]
+WantedBy=timers.target

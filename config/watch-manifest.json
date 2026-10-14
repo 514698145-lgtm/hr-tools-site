@@ -1,0 +1,4979 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "path": "config/disclaimer.json",
+      "sha256": "6b14a3abfe234107cb41ee7e63bb123651dfb0f5dbe7d1791bd95f7dc2df860d"
+    },
+    {
+      "path": "config/maintenance.json",
+      "sha256": "7629de9409c2350cbb6dd17009b59baba6afa53c07e069a53f5a77dc1149aa3b"
+    },
+    {
+      "path": "config/release.json",
+      "sha256": "8e13d1f63cd14924953ae136f815473071609caf2d978f5b3850d5e32d81cdb2"
+    },
+    {
+      "path": "config/tools.json",
+      "sha256": "4b48757b819f21e2b0b93032dc98e159b4c57ea98b83453810d94583f126c5e9"
+    },
+    {
+      "path": "content/articles/batch-calculation-guide.md",
+      "sha256": "64614d1a740bb8db55eb6941905ef752f5807a1a7d15b8aa20c11c8ab49d6bac"
+    },
+    {
+      "path": "content/articles/contribution-input-guide.md",
+      "sha256": "354c2b80cab6848bbc9f89bd3ced6bc75a8e36cb82edcb4940daf5317247eabc"
+    },
+    {
+      "path": "content/articles/editor-example.md",
+      "sha256": "faee9d048b41b07c87960c13fd333f12c64c574ccaa825ede0b4e15713c33fda"
+    },
+    {
+      "path": "content/articles/salary-budget-guide.md",
+      "sha256": "76f11333552b25234a7fb88e9db06ea222cf20bb0a24aece2e35578e74a51db4"
+    },
+    {
+      "path": "content/articles/workspace-guide.md",
+      "sha256": "5071530dc9b3bb96e535a2c50521bea744d9a533affad12aa478a0b91c101094"
+    },
+    {
+      "path": "content/enterprise-services.md",
+      "sha256": "726b56b08dcecd1f0295c5e702a4d2622c0f6c163b4ec029906fd321cea35af6"
+    },
+    {
+      "path": "content/friend-links.md",
+      "sha256": "6333f0998cf1eab18d90f5eb45c10a22e4449760e6c3571ac09515cdde7cceeb"
+    },
+    {
+      "path": "content/guide.md",
+      "sha256": "347994061b6d15ba05e1c4f11db596ca8ea5e0ee6b10f1b36ec9c9fc7651ec04"
+    },
+    {
+      "path": "content/policies/annual-bonus-tax.md",
+      "sha256": "2cb7b9209387f9334cf82df3843adc976b9ee2c0188d0913a3cc128737397dc6"
+    },
+    {
+      "path": "content/policies/annual-leave-proration.md",
+      "sha256": "472deba30afe0be2d113e0530a8fa7f7bc6e2e1c68a7433d6151c48bd2d105ff"
+    },
+    {
+      "path": "content/policies/annual-leave.md",
+      "sha256": "bf804c16b8c5fb6d04947e8392c89823f54525557de1f17a470f41fd7c228ecb"
+    },
+    {
+      "path": "content/policies/child-education-deduction.md",
+      "sha256": "2ba472c936c34232a5b24b0a634b9b4d91a0d826424039215c19d62369ef963b"
+    },
+    {
+      "path": "content/policies/continuing-education-deduction.md",
+      "sha256": "513e827bbdaf02987d6dee6aa6b565efb74950040dcfb0b23b8f8314ef6c16d5"
+    },
+    {
+      "path": "content/policies/elder-care-deduction.md",
+      "sha256": "6b5ddefb1f4f2ba69ddf06c6668a6954202e587464405eb736d28346b7347dcd"
+    },
+    {
+      "path": "content/policies/electronic-labor-contract.md",
+      "sha256": "a72d2b8a8a154780988052d8966b540e7982550da0b1b9c100592319f6b5fddb"
+    },
+    {
+      "path": "content/policies/employee-onboarding-one-stop.md",
+      "sha256": "e2cc77441d80d83aefb1cdb50dfdbc99eb633725e86a736fc165ab382b88b02c"
+    },
+    {
+      "path": "content/policies/housing-rent-deduction.md",
+      "sha256": "ebffcab05cf921c5b66d3daf008c55746999686d85600b8401a072e69dd79e13"
+    },
+    {
+      "path": "content/policies/labor-dispatch-limit.md",
+      "sha256": "19de27d0ce76b096f157c70a757c202cf9b18313c19eb416416150716ccb5d04"
+    },
+    {
+      "path": "content/policies/maternity-leave.md",
+      "sha256": "a4f2ecf6700419085709ebf9e32173668c039cd279632e0dd285c9ad4cb823d3"
+    },
+    {
+      "path": "content/policies/medical-family-wallet.md",
+      "sha256": "32a888bacd35257af9fca01a4bfaf70868880d4cf902b622f16285e0019125a6"
+    },
+    {
+      "path": "content/policies/mortgage-interest-deduction.md",
+      "sha256": "efb1ece335f6be2853e0698c30277cf3597846290feaf61a1c8f6a6da74c0a1e"
+    },
+    {
+      "path": "content/policies/pension-transfer.md",
+      "sha256": "060f7f60e9e1d4a7be4270db9d1a489430e47053ba0e02aa00cb7611f791f4d1"
+    },
+    {
+      "path": "content/policies/personal-pension-tax.md",
+      "sha256": "6ce8407a17ffb4864a68c3e444cb06569fab818b053888195e6cc226e672979e"
+    },
+    {
+      "path": "content/policies/personnel-file-transfer.md",
+      "sha256": "d20eff3bcda75e17c99f5a5e065fcce974b9f130c84d12e225144f4f58091907"
+    },
+    {
+      "path": "content/policies/probation-dismissal.md",
+      "sha256": "65b5c35cd134b49fc95fbd36ea5953242a3505e93a2b743d11506d61c0e77820"
+    },
+    {
+      "path": "content/policies/probation-limit.md",
+      "sha256": "06fc3d36cb2142fd6947968883637b8c96678d01fe783c9b4eba0d27cec37fa8"
+    },
+    {
+      "path": "content/policies/retirement-transition.md",
+      "sha256": "fed2f8b93be100227167fdbe305d9d4e2c72f7890c4af33e3a91833b7795f420"
+    },
+    {
+      "path": "content/policies/severance-basis.md",
+      "sha256": "6dd306c1b9e884c6fdacf49c2d88b85d0649356645b04f326ecff19bfbcd0f19"
+    },
+    {
+      "path": "content/policies/work-injury-deadline.md",
+      "sha256": "f7fe6a7382e1c8d4180e88a099f2639625b2c1afd9cc50dd74f25c604e7edbd8"
+    },
+    {
+      "path": "content/policies/wuhu-maternity-application.md",
+      "sha256": "5704ffab9bd56116ef54a0f64527e858feedfb072424baa7818de15586112507"
+    },
+    {
+      "path": "content/policies/wuxi-apprenticeship.md",
+      "sha256": "7f0710d3cc5bf3c3b9c7a100918239afa5c8f09d9da97b085de249e302b03b2c"
+    },
+    {
+      "path": "content/policies/zhejiang-maternity-allowance.md",
+      "sha256": "2486ff83afb0b2e2c384e79d4ca4681dc436fb0a7e784d0a6c5bfa7c37a04359"
+    },
+    {
+      "path": "content/seo/pages/contract-reminders.md",
+      "sha256": "64c7f7e1aa5fc2d190243564ee328998da54c7fb9f24a349675945dfaef8e49d"
+    },
+    {
+      "path": "content/seo/pages/home.md",
+      "sha256": "5594363399b0d8448f9c32086810c9cc5e30b3ff98961e14ab7f06b316c4f7aa"
+    },
+    {
+      "path": "content/seo/pages/insights.md",
+      "sha256": "d757c9916e7249ed4fb591e29d0e1640a86b57fa0eaeff4db8703ca7a8662b25"
+    },
+    {
+      "path": "content/seo/pages/official-sites.md",
+      "sha256": "e08fb97115a4a8e09d5ef9434ed853bff0d5c4048830577a02a7ece6d71a368d"
+    },
+    {
+      "path": "content/seo/pages/templates.md",
+      "sha256": "69ae91b8610a20fd150a86b3465e8fa46d66da19e6cf99884f3027b8d6427c23"
+    },
+    {
+      "path": "content/seo/pages/tools-employment-cost.md",
+      "sha256": "179e278cb35a9fcedbc75d96590f96bd2b64c4c5ebcc8d08f51a55802b49d44c"
+    },
+    {
+      "path": "content/seo/pages/tools-five-insurances-housing-fund.md",
+      "sha256": "ad2286ea4774750280aca13acf7db09363feb3fde267bc20cee68db7daed6c41"
+    },
+    {
+      "path": "content/seo/pages/tools-income-tax.md",
+      "sha256": "c28788f013e40c18f206a38c225fb362dd2a5324bbd51a6ea57d020e429ce19d"
+    },
+    {
+      "path": "content/seo/pages/tools-severance.md",
+      "sha256": "c2924e794d101124150ce50dd395b893ad2fe7d3a3d9e9823ce66b400c9eab39"
+    },
+    {
+      "path": "content/seo/pages/tools-take-home-pay.md",
+      "sha256": "a95945172b884db394e0a02e33cc69dc2debcc610834cb81d8ee6efea9cdf3b5"
+    },
+    {
+      "path": "content/seo/site.md",
+      "sha256": "33da421bfe8ada7b3140a072c2b1784c99b3126778992916febe83ddd61a08fa"
+    },
+    {
+      "path": "public/assets/app.js",
+      "sha256": "ff9c09fccca3876e863c712b56a54a57373074141d6ff6f211928541d8ad4b55"
+    },
+    {
+      "path": "public/assets/brand.css",
+      "sha256": "f98873591e29febc134c091754efe3b28e28d9c97b20a48c05f5379ead413a8b"
+    },
+    {
+      "path": "public/assets/calculators.js",
+      "sha256": "e5dbe6b5409a706800b1d5ba90c2961262fae6feaf534e8bfce4067fb93fd48e"
+    },
+    {
+      "path": "public/assets/city-picker.js",
+      "sha256": "7526bec646f01bc67d463e4c71ac22c420bf6d3bfb5d2c0f92aa86e5f55dc077"
+    },
+    {
+      "path": "public/assets/city-policies.js",
+      "sha256": "407f6c82525cba348464f855551c76c78d62df155637c901e91bc54f9b9c148e"
+    },
+    {
+      "path": "public/assets/contact-widget.css",
+      "sha256": "7c54a6209889980e86693e27e9387a7e4ea63a4773de60b40ade7ed3735f1a92"
+    },
+    {
+      "path": "public/assets/contact-widget.js",
+      "sha256": "d99f07710e1cf1e9e4526789657864b667a95f537583168015585c9e33f025fb"
+    },
+    {
+      "path": "public/assets/contribution-audit.js",
+      "sha256": "e7608ae9145e16abeb89a0e8be33b1482132dd54393519800669cf636e06fced"
+    },
+    {
+      "path": "public/assets/contribution-engine.js",
+      "sha256": "09e81184f7a7ce7f9f2e1704d6f204d703a4398efdf67ea86550b1a081941031"
+    },
+    {
+      "path": "public/assets/contribution-rate-table.js",
+      "sha256": "acfaa1e7c1d9940778519527c64cde9bafbcf2a6c374ba700294c4feaf119892"
+    },
+    {
+      "path": "public/assets/date-tools.js",
+      "sha256": "46ebd55001eb3cb74d79a96ee1fb5f0d872dc863b5dfb566c3dbc0e9c64d417b"
+    },
+    {
+      "path": "public/assets/enterprise-services.css",
+      "sha256": "55fe9f07736a6dc9aa8ec2c0091f7ee7fe3dcafe8db5d461e2ca579714b68938"
+    },
+    {
+      "path": "public/assets/enterprise-services.js",
+      "sha256": "62cba567a25eccd29d56c69753a52c3aba8cf1f789f306e391e611f3d3a3355f"
+    },
+    {
+      "path": "public/assets/feedback.js",
+      "sha256": "b06cef9e9656289fefc8e0f566bc47b5352c5a12b47f1082cc15b16bc8679d01"
+    },
+    {
+      "path": "public/assets/field-copy.js",
+      "sha256": "b87d5e108794088807f3789d016fd3436d64e7a115e71fdcabb3232049d23f29"
+    },
+    {
+      "path": "public/assets/hr-tools.js",
+      "sha256": "2c2255104fc1a847db7621a9df02ba3a7d92e62b07ac6cc97adbdd6b0bf92ed3"
+    },
+    {
+      "path": "public/assets/icons.js",
+      "sha256": "655d5d22e44ef5711d176a02dccfe01d585e8a8983b66b0100d2980659536a8e"
+    },
+    {
+      "path": "public/assets/import-template.js",
+      "sha256": "50b5f42ac356f4489279ad4e7bf6b98ebecfaff5c9fff648d8ab550a0960f5f1"
+    },
+    {
+      "path": "public/assets/input-rules.js",
+      "sha256": "f5c5296ca4abe716ed22a0462df0502ec90acc858ba97d1a06e7846b030e3e2c"
+    },
+    {
+      "path": "public/assets/operations-tools.js",
+      "sha256": "ee277d5cc3f2b97787393dc4f75b3a98154f89a0a88c8a4d2219259bb58e6235"
+    },
+    {
+      "path": "public/assets/policies.js",
+      "sha256": "4faf7b2e233385c2305725fb3baf21c9566294e80d5c6da8a4b891f981b3c931"
+    },
+    {
+      "path": "public/assets/policy-library.js",
+      "sha256": "98944440a1e18eacf8d5ba21f28e768a1da15dc26e9cafb43eb4684d9ad21bd1"
+    },
+    {
+      "path": "public/assets/relax-admin.js",
+      "sha256": "c0da9d75eebded4100fdae4b4a0ecca1e8b9de29d8a20fe67012ae51b5a1a12e"
+    },
+    {
+      "path": "public/assets/relax-engine.js",
+      "sha256": "e803806e4cd60d5014a11f41efd7c37a98543960fe3499fa6bd953f4ee62966e"
+    },
+    {
+      "path": "public/assets/relax.css",
+      "sha256": "034b979f256208e6080b4c089079b7e8624edeb12da22a4af371ca2b5912cdcd"
+    },
+    {
+      "path": "public/assets/relax.js",
+      "sha256": "1405c5adaabcc7f32c635a1b81074dc965e44bcfb4c79367127ec7a0d7f4d821"
+    },
+    {
+      "path": "public/assets/resources.js",
+      "sha256": "27503038070bf026cf757eae3b40084348b22495aabf8998fec0afb0c38783b6"
+    },
+    {
+      "path": "public/assets/seo-admin.js",
+      "sha256": "8d59daa424fc4c26971fc28c786b783d887e078c6504cec029628678e62a28a2"
+    },
+    {
+      "path": "public/assets/simple-template.js",
+      "sha256": "4bdef694afe43da681afb517d0819ff59dd69bec6747a2843976437d3b2c5f41"
+    },
+    {
+      "path": "public/assets/style.css",
+      "sha256": "ff961f0715e26549196f02471c7eee3e413da54558dbc8785f4de5438c854d20"
+    },
+    {
+      "path": "public/assets/tax-allocation.js",
+      "sha256": "6f2d2471e4834acb55e4169f03dabe58f72a4503c5966c44f0aca318de463367"
+    },
+    {
+      "path": "public/assets/template-download.js",
+      "sha256": "d883d904f9c2ca2bb35d96f024bd919af335006780279ce685f6e6dc92449c12"
+    },
+    {
+      "path": "public/assets/tokens.css",
+      "sha256": "4c085d782b702151d5d1e632b22b61876947be940ca54d14a6527c22174588a1"
+    },
+    {
+      "path": "public/assets/typography.css",
+      "sha256": "310ce52210d2291e74835abc4d2ddbc189f12f7589e45ac7321a36e462978e9d"
+    },
+    {
+      "path": "public/assets/workspace-view.js",
+      "sha256": "64e1214bc5f90b65e542938d7df7594c2bd76938528d92781509094736cccd20"
+    },
+    {
+      "path": "public/assets/workspace.css",
+      "sha256": "2640440391e7929a5018764c7e53e7762ae03214a5a7a244d0ec5e614dc51bd0"
+    },
+    {
+      "path": "public/data/hr-template-manifest.json",
+      "sha256": "62e36c11af58b7fbbf6db4999d9d242134ec58066b0cd9fd1bb7cb7c687f62cd"
+    },
+    {
+      "path": "public/data/hr-templates.json",
+      "sha256": "e028ccf3db08a2e402cc021f6447c966af7c50202c1f8bf12eead919dec3c1e0"
+    },
+    {
+      "path": "public/data/official-sites.json",
+      "sha256": "18ee406a286ea046815e6106260ee29ec653f62c04b13cd82f6eed6537534d1c"
+    },
+    {
+      "path": "public/downloads/hr-templates/access-close.xlsx",
+      "sha256": "6f28297c5447b828d36f6fc4daccca12e01394e6b47adac464a0ac8e277da667"
+    },
+    {
+      "path": "public/downloads/hr-templates/annual-leave.xlsx",
+      "sha256": "6281d74c3009eb79f398fc62db0e8d6a88cca2c0e6939e3c42efd9ff01e9a8b0"
+    },
+    {
+      "path": "public/downloads/hr-templates/asset-return.xlsx",
+      "sha256": "25af94661a93e03c992a036f35853423df56e262aa763709f3e03b741000c10e"
+    },
+    {
+      "path": "public/downloads/hr-templates/attendance-check.xlsx",
+      "sha256": "ded296eff6e0782c5c183bf39bb0ee52e5f51052d11e5d2208997133167c420b"
+    },
+    {
+      "path": "public/downloads/hr-templates/attendance-correction.docx",
+      "sha256": "e473d54293bf832bb4241b7a2fa9dba6fd5ade8d352c2ecf5190a7187ba246df"
+    },
+    {
+      "path": "public/downloads/hr-templates/benefit-budget.xlsx",
+      "sha256": "8b2beb0326aff34155bb3ffbd14255a2ab80b4d2386d7e25bf25d4abbc7347fe"
+    },
+    {
+      "path": "public/downloads/hr-templates/benefit-claim.docx",
+      "sha256": "af7e6de1bbae17c0b84c595bc594ff0228b885c1b594487c276abf9334e109b6"
+    },
+    {
+      "path": "public/downloads/hr-templates/bonus-allocation.xlsx",
+      "sha256": "bb2cfc980ea60677d25a703a12170466c052e30b3eca2b2d42bc5d3da6eb39f0"
+    },
+    {
+      "path": "public/downloads/hr-templates/business-trip.docx",
+      "sha256": "ed802ffe7b47511165b479d172c117dd0a8d19b7961e73107bbce96c583d6e17"
+    },
+    {
+      "path": "public/downloads/hr-templates/candidate-info.docx",
+      "sha256": "231dbea19391fb92d5287702af45fd5173d07b706034cbb6ecedd1715b5ebba8"
+    },
+    {
+      "path": "public/downloads/hr-templates/candidate-tracker.xlsx",
+      "sha256": "456f351d572d4abeccb63a4c003692140324e51c301deb86ad63ca63ba51d6bf"
+    },
+    {
+      "path": "public/downloads/hr-templates/channel-review.xlsx",
+      "sha256": "8c58cbe539ae2e16e9df627cd42c26bb8a73cdfb3ced3b8a51c6724b0d7e8e95"
+    },
+    {
+      "path": "public/downloads/hr-templates/contract-ledger.xlsx",
+      "sha256": "403b3ee86b8f10b1811c04530e2077823c5d376c226f4e5983558216f0f23f52"
+    },
+    {
+      "path": "public/downloads/hr-templates/conversion-review.docx",
+      "sha256": "c9607c21cefb115ca8ebfbd0461c5bc152744c1b4a454450f47837bc705db964"
+    },
+    {
+      "path": "public/downloads/hr-templates/departure-process.xlsx",
+      "sha256": "eab054eea92abd4517d186715e244073ad744c891265b39146176aa9271b6fac"
+    },
+    {
+      "path": "public/downloads/hr-templates/departure-proof.xlsx",
+      "sha256": "ae122eed658d91f5838f92dd24ec36ed17c5ca22557939f92fe8196e15901b56"
+    },
+    {
+      "path": "public/downloads/hr-templates/departure-register.docx",
+      "sha256": "74d6b4d3f772093ddc60473aed7b8eaef2598185c058576a4d500581073d92a9"
+    },
+    {
+      "path": "public/downloads/hr-templates/departure-settlement.xlsx",
+      "sha256": "6adbc30572fa92d2f5d87cd3b3f282dedf0373ed568be76e803f04e0eaad847f"
+    },
+    {
+      "path": "public/downloads/hr-templates/development-plan.docx",
+      "sha256": "d050078a666a856773cc5deb7ae3858fab6ed13427db9e04d210962dcf66d42b"
+    },
+    {
+      "path": "public/downloads/hr-templates/document-receipt.xlsx",
+      "sha256": "004fbb3b586b69e5c3e808bd782c90d27d819f3436e301d7085abec3885a6a50"
+    },
+    {
+      "path": "public/downloads/hr-templates/employee-change.docx",
+      "sha256": "953d9453c5b875e4eebfa9b347cca138618a44c27ba133af5da89459f6a4549a"
+    },
+    {
+      "path": "public/downloads/hr-templates/employee-register.docx",
+      "sha256": "e1b961222c3531c8a9a60f2662b9fdd8a3ce5234a80c234de8d460d7678433e3"
+    },
+    {
+      "path": "public/downloads/hr-templates/employee-talk.docx",
+      "sha256": "7f89802187efd7a16b03a21a71cfb1d82714de93ac07a62e14a0875dd1105535"
+    },
+    {
+      "path": "public/downloads/hr-templates/exit-interview.docx",
+      "sha256": "66b659f335e89392ca1c0a790e58a7372dea188d2b7b072bf8c8b9b3e8715636"
+    },
+    {
+      "path": "public/downloads/hr-templates/hiring-request.docx",
+      "sha256": "eadca55d4eae607bdc0b22b14101a951f81a56f69cd8b7e54cd128029b180c8a"
+    },
+    {
+      "path": "public/downloads/hr-templates/hr-documents.xlsx",
+      "sha256": "cdff06e8065bc6f8e40f138bed8fac1239a52e79241b32048c855b9dc7b70bda"
+    },
+    {
+      "path": "public/downloads/hr-templates/improvement-plan.xlsx",
+      "sha256": "527fb2444bc49cea57938b0ec7830a01b662622c63b3f660c72a3f33c3d27432"
+    },
+    {
+      "path": "public/downloads/hr-templates/interview-schedule.xlsx",
+      "sha256": "3513af661182a35eb06ac2e0339690f5331a2ba68feec2e5dc60a1ae0ef3c87b"
+    },
+    {
+      "path": "public/downloads/hr-templates/interview-score.docx",
+      "sha256": "235762cd367214bb04ca5571bd2e07b7e2eb5b66a94828057382937532324817"
+    },
+    {
+      "path": "public/downloads/hr-templates/issue-followup.xlsx",
+      "sha256": "d6e2eed7b457e0b3f2692927e9e44623aad6f10285d07cf7b746557ae373d6bf"
+    },
+    {
+      "path": "public/downloads/hr-templates/job-profile.docx",
+      "sha256": "d5182eb185500e43240fe81e7d384e727c31a4fdaa95ba04ac098806a418e95b"
+    },
+    {
+      "path": "public/downloads/hr-templates/leave-request.docx",
+      "sha256": "0e211e4267a0e742908b328e5300be5cfbb09258a3b3840864b79f47069e400f"
+    },
+    {
+      "path": "public/downloads/hr-templates/mentor-log.xlsx",
+      "sha256": "6ecad77f120da025dd1caab4f84eec6afe972f52e43c7481c4c2af77ebb87df2"
+    },
+    {
+      "path": "public/downloads/hr-templates/offer-checklist.docx",
+      "sha256": "7588fcb2333d91a40ec1d1b908bb35d619e870ac9ef069886f58a1c3f56b6f53"
+    },
+    {
+      "path": "public/downloads/hr-templates/onboarding-checklist.xlsx",
+      "sha256": "90e44e2a11cb9688d4b71447858d02c411571200f549cbbd1576b44f1f21bdde"
+    },
+    {
+      "path": "public/downloads/hr-templates/orientation-plan.xlsx",
+      "sha256": "49dcfe0f9a83c865849666c0124b4fed5ef38177565210926f65c4efa1ac3d7d"
+    },
+    {
+      "path": "public/downloads/hr-templates/overtime-record.xlsx",
+      "sha256": "906aaafce2faffb659fe3c842e093d1fd163027cb7f6770fc732f27110bc1d9f"
+    },
+    {
+      "path": "public/downloads/hr-templates/payroll-check.xlsx",
+      "sha256": "d1cbee46a7b3434d90e8c8266d614520c24b6d078d1621fc420d733897f0f4b9"
+    },
+    {
+      "path": "public/downloads/hr-templates/payroll-input.xlsx",
+      "sha256": "aeef18965be7ab2e28482da4543eae23928a781db8debd67212c3d58c282db8f"
+    },
+    {
+      "path": "public/downloads/hr-templates/payroll-issue.xlsx",
+      "sha256": "22e9967724279deba0ab5017ae8532a0eb3dcd4fa1f3ea9e10cbb98ea603d94b"
+    },
+    {
+      "path": "public/downloads/hr-templates/performance-goals.xlsx",
+      "sha256": "f3b06ae1f1ddb5d703db89286bede9659bfebfa595d50612e2d762fdb56c99ab"
+    },
+    {
+      "path": "public/downloads/hr-templates/performance-review.docx",
+      "sha256": "09f1fc8989eda621b4eca9aecfd363df2fcab1fb3ce32ae771bd2a45d8ae9788"
+    },
+    {
+      "path": "public/downloads/hr-templates/performance-self.docx",
+      "sha256": "6ed41f818e3ba6eda9c4c621f7d47be08538508ec0a22c018502b2cdb23f7155"
+    },
+    {
+      "path": "public/downloads/hr-templates/performance-talk.docx",
+      "sha256": "a383a19fb1d0ad5d0431082de9f9942b79e6b51ba12ba41a26b103e385c8e418"
+    },
+    {
+      "path": "public/downloads/hr-templates/policy-receipt.xlsx",
+      "sha256": "f83fb68b3c6e4934b7f5505bdf73d34e44452b9e19d9027eac2b94ad3761087a"
+    },
+    {
+      "path": "public/downloads/hr-templates/probation-goals.docx",
+      "sha256": "bb41625028ca0b5e284013e442c19d292a002092b356fe08af2fdb5d0df32707"
+    },
+    {
+      "path": "public/downloads/hr-templates/probation-review.docx",
+      "sha256": "77f0e3720b484283ec5cee1b74d76498055ab22b382b527fb861d6bc3e70ea9c"
+    },
+    {
+      "path": "public/downloads/hr-templates/promotion-review.docx",
+      "sha256": "3867f10fd33a17a7c54ffaa4de859b7660f90be9454ec0b9a9db46dc9846bd2a"
+    },
+    {
+      "path": "public/downloads/hr-templates/renewal-tracker.xlsx",
+      "sha256": "bd6f85b76d8b6b16746033d91698e00b1bc0c7c6052fa8028f5521ba2c30c594"
+    },
+    {
+      "path": "public/downloads/hr-templates/salary-change.docx",
+      "sha256": "90270d4d8bc5e6717ca8398cf4ff9682ac3ebe77aeb8fae8a780770ae373e0f1"
+    },
+    {
+      "path": "public/downloads/hr-templates/satisfaction-survey.docx",
+      "sha256": "9b2727a81e5964f9e7b0aaa26ca75e9a06775707048c176706f277cfb55cfb51"
+    },
+    {
+      "path": "public/downloads/hr-templates/shift-roster.xlsx",
+      "sha256": "db8c075745b0ef252ab24c7207a22fd08ac385935f0cc226309d22d1bac71998"
+    },
+    {
+      "path": "public/downloads/hr-templates/social-fund-ledger.xlsx",
+      "sha256": "dac5cb59937470ab70d8749cbf56be6febbdb08b4349a9700dd273da67f1ec7f"
+    },
+    {
+      "path": "public/downloads/hr-templates/succession-plan.xlsx",
+      "sha256": "8c26e044d6d751fff0ca36cddb5dbcd72f835efc4a524318114a3b474d3ccb7e"
+    },
+    {
+      "path": "public/downloads/hr-templates/talent-inventory.xlsx",
+      "sha256": "4ff09e1ccc29f792c3c21ca2eb4ff5dce7f56bea72ef37a1f1391ef2e47cb457"
+    },
+    {
+      "path": "public/downloads/hr-templates/timeoff-ledger.xlsx",
+      "sha256": "e11464bf0d81de81f762c4af35837d72929257c6d74125b2acfbc4cf640343fc"
+    },
+    {
+      "path": "public/downloads/hr-templates/trainer-register.xlsx",
+      "sha256": "24dd756164c085fbd7e65ffcb63063188e70dcaa76e10076fff90b5a7fdff596"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-assessment.xlsx",
+      "sha256": "fe4bf428e5deb5d8fb446bba6215c6468f9035693a0cd2715ffaf4740abf4357"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-feedback.docx",
+      "sha256": "452736a54589a444891aad717398db8037777063fea593dcc60c01c3aeba7ff4"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-needs.docx",
+      "sha256": "5fc7dc8f44d3cfe7a3ee9e1a97177d9643599adb35c41ce2cf71d11d1342bee0"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-plan.xlsx",
+      "sha256": "99997c7fa1594fb77af72f155563bc5d6bf58204c67706a467b6b4433894eb80"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-signin.xlsx",
+      "sha256": "901194a3f3c3a92d7e2441f5e8ac469ad4de775d57c06434647464eaae45cc81"
+    },
+    {
+      "path": "public/downloads/hr-templates/training-transfer.xlsx",
+      "sha256": "53d1f4e72708f2aa316e495fbb8c7d435776f33ba224cde5f383057fea0c56ed"
+    },
+    {
+      "path": "public/downloads/hr-templates/work-handover.xlsx",
+      "sha256": "f1853b1394abc678374cec5b35c7938947dc9afbb96166d04960868a4f8ab911"
+    },
+    {
+      "path": "public/downloads/import-templates/employment-cost.xlsx",
+      "sha256": "89696af4c9522d5b5dc7361283013bc9a08bcdbe8ac5af40af8dc60002b61740"
+    },
+    {
+      "path": "public/downloads/import-templates/five-insurances-housing-fund.xlsx",
+      "sha256": "12a600d5a9031ed0dc68ba2ba4b6288bd2160f05db5947cbae26a60cf3b4e145"
+    },
+    {
+      "path": "public/downloads/import-templates/hr-metrics.xlsx",
+      "sha256": "ee9f7fe3f4cbc8720cac2a4b264b91c052e63b456a1a997d160690274573f3f7"
+    },
+    {
+      "path": "public/downloads/import-templates/income-tax.xlsx",
+      "sha256": "9f7a5a45d88d968f482e0094e824c9b09383477d072035e16a56817c63e6689d"
+    },
+    {
+      "path": "public/downloads/import-templates/salary-budget.xlsx",
+      "sha256": "e80d71e5ebcf0805a7bca84ccd805294d0dd2d79b917cc4320cdb18345910988"
+    },
+    {
+      "path": "public/downloads/import-templates/severance.xlsx",
+      "sha256": "35cdcf2ff19842bb615c15d6a2ba5a05951dbc1480705b17d4d8ff68320f0211"
+    },
+    {
+      "path": "public/downloads/import-templates/take-home-pay.xlsx",
+      "sha256": "cefa7cd47294c374654f5814936a54f2aa2219e1a54d967fb94287a56df6dcb5"
+    },
+    {
+      "path": "scripts/audit-policy-coverage.mjs",
+      "sha256": "feb0980262923717aa21b954ac6f708e67ff9f32d791caf764903ad55d516275"
+    },
+    {
+      "path": "scripts/audit_contribution_fields.mjs",
+      "sha256": "f89c5ef52a4859b05aef472df6a6483ccdd962203dacf57d5f753dadbff9619a"
+    },
+    {
+      "path": "scripts/build.py",
+      "sha256": "0d3f852654e4160ce9b426dde016aee570a3d75268013faf65f3dfbf23a71411"
+    },
+    {
+      "path": "scripts/build_admin.py",
+      "sha256": "8b4c76ea2718fda3f9ac44bb6a70b24a7f4eb787c9da43b76b106d03afa1fc1c"
+    },
+    {
+      "path": "scripts/build_contact.py",
+      "sha256": "79adbd8c51721d2af9aca7a2afa39889b570f14754f164d38c87007bf9826bc8"
+    },
+    {
+      "path": "scripts/build_hr_documents.py",
+      "sha256": "b1ba169d05583a2970d06eb43b8213dd137c1016acf10bf79895bc1548bfca32"
+    },
+    {
+      "path": "scripts/build_hr_workbooks.mjs",
+      "sha256": "eee7886f26d72f30835d534b8dbcb5789932d819fbfdd907f9d0e3dd1f0a7869"
+    },
+    {
+      "path": "scripts/build_import_workbooks.mjs",
+      "sha256": "35a9701bc59a6fd22b5e8ee2e31574ef0814646f6446ad44aeaf78d517eadf01"
+    },
+    {
+      "path": "scripts/build_policies.py",
+      "sha256": "fb5675c8b27ed71333e7e193284721e458cb479ce01c065a6d0b5195948a080f"
+    },
+    {
+      "path": "scripts/build_relax.py",
+      "sha256": "45ba115f8f429dfb483f8ccca6071e542c4cc4cee5f60dd8b82208a4b76e60cc"
+    },
+    {
+      "path": "scripts/build_resources.py",
+      "sha256": "b2832b08937da159c8fde5035665fb5171addf9f1b92546e2b1825c9c439544e"
+    },
+    {
+      "path": "scripts/build_service_entry.py",
+      "sha256": "9576c9ba8f494238b8d1ac017ab665a2a4fb9f01f25168f877502530f2223eae"
+    },
+    {
+      "path": "scripts/build_services.py",
+      "sha256": "d6939b3e51537a18b94e07a52686dec0d4c8c89653be8b93ad799a1655997a07"
+    },
+    {
+      "path": "scripts/build_template_packs.py",
+      "sha256": "01f130e292dde648c960c0f1487acfbf21f1be417ed6c9de0b9ffc159115f159"
+    },
+    {
+      "path": "scripts/build_watch_manifest.py",
+      "sha256": "77ee76fb4ad0f312d90dc606e86318e06c4dbd8a9d19fab9b9d0c86459773bd0"
+    },
+    {
+      "path": "scripts/build_web_fonts.py",
+      "sha256": "cbccf2cdabe4de491c732c8a6972f0f2983d298efa13114844e161e4b5911f86"
+    },
+    {
+      "path": "scripts/check_content.py",
+      "sha256": "b77e3f4f982e324d8d8a896c94f77be3dcd7d2ca696f37c9d1640fb10281a8a9"
+    },
+    {
+      "path": "scripts/check_import_templates.py",
+      "sha256": "8032eb700f74e237aff81454c5f1deeecf2f6c2608747d3e0bbb27dd14a3c02e"
+    },
+    {
+      "path": "scripts/check_import_workbooks.mjs",
+      "sha256": "9fe0dbcc331bfc7342382ae6b2b6834b91338e1124ffda3fde3543709ba0f77d"
+    },
+    {
+      "path": "scripts/check_release.py",
+      "sha256": "193ca81dace5b0a5bd96637a673bc30a1e1bd7ead4c1872d78142f3745de6ccd"
+    },
+    {
+      "path": "scripts/check_site.py",
+      "sha256": "209bd593a1c677c637a6edd038575dc6580642fc5bb9a4d5bfeeee941b56bf6f"
+    },
+    {
+      "path": "scripts/disclaimers.py",
+      "sha256": "9e7cb04a94fc5a8aadbaf9051c38f3185320b4546cd3782d312fee80f3205ae4"
+    },
+    {
+      "path": "scripts/export-policy-records.mjs",
+      "sha256": "d00f511a60f4ee7f0a39af6f3ef1f48fcaac269b6a3c20a66c8fd0fbe46e3f33"
+    },
+    {
+      "path": "scripts/extend_import_rows.py",
+      "sha256": "20f9428522baafd5ab06a74bf4b6f84630316f774601737784e3ebf6d83f460b"
+    },
+    {
+      "path": "scripts/feedback-api.mjs",
+      "sha256": "0f28f65c573215ada5209db969fd5b9cfd986ee99758ce7af1a4cc293e69154e"
+    },
+    {
+      "path": "scripts/finish_hr_workbooks.py",
+      "sha256": "4cab2fb5846c9e1957cea3bdc6167a57c6cc13a9b7cc17e31676cdeb687e905f"
+    },
+    {
+      "path": "scripts/game-api.mjs",
+      "sha256": "a78a8ad8b704d1f170f21a38851a991ba58136564e436b57e9d354c6c14f4ef0"
+    },
+    {
+      "path": "scripts/hr_workbook_overviews.mjs",
+      "sha256": "82dba6289bf80d096698112452174c948964eb3fd79da2d2444a9f73ad9a8e57"
+    },
+    {
+      "path": "scripts/native_import_cases.py",
+      "sha256": "747e42ee3cd71cadf2483bc2f0cb1e37ddd7eb881e6518eefac28817ff51562b"
+    },
+    {
+      "path": "scripts/policy-watch.mjs",
+      "sha256": "ef49be2cdb214f354c4d247cf4c17723a0cd3f0e4460d23ceb6f4aea98e6d055"
+    },
+    {
+      "path": "scripts/render_hr_template_pages.py",
+      "sha256": "60286369d7df97939a62f2988891ecb82fd6ee60914473a4dc65961a32fea7a3"
+    },
+    {
+      "path": "scripts/runtime-server.mjs",
+      "sha256": "bd6d799ebc96dacc318e93101ccc01ed064edd94ec1bd6c77fa44c6cc7479668"
+    },
+    {
+      "path": "scripts/seo.py",
+      "sha256": "afc52ad0fcc8b9aaa72459ddb768f44de1c907efc4b65927ba9c47c8a0fdea9f"
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "sha256": "4350e35aa120d647df6543768b22687ae6fd4f013731cf599056aa7fb2281c8e"
+    },
+    {
+      "path": "scripts/template_designs.py",
+      "sha256": "3d54ac20d1d7e41c2b544ee2f50b8814f38d01cc9fbb4e9e694987a3d9ed910b"
+    },
+    {
+      "path": "scripts/template_fonts.py",
+      "sha256": "0fbb705d385c3e7e3b7b607ccdcbc197016764339b257be83c155646bf3ada6d"
+    },
+    {
+      "path": "scripts/trial.mjs",
+      "sha256": "06b2348b6fcac0d8f6e5b72edddbcf0e7d805ca3ed1e700234b5eb8709bd191e"
+    },
+    {
+      "path": "scripts/verify_hr_workbook_formulas.mjs",
+      "sha256": "d60414016971c6363eade8624e84ff9a5cf49d065b873a1e43742d06f41af896"
+    }
+  ],
+  "reviews": [
+    {
+      "path": "content/articles/batch-calculation-guide.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/contribution-input-guide.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/editor-example.md",
+      "status": "draft",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/salary-budget-guide.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/workspace-guide.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/enterprise-services.md",
+      "status": null,
+      "checkedAt": "2026-10-03",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/friend-links.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/guide.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/policies/annual-bonus-tax.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/annual-leave-proration.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/annual-leave.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/child-education-deduction.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/continuing-education-deduction.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/elder-care-deduction.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/electronic-labor-contract.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/employee-onboarding-one-stop.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/housing-rent-deduction.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/labor-dispatch-limit.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/maternity-leave.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/medical-family-wallet.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/mortgage-interest-deduction.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/pension-transfer.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/personal-pension-tax.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/personnel-file-transfer.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/probation-dismissal.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/probation-limit.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/retirement-transition.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/severance-basis.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/work-injury-deadline.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/wuhu-maternity-application.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/wuxi-apprenticeship.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/policies/zhejiang-maternity-allowance.md",
+      "status": "published",
+      "checkedAt": "2026-10-04",
+      "reviewAfter": "2027-01-04"
+    },
+    {
+      "path": "content/seo/pages/contract-reminders.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/home.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/insights.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/official-sites.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/templates.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/tools-employment-cost.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/tools-five-insurances-housing-fund.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/tools-income-tax.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/tools-severance.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/tools-take-home-pay.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/site.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    }
+  ],
+  "policyRecords": [
+    {
+      "city": "南京",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "南京",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "南京",
+      "values": {
+        "fundMin": 2660,
+        "fundMax": 42400,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "南京公积金：2026年度基数调整",
+        "url": "https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "无锡",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "无锡",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "徐州",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "徐州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "常州",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "常州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "常州",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 8.8,
+        "birthC": 0
+      },
+      "source": {
+        "label": "常州医保局：2026年职工医保政策（含生育）",
+        "url": "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141145_63230.pdf"
+      },
+      "from": "2026-02",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "常州",
+      "values": {
+        "fundMin": 2660,
+        "fundMax": 34080
+      },
+      "source": {
+        "label": "常州公积金：2026年7月基数上下限答复",
+        "url": "https://gjj.changzhou.gov.cn/html/gjj/2026/ODOFKMDN_0706/13968.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 7,
+        "birthC": 0.8,
+        "medicalExtraC": 0,
+        "fixedP": 5,
+        "fixedC": 0
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "wj"
+    },
+    {
+      "city": "南通",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "南通",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "连云港",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "连云港",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "连云港",
+      "values": {
+        "fundMin": 2260,
+        "fundMax": 31545,
+        "fundRateMax": 12,
+        "fundRounding": 0
+      },
+      "source": {
+        "label": "连云港公积金：2026年度基数及金额取整",
+        "url": "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "淮安",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "淮安",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "盐城",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "盐城",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "扬州",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "扬州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "镇江",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "镇江",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "泰州",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "泰州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "宿迁",
+      "values": {
+        "pensionMin": 4952,
+        "pensionMax": 24762,
+        "medicalMin": 4952,
+        "medicalMax": 24762,
+        "unemploymentMin": 4952,
+        "unemploymentMax": 24762,
+        "injuryMin": 4952,
+        "injuryMax": 24762
+      },
+      "source": {
+        "label": "江苏税务：2026缴费工资申报，基数暂按4952—24762",
+        "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "官方暂行标准"
+    },
+    {
+      "city": "宿迁",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5
+      },
+      "source": {
+        "label": "江苏税务：2026吴江申报与养老、失业费率",
+        "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 9.5,
+        "birthC": 0,
+        "medicalExtraC": 0
+      },
+      "source": {
+        "label": "杭州职工医保统一费率，含生育",
+        "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "温州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "温州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "温州",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "湖州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "湖州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "湖州",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "绍兴",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "绍兴",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "绍兴",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "金华",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "金华",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "金华",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "衢州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "衢州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "衢州",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "舟山",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "舟山",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "舟山",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "台州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "台州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "台州",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "丽水",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "浙江税务：2025年起单位养老16%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "丽水",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "浙江税务：个人养老8%",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "丽水",
+      "values": {
+        "pensionMin": 4986,
+        "pensionMax": 25299
+      },
+      "source": {
+        "label": "浙江2025基数（仅历史参考，不自动套用2026）",
+        "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html"
+      },
+      "from": "2025-01",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "pensionMin": 5510,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 6,
+        "birthC": 0.85,
+        "medicalExtraC": 0
+      },
+      "source": {
+        "label": "广州医保2023—2026阶段性费率：单位6%、个人2%、生育0.85%",
+        "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "medicalMin": 6727,
+        "medicalMax": 33633,
+        "medicalExtraC": 0
+      },
+      "source": {
+        "label": "深圳医保2026缴费通知：默认一档",
+        "url": "https://hsa.sz.gov.cn/xwzx/tzgg/content/post_12567884.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "birthC": 0.5
+      },
+      "source": {
+        "label": "深圳医疗保障办法：生育按医保基数0.5%",
+        "url": "https://hsa.sz.gov.cn/ztzl/szsylbzbf/content/post_10875761.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 6
+      },
+      "source": {
+        "label": "深圳2026职工医保一档费率",
+        "url": "https://hsa.sz.gov.cn/xwzx/tzgg/content/post_12567884.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "sz1"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
+        "medicalP": 0.5,
+        "medicalC": 1.5
+      },
+      "source": {
+        "label": "深圳医保局：职工医保二档费率",
+        "url": "https://hsa.sz.gov.cn/fzlm/znts/zcwd/ylbz/content/post_11092741.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "sz2"
+    },
+    {
+      "city": "珠海",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "珠海",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "珠海",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "佛山",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "佛山",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "佛山",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "佛山",
+      "values": {
+        "medicalMin": 4669,
+        "medicalMax": 9660,
+        "medicalP": 2,
+        "medicalC": 4.5,
+        "birthC": 1
+      },
+      "source": {
+        "label": "佛山税务：2026年职工医保及生育缴费",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-12/26/content_1ef0102803aa439da6549c69b4caa81e.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "medicalMin": 4775,
+        "medicalMax": 27549,
+        "birthC": 0.7,
+        "medicalExtraC": 0.5
+      },
+      "source": {
+        "label": "东莞医保局：2026年7—12月缴费标准",
+        "url": "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "medicalP": 0.5,
+        "medicalC": 2.45
+      },
+      "source": {
+        "label": "东莞医保局：2026年7—12月缴费标准",
+        "url": "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "dgSingle"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 5
+      },
+      "source": {
+        "label": "东莞医保局：2026年7—12月缴费标准",
+        "url": "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "dgAccount"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "medicalP": 0.5,
+        "medicalC": 4.5
+      },
+      "source": {
+        "label": "东莞医保局：2026年7—12月缴费标准",
+        "url": "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "dgNoAccount"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "fundMin": 2080,
+        "fundMax": 27391,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "东莞公积金：2026年缴存基数调整",
+        "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "medicalMin": 4250,
+        "medicalMax": 21250,
+        "medicalExtraC": 0
+      },
+      "source": {
+        "label": "中山医保局：2026年医保缴费标准",
+        "url": "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 5.8
+      },
+      "source": {
+        "label": "中山医保局：2026年医保缴费标准",
+        "url": "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "zsAccount"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "medicalP": 0.7,
+        "medicalC": 3.3
+      },
+      "source": {
+        "label": "中山医保局：2026年医保缴费标准",
+        "url": "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "zsSingle"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "fundMin": 2080,
+        "fundMax": 29430,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "中山公积金：2026年度缴存基数与缴存额调整",
+        "url": "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html"
+      },
+      "from": "2026-07",
+      "to": "2026-08",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
+        "fundMax": 29430,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "中山公积金：2026年度缴存基数与缴存额调整",
+        "url": "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html"
+      },
+      "from": "2026-09",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
+        "medicalMin": 4280,
+        "medicalMax": 21399,
+        "medicalP": 2,
+        "medicalC": 6,
+        "birthC": 0
+      },
+      "source": {
+        "label": "江门医保局：2026年费率及基数（单位含生育）",
+        "url": "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3413909.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "肇庆",
+      "values": {
+        "pensionC": 16
+      },
+      "source": {
+        "label": "广东税务：2025年起单位养老16%",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "肇庆",
+      "values": {
+        "pensionMin": 4775,
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月起养老基数，2026新标准待核验",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2025-07",
+      "to": "2025-12",
+      "status": "已核验"
+    },
+    {
+      "city": "肇庆",
+      "values": {
+        "pensionP": 8
+      },
+      "source": {
+        "label": "广东省政府：企业职工养老个人缴费8%（仅引用个人费率）",
+        "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "pensionMin": 7546,
+        "pensionMax": 37731,
+        "medicalMin": 7546,
+        "medicalMax": 37731,
+        "unemploymentMin": 7546,
+        "unemploymentMax": 37731,
+        "injuryMin": 7546,
+        "injuryMax": 37731
+      },
+      "source": {
+        "label": "上海人社：2026年7月起社保基数",
+        "url": "https://rsj.sh.gov.cn/tdjjf_17554/20260824/t0035_1443297.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "上海发改委：养老费率",
+        "url": "https://fgw.sh.gov.cn/ys-laogong-2.3.1.2/index.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 8.5,
+        "medicalExtraC": 0.5,
+        "birthC": 0,
+        "fixedP": 0,
+        "fixedC": 0
+      },
+      "source": {
+        "label": "上海医保2026阶段性费率（基本含生育）",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/921e047144694b61b6df8ca0c5ef2cfc"
+      },
+      "from": "2026-03",
+      "to": "2027-02",
+      "status": "已核验"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "unemploymentP": 0.5
+      },
+      "source": {
+        "label": "上海2026职工个人失业费率",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260913/37398bbb63ad4fffa64e0b9deb0f6afc.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "fundMin": 2740,
+        "fundMax": 37731,
+        "fundRateMax": 7,
+        "fundRounding": 0
+      },
+      "source": {
+        "label": "上海2026公积金通知转载：原发布页待复核",
+        "url": "https://www.pd-italent.com/Article/202608/202608210007.shtml"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "转载待复核"
+    },
+    {
+      "city": "上海",
+      "values": {
+        "fundMin": 2740,
+        "fundRateMax": 7
+      },
+      "source": {
+        "label": "上海公积金：2026年度调整提示（本条仅采用下限，过渡上限不延用）",
+        "url": "https://www.shzfgjj.cn/html/zyxw/228430.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "北京",
+      "values": {
+        "pensionMin": 7270,
+        "pensionMax": 36348,
+        "medicalMin": 7270,
+        "medicalMax": 36348,
+        "unemploymentMin": 7270,
+        "unemploymentMax": 36348,
+        "injuryMin": 7270,
+        "injuryMax": 36348
+      },
+      "source": {
+        "label": "北京2026五险基数",
+        "url": "https://rsj.beijing.gov.cn/xxgk/2024zcjd/202608/t20260821_4831476.html"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "北京",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.5,
+        "unemploymentC": 0.5,
+        "medicalP": 2,
+        "medicalC": 9.8,
+        "medicalExtraC": 0,
+        "birthC": 0,
+        "fixedP": 3,
+        "fixedC": 0
+      },
+      "source": {
+        "label": "北京市商务局2026投资指南：职工缴费表",
+        "url": "https://sw.beijing.gov.cn/zwxx/swxx/202605/P020260512520283489932.pdf"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "北京",
+      "values": {
+        "fundMin": 2540,
+        "fundMax": 36348,
+        "fundRateMax": 12,
+        "fundRounding": 0
+      },
+      "source": {
+        "label": "北京2026公积金年度通知",
+        "url": "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "北京",
+      "values": {
+        "medicalC": 8.8,
+        "medicalExtraC": 1
+      },
+      "source": {
+        "label": "海淀政务：单位医保9.8%=医疗生育8.8%+大额互助1%",
+        "url": "https://www.bjhd.gov.cn/zsk/ldrsjc/shbz/202112/t20211203_4499330.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "天津",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 10.5,
+        "medicalExtraC": 0,
+        "birthC": 0
+      },
+      "source": {
+        "label": "天津2026职工医保通知：普通单位，含生育",
+        "url": "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html"
+      },
+      "from": "2026-06",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "天津",
+      "values": {
+        "pensionMin": 5180,
+        "pensionMax": 25902,
+        "medicalMin": 5180,
+        "medicalMax": 25902,
+        "unemploymentMin": 5180,
+        "unemploymentMax": 25902,
+        "injuryMin": 5180,
+        "injuryMax": 25902
+      },
+      "source": {
+        "label": "天津人社等三部门2026标准：9月1日起执行",
+        "url": "https://www.tjftz.gov.cn/contents/6256/382302.html"
+      },
+      "from": "2026-09",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "天津",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "天津税务：2022年起养老单位16%、个人8%",
+        "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030002/20211009154650282.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "天津",
+      "values": {
+        "fundMin": 2510,
+        "fundMax": 28917
+      },
+      "source": {
+        "label": "天津公积金：2026年度缴存额调整政策解读",
+        "url": "https://www.zfgjj.cn/tjgjjcms/mainSiteApp/content/app_zwgk/app_zcwj/app_zcjd/app_zcjd/379429.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "石家庄",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "唐山",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "秦皇岛",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "邯郸",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "邢台",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "保定",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "张家口",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "承德",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "沧州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "廊坊",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "衡水",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "雄安新区",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "定州",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "辛集",
+      "values": {
+        "pensionP": 8,
+        "pensionC": 16
+      },
+      "source": {
+        "label": "廊坊人社2026企业职工养老政策解答（河北省口径）",
+        "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://app.www.gov.cn/govdata/gov/202308/31/506746/article.html",
+      "files": [
+        "content/policies/child-education-deduction.md",
+        "content/policies/elder-care-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://app.www.gov.cn/govdata/gov/202412/13/522679/articleNew.html",
+      "files": [
+        "content/policies/personal-pension-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://app.www.gov.cn/govdata/gov/202505/03/528290/article.html",
+      "files": [
+        "content/policies/maternity-leave.md",
+        "content/policies/zhejiang-maternity-allowance.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2020-04-17/199627.shtml",
+      "files": [
+        "content/policies/electronic-labor-contract.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2023-08-10/384359.shtml",
+      "files": [
+        "content/policies/employee-onboarding-one-stop.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2021-07-16/315319.shtml",
+      "files": [
+        "content/policies/electronic-labor-contract.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2025-10-14/455134.shtml",
+      "files": [
+        "content/policies/employee-onboarding-one-stop.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://datascope.io/library/zh-CN/template/%E5%AD%A6%E5%91%98%E6%A0%B8%E5%AF%B9%E8%A1%A8%E7%9A%84%E5%9F%B9%E8%AE%AD%E5%8F%8D%E9%A6%88%E8%A1%A8546b8?id=157922&share_id=e95eed8df9abff4631aff5fe3215d6fc",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://fgk.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5195227/content.html",
+      "files": [
+        "content/policies/labor-dispatch-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://fgw.sh.gov.cn/ys-laogong-2.3.1.2/index.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://flk.npc.gov.cn/search",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://fuwu.nhsa.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ggfw.hrss.gd.gov.cn/gdggfw/online-service",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://github.com/514698145-lgtm/hr-tools-site",
+      "files": [
+        "config/release.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://gjj.beijing.gov.cn/web/index/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.beijing.gov.cn/web/zwgk61/2024zcwj/436433461/744103382/index.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.beijing.gov.cn/web/zwgk61/_300587/_300688/744016635/index.html",
+      "files": [
+        "content/policies/employee-onboarding-one-stop.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.changzhou.gov.cn/html/gjj/2026/ODOFKMDN_0706/13968.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjzwfw.www.gov.cn/col/col1111/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gtm-cn-2r42yzjvn0s.jiangsu.chinatax.gov.cn/art/2026/1/9/art_8274_1695385.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/fssw_tzgg/2025-12/26/content_1ef0102803aa439da6549c69b4caa81e.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/jysw_tpxw/2019-01/16/content_13bb687d098e4e2ebefb03d6f33fa104.shtml",
+      "files": [
+        "content/policies/housing-rent-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/yjsw_tpxw/2025-04/17/content_a81485bd59d14e279ef40a39f1227198.shtml",
+      "files": [
+        "content/policies/personal-pension-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hkhrtool.com/hr-templates/exit-interview-form",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://hrss.gd.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.qingdao.gov.cn/zxzx_47/gzdt_47/202211/t20221116_6497885.shtml",
+      "files": [
+        "content/policies/retirement-transition.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/12333rdzx/202601/01a8fa9c07d14db18315a552597f48df.shtml",
+      "files": [
+        "content/policies/annual-leave-proration.md",
+        "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.suzhou.gov.cn/jsszhrss/zcwd/202206/8a5504595dae4b33962880e20a453ff6.shtml",
+      "files": [
+        "content/policies/pension-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.tj.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.wuxi.gov.cn/doc/2024/04/22/4293236.shtml",
+      "files": [
+        "content/policies/wuxi-apprenticeship.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.gd.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.sz.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.sz.gov.cn/fzlm/znts/zcwd/ylbz/content/post_11092741.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.sz.gov.cn/xwzx/tzgg/content/post_12567884.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.sz.gov.cn/ztzl/szsylbzbf/content/post_10875761.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hsa.zs.gov.cn/attachment/0/558/558340/2583314.pdf",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ikusei.tenkenban.com/template/goal-shinjin/",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://jc.mohrss.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jiangsu.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jiangsu.chinatax.gov.cn/art/2025/9/15/art_8353_1604867.html",
+      "files": [
+        "content/policies/personal-pension-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://job.mohrss.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jshrss.jiangsu.gov.cn/col/col78937/index.html",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://liaoning.chinatax.gov.cn/art/2026/6/1/art_1923_167578.html",
+      "files": [
+        "public/assets/hr-tools.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://m.ibaotu.com/sucai/19626736.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://m.onlinedown.net/soft/10023116.htm",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://neimenggu.chinatax.gov.cn/nmgzzqswj/msxxgkml_19393/eedssswj/202603/t20260317_892196.html",
+      "files": [
+        "content/policies/annual-bonus-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://neimenggu.chinatax.gov.cn/sjpd/byne/tzgghhht/202309/t20230915_782154.html",
+      "files": [
+        "content/policies/annual-bonus-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://o.keniu.com/t/1001126.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://publicservices.hrss.tj.gov.cn/ecdomain/framework/zcydt/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rlsbj.cq.gov.cn/zwxx_182/gzdt/202306/t20230629_12107065.html",
+      "files": [
+        "content/policies/pension-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.beijing.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.beijing.gov.cn/csibiz/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.beijing.gov.cn/xxgk/2024zcjd/202608/t20260821_4831476.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.gz.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.gz.gov.cn/zwgk/zwwgk/jcgk/content/post_9710438.html",
+      "files": [
+        "content/policies/labor-dispatch-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.nc.gov.cn/ncsrsj/gzdt/202512/3ad1ff4b57124df896a46f794d745d04.shtml",
+      "files": [
+        "content/policies/severance-basis.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/tdjjf_17554/20260824/t0035_1443297.html",
+      "files": [
+        "content/articles/contribution-input-guide.md",
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/trlzyhshbzbgz_17256/20200617/t0035_1388322.html",
+      "files": [
+        "config/tools.json",
+        "public/assets/hr-tools.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/hfjs/jyjl/202603/t20260313_7109805.htm",
+      "files": [
+        "content/policies/electronic-labor-contract.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202404/t20240423_5167972.shtml",
+      "files": [
+        "content/policies/work-injury-deadline.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hunan.gov.cn/ztzl/qyfw/202112/t20211201_21182877.html",
+      "files": [
+        "content/policies/probation-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml",
+      "files": [
+        "content/policies/wuxi-apprenticeship.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202501/t474844.html",
+      "files": [
+        "content/policies/annual-bonus-tax.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202602/t479540.html",
+      "files": [
+        "content/policies/elder-care-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202501/t474844.html",
+      "files": [
+        "config/tools.json",
+        "public/assets/calculators.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202602/t479500.html",
+      "files": [
+        "content/policies/child-education-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202602/t479530.html",
+      "files": [
+        "content/policies/continuing-education-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202602/t479564.html",
+      "files": [
+        "content/policies/mortgage-interest-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202603/t479656.html",
+      "files": [
+        "content/policies/housing-rent-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanxi.chinatax.gov.cn/web/detail/sx-11400-548-1816083",
+      "files": [
+        "content/policies/mortgage-interest-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://si.12333.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2017-04-29/1203427525.PDF",
+      "files": [
+        "content/policies/annual-leave-proration.md",
+        "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://static.cninfo.com.cn/finalpage/2026-07-01/1225401895.PDF",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://sw.beijing.gov.cn/zwxx/swxx/202605/P020260512520283489932.pdf",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030002/20211009154650282.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20250506152135477.shtml",
+      "files": [
+        "content/policies/elder-care-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260630105602637.shtml?fjdm=11200000000",
+      "files": [
+        "content/policies/continuing-education-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://u5n7cbfm.jsjform.com/f/NRMKJD",
+      "files": [
+        "content/enterprise-services.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.12333.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.51wendang.com/doc/fbc90cba11bbe7887814e614",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.5idoc.com/doc/0020074973.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.aippt.cn/template/excel/detail/4877.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.aippt.cn/template/excel/detail/5672.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/zhengce/gwywj/201001/t20100101_781119.html",
+      "files": [
+        "content/policies/pension-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202507/t20250709_4145155.html",
+      "files": [
+        "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.bjhd.gov.cn/zsk/ldrsjc/shbz/202112/t20211203_4499330.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.changzhou.gov.cn/ns_news/845178839729396",
+      "files": [
+        "content/policies/maternity-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.chinatax.gov.cn/chinatax/n810214/n810641/n2985871/n2985888/n2986028/c4001080/content.html",
+      "files": [
+        "public/assets/calculators.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.chinatax.gov.cn/chinatax/n810219/n810780/c4414446/content.html",
+      "files": [
+        "content/policies/child-education-deduction.md",
+        "content/policies/continuing-education-deduction.md",
+        "content/policies/elder-care-deduction.md",
+        "content/policies/mortgage-interest-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.cmc.gov.cn/yhyshjhqzcfwzq/gzdt/art/2026/art_1812891711.html",
+      "files": [
+        "content/policies/labor-dispatch-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.dg.gov.cn/ylbzj/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.dg.gov.cn/ylbzj/gkmlpt/content/4/4553/post_4553461.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gd.gov.cn/hdjl/hygq/content/post_73285.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/2008-09/28/content_2603139.htm",
+      "files": [
+        "content/policies/annual-leave-proration.md",
+        "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/202409/content_6974508.htm",
+      "files": [
+        "content/policies/retirement-transition.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gov.cn/zhengce/zhengceku/202501/content_6995747.htm",
+      "files": [
+        "content/policies/retirement-transition.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gov.cn/zwgk/2008-09/19/content_1099470.htm",
+      "files": [
+        "content/policies/severance-basis.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.he.12333.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.huaihua.gov.cn/rsj/c116048/201507/37d5be05017e4b05ab2d78b6ba367872.shtml",
+      "files": [
+        "content/policies/probation-dismissal.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3413909.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jotform.com/form-templates/probation-period-review-form",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.limesurvey.org/zh/template/hr-templates/employee-experience-templates",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.lzxq.gov.cn/system/2026/07/23/031405658.shtml",
+      "files": [
+        "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201812/t20181223_3102091.htm",
+      "files": [
+        "content/policies/continuing-education-deduction.md",
+        "content/policies/housing-rent-deduction.md",
+        "content/policies/mortgage-interest-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mohrss.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.ndrc.gov.cn/xwdt/ztzl/gbmjcbzc/zfjsb/201801/t20180119_1209892.html",
+      "files": [
+        "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2025/7/9/art_14_17184.html",
+      "files": [
+        "content/policies/zhejiang-maternity-allowance.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2025/9/8/art_14_17825.html",
+      "files": [
+        "content/policies/medical-family-wallet.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2026/1/9/art_104_19293.html",
+      "files": [
+        "content/policies/medical-family-wallet.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2026/1/9/art_105_19295.html",
+      "files": [
+        "content/policies/medical-family-wallet.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-33652",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.pd-italent.com/Article/202608/202608210007.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.quoffice.com/39393.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.renliwo.com/",
+      "files": [
+        "content/enterprise-services.md",
+        "content/friend-links.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.saac.gov.cn/daj/c100194/202209/5da45ca870244e40be387ef841efc906.shtml",
+      "files": [
+        "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html",
+      "files": [
+        "content/policies/probation-dismissal.md",
+        "content/policies/probation-limit.md",
+        "content/policies/severance-basis.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.scribd.com/document/561214013/Position-Requisition-Form",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/6e04ce0a62054be3a50040f3763fdeb8",
+      "files": [
+        "content/policies/maternity-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/gwk/search/content/921e047144694b61b6df8ca0c5ef2cfc",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/nw17239/20260913/37398bbb63ad4fffa64e0b9deb0f6afc.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/qyzfgjjgjj/20240927/231b35b7e70d4c1289141867c849014c.html",
+      "files": [
+        "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shanghai.gov.cn/qyzfgjjsjzc/20240927/2c95b2e3e9a542c2a32af7eddf25048a.html",
+      "files": [
+        "content/articles/contribution-input-guide.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230905/d1cef828-c1c6-4c7d-82bf-4d6873664c48.html",
+      "files": [
+        "content/policies/probation-dismissal.md",
+        "content/policies/probation-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.shzfgjj.cn/html/zyxw/228430.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.shzfgjj.cn/index.html",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.shzfgjj.cn/static/kfzl/zl-kuofu.html",
+      "files": [
+        "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.smartsheet.com/content/self-evaluation-templates",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.sucaisucai.com/sucai/02482649.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.suzhou.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc",
+      "files": [
+        "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.tj.gov.cn/zwgk/szfgb/xqk/2026/12/bmgfxwj/202607/t20260703_7329233.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.tjftz.gov.cn/contents/6256/382302.html",
+      "files": [
+        "public/assets/city-policies.js",
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.tukuppt.com/excelmuban/shiyongqiyuangongpinggubiao.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.tukuppt.com/muban/qjeyjnrb.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.tukuppt.com/muban/qwmzbwbn.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.tukuppt.com/tupian/jinshengpinggubiao.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.tukuppt.com/tupian/yuangongfulilingqubiao.html",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.unmc.edu/human-resources/_documents/forms/records/Personnel-Action-Change-Form.pdf",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.wenjuan.com/lib_detail_full/69c4bfdce9cf9e6c826094f9/",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.wenjuan.com/lib_detail_full/69c6bc5ee9cf9e6c826b69de/",
+      "files": [
+        "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.wuhu.gov.cn/content/article/39173527",
+      "files": [
+        "content/policies/wuhu-maternity-application.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.wuxi.gov.cn/doc/2024/04/15/4288486.shtml",
+      "files": [
+        "content/policies/wuxi-apprenticeship.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.yuexiu.gov.cn/zmhd/hygq/content/post_10966810.html",
+      "files": [
+        "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.zfgjj.cn/tjgjjcms/mainSiteApp/content/app_zwgk/app_zcwj/app_zcjd/app_zcjd/379429.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.zfgjj.cn/tjgjjcms/mainSiteApp/index.html",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=208",
+      "files": [
+        "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=610",
+      "files": [
+        "content/policies/work-injury-deadline.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybfw.ybj.beijing.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.beijing.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.changzhou.gov.cn/uploadfile/ybj/2026/0202/20260202141145_63230.pdf",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.jiangsu.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.sh.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.wuhu.gov.cn/xqgz/8911691.html",
+      "files": [
+        "content/policies/wuhu-maternity-application.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.wuhu.gov.cn/ztzl/ybzszl/qt/8368096.html",
+      "files": [
+        "content/policies/wuhu-maternity-application.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zhejiang.chinatax.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zhejiang.chinatax.gov.cn/art/2025/1/21/art_22104_630903.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zhyb.ybj.zj.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zjic.zj.gov.cn/zkdt/rdzx/202506/t20250630_23540134.shtml",
+      "files": [
+        "content/policies/zhejiang-maternity-allowance.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zjj.sz.gov.cn/csml/zfgjjglzx/index.html",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html",
+      "files": [
+        "public/assets/app.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zwdt.sh.gov.cn/",
+      "files": [
+        "public/data/official-sites.json"
+      ],
+      "discovery": true,
+      "authority": "official-domain"
+    }
+  ],
+  "discoveryTasks": [
+    {
+      "region": "上海",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "东莞",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "中山",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "丽水",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "佛山",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "保定",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "北京",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "南京",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "南通",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "台州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "唐山",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "嘉兴",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "天津",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "宁波",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "定州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "宿迁",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "常州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "广州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "廊坊",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "张家口",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "徐州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "惠州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "扬州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "承德",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "无锡",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "杭州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "江门",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "沧州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "泰州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "淮安",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "深圳",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "温州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "湖州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "珠海",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "盐城",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "石家庄",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "秦皇岛",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "绍兴",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "肇庆",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "舟山",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "苏州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "衡水",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "衢州",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "辛集",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "连云港",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "邢台",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "邯郸",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "金华",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "镇江",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    },
+    {
+      "region": "雄安新区",
+      "topics": [
+        "养老/失业/工伤基数和比例",
+        "医保/生育/固定附加费及人员类型",
+        "公积金上下限/比例/取整/新旧人员分支"
+      ]
+    }
+  ]
+}

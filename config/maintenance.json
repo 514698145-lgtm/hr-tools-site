@@ -1,0 +1,12 @@
+{
+  "weeklyReviewAuthorized": true,
+  "timezone": "Asia/Shanghai",
+  "serverSchedule": "Monday 08:17",
+  "agentReviewSchedule": "Monday 09:00",
+  "maxReportAgeDays": 8,
+  "expiryWarningDays": 35,
+  "updateMode": "verified-official-evidence",
+  "requireHistoricalVersions": true,
+  "cloudTimerVerified": false,
+  "endToEndPublicationVerified": false
+}
