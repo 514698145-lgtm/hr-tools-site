@@ -25,6 +25,11 @@ test('crawler strips script noise, identifies policy links and refuses private a
  for(const ip of ['127.0.0.1','10.0.0.1','169.254.169.254','172.16.2.1','192.168.1.2','::1','::ffff:127.0.0.1','fc00::1'])assert.equal(publicAddress(ip),false,ip);
  assert.equal(publicAddress('8.8.8.8'),true);
 });
+test('policy month switches at Shanghai midnight, not UTC midnight',()=>{
+ const rows=[{city:'测试市',from:'2026-10',to:'2026-10',values:{pensionP:8},status:'已核验',source:{url:'https://example.com/'}}];
+ assert.ok(policyIssues(rows,new Date('2026-10-31T16:00:00Z')).some(x=>x.field==='pensionP'&&x.status==='no-current-value'));
+ assert.ok(!policyIssues(rows,new Date('2026-10-31T15:59:59Z')).some(x=>x.field==='pensionP'&&x.status==='no-current-value'));
+});
 test('persistent runs distinguish baseline/change/failure and require exact reviewed digest',async()=>{
  const dir=await mkdtemp(path.join(os.tmpdir(),'hr-policy-watch-'));
  const source={url:'https://www.gov.cn/',files:['content/policies/a.md'],discovery:true};

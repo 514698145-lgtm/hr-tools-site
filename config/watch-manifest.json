@@ -7,7 +7,7 @@
     },
     {
       "path": "config/maintenance.json",
-      "sha256": "7629de9409c2350cbb6dd17009b59baba6afa53c07e069a53f5a77dc1149aa3b"
+      "sha256": "658bede4aea290e627193abc9cd47258ad22723b0530a33f94e483a79c1d7aa2"
     },
     {
       "path": "config/release.json",
@@ -747,7 +747,7 @@
     },
     {
       "path": "scripts/policy-watch.mjs",
-      "sha256": "ef49be2cdb214f354c4d247cf4c17723a0cd3f0e4460d23ceb6f4aea98e6d055"
+      "sha256": "0524ee03a8ac3176baf844ff02862a58a98f88bfaad0069746562fcdd9090790"
     },
     {
       "path": "scripts/render_hr_template_pages.py",

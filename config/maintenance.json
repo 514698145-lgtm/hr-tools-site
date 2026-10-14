@@ -7,6 +7,9 @@
   "expiryWarningDays": 35,
   "updateMode": "verified-official-evidence",
   "requireHistoricalVersions": true,
-  "cloudTimerVerified": false,
+  "cloudTimerVerified": true,
+  "cloudTimerVerifiedAt": "2026-10-14",
+  "intelligentReviewExecutor": "local-codex-app",
+  "localExecutionConfirmedAt": "2026-10-14",
   "endToEndPublicationVerified": false
 }

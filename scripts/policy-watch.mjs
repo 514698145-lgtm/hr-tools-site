@@ -77,7 +77,8 @@ export function reduceObservation(previous={}, observation, at) {
     pending,failures:0};
 }
 export function policyIssues(records, now=new Date()) {
-  const month=now.toISOString().slice(0,7),near=new Date(now.getTime()+35*86400000).toISOString().slice(0,7);
+  const monthOf=date=>{const parts=new Intl.DateTimeFormat('en',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit'}).formatToParts(date);return parts.find(p=>p.type==='year').value+'-'+parts.find(p=>p.type==='month').value;};
+  const month=monthOf(now),near=monthOf(new Date(now.getTime()+35*86400000));
   const groups=new Map();
   for(const r of records){ const key=r.city+'|'+(r.plan||'standard'); if(!groups.has(key))groups.set(key,[]);groups.get(key).push(r); }
   const issues=[];
@@ -106,7 +107,7 @@ export async function runWatch({manifest,stateDir,fetcher=fetchSource,now=new Da
   const results=[];let cursor=0;
   await Promise.all(Array.from({length:concurrency},async()=>{
     while(cursor<manifest.sources.length){const source=manifest.sources[cursor++];let observation;
-      try{observation=await fetcher(source);}catch(error){observation={error:error.name==='TimeoutError'?'timeout':String(error.message).slice(0,140)};}
+      try{observation=await fetcher(source);}catch(error){observation={error:error.name==='TimeoutError'?'timeout':[error.message,error.cause?.code].filter(Boolean).join(': ').slice(0,140)};}
       const old=state.sources[source.url]||{},row=reduceObservation(old,observation,at);
       // Review acknowledgements are bound to an exact digest and real evidence.
       const ack=reviews.sources[source.url];
