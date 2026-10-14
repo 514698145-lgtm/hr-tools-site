@@ -11,7 +11,7 @@
     },
     {
       "path": "config/release.json",
-      "sha256": "8e13d1f63cd14924953ae136f815473071609caf2d978f5b3850d5e32d81cdb2"
+      "sha256": "ee690202105a5acb4746b4edd34bde64a2a5ff6ce72ced9008869dc82681f210"
     },
     {
       "path": "config/tools.json",
@@ -39,7 +39,7 @@
     },
     {
       "path": "content/enterprise-services.md",
-      "sha256": "726b56b08dcecd1f0295c5e702a4d2622c0f6c163b4ec029906fd321cea35af6"
+      "sha256": "574068c558484e80c71729a01447ac3300952139661f9617ae8349dc54d521c4"
     },
     {
       "path": "content/friend-links.md",
@@ -187,7 +187,7 @@
     },
     {
       "path": "content/seo/site.md",
-      "sha256": "33da421bfe8ada7b3140a072c2b1784c99b3126778992916febe83ddd61a08fa"
+      "sha256": "20e712d9ebb9552a75a6bad0e8e40126a5b89f3df8e5888792d5b80b56085f29"
     },
     {
       "path": "public/assets/app.js",
@@ -639,7 +639,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "0d3f852654e4160ce9b426dde016aee570a3d75268013faf65f3dfbf23a71411"
+      "sha256": "eace74df012477b3ec6bc697a235d443d109bf373c377e63f62a9f37fddc5837"
     },
     {
       "path": "scripts/build_admin.py",
@@ -679,7 +679,7 @@
     },
     {
       "path": "scripts/build_services.py",
-      "sha256": "d6939b3e51537a18b94e07a52686dec0d4c8c89653be8b93ad799a1655997a07"
+      "sha256": "38b22ee11445831faa82eb1337e09041fb6a7f688a3e970416a94214578bd33e"
     },
     {
       "path": "scripts/build_template_packs.py",
@@ -707,7 +707,7 @@
     },
     {
       "path": "scripts/check_release.py",
-      "sha256": "193ca81dace5b0a5bd96637a673bc30a1e1bd7ead4c1872d78142f3745de6ccd"
+      "sha256": "7748a1e94614671f3ddcfa23d25f961b6849f3da070ab58f35f24543e5701b5b"
     },
     {
       "path": "scripts/check_site.py",
@@ -746,6 +746,10 @@
       "sha256": "747e42ee3cd71cadf2483bc2f0cb1e37ddd7eb881e6518eefac28817ff51562b"
     },
     {
+      "path": "scripts/package_release.py",
+      "sha256": "47c7fc6167a01e948273c5d668a34683ebff4e70ab6b03ab8f3cf81a5c3a531a"
+    },
+    {
       "path": "scripts/policy-watch.mjs",
       "sha256": "0524ee03a8ac3176baf844ff02862a58a98f88bfaad0069746562fcdd9090790"
     },
@@ -756,6 +760,10 @@
     {
       "path": "scripts/runtime-server.mjs",
       "sha256": "bd6d799ebc96dacc318e93101ccc01ed064edd94ec1bd6c77fa44c6cc7479668"
+    },
+    {
+      "path": "scripts/runtime_archive.py",
+      "sha256": "4b28e1b303661841b5888de7143cd3b5023f3da74a0f47c4c01445e7182b0299"
     },
     {
       "path": "scripts/seo.py",
@@ -3397,6 +3405,15 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://hrtoolkit.cn",
+      "files": [
+        "config/release.json",
+        "content/seo/site.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://hsa.gd.gov.cn/",

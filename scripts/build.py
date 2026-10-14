@@ -39,7 +39,7 @@ if DIST.exists():
     if DIST.resolve().parent != ROOT.resolve():
         raise ValueError('Unsafe output path')
     shutil.rmtree(DIST)
-shutil.copytree(ROOT / 'public', DIST)
+shutil.copytree(ROOT / 'public', DIST, ignore=shutil.ignore_patterns('.gitkeep', '.DS_Store', 'Thumbs.db'))
 tools = json.loads((ROOT / 'config/tools.json').read_text(encoding='utf-8'))
 hall_tools = [t for t in tools if t['id'] != 'date-calculator']
 articles = []

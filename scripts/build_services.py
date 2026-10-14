@@ -7,6 +7,25 @@ from check_content import parse_article
 from disclaimers import notice
 
 
+def launch_issues(data):
+    issues = []
+    if not data.get('launchConfirmed'):
+        issues.append('企业服务上线资料尚未完成最终确认')
+    for key, label in [('consultationFormUrl', '咨询表单'), ('contactPhone', '联系电话'), ('contactEmail', '联系邮箱')]:
+        if not str(data.get(key) or '').strip():
+            issues.append('尚未配置' + label)
+    show_links = data.get('showOfficialIntroLinks', True)
+    if not isinstance(show_links, bool):
+        issues.append('官网介绍入口开关必须为布尔值')
+    if len(data.get('services', [])) != 5:
+        issues.append('企业服务必须保留五项服务')
+    if show_links is not False:
+        for item in data.get('services', []):
+            if not str(item.get('source') or '').strip():
+                issues.append('尚未确认官网介绍链接：' + item['title'])
+    return issues
+
+
 def build_services(root, page, production=False):
     data, body = parse_article((root / 'content/enterprise-services.md').read_text(encoding='utf-8-sig'))
     for key in ['title', 'description', 'headline', 'intro', 'contactEmail', 'officialUrl']:
@@ -22,8 +41,8 @@ def build_services(root, page, production=False):
     official = https(data['officialUrl'])
     form_url = data.get('consultationFormUrl', '').strip()
     phone = str(data.get('contactPhone', '')).strip()
-    if production and (not data.get('launchConfirmed') or not form_url or not phone or any(not item.get('source') for item in data['services'])):
-        raise ValueError('上线前请向用户确认咨询表单链接、五项官网介绍链接、联系电话和邮箱；填齐后设置 launchConfirmed。')
+    if production and (issues := launch_issues(data)):
+        raise ValueError('；'.join(issues))
     consultation_href = https(form_url) if form_url else '#service-contact'
     consultation_target = ' target="_blank" rel="noopener noreferrer"' if form_url else ' data-open-service-contact' 
     cards = []
@@ -33,7 +52,7 @@ def build_services(root, page, production=False):
             raise ValueError('服务标识需唯一且为英文短标识')
         ids.add(item['id'])
         tags = ''.join('<li>' + e(tag) + '</li>' for tag in item['tags'])
-        intro_link = f'<a href="{https(item["source"])}" target="_blank" rel="noopener noreferrer">官网介绍 ↗</a>'  if item.get('source') else ''
+        intro_link = f'<a href="{https(item["source"])}" target="_blank" rel="noopener noreferrer">官网介绍 ↗</a>' if data.get('showOfficialIntroLinks', True) and item.get('source') else ''
         cards.append(f'<article class="enterprise-card" id="{item["id"]}"><div class="service-title"><span class="service-number">{i:02}</span><h2>{e(item["title"])}</h2><p class="service-scenario">{e(item["scenario"])}</p></div><div class="service-detail"><p>{e(item["description"])}</p><ul class="service-tags">{tags}</ul></div><div class="service-card-actions"><a href="{consultation_href}"{consultation_target} aria-label="咨询{e(item["title"])}">咨询此服务 →</a>{intro_link}</div></article>')
     service_notice = notice(('independence', 'services'), '服务与网站声明')
     if body.strip():

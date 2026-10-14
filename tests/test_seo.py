@@ -1,4 +1,4 @@
-import unittest, tempfile, shutil
+import unittest, tempfile, shutil, re
 from pathlib import Path
 from scripts.seo import SEO, validate_fields
 
@@ -8,6 +8,9 @@ class SeoTests(unittest.TestCase):
         source=Path(__file__).resolve().parents[1]/'content/seo'
         (self.root/'content/seo/pages').mkdir(parents=True)
         shutil.copy(source/'site.md',self.root/'content/seo/site.md')
+        # Exercise preview/fallback behavior independently of the live domain config.
+        fixture=self.root/'content/seo/site.md'
+        fixture.write_text(re.sub(r'^siteUrl:.*$', 'siteUrl: ""', fixture.read_text(encoding='utf-8'), flags=re.M),encoding='utf-8')
         shutil.copy(source/'pages/home.md',self.root/'content/seo/pages/home.md')
         (self.root/'dist').mkdir();(self.root/'public/media').mkdir(parents=True)
     def tearDown(self):self.tmp.cleanup()
@@ -29,6 +32,12 @@ class SeoTests(unittest.TestCase):
     def test_invalid_fields(self):
         for d in [{'noindex':'false'},{'shareImage':'//evil.test/a.png'},{'shareImage':'/media/../a.png'},{'seoTitle':42}]:
             with self.assertRaises(ValueError):validate_fields(d)
+    def test_formal_domain_does_not_enable_indexing(self):
+        seo=SEO(self.root,'https://example.com')
+        head=seo.metadata('/','Home','Description','home')
+        self.assertIn('canonical',head);self.assertIn('noindex,follow',head)
+        seo.finish(self.root/'dist')
+        self.assertEqual((self.root/'dist/robots.txt').read_text(),'User-agent: *\nDisallow: /\n')
     def test_bad_domain_rejected(self):
         with self.assertRaises(ValueError):SEO(self.root,'https://example.com/path')
 

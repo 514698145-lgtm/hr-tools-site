@@ -55,6 +55,7 @@ services:
 contactPhone: '021-2312 8633'
 wechatQr: /media/contact/wechat.jpg
 consultationFormUrl: https://u5n7cbfm.jsjform.com/f/NRMKJD
-launchConfirmed: false
+showOfficialIntroLinks: false
+launchConfirmed: true
 ---
 本页为企业服务信息与咨询对接入口。需要委托服务时，请与实际承接主体另行确认服务范围和费用，并签署相应合同或委托协议。

@@ -133,7 +133,8 @@ content:
       - { name: contactPhone, label: 联系电话（上线前确认）, type: string }
       - { name: wechatQr, label: 联系栏微信二维码, type: image }
       - { name: consultationFormUrl, label: 咨询表单HTTPS链接（上线前确认）, type: string }
-      - { name: launchConfirmed, label: 已向用户确认表单和五项官网链接及联系信息, type: boolean, default: false }
+      - { name: showOfficialIntroLinks, label: 显示五项官网介绍入口（开启前填齐链接）, type: boolean, default: true }
+      - { name: launchConfirmed, label: 已确认咨询表单、联系信息及官网介绍入口展示方式, type: boolean, default: false }
       - { name: checkedAt, label: 信息核对日期, type: string }
       - name: services
         label: 服务项目
@@ -145,7 +146,7 @@ content:
           - { name: scenario, label: 适用场景, type: string, required: true }
           - { name: description, label: 服务介绍, type: text, required: true }
           - { name: tags, label: 服务标签, type: string, list: true }
-          - { name: source, label: 官网介绍HTTPS链接（上线前确认）, type: string }
+          - { name: source, label: 官网介绍HTTPS链接（显示入口时必填）, type: string }
       - { name: body, label: 页尾说明, type: rich-text }
       - { name: seoTitle, label: SEO标题, type: string }
       - { name: seoDescription, label: SEO描述, type: text }

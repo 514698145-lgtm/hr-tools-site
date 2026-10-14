@@ -5,6 +5,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from check_content import parse_article
+from build_services import launch_issues
 
 
 def check_release(root):
@@ -34,13 +35,7 @@ def check_release(root):
         missing.append('生产发布开关尚未开启')
     if not config.get('runtimeApiReady'):
         missing.append('反馈、管理回复和排行榜后端尚未部署验收，不能仅上传 OSS 后宣称全部功能可用')
-    if not services.get('consultationFormUrl'):
-        missing.append('尚未配置咨询表单')
-    if not services.get('launchConfirmed'):
-        missing.append('企业服务上线资料尚未完成最终确认')
-    for item in services.get('services', []):
-        if not item.get('source'):
-            missing.append('尚未确认官网介绍链接：' + item['title'])
+    missing.extend(launch_issues(services))
     return {'ready': not missing, 'missing': missing}
 
 

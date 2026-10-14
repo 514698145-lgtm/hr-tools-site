@@ -1,7 +1,7 @@
 {
   "deploymentEnabled": false,
   "pageApproval": "pending",
-  "siteUrl": null,
+  "siteUrl": "https://hrtoolkit.cn",
   "repository": "https://github.com/514698145-lgtm/hr-tools-site",
   "ossBucket": "hrtoolkit-site-hk",
   "ossRegion": "oss-cn-hongkong",
