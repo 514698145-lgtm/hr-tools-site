@@ -19,11 +19,15 @@ server {
     ssl_certificate_key /etc/letsencrypt/live/hrtoolkit.cn/privkey.pem;
     ssl_protocols TLSv1.2 TLSv1.3;
     # Compatibility path while old A records for www expire from DNS caches.
+    resolver 8.8.8.8 1.1.1.1 valid=60s ipv6=off;
+    resolver_timeout 5s;
     location / {
-        proxy_pass https://www.hrtoolkit.cn.queniuaa.com;
+        set $cdn_transport www.hrtoolkit.cn.queniuaa.com;
+        proxy_pass https://$cdn_transport;
         proxy_ssl_server_name on;
         proxy_ssl_name www.hrtoolkit.cn;
         proxy_ssl_verify on;
+        proxy_ssl_verify_depth 4;
         proxy_ssl_trusted_certificate /etc/pki/tls/certs/ca-bundle.crt;
         proxy_set_header Host www.hrtoolkit.cn;
         proxy_set_header X-Real-IP $remote_addr;
