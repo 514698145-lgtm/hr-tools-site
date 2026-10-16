@@ -19,10 +19,6 @@ def news_cards(items):
     return ''.join(cards)
 
 
-def article_cover(a):
-    return f'<figure class="article-cover"><img src="{e(a["cover"])}" alt="{e(a["coverAlt"])}" width="1200" height="675" decoding="async"></figure>' if a.get('cover') else ''
-
-
 def article_tags(a):
     return '<nav class="article-tags" aria-label="文章标签">'+''.join(f'<a href="/insights/?q={quote(t, safe="")}">{e(t)}</a>' for t in a.get('tags', []))+'</nav>' if a.get('tags') else ''
 

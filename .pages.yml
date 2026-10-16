@@ -17,7 +17,7 @@ content:
       order: desc
     fields:
       - { name: title, label: 标题, type: string, required: true }
-      - { name: slug, label: 固定网址标识（英文小写和短横线）, type: string, required: true }
+      - { name: slug, label: 固定网址编号（如article7，发布后不要修改或重排）, type: string, required: true }
       - { name: description, label: 摘要与搜索描述, type: text, required: true }
       - name: status
         label: 发布状态
@@ -40,10 +40,10 @@ content:
         options:
           values: [最新资讯, 相关政策, 工具使用, HR实务]
       - { name: tags, label: 标签, type: string, list: true }
-      - { name: cover, label: 封面, type: image }
-      - { name: coverAlt, label: 封面说明, type: string }
+      - { name: cover, label: 列表缩略图（不显示在文章顶部）, type: image }
+      - { name: coverAlt, label: 缩略图说明, type: string }
       - { name: relatedTools, label: 关联工具标识, type: string, list: true }
-      - { name: sources, label: 来源网址, type: string, list: true }
+      - { name: sources, label: 核验来源网址（用于溯源，不显示外链）, type: string, list: true }
       - { name: seoTitle, label: SEO标题（留空使用文章标题）, type: string }
       - { name: seoDescription, label: SEO描述（留空使用摘要）, type: text }
       - { name: shareImage, label: 搜索与社交分享图, type: image }

@@ -16,7 +16,8 @@ from build_policies import build_policies
 from build_services import build_services
 from build_template_packs import build_template_packs
 from build_relax import build_relax
-from build_insights import news_cards, build_insights, article_cover, article_tags
+from build_insights import news_cards, build_insights, article_tags
+from article_layout import render_article_body, related_tools, article_redirects
 from build_contact import contact_widget
 from build_service_entry import service_entry
 from disclaimers import notice
@@ -47,7 +48,7 @@ articles = []
 md = MarkdownIt('commonmark', {'html': False}).enable('table')
 for entry in report['publishable']:
     data, body = parse_article((ROOT / entry['source']).read_text(encoding='utf-8'))
-    articles.append({**data, 'body': md.render(body), 'path': entry['path']})
+    articles.append({**data, 'body': render_article_body(body), 'path': entry['path']})
 articles.sort(key=lambda a: str(a['publishedAt']), reverse=True)
 routes = []
 friend_data, _ = parse_article((ROOT/'content/friend-links.md').read_text(encoding='utf-8-sig'))
@@ -66,7 +67,7 @@ def icon(name, size=20):
     return f'<svg width="{size}" height="{size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="{paths.get(name,paths["grid"])}"/></svg>'
 
 
-def page(path, title, description, body, kind, tool=None, schema=None, article=None):
+def page(path, title, description, body, kind, tool=None, schema=None, article=None, redirect=None):
     if kind in ('article', 'insights', 'insights-category'):
         body += notice('editorial', '内容使用声明')
     # Keep contextual notices after all content (including feedback), before the footer.
@@ -82,6 +83,9 @@ def page(path, title, description, body, kind, tool=None, schema=None, article=N
             body += entry
     body += ''.join(notices)
     seo_head = seo.metadata(path, title, description, kind, article)
+    if redirect:
+        seo_head = re.sub(r'<link rel="canonical"[^>]+>', f'<link rel="canonical" href="{e((site or "")+redirect)}">', seo_head)
+        seo_head += f'<meta http-equiv="refresh" content="0;url={e(redirect)}">'
     indexable = kind not in ('workspace', 'admin', 'feedback', '404', 'redirect')
     if site and kind == 'policy-detail' and article:
         schema={'@context':'https://schema.org','@type':'Article','headline':title,'description':description,'dateModified':article['checkedAt'],'author':{'@type':'Organization','name':'HR 工作站'},'mainEntityOfPage':site+path,'citation':article.get('sources',[])}
@@ -133,11 +137,14 @@ for a in articles:
     schema=None
     if site:
         schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':str(a['publishedAt']),'dateModified':str(a.get('updatedAt') or a['publishedAt']),'author':{'@type':'Organization','name':a['author']},'mainEntityOfPage':site.rstrip('/')+a['path'],'keywords':a.get('tags',[]),'articleSection':a['category'],'inLanguage':'zh-CN','isAccessibleForFree':True,'publisher':{'@type':'Organization','name':seo.settings.get('siteName','HR工作站'),'url':site}}
-        if a.get('cover'): schema['image']=site.rstrip('/')+a['cover']
-    related=''.join(f'<a class="related-tool" href="/tools/{tid}/"><span>打开关联工具 · {next(t["name"] for t in tools if t["id"]==tid)}</span><span>开始计算 →</span></a>' for tid in a.get('relatedTools',[]))
+        if a.get('shareImage'): schema['image']=site.rstrip('/')+a['shareImage']
+        if a.get('sources'): schema['citation']=[{'@type':'CreativeWork','url':url} for url in a['sources']]
+    related=related_tools(a.get('relatedTools',[]),tools,icon)
     updated=f' · 更新 {str(a["updatedAt"])[:10]}' if a.get('updatedAt') else ''
-    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{e(a["author"])} · 发布 {str(a["publishedAt"])[:10]}{updated}</div>{article_tags(a)}</header>{article_cover(a)}<div class="article-body">{a["body"]}</div></article>{related}</div>'
+    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{e(a["author"])} · 发布 {str(a["publishedAt"])[:10]}{updated}</div>{article_tags(a)}</header><div class="article-body">{a["body"]}</div></article>{related}</div>'
     page(a['path'],a['title'],a['description'],body,'article',schema=schema,article=a)
+for old_path,new_path in article_redirects(ROOT,{a['path'] for a in articles}).items():
+    page(old_path,'文章地址已更新','这篇HR资讯已使用新的简短地址。',f'<div class="article-layout"><h1>文章地址已更新</h1><p>正在前往文章。</p><a class="button" href="{e(new_path)}">阅读文章 →</a></div>','redirect',redirect=new_path)
 build_resources(ROOT,page)
 build_policies(ROOT,page,tools)
 build_services(ROOT,page,production=bool(seo.site))

@@ -1,5 +1,5 @@
 import unittest
-from scripts.build_insights import build_insights, news_cards, pagination, article_cover, article_tags
+from scripts.build_insights import build_insights, news_cards, pagination, article_tags
 
 
 class ArticleListTests(unittest.TestCase):
@@ -36,7 +36,6 @@ class ArticleListTests(unittest.TestCase):
         a=self.articles(1)[0] | {'cover':'/media/report.webp','coverAlt':'报告与招聘 "图示"','tags':['行业报告','AI与招聘']}
         card=news_cards([a]);self.assertIn('news-cover has-image',card)
         self.assertIn('alt="报告与招聘 &quot;图示&quot;"',card)
-        self.assertIn('width="1200" height="675"',article_cover(a))
         self.assertIn('/insights/?q=AI%E4%B8%8E%E6%8B%9B%E8%81%98',article_tags(a))
         pages={};build_insights([a],lambda path,title,desc,body,kind:pages.update({path:body}), '')
         self.assertIn('"tags": ["行业报告", "AI与招聘"]',pages['/insights/'])
