@@ -11,7 +11,7 @@
     },
     {
       "path": "config/release.json",
-      "sha256": "ee690202105a5acb4746b4edd34bde64a2a5ff6ce72ced9008869dc82681f210"
+      "sha256": "c72025ab73e4bdc36b33f8aa05433e9e11f8a5ee38668925a37a2dbf8a03828c"
     },
     {
       "path": "config/tools.json",
@@ -784,6 +784,10 @@
     {
       "path": "scripts/trial.mjs",
       "sha256": "06b2348b6fcac0d8f6e5b72edddbcf0e7d805ca3ed1e700234b5eb8709bd191e"
+    },
+    {
+      "path": "scripts/upload_release.py",
+      "sha256": "536b576e459c0648e9e365360fb39efce100b0bd1184c617ef205384b7fd4306"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",
