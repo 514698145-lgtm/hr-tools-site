@@ -339,7 +339,7 @@
     },
     {
       "path": "public/assets/typography.css",
-      "sha256": "310ce52210d2291e74835abc4d2ddbc189f12f7589e45ac7321a36e462978e9d"
+      "sha256": "4a78a34ce5499498e8dd8f15d5c0414501d528f9511eed6c61b59b499d085883"
     },
     {
       "path": "public/assets/workspace-view.js",
@@ -735,7 +735,7 @@
     },
     {
       "path": "scripts/check_site.py",
-      "sha256": "209bd593a1c677c637a6edd038575dc6580642fc5bb9a4d5bfeeee941b56bf6f"
+      "sha256": "9d7a97cd3955d62e52b933b82fab5e0481be09168c23ff3a49e9e9610c0a386b"
     },
     {
       "path": "scripts/disclaimers.py",

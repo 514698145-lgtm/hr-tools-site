@@ -1,5 +1,7 @@
 @import url('/fonts/hr-sans/fonts.css');
 :root{--font-ui:"Inter Amounts","HR Workspace Sans",sans-serif;--weight-body:400;--weight-heading:500}
+/* Keep responsive text at its authored size; browser zoom remains available. */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* One text family across components, including dynamically inserted content. */
 body,body *{font-family:var(--font-ui)!important;font-synthesis:none}
 body{font-weight:var(--weight-body);text-rendering:optimizeLegibility}
@@ -15,4 +17,17 @@ body .article-body{line-height:1.95}
 body .article-body h2{line-height:1.55;margin-top:1.8em;margin-bottom:.75em}
 body .article-body h3{line-height:1.6;margin-top:1.5em;margin-bottom:.65em}
 body .article-body p{margin-bottom:1em}
-@media(max-width:760px){.resource-actions>.button{white-space:normal;max-width:100%;overflow-wrap:anywhere;text-align:left;line-height:1.7}}
+@media(max-width:760px){
+ :root{--mobile-card-title:16px;--mobile-card-copy:13px;--mobile-card-action:12px;--mobile-card-meta:11px}
+ /* The same card hierarchy in tools, resources, news and saved tools. */
+ body .tool-card h3,body .resource-card h2,body .resource-card h3,body .news-card h3,body .policy-item h2,body .desk-tool h3{font-size:var(--mobile-card-title);font-weight:var(--weight-heading);line-height:1.6;overflow-wrap:anywhere}
+ body .tool-card p,body .resource-card p,body .news-card p,body .policy-item>p,body .desk-tool p{font-size:var(--mobile-card-copy);line-height:1.8;overflow-wrap:anywhere}
+ body .tool-card p,body .resource-card p{min-height:0}
+ body .resource-card h2,body .resource-card h3{margin:12px 0 8px}
+ body .resource-card>strong,body .card-footer a,body .resource-actions{font-size:var(--mobile-card-action);line-height:1.8}
+ body .resource-card>strong{display:block;margin-top:12px}
+ body .resource-tag,body .news-meta{font-size:var(--mobile-card-meta);line-height:1.7}
+ body .section-heading h2{font-size:18px;line-height:1.6}
+ body .section-heading h2 small{display:block;margin:4px 0 0;font-size:11px;line-height:1.7}
+ .resource-actions>.button{white-space:normal;max-width:100%;overflow-wrap:anywhere;text-align:left;line-height:1.7}
+}

@@ -40,6 +40,7 @@ def main():
         if doc.h1 != 1: errors.append(f'{relative}: expected one H1')
         if doc.title != 1 or not doc.meta.get('description'): errors.append(f'{relative}: missing metadata')
         if doc.meta.get('viewport') != 'width=device-width, initial-scale=1': errors.append(f'{relative}: viewport missing')
+        if '/assets/typography.css' not in doc.links: errors.append(f'{relative}: shared typography missing')
         if manifest['mode'] == 'preview' and 'noindex' not in doc.meta.get('robots',''): errors.append(f'{relative}: preview must be noindex')
         if manifest['mode'] == 'production' and len(doc.canonical)!=1: errors.append(f'{relative}: canonical missing')
         for image in doc.images:
