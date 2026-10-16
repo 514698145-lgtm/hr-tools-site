@@ -6,7 +6,7 @@ status: published
 category: 工资与个税
 keyPoint: 1000元/月，最长240个月
 scope: 居民个人符合规定的首套住房贷款利息专项附加扣除。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201812/t20181223_3102091.htm

@@ -6,7 +6,7 @@ status: published
 category: 工资与个税
 keyPoint: 独生3000元；非独生每人不超1500元
 scope: 居民个人赡养老人专项附加扣除；亲属关系、年龄和分摊须符合规定。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://app.www.gov.cn/govdata/gov/202308/31/506746/article.html

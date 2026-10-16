@@ -6,9 +6,11 @@ status: published
 category: 女职工保护
 keyPoint: 芜湖：区分免申与主动申请
 scope: 芜湖生育津贴办理；参保及待遇资格以当地经办规则核验。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
+- https://ybj.wuhu.gov.cn/gzdt/8941218.html
+- https://ybj.wuhu.gov.cn/ztzl/ybzszl/sybxp/8372926.html
 - https://ybj.wuhu.gov.cn/ztzl/ybzszl/qt/8368096.html
 - https://www.wuhu.gov.cn/content/article/39173527
 - https://ybj.wuhu.gov.cn/xqgz/8911691.html
@@ -19,7 +21,13 @@ seoDescription: 按芜湖医保公开指南区分数据联动与主动申请，�
 
 芜湖生育津贴不能只凭“已经生育”就认定自动到账。应先核对参保和待遇条件，再确认是否适用数据联动的免申流程，或需要主动提交申请。[芜湖医保2026年指南](https://ybj.wuhu.gov.cn/ztzl/ybzszl/qt/8368096.html)与[市政府公开说明](https://www.wuhu.gov.cn/content/article/39173527)是当地流程依据。
 
+## 2026年调整后，缴费月数怎么看？
+
+芜湖医保局7月7日说明，企业职工生育津贴的连续参保条件调整为10个月（含生育当月），同时设置过渡期：**2026年7月1日至2027年4月30日期间分娩的企业职工，仍按产前连续参保满6个月（不含生育当月），且领取时正常参保处理**。灵活就业人员的生育补助另有衔接安排，不能混用企业职工条件。[当地调整说明](https://ybj.wuhu.gov.cn/gzdt/8941218.html)。
+
 ## 线上和线下怎么区分？
+
+企业单位参保女职工在本市定点医疗机构持卡结算、符合条件的，生育津贴可通过“免申即享”按月核发；未持卡结算、特定机关事业单位等情形另按经办要求申请。[2026年医保问答](https://ybj.wuhu.gov.cn/ztzl/ybzszl/sybxp/8372926.html)、[市政府办理说明](https://www.wuhu.gov.cn/content/article/39173527)。
 
 可通过安徽医保公共服务等当地公布的线上渠道办理；自动关联条件不满足、信息需要补充的，依经办要求提交材料，必要时转线下核实。HR应关注申领状态和收款信息，不把“医保已结算”直接等同于“津贴审核通过”。
 

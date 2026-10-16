@@ -6,7 +6,7 @@ description: 劳务派遣人数占比不超过10%，分母包括直接签约与�
 keyPoint: 三性岗位 / 不超过10%
 status: published
 scope: 一般用工单位；特殊适用范围另查规定。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://fgk.chinatax.gov.cn/zcfgk/c100013/c5195227/content.html

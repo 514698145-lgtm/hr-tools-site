@@ -6,7 +6,7 @@ status: published
 category: 退休与养老
 keyPoint: 缴费年限按规定衔接
 scope: 企业职工基本养老保险跨省流动的一般规则；特殊账户与待遇领取地另核。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.beijing.gov.cn/zhengce/gwywj/201001/t20100101_781119.html

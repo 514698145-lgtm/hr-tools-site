@@ -6,7 +6,7 @@ status: published
 category: 工资与个税
 keyPoint: 按城市定额，不按实际房租全额扣除
 scope: 居民个人住房租金专项附加扣除；主要工作城市、自有住房及夫妻扣除情况须核实。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201812/t20181223_3102091.htm

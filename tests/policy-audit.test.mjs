@@ -6,10 +6,10 @@ import {calculate,calculateBatch} from '../public/assets/calculators.js';
 const id='five-insurances-housing-fund';
 test('目录50城养老费率具备逐字段来源，过期不自动沿用',()=>{
  for(const [city]of cityOptions){const p=cityPolicy(city,'2026-10');assert.equal(p.values.pensionP,8,city);assert.equal(p.values.pensionC,16,city);assert.ok(p.evidence.pensionP.source.url);assert.ok(p.evidence.pensionC.source.url);}
- assert.equal(cityPolicy('广州','2026-10').values.pensionMin,undefined);
+ assert.equal(cityPolicy('广州','2026-10').values.pensionMin,5521);
  assert.equal(cityPolicy('上海','2026-10').values.unemploymentC,undefined);
  assert.equal(cityPolicy('上海','2026-10').values.fundMin,2740);
- assert.equal(cityPolicy('上海','2026-10').values.fundMax,undefined);
+ assert.equal(cityPolicy('上海','2026-10').values.fundMax,37731);
 });
 test('中山年度上限可独立采用，9月新旧员工下限不能一刀切',()=>{
  assert.equal(cityPolicy('中山','2026-08').values.fundMin,2080);

@@ -5,7 +5,7 @@ description: 城市和月份匹配已核验参数，员工缴费工资决定个�
 status: published
 author: HR 工作站
 publishedAt: '2026-09-25T09:00:00+08:00'
-updatedAt: '2026-10-04T12:00:00+08:00'
+updatedAt: '2026-10-16T14:40:00+08:00'
 category: 工具使用
 tags:
 - 五险一金
@@ -13,6 +13,8 @@ tags:
 relatedTools:
 - five-insurances-housing-fund
 sources:
+- https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_77277_11838872.html
+- https://www.shzfgjj.cn/html/newxxgk/zcwj/gfxwj/228478.html
 - https://rsj.sh.gov.cn/tdjjf_17554/20260824/t0035_1443297.html
 - https://www.shanghai.gov.cn/qyzfgjjsjzc/20240927/2c95b2e3e9a542c2a32af7eddf25048a.html
 seoTitle: 五险一金选城市后自动填什么？比例、缴费工资与缺项填写说明
@@ -32,6 +34,12 @@ seoDescription: 城市和月份匹配已核验参数，员工缴费工资决定�
 上下限齐全时，系统按员工缴费工资保底、封顶。上海人社说明了一般职工上年月平均工资性收入等口径；新进员工另有规则，不能把本月实发工资默认当成缴费工资。[上海人社说明](https://rsj.sh.gov.cn/tdjjf_17554/20260824/t0035_1443297.html)。
 
 公积金也要区分员工工资依据与城市上下限。[上海公积金管理规则](https://www.shanghai.gov.cn/qyzfgjjsjzc/20240927/2c95b2e3e9a542c2a32af7eddf25048a.html)说明工资依据和缴存计算。本地规则只适用于对应地区，不能据此填入所有城市的具体数值。
+
+## 2026年苏州基数更新后怎么用？
+
+江苏2026年度正式社保基数上下限为5025—25127元，适用2026年全年，替换此前暂行标准。输入苏州和对应月份后，工资低于下限按5025元、高于上限按25127元测算；在范围内按输入缴费工资计算。公积金另按本地公积金规则处理，不套用社保上限。[江苏人社正式通知](https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_77277_11838872.html)。
+
+上海公积金已按2026年度正式通知接入2740—37731元，适用2026年7月至2027年6月。[上海公积金正式通知](https://www.shzfgjj.cn/html/newxxgk/zcwj/gfxwj/228478.html)。
 
 ## 哪些仍需手动确认？
 

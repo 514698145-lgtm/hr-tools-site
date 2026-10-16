@@ -6,9 +6,10 @@ description: 4月已经发过奖金，12月十三薪还能单独计税吗？区�
 keyPoint: 政策延续至2027年底
 status: published
 scope: 符合条件的居民个人全年一次性奖金；非居民等另有口径。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
+- https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260518100251877.shtml
 - https://neimenggu.chinatax.gov.cn/sjpd/byne/tzgghhht/202309/t20230915_782154.html
 - https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202501/t474844.html
 - https://neimenggu.chinatax.gov.cn/nmgzzqswj/msxxgkml_19393/eedssswj/202603/t20260317_892196.html
@@ -31,6 +32,8 @@ seoDescription: 4月已经发过奖金，12月十三薪还能单独计税吗？�
 单独计税先以奖金除以12确定税率及速算扣除数，再以整笔奖金计算税额。并入综合所得则与全年其他综合所得、扣除一起计算，不能只比较发放当月的预扣额。
 
 在[个税计算器](/tools/income-tax/)中，已确定奖金用“全年税额对比”；尚未发放且符合分配条件的情形，才使用“工资奖金金额分配”。工具比较的是输入条件下的数字，不替代收入性质判断或实际申报。
+
+天津税务2026年5月公布的两组算例中，一组单独计税更低，另一组并入更低。结论取决于全年收入与扣除，不能固定推荐一种方式。[税务部门年度对比算例](https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260518100251877.shtml)。
 
 ## 公开服务案例：先掌握口径，再完成申报
 

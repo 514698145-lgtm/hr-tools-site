@@ -6,7 +6,7 @@ description: 试用期不能任意解除。按劳动合同法第二十一条区�
 keyPoint: 不是随时可解除
 status: published
 scope: 一般劳动关系；具体事实及证据须分别核对。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html

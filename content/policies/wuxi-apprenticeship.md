@@ -6,7 +6,7 @@ status: published
 category: 培训与发展
 keyPoint: 无锡地方办法，培养与补贴分开核对
 scope: 无锡企业新型学徒制公开规则；申报年度、对象和补贴条件以当前受理通知核对。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.wuxi.gov.cn/doc/2024/04/15/4288486.shtml

@@ -6,7 +6,7 @@ status: published
 category: 入职与人事
 keyPoint: 统一申请，分别核对办理结果
 scope: 员工录用政务联办；地方接入事项、条件和入口可能不同。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://gjj.beijing.gov.cn/web/zwgk61/_300587/_300688/744016635/index.html

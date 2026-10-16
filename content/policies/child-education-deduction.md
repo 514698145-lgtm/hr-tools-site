@@ -6,7 +6,7 @@ status: published
 category: 工资与个税
 keyPoint: 每个符合条件子女每月2000元
 scope: 居民个人子女教育专项附加扣除；实际教育阶段与分配方式须核实。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://app.www.gov.cn/govdata/gov/202308/31/506746/article.html

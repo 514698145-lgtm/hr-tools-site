@@ -13,7 +13,7 @@ const files={};const sha=b=>createHash('sha256').update(b).digest('hex');
 for(const tool of tools.filter(t=>t.id!=='date-calculator')){
  const {rows}=simpleTemplate(tool),w=Workbook.create(),s=w.worksheets.add('批量填写'),last=col(rows[0].length-1);
  s.showGridLines=false;s.tabColor='#9A722E';s.freezePanes.freezeRows(1);
- const range=s.getRange(`A1:${last}12`);range.format.font={name:'Microsoft YaHei',size:11,color:'#273444'};range.format.rowHeight=28;range.format.verticalAlignment='center';
+ const range=s.getRange(`A1:${last}12`);range.format.font={name:'Noto Sans CJK SC',size:11,color:'#273444'};range.format.rowHeight=28;range.format.verticalAlignment='center';
  const header=s.getRange(`A1:${last}1`);header.format.fill='#4F4638';header.format.font.color='#FFFFFF';header.format.font.bold=true;header.format.wrapText=true;header.format.rowHeight=64;
  for(let i=0;i<rows[0].length;i++)s.getRange(col(i)+'1').format.columnWidth=Math.max(20,Math.min(34,rows[0][i].length*1.25));
  s.getRange(`A2:${last}12`).format.fill='#FFFCF4';s.getRange(`A1:${last}2`).values=rows;

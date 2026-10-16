@@ -6,7 +6,7 @@ status: published
 category: 工资与个税
 keyPoint: 实际缴费，年度扣除上限12000元
 scope: 个人养老金制度下符合条件的缴费及领取；不涵盖全部商业养老产品。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://app.www.gov.cn/govdata/gov/202412/13/522679/articleNew.html

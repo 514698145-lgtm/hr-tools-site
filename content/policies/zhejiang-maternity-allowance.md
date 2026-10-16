@@ -6,7 +6,7 @@ status: published
 category: 女职工保护
 keyPoint: 浙江：2025年7月起直接发放
 scope: 浙江符合生育津贴领取条件的参保人员；新旧申请按当地通知衔接。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://zjic.zj.gov.cn/zkdt/rdzx/202506/t20250630_23540134.shtml

@@ -6,17 +6,17 @@ description: 新入职按剩余日历天数，离职结算按已过日历天数�
 keyPoint: 按日历天数折算
 status: published
 scope: 企业职工；须先符合年休假享受条件。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
-- https://www.gov.cn/zhengce/2008-09/28/content_2603139.htm
+- https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf
 - https://hrss.suzhou.gov.cn/jsszhrss/12333rdzx/202601/01a8fa9c07d14db18315a552597f48df.shtml
 relatedTools: []
 seoTitle: 入职和离职当年年休假怎么算？折算公式与不足一天处理
 seoDescription: 新入职按剩余日历天数，离职结算按已过日历天数折算；说明不足一天、已休超过折算额度及记录口径。
 ---
 
-员工先满足享受年休假的条件，再计算入职或离职当年的额度。这里的天数是日历天数，不是出勤天数。[《企业职工带薪年休假实施办法》第五条、第十二条](https://www.gov.cn/zhengce/2008-09/28/content_2603139.htm)是公式依据，[苏州人社问答](https://hrss.suzhou.gov.cn/jsszhrss/12333rdzx/202601/01a8fa9c07d14db18315a552597f48df.shtml)用于交叉核对。
+员工先满足享受年休假的条件，再计算入职或离职当年的额度。这里的天数是日历天数，不是出勤天数。[《企业职工带薪年休假实施办法》第五条、第十二条](https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf)是公式依据，[苏州人社问答](https://hrss.suzhou.gov.cn/jsszhrss/12333rdzx/202601/01a8fa9c07d14db18315a552597f48df.shtml)用于交叉核对。
 
 ## 新进员工怎么折算？
 

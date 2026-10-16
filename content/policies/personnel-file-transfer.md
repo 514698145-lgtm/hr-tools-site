@@ -6,7 +6,7 @@ status: published
 category: 入职与人事
 keyPoint: 机构转递，基础服务按规定免费
 scope: 流动人员人事档案管理服务；不涵盖所有干部档案或特殊涉密档案情形。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202507/t20250709_4145155.html

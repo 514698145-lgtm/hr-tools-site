@@ -6,7 +6,7 @@ status: published
 category: 社会保险
 keyPoint: 共济资金，不转移报销资格
 scope: 职工医保个人账户跨省共济；以2026年公布的国家规则及实际接入服务为准。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.nhsa.gov.cn/art/2026/1/9/art_104_19293.html

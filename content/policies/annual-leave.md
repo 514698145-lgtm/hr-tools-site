@@ -6,18 +6,18 @@ description: 年休假按累计工作时间判断，不只看本单位工龄。�
 keyPoint: 5 / 10 / 15天
 status: published
 scope: 全国一般规则；注意不享受当年年休假的法定情形。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://xzfg.moj.gov.cn/front/law/detail?LawID=208
-- https://www.gov.cn/zhengce/2008-09/28/content_2603139.htm
+- https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf
 - https://hrss.suzhou.gov.cn/jsszhrss/12333rdzx/202601/01a8fa9c07d14db18315a552597f48df.shtml
 relatedTools: []
 seoTitle: 年休假有几天？累计工龄、5天10天15天与不享受情形
 seoDescription: 年休假按累计工作时间判断，不只看本单位工龄。整理享受条件、5/10/15天分档和病事假例外，附来源与FAQ。
 ---
 
-连续工作满12个月是享受带薪年休假的基本条件，全年天数按累计工作年限确定。换工作不意味着以往工作年限自动清零。[《职工带薪年休假条例》](https://xzfg.moj.gov.cn/front/law/detail?LawID=208)与[企业实施办法](https://www.gov.cn/zhengce/2008-09/28/content_2603139.htm)分别规定享受条件和具体实施口径。
+连续工作满12个月是享受带薪年休假的基本条件，全年天数按累计工作年限确定。换工作不意味着以往工作年限自动清零。[《职工带薪年休假条例》](https://xzfg.moj.gov.cn/front/law/detail?LawID=208)与[企业实施办法](https://www.mohrss.gov.cn/xxgk2020/gzk/gz/202112/P020211229590352867273.pdf)分别规定享受条件和具体实施口径。
 
 ## 全年天数对照
 

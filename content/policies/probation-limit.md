@@ -6,7 +6,7 @@ description: 按劳动合同期限核对1、2、6个月上限，说明同一单�
 keyPoint: 1 / 2 / 6个月
 status: published
 scope: 一般劳动合同；非全日制用工不得约定试用期。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html

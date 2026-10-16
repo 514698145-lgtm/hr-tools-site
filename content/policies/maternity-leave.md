@@ -6,9 +6,10 @@ description: 98天是国家基础产假，产前15天包含在内；难产、多
 keyPoint: 国家基础98天
 status: published
 scope: 国家基础规则；地方生育假、陪产假等另查当地规定。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
+- https://ybj.suzhou.gov.cn/szybj/zcfg/202608/23b2f70f8dc0483eb58d89c97f2e07a4.shtml
 - https://www.shanghai.gov.cn/gwk/search/content/6e04ce0a62054be3a50040f3763fdeb8
 - https://app.www.gov.cn/govdata/gov/202505/03/528290/article.html
 - https://www.changzhou.gov.cn/ns_news/845178839729396
@@ -30,6 +31,8 @@ seoDescription: 98天是国家基础产假，产前15天包含在内；难产、
 | 怀孕满4个月流产 | 42天 |
 
 地方生育假、陪产假与企业自设福利假，不能直接当作全国统一天数。生育津贴支付范围也应按参保地医保规则核对，不能把休假总天数直接乘日工资当作津贴。
+
+苏州自2026年10月1日起施行的新办法，对符合国家生育政策的生育增加60天的生育津贴计发天数，并规定津贴与产假工资不重复享受、低于原工资标准由单位补足。这是苏州生育保险的具体规则，不能据此将全国基础产假改为158天。[苏州新办法第十九条、第四十条](https://ybj.suzhou.gov.cn/szybj/zcfg/202608/23b2f70f8dc0483eb58d89c97f2e07a4.shtml)。
 
 ## 公开实践：企业通过协商增加支持
 

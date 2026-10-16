@@ -6,7 +6,7 @@ description: 按事故伤害或职业病诊断、鉴定日期核对工伤认定�
 keyPoint: 单位30日 / 职工等1年
 status: published
 scope: 工伤保险条例第十七条；特殊情况及起算事件需核对。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://xzfg.moj.gov.cn/front/law/detail?LawID=610

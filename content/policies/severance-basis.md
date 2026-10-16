@@ -6,7 +6,7 @@ description: 区分是否应付与金额核算；说明本单位工作年限、�
 keyPoint: 满一年计1个月
 status: published
 scope: 《劳动合同法》第四十六、四十七条；历史分段情形需另核。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html

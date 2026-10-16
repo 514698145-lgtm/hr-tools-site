@@ -6,7 +6,7 @@ status: published
 category: 合同与试用期
 keyPoint: 可靠电子签名＋完整留存
 scope: 一般劳动关系中的电子劳动合同；电子签署不改变实体用工规则。
-checkedAt: '2026-10-04'
+checkedAt: '2026-10-16'
 reviewAfter: '2027-01-04'
 sources:
 - https://chinajob.mohrss.gov.cn/h5/c/2021-07-16/315319.shtml
