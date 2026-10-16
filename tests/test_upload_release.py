@@ -3,7 +3,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from upload_release import validate_target
+from upload_release import validate_target, safe_diagnostic
+from unittest.mock import patch
 
 
 class UploadBoundaryTests(unittest.TestCase):
@@ -34,6 +35,12 @@ class UploadBoundaryTests(unittest.TestCase):
             altered = {**self.manifest, field: value}
             with self.assertRaises(ValueError):
                 validate_target(altered, '_preflight/534fa9b/')
+
+    def test_diagnostics_redact_secrets_and_signed_urls(self):
+        with patch.dict('os.environ', {'ALIBABA_CLOUD_SECURITY_TOKEN': 'private+token/123'}):
+            result = safe_diagnostic('Request https://example.com/?signature=private; private+token/123; private%2Btoken%2F123')
+            self.assertNotIn('private', result)
+            self.assertNotIn('https://', result)
 
 
 if __name__ == '__main__':

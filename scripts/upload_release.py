@@ -8,15 +8,27 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import subprocess
 import tempfile
 import zipfile
+from urllib.parse import quote
 
 from package_release import MANIFEST, verify_package
 
 BUCKET = 'hrtoolkit-site-hk'
+
+
+def safe_diagnostic(message):
+    for name, value in os.environ.items():
+        if len(value) >= 8 and any(part in name.upper() for part in ('SECRET', 'TOKEN', 'ACCESS_KEY')):
+            message = message.replace(value, '[redacted]').replace(quote(value, safe=''), '[redacted]')
+    message = re.sub(r'https?://[^\s]+', '[cloud endpoint]', message)
+    message = re.sub(r'(?i)(access.?key.?secret|security.?token|sts.?token)["\s:=]+[^,\s"}]+',
+                     r'\1=[redacted]', message)
+    return message.strip()[:800]
 
 
 def validate_target(manifest, prefix):
@@ -49,7 +61,8 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
                 found = re.search(r'"(?:error_code|Code)"\s*:\s*"([A-Za-z0-9_.-]+)"|Error\s*Code[:= ]+([A-Za-z0-9_.-]+)',
                                   result.stdout + result.stderr)
                 code = next((x for x in found.groups() if x), 'unknown') if found else 'unknown'
-                raise RuntimeError('Cloud command failed (sanitized code: ' + code + ')')
+                detail = safe_diagnostic(result.stderr or result.stdout)
+                raise RuntimeError('Cloud command failed (' + code + '): ' + detail)
             return result.stdout
 
         def put(file, key, content_type, sha256):

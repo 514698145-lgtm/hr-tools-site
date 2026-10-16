@@ -145,6 +145,8 @@ jobs:
           PY
       - name: Verify temporary CLI identity
         run: aliyun sts GetCallerIdentity --region cn-hongkong --cli-query Arn
+      - name: Initialize OSS upload tool before parallel transfers
+        run: aliyun --region cn-hongkong ossutil version
       - name: Upload assets then pages
         shell: bash
         env:
