@@ -5,7 +5,7 @@ description: 内部编辑草稿，不在前台显示：按搜索问题、权威�
 status: draft
 author: HR 工作站
 publishedAt: 2026-09-25T09:00:00+08:00
-updatedAt: 2026-10-04T12:00:00+08:00
+updatedAt: 2026-10-16T09:16:34+08:00
 category: 工具使用
 seoTitle: HR资讯编辑示例
 seoDescription: 内部编辑草稿：按搜索问题、权威引用、实际正面脱敏案例和FAQ补齐后再审核发布。

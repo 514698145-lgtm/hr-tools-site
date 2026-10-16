@@ -1,0 +1,8 @@
+{
+  "Version": "1",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": "oss:PutObject",
+    "Resource": "acs:oss:*:*:hrtoolkit-runtime-backups-hk/runtime/*"
+  }]
+}

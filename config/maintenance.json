@@ -11,5 +11,7 @@
   "cloudTimerVerifiedAt": "2026-10-14",
   "intelligentReviewExecutor": "local-codex-app",
   "localExecutionConfirmedAt": "2026-10-14",
-  "endToEndPublicationVerified": false
+  "endToEndPublicationVerified": true,
+  "endToEndPublicationVerifiedAt": "2026-10-16",
+  "endToEndPublicationEvidence": "GitHub 38833797705: isolated OSS upload, CDN manifest revision verified; published policy/template artifacts included. CMS save commit 786cbd7. Object-version recovery verified separately."
 }

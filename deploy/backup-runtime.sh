@@ -35,4 +35,10 @@ target="$backup/runtime-$(date -u +%Y%m%dT%H%M%S)-$$.tar.gz"
 python3 /opt/hr-tools/current/scripts/runtime_archive.py snapshot "$data" "$target.partial"
 mv "$target.partial" "$target"
 echo 'Runtime data backup completed.'
+# Resume before any network upload; a slow OSS request must not keep the API down.
+if "$service_was_active"; then
+  resume_runtime
+  service_was_active=false
+fi
+/opt/hr-tools/certbot/bin/python /usr/local/sbin/hr-tools-sync-runtime-backups.py
 # No automatic deletion before a retention policy is approved.

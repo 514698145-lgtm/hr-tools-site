@@ -1,5 +1,5 @@
 {
-  "deploymentEnabled": false,
+  "deploymentEnabled": true,
   "pageApproval": "approved",
   "siteUrl": "https://hrtoolkit.cn",
   "repository": "https://github.com/514698145-lgtm/hr-tools-site",

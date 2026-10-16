@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from upload_release import validate_target, safe_diagnostic
+from upload_release import validate_target, safe_diagnostic, unchanged_paths
 from unittest.mock import patch
 
 
@@ -41,6 +41,17 @@ class UploadBoundaryTests(unittest.TestCase):
             result = safe_diagnostic('Request https://example.com/?signature=private; private+token/123; private%2Btoken%2F123')
             self.assertNotIn('private', result)
             self.assertNotIn('https://', result)
+
+    def test_interrupted_upload_disables_deduplication(self):
+        record = {'path': 'font.woff2', 'bytes': 3, 'sha256': 'abc',
+                  'contentType': 'font/woff2', 'cacheControl': 'no-cache'}
+        old = {'revision': 'old', 'files': [record]}
+        incoming = {'files': [record]}
+        self.assertEqual(unchanged_paths(incoming, old, {'status': 'complete', 'revision': 'old'}), {'font.woff2'})
+        self.assertFalse(unchanged_paths(incoming, old, {'status': 'uploading', 'revision': 'new'}))
+        self.assertFalse(unchanged_paths(incoming, old, {'status': 'complete', 'revision': 'other'}))
+        changed_type = {'files': [{**record, 'contentType': 'application/octet-stream'}]}
+        self.assertFalse(unchanged_paths(changed_type, old, {'status': 'complete', 'revision': 'old'}))
 
 
 if __name__ == '__main__':

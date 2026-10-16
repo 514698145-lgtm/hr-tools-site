@@ -19,6 +19,7 @@ from urllib.parse import quote
 from package_release import MANIFEST, verify_package
 
 BUCKET = 'hrtoolkit-site-hk'
+STATE = 'deployment-state.json'
 
 
 def safe_diagnostic(message):
@@ -29,6 +30,18 @@ def safe_diagnostic(message):
     message = re.sub(r'(?i)(access.?key.?secret|security.?token|sts.?token)["\s:=]+[^,\s"}]+',
                      r'\1=[redacted]', message)
     return message.strip()[:800]
+
+
+def unchanged_paths(manifest, previous, state):
+    # An interrupted upload may have overwritten objects without publishing its
+    # manifest. In that case re-upload everything, including a rollback release.
+    if (not previous or state.get('status') != 'complete' or
+            state.get('revision') != previous.get('revision')):
+        return set()
+    old = {record['path']: record for record in previous.get('files', [])}
+    fields = ('sha256', 'bytes', 'contentType', 'cacheControl')
+    return {record['path'] for record in manifest['files'] if record['path'] in old and
+            all(old[record['path']].get(key) == record.get(key) for key in fields)}
 
 
 def validate_target(manifest, prefix):
@@ -54,9 +67,11 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
         if config:
             base += ['--config-path', str(config)]
 
-        def run(arguments):
+        def run(arguments, missing_ok=False):
             result = subprocess.run(base + arguments, capture_output=True, text=True)
             if result.returncode:
+                if missing_ok and re.search(r'NoSuchKey|Http Status Code:\s*404', result.stdout + result.stderr):
+                    return None
                 # CLI diagnostic data can include request details. Never echo it.
                 found = re.search(r'"(?:error_code|Code)"\s*:\s*"([A-Za-z0-9_.-]+)"|Error\s*Code[:= ]+([A-Za-z0-9_.-]+)',
                                   result.stdout + result.stderr)
@@ -76,6 +91,23 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
         # each file is individually materialized from the verified inventory.
         with tempfile.TemporaryDirectory(prefix='hr-release-') as directory:
             staging = Path(directory)
+            if any(r['path'] in (STATE, MANIFEST) for r in manifest['files']):
+                raise ValueError('Reserved deployment marker in static files')
+            def fetch_json(key):
+                target = staging / ('previous-' + key)
+                result = run(['ossutil', 'cp', f'oss://{BUCKET}/{prefix}{key}', str(target),
+                              '-f', '-q', '--no-progress', '--region', 'cn-hongkong',
+                              '--endpoint', 'https://oss-cn-hongkong.aliyuncs.com'], missing_ok=True)
+                return json.loads(target.read_text()) if result is not None else {}
+
+            previous, state = fetch_json(MANIFEST), fetch_json(STATE)
+            unchanged = unchanged_paths(manifest, previous, state)
+            marker_state = staging / STATE
+            def publish_state(status):
+                raw = json.dumps({'schema': 1, 'status': status, 'revision': manifest['revision']}).encode()
+                marker_state.write_bytes(raw)
+                put(marker_state, prefix + STATE, 'application/json', hashlib.sha256(raw).hexdigest())
+            publish_state('uploading')
             for item in manifest['files']:
                 target = staging / item['path']
                 target.parent.mkdir(parents=True, exist_ok=True)
@@ -87,15 +119,18 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
                 put(staging / item['path'], prefix + item['path'], item['contentType'], item['sha256'])
 
             for label, records in [('assets', assets), ('pages', pages)]:
+                changed = [r for r in records if r['path'] not in unchanged]
                 with ThreadPoolExecutor(max_workers=workers) as pool:
-                    for _ in pool.map(send, records):
+                    for _ in pool.map(send, changed):
                         pass
-                print(json.dumps({'uploaded': label, 'files': len(records)}), flush=True)
+                print(json.dumps({'uploaded': label, 'files': len(changed),
+                                  'unchanged': len(records) - len(changed)}), flush=True)
             marker = staging / MANIFEST
             marker.write_bytes(manifest_raw)
             put(marker, prefix + MANIFEST, 'application/json', hashlib.sha256(manifest_raw).hexdigest())
+            publish_state('complete')
     return {'bucket': BUCKET, 'prefix': prefix, 'files': len(manifest['files']),
-            'revision': manifest['revision'], 'manifestPublishedLast': True}
+            'revision': manifest['revision'], 'completionMarkerPublishedLast': True}
 
 
 def main():

@@ -168,10 +168,11 @@ jobs:
         run: |
           set -euo pipefail
           prefix=''
-          connection=()
+          connection=(--connect-to hrtoolkit.cn:443:hrtoolkit.cn.queniuaa.com:443)
           if [ "$PREFLIGHT" = 'true' ]; then
             prefix="_preflight/${SOURCE_REVISION:0:7}/"
-            connection+=(--connect-to hrtoolkit.cn:443:hrtoolkit.cn.queniuaa.com:443)
           fi
           curl -fsS --retry 3 "${connection[@]}" "https://hrtoolkit.cn/${prefix}release-manifest.json?revision=$SOURCE_REVISION" -o "$RUNNER_TEMP/published.json"
           python -c "import json,os; m=json.load(open(os.environ['RUNNER_TEMP']+'/published.json')); assert m['revision']==os.environ['SOURCE_REVISION']; print('Published revision verified')"
+          curl -fsS --retry 3 "${connection[@]}" "https://hrtoolkit.cn/${prefix}deployment-state.json?revision=$SOURCE_REVISION" -o "$RUNNER_TEMP/deployment-state.json"
+          python -c "import json,os; s=json.load(open(os.environ['RUNNER_TEMP']+'/deployment-state.json')); assert s['status']=='complete' and s['revision']==os.environ['SOURCE_REVISION']; print('Deployment completion verified')"
