@@ -683,7 +683,7 @@
     },
     {
       "path": "scripts/build_template_packs.py",
-      "sha256": "01f130e292dde648c960c0f1487acfbf21f1be417ed6c9de0b9ffc159115f159"
+      "sha256": "38c37fe0505e63e70bc184637c3596bb44d9027cadca3151b1f2485058300179"
     },
     {
       "path": "scripts/build_watch_manifest.py",
@@ -787,7 +787,7 @@
     },
     {
       "path": "scripts/upload_release.py",
-      "sha256": "6bd3c79397d52b63c8b1418224f60f9cd3a3570cb4fb7d7d3970cbba2d01c187"
+      "sha256": "75972ba58aa8f1b3ee3e57544aa089d793e83b93b393b0dff7d14d3a4394d38a"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",
