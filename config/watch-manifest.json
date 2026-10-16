@@ -27,7 +27,7 @@
     },
     {
       "path": "content/articles/editor-example.md",
-      "sha256": "faee9d048b41b07c87960c13fd333f12c64c574ccaa825ede0b4e15713c33fda"
+      "sha256": "b1de7f544e5d335007e44fb5b5658d357141c860b082d9d210f80cb38c03e0fc"
     },
     {
       "path": "content/articles/salary-budget-guide.md",
@@ -787,7 +787,7 @@
     },
     {
       "path": "scripts/upload_release.py",
-      "sha256": "536b576e459c0648e9e365360fb39efce100b0bd1184c617ef205384b7fd4306"
+      "sha256": "f80761a707894dbf96a4c4b7f50027f317b0e5d3cf68b6ae89ac2c02ad0c3d7e"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",

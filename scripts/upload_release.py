@@ -46,7 +46,10 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
             result = subprocess.run(base + arguments, capture_output=True, text=True)
             if result.returncode:
                 # CLI diagnostic data can include request details. Never echo it.
-                raise RuntimeError('Cloud command failed; inspect private CLI logs locally')
+                found = re.search(r'"(?:error_code|Code)"\s*:\s*"([A-Za-z0-9_.-]+)"|ErrorCode[:= ]+([A-Za-z0-9_.-]+)',
+                                  result.stdout + result.stderr)
+                code = next((x for x in found.groups() if x), 'unknown') if found else 'unknown'
+                raise RuntimeError('Cloud command failed (sanitized code: ' + code + ')')
             return result.stdout
 
         def put(file, key, content_type, sha256):

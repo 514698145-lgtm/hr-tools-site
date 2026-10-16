@@ -14,7 +14,9 @@ CDN 的条件源站覆盖 /api/* 和 /.well-known/acme-challenge/*，以 HTTPS �
 
 工作流 .github/workflows/content-check.yml 分为 validate 和 publish。PR 只检查；main 检查通过且发布门禁全部 ready 才发布。手动 preflight=true 上传 _preflight/提交号/，不会覆盖根目录。过时提交禁止发布；发布任务串行。
 
-OIDC 提供商 issuer=https://token.actions.githubusercontent.com，audience=sts.aliyuncs.com；角色只信任 repo:514698145-lgtm/hr-tools-site:ref:refs/heads/main。ARN 放在 GitHub Variables，不放长期 AccessKey。权限见 deploy/github-publisher-policy.json：仅本静态 Bucket 的必要上传/读取和本域名刷新，不包含删除、授权、DNS 或私有运行数据。
+OIDC 提供商 issuer=https://token.actions.githubusercontent.com，audience=sts.aliyuncs.com；角色只信任本仓库 main。当前 GitHub 使用含不可变账号及仓库 ID 的 subject，必须从 GitHub 官方 API 的 actions/oidc/customization/sub 核验实际前缀，不能套旧版纯名称示例。ARN 放在 GitHub Variables，不放长期 AccessKey。权限见 deploy/github-publisher-policy.json：仅本静态 Bucket 的必要上传/读取和本域名刷新，不包含删除、授权、DNS 或私有运行数据。
+
+CMS 保存后，inventory 任务自动同步维护清单并记录实际提交号，再按该提交检查、打包与发布；避免要求编辑者手改 JSON。只有该任务有 contents:write，PR 不运行它。验证任务只读；发布任务仅增加获取临时身份所需的 id-token:write。官方凭据 Action 与 CLI 的环境变量前缀不同，工作流显式适配，不输出凭据。
 
 scripts/upload_release.py 先验证整包 SHA256 与路径，再上传资源、HTML，最后上传 release-manifest.json。使用官方 CLI 的传输校验并应用类型、缓存和 SHA256 元数据。当前资源名称没有内容哈希，浏览器必须重新验证；CDN 静态缓存300秒，API不缓存。每次正式发布后刷新目录缓存并验证公网清单提交号。
 

@@ -12,12 +12,46 @@ on:
 permissions:
   contents: read
 jobs:
+  inventory:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      revision: ${{ steps.source.outputs.revision }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Synchronize source inventory after CMS edits
+        shell: bash
+        run: |
+          set -euo pipefail
+          if ! python scripts/build_watch_manifest.py --check; then
+            python scripts/build_watch_manifest.py
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add config/watch-manifest.json
+            git commit -m 'Synchronize content maintenance inventory'
+            git push origin HEAD:main
+          fi
+      - id: source
+        run: echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
   validate:
+    needs: inventory
+    if: always() && (needs.inventory.result == 'success' || needs.inventory.result == 'skipped')
     runs-on: ubuntu-latest
     outputs:
       release_ready: ${{ steps.readiness.outputs.ready }}
+      revision: ${{ needs.inventory.outputs.revision || github.sha }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.inventory.outputs.revision || github.sha }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -61,8 +95,12 @@ jobs:
     permissions:
       contents: read
       id-token: write
+    env:
+      SOURCE_REVISION: ${{ needs.validate.outputs.revision }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.validate.outputs.revision }}
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -73,7 +111,7 @@ jobs:
       - name: Reject an outdated source revision
         env:
           GH_TOKEN: ${{ github.token }}
-        run: test "$(gh api repos/$GITHUB_REPOSITORY/commits/main --jq .sha)" = "$GITHUB_SHA"
+        run: test "$(gh api repos/$GITHUB_REPOSITORY/commits/main --jq .sha)" = "$SOURCE_REVISION"
       - name: Install checksum-verified official cloud CLI
         shell: bash
         run: |
@@ -94,6 +132,18 @@ jobs:
           oidc-provider-arn: ${{ vars.ALIYUN_OIDC_PROVIDER_ARN }}
           role-to-assume: ${{ vars.ALIYUN_PUBLISH_ROLE_ARN }}
           role-session-expiration: 1800
+      - name: Adapt temporary credentials for official CLI
+        run: |
+          python - <<'PY'
+          import os
+          with open(os.environ['GITHUB_ENV'], 'a') as target:
+              for field in ('ACCESS_KEY_ID', 'ACCESS_KEY_SECRET', 'SECURITY_TOKEN'):
+                  value = os.environ['ALIBABACLOUD_' + field]
+                  target.write('ALIBABA_CLOUD_' + field + '=' + value + '\n')
+              target.write('ALIBABA_CLOUD_PROFILE_MODE=StsToken\nALIBABA_CLOUD_IGNORE_PROFILE=TRUE\n')
+          PY
+      - name: Verify temporary CLI identity
+        run: aliyun sts GetCallerIdentity --region cn-hongkong --cli-query Arn
       - name: Upload assets then pages
         shell: bash
         env:
@@ -103,7 +153,7 @@ jobs:
           mapfile -t packages < <(find release-artifact -name '*.zip')
           test ${#packages[@]} -eq 1
           options=()
-          if [ "$PREFLIGHT" = 'true' ]; then options+=(--prefix "_preflight/${GITHUB_SHA:0:7}/"); fi
+          if [ "$PREFLIGHT" = 'true' ]; then options+=(--prefix "_preflight/${SOURCE_REVISION:0:7}/"); fi
           python scripts/upload_release.py "${packages[0]}" --cli "$(command -v aliyun)" "${options[@]}"
       - name: Refresh CDN after production upload
         if: inputs.preflight != true
@@ -117,8 +167,8 @@ jobs:
           prefix=''
           connection=()
           if [ "$PREFLIGHT" = 'true' ]; then
-            prefix="_preflight/${GITHUB_SHA:0:7}/"
+            prefix="_preflight/${SOURCE_REVISION:0:7}/"
             connection+=(--connect-to hrtoolkit.cn:443:hrtoolkit.cn.queniuaa.com:443)
           fi
-          curl -fsS --retry 3 "${connection[@]}" "https://hrtoolkit.cn/${prefix}release-manifest.json?revision=$GITHUB_SHA" -o "$RUNNER_TEMP/published.json"
-          python -c "import json,os; m=json.load(open(os.environ['RUNNER_TEMP']+'/published.json')); assert m['revision']==os.environ['GITHUB_SHA']; print('Published revision verified')"
+          curl -fsS --retry 3 "${connection[@]}" "https://hrtoolkit.cn/${prefix}release-manifest.json?revision=$SOURCE_REVISION" -o "$RUNNER_TEMP/published.json"
+          python -c "import json,os; m=json.load(open(os.environ['RUNNER_TEMP']+'/published.json')); assert m['revision']==os.environ['SOURCE_REVISION']; print('Published revision verified')"
