@@ -46,7 +46,7 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
             result = subprocess.run(base + arguments, capture_output=True, text=True)
             if result.returncode:
                 # CLI diagnostic data can include request details. Never echo it.
-                found = re.search(r'"(?:error_code|Code)"\s*:\s*"([A-Za-z0-9_.-]+)"|ErrorCode[:= ]+([A-Za-z0-9_.-]+)',
+                found = re.search(r'"(?:error_code|Code)"\s*:\s*"([A-Za-z0-9_.-]+)"|Error\s*Code[:= ]+([A-Za-z0-9_.-]+)',
                                   result.stdout + result.stderr)
                 code = next((x for x in found.groups() if x), 'unknown') if found else 'unknown'
                 raise RuntimeError('Cloud command failed (sanitized code: ' + code + ')')
@@ -54,6 +54,7 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
 
         def put(file, key, content_type, sha256):
             run(['ossutil', 'cp', str(file), f'oss://{BUCKET}/{key}', '-f', '-q',
+                 '--region', 'cn-hongkong', '--endpoint', 'https://oss-cn-hongkong.aliyuncs.com',
                  '--no-progress', '--content-type', content_type,
                  '--cache-control', 'public, max-age=0, must-revalidate',
                  '--metadata', 'sha256=' + sha256])

@@ -787,7 +787,7 @@
     },
     {
       "path": "scripts/upload_release.py",
-      "sha256": "f80761a707894dbf96a4c4b7f50027f317b0e5d3cf68b6ae89ac2c02ad0c3d7e"
+      "sha256": "71f6ad861afabbb31ed5f64b83a297ad9b7092c511d2a8e4a01103d43a05e509"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",
