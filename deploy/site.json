@@ -6,5 +6,6 @@
   "cdnDomain": "hrtoolkit.cn",
   "cdnCname": "hrtoolkit.cn.queniuaa.com",
   "runtimeOrigin": "https://hrtoolkit.cn",
-  "publicReleaseVerified": false
+  "publicReleaseVerified": true,
+  "publicReleaseVerifiedAt": "2026-10-16"
 }
