@@ -1,0 +1,8 @@
+[Unit]
+Description=Renew HR workspace TLS and synchronize CDN certificate
+After=network-online.target nginx.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/hr-tools/certbot/bin/certbot renew --quiet --deploy-hook "/opt/hr-tools/certbot/bin/python /usr/local/sbin/hr-tools-sync-certificate.py"
+UMask=0077

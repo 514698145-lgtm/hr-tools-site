@@ -1,0 +1,58 @@
+server {
+    listen 80;
+    server_name hrtoolkit.cn www.hrtoolkit.cn origin.hrtoolkit.cn;
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/lib/hr-tools-acme;
+        default_type text/plain;
+    }
+    location / { return 301 https://hrtoolkit.cn$request_uri; }
+}
+server {
+    listen 443 ssl default_server;
+    server_name _;
+    ssl_reject_handshake on;
+}
+server {
+    listen 443 ssl;
+    server_name www.hrtoolkit.cn;
+    ssl_certificate /etc/letsencrypt/live/hrtoolkit.cn/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/hrtoolkit.cn/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    return 301 https://hrtoolkit.cn$request_uri;
+}
+server {
+    listen 443 ssl;
+    server_name hrtoolkit.cn;
+    ssl_certificate /etc/letsencrypt/live/hrtoolkit.cn/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/hrtoolkit.cn/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    add_header X-Robots-Tag "noindex, nofollow" always;
+    return 503 "HR workspace is being configured. Please try again later.\n";
+}
+server {
+    listen 443 ssl;
+    server_name origin.hrtoolkit.cn;
+    ssl_certificate /etc/letsencrypt/live/hrtoolkit.cn/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/hrtoolkit.cn/privkey.pem;
+    ssl_protocols TLSv1.2 TLSv1.3;
+    client_max_body_size 64k;
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/lib/hr-tools-acme;
+        default_type text/plain;
+    }
+    location /api/ {
+        if ($http_x_hr_origin_token != "__ORIGIN_TOKEN__") { return 403; }
+        proxy_pass http://127.0.0.1:4323;
+        proxy_http_version 1.1;
+        proxy_set_header Host hrtoolkit.cn;
+        proxy_set_header X-Real-IP $http_ali_cdn_real_ip;
+        proxy_set_header X-Forwarded-Proto https;
+        proxy_set_header X-HR-Origin-Token "";
+        proxy_set_header Connection "";
+        proxy_buffering off;
+        proxy_read_timeout 65s;
+        add_header Cache-Control "no-store" always;
+        add_header X-Content-Type-Options nosniff always;
+    }
+    location / { return 404; }
+}

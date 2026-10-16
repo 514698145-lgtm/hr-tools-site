@@ -1,0 +1,10 @@
+[
+  {"functionName":"l2_oss_key","functionArgs":[{"argName":"private_oss_auth","argValue":"on"}]},
+  {"functionName":"path_based_ttl_set","functionArgs":[{"argName":"path","argValue":"/"},{"argName":"ttl","argValue":"300"},{"argName":"weight","argValue":"1"},{"argName":"swift_no_cache_low","argValue":"off"}]},
+  {"functionName":"path_based_ttl_set","functionArgs":[{"argName":"path","argValue":"/api/"},{"argName":"ttl","argValue":"0"},{"argName":"weight","argValue":"99"},{"argName":"force_revalidate","argValue":"off"}]},
+  {"functionName":"host_redirect","functionArgs":[{"argName":"regex","argValue":"^/$"},{"argName":"replacement","argValue":"/index.html"},{"argName":"flag","argValue":"break"},{"argName":"sequence","argValue":"1"}]},
+  {"functionName":"host_redirect","functionArgs":[{"argName":"regex","argValue":"^/(?!api(?:/|$))(.+)/$"},{"argName":"replacement","argValue":"/$1/index.html"},{"argName":"flag","argValue":"break"},{"argName":"sequence","argValue":"2"}]},
+  {"functionName":"gzip","functionArgs":[{"argName":"enable","argValue":"on"}]},
+  {"functionName":"https_force","functionArgs":[{"argName":"enable","argValue":"on"},{"argName":"https_rewrite","argValue":"301"}]},
+  {"functionName":"https_tls_version","functionArgs":[{"argName":"tls10","argValue":"off"},{"argName":"tls11","argValue":"off"},{"argName":"tls12","argValue":"on"},{"argName":"tls13","argValue":"on"},{"argName":"ciphersuitegroup","argValue":"strict"}]}
+]

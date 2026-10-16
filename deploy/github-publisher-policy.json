@@ -1,0 +1,20 @@
+{
+  "Version": "1",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": ["oss:ListObjects", "oss:GetBucketInfo", "oss:GetBucketLocation"],
+      "Resource": "acs:oss:*:*:hrtoolkit-site-hk"
+    },
+    {
+      "Effect": "Allow",
+      "Action": ["oss:GetObject", "oss:PutObject", "oss:AbortMultipartUpload", "oss:ListParts"],
+      "Resource": "acs:oss:*:*:hrtoolkit-site-hk/*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": "cdn:RefreshObjectCaches",
+      "Resource": "acs:cdn:*:*:domain/hrtoolkit.cn"
+    }
+  ]
+}

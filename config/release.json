@@ -1,6 +1,6 @@
 {
   "deploymentEnabled": false,
-  "pageApproval": "pending",
+  "pageApproval": "approved",
   "siteUrl": "https://hrtoolkit.cn",
   "repository": "https://github.com/514698145-lgtm/hr-tools-site",
   "ossBucket": "hrtoolkit-site-hk",
@@ -9,5 +9,5 @@
   "searchSubmissionEnabled": false,
   "scheduledPolicyUpdatesEnabled": false,
   "deploymentRequested": true,
-  "runtimeApiReady": false
+  "runtimeApiReady": true
 }

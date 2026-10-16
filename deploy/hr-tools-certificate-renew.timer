@@ -1,0 +1,10 @@
+[Unit]
+Description=Check HR workspace certificate renewal twice a day
+
+[Timer]
+OnCalendar=*-*-* 01,13:40:00 UTC
+RandomizedDelaySec=600
+Persistent=true
+
+[Install]
+WantedBy=timers.target

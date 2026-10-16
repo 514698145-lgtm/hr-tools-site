@@ -1,6 +1,11 @@
-name: Content checks (no deployment)
+name: Build and publish HR toolkit
 on:
   workflow_dispatch:
+    inputs:
+      preflight:
+        description: 'Upload a candidate to an isolated preflight prefix only'
+        type: boolean
+        default: false
   pull_request:
   push:
     branches: [main]
@@ -9,6 +14,8 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    outputs:
+      release_ready: ${{ steps.readiness.outputs.ready }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,6 +24,8 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python scripts/check_content.py
       - run: python scripts/check_release.py --audit
+      - id: readiness
+        run: python -c "import json,os; r=json.load(open('reports/release-readiness.json')); open(os.environ['GITHUB_OUTPUT'],'a').write('ready='+str(r['ready']).lower()+'\n')"
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -26,12 +35,90 @@ jobs:
       - run: python scripts/build.py
       - run: python -m unittest discover -s tests -v
       - run: python scripts/check_site.py
-      - run: python scripts/package_release.py --candidate
+      - name: Package verified release
+        run: |
+          if [ '${{ steps.readiness.outputs.ready }}' = 'true' ]; then
+            python scripts/package_release.py
+          else
+            python scripts/package_release.py --candidate
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: static-site-and-checks
+          retention-days: 1
           path: |
             reports/seo-report.json
             reports/site-check.json
-            outputs/releases/*-candidate.zip
-      # No deploy, search notification or scheduled trigger before page approval.
+            outputs/releases/*.zip
+  publish:
+    needs: validate
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && (needs.validate.outputs.release_ready == 'true' || inputs.preflight == true)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: hrtoolkit-production-publish
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: static-site-and-checks
+          path: release-artifact
+      - name: Reject an outdated source revision
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: test "$(gh api repos/$GITHUB_REPOSITORY/commits/main --jq .sha)" = "$GITHUB_SHA"
+      - name: Install checksum-verified official cloud CLI
+        shell: bash
+        run: |
+          set -euo pipefail
+          base=https://github.com/aliyun/aliyun-cli/releases/download/v3.5.1
+          mkdir -p "$RUNNER_TEMP/aliyun"
+          cd "$RUNNER_TEMP/aliyun"
+          curl -fsSL --retry 3 "$base/aliyun-cli-linux-3.5.1-amd64.tgz" -o aliyun.tgz
+          curl -fsSL --retry 3 "$base/SHASUMS256.txt" -o SHASUMS256.txt
+          expected=$(awk '$2 ~ /aliyun-cli-linux-3.5.1-amd64.tgz$/ {print $1}' SHASUMS256.txt)
+          test ${#expected} -eq 64
+          printf '%s  aliyun.tgz\n' "$expected" | sha256sum --check
+          tar -xzf aliyun.tgz
+          echo "$RUNNER_TEMP/aliyun" >> "$GITHUB_PATH"
+      - name: Obtain temporary repository-scoped cloud credentials
+        uses: aliyun/configure-aliyun-credentials-action@1e5248c8d5d93a8781ac344a68e19a43341e79e6
+        with:
+          oidc-provider-arn: ${{ vars.ALIYUN_OIDC_PROVIDER_ARN }}
+          role-to-assume: ${{ vars.ALIYUN_PUBLISH_ROLE_ARN }}
+          role-session-expiration: 1800
+      - name: Upload assets then pages
+        shell: bash
+        env:
+          PREFLIGHT: ${{ inputs.preflight }}
+        run: |
+          set -euo pipefail
+          mapfile -t packages < <(find release-artifact -name '*.zip')
+          test ${#packages[@]} -eq 1
+          options=()
+          if [ "$PREFLIGHT" = 'true' ]; then options+=(--prefix "_preflight/${GITHUB_SHA:0:7}/"); fi
+          python scripts/upload_release.py "${packages[0]}" --cli "$(command -v aliyun)" "${options[@]}"
+      - name: Refresh CDN after production upload
+        if: inputs.preflight != true
+        run: aliyun cdn RefreshObjectCaches --region cn-hongkong --ObjectPath https://hrtoolkit.cn/ --ObjectType Directory
+      - name: Verify published release manifest
+        env:
+          PREFLIGHT: ${{ inputs.preflight }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          prefix=''
+          connection=()
+          if [ "$PREFLIGHT" = 'true' ]; then
+            prefix="_preflight/${GITHUB_SHA:0:7}/"
+            connection+=(--connect-to hrtoolkit.cn:443:hrtoolkit.cn.queniuaa.com:443)
+          fi
+          curl -fsS --retry 3 "${connection[@]}" "https://hrtoolkit.cn/${prefix}release-manifest.json?revision=$GITHUB_SHA" -o "$RUNNER_TEMP/published.json"
+          python -c "import json,os; m=json.load(open(os.environ['RUNNER_TEMP']+'/published.json')); assert m['revision']==os.environ['GITHUB_SHA']; print('Published revision verified')"

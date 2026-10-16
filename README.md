@@ -4,7 +4,7 @@
 
 ## 部署进度
 
-2026-10-14：源码与检查已接入 GitHub 仓库 514698145-lgtm/hr-tools-site；Pages CMS 已授权，编辑保存链路仍待验收。hrtoolkit.cn、香港服务器、OSS Bucket 与 CDN 已创建；服务器 API、每日备份及每周来源巡检已运行。DNS、HTTPS、OSS 上传和完整公网验收仍未完成，尚未正式上线。
+2026-10-16：源码已接入 GitHub 仓库 514698145-lgtm/hr-tools-site，Pages CMS 已授权。香港 API、CDN 私有 OSS 回源、三个域名的免费 HTTPS 证书及续期同步服务已配置；隔离目录的382个静态文件上传与 CDN 读取已验证。正式根目录发布、CMS 编辑和自动发布链路仍在验收，搜索收录保持关闭。
 
 首期企业服务经用户确认不显示五项官网介绍入口，保留五类服务、咨询表单和联系方式。正式域名已用于构建与 canonical，搜索收录仍关闭。候选发布包只包含静态站点和文件校验清单，不能代替发布验收。
 
@@ -23,9 +23,9 @@ python scripts/check_release.py --audit
 node scripts/serve.mjs
 ```
 
-构建输出为 dist/；预览地址 http://127.0.0.1:4321/ 。Windows 本项目使用 `.venv/Scripts/python.exe`，避免系统 Python 占位命令。发布检查不带 --audit 时，缺少生产配置会返回失败。GitHub 工作流执行检查、隔离恢复演练，并生成带校验清单的候选发布包，不访问云资源。
+构建输出为 dist/；预览地址 http://127.0.0.1:4321/ 。Windows 本项目使用 `.venv/Scripts/python.exe`，避免系统 Python 占位命令。发布检查不带 --audit 时，缺少生产配置会返回失败。GitHub 工作流执行检查、隔离恢复演练和打包；全部门禁通过才自动发布。手动 preflight 只上传隔离目录。
 
-发布包、回滚准备与私有数据恢复操作见 [发布与恢复操作](docs/发布与恢复操作.md)。`python scripts/package_release.py --candidate` 会重新构建并校验站点；不带 `--candidate` 时还必须通过全部生产门禁且源码已提交。完整生产上传与 CDN 刷新尚未接通。
+发布包、回滚准备与私有数据恢复操作见 [发布与恢复操作](docs/发布与恢复操作.md)。`python scripts/package_release.py --candidate` 会重新构建并校验站点；不带 `--candidate` 时还必须通过全部生产门禁且源码已提交。云端部署使用仅信任本仓库 main 的 OIDC 临时凭据，不保存长期部署密钥。
 
 ## 内容管理
 
