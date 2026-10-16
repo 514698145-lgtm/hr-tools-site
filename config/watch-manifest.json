@@ -7,11 +7,11 @@
     },
     {
       "path": "config/maintenance.json",
-      "sha256": "658bede4aea290e627193abc9cd47258ad22723b0530a33f94e483a79c1d7aa2"
+      "sha256": "e87d252bb950a1258abdded5da976e1a5832466ab3fc0ca73537c4d66bf88d0b"
     },
     {
       "path": "config/release.json",
-      "sha256": "c72025ab73e4bdc36b33f8aa05433e9e11f8a5ee38668925a37a2dbf8a03828c"
+      "sha256": "f14ced52f0d6041956df93e1cfd823de4bef0199bba0e9b83555d1187f218cdf"
     },
     {
       "path": "config/tools.json",
@@ -27,7 +27,7 @@
     },
     {
       "path": "content/articles/editor-example.md",
-      "sha256": "b1de7f544e5d335007e44fb5b5658d357141c860b082d9d210f80cb38c03e0fc"
+      "sha256": "6b1dc15d933ce18ce857c9d0aee32e9bdba96226c7b81c2e101b193b3f46a9b9"
     },
     {
       "path": "content/articles/salary-budget-guide.md",
@@ -787,7 +787,7 @@
     },
     {
       "path": "scripts/upload_release.py",
-      "sha256": "192278f9cd6c263b269c6f8adecffe11954974a3ce4d0f640ce2a2a0feae2109"
+      "sha256": "6bd3c79397d52b63c8b1418224f60f9cd3a3570cb4fb7d7d3970cbba2d01c187"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",
