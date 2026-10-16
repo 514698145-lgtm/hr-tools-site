@@ -2,7 +2,7 @@ import {icon} from './icons.js';
 
 export function articlePage(articles,query='',page=1,size=12){
  const q=query.trim().toLocaleLowerCase('zh-CN');
- const matched=articles.filter(a=>[a.title,a.description,a.category].join(' ').toLocaleLowerCase('zh-CN').includes(q));
+ const matched=articles.filter(a=>[a.title,a.description,a.category,...(a.tags||[])].join(' ').toLocaleLowerCase('zh-CN').includes(q));
  const pages=Math.max(1,Math.ceil(matched.length/size)),current=Math.min(pages,Math.max(1,Math.floor(Number(page))||1));
  return {items:matched.slice((current-1)*size,current*size),total:matched.length,pages,current};
 }
@@ -19,8 +19,9 @@ export function mountArticleSearch(root=document){
   const state=articlePage(articles,q,page);list.replaceChildren();pager.replaceChildren();
   for(const a of state.items){
    const card=element('a','news-card');card.href=a.path;card.dataset.articleCategory=a.category;
-   const cover=element('div','news-cover'),label=element('span','',a.category);label.append(root.createElement('br'),root.createTextNode('HR WORK NOTES'));cover.append(label);
-   const graphic=element('span','news-cover-icon');graphic.innerHTML=icon('file',38);cover.append(graphic);
+   const cover=element('div','news-cover');
+   if(a.cover){const img=element('img','');img.src=a.cover;img.alt=a.coverAlt;img.width=1200;img.height=675;img.loading='lazy';img.decoding='async';cover.classList.add('has-image');cover.append(img);}
+   else {const label=element('span','',a.category);label.append(root.createElement('br'),root.createTextNode('HR WORK NOTES'));cover.append(label);const graphic=element('span','news-cover-icon');graphic.innerHTML=icon('file',38);cover.append(graphic);}
    card.append(cover,element('div','news-meta',a.category+' / '+a.publishedAt.slice(0,10)),element('h3','',a.title),element('p','',a.description));list.append(card);
   }
   count.textContent=`找到 ${state.total} 篇${state.pages>1?` · 第 ${state.current} / ${state.pages} 页`:''}`;
@@ -33,4 +34,6 @@ export function mountArticleSearch(root=document){
   if(focus){input.focus({preventScroll:true});input.scrollIntoView({block:'start',behavior:'smooth'});}
  };
  input.addEventListener('input',()=>render());
+ const initial=new URLSearchParams(root.location.search).get('q');
+ if(initial){input.value=initial;render();}
 }

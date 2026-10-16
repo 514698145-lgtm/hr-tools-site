@@ -11,3 +11,9 @@ test('article search covers the whole collection and resets/clamps pagination',(
  assert.equal(articlePage(articles,'',999).current,3);
  assert.equal(articlePage(articles,'',-2).current,1);
 });
+
+test('tag links search metadata even when the title does not repeat the tag',()=>{
+ const a=[{title:'报告解读',description:'招聘变化',category:'最新资讯',tags:['人才发展']}];
+ assert.equal(articlePage(a,'人才发展').total,1);
+ assert.equal(articlePage(a,'无关标签').total,0);
+});

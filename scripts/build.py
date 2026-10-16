@@ -16,7 +16,7 @@ from build_policies import build_policies
 from build_services import build_services
 from build_template_packs import build_template_packs
 from build_relax import build_relax
-from build_insights import news_cards, build_insights
+from build_insights import news_cards, build_insights, article_cover, article_tags
 from build_contact import contact_widget
 from build_service_entry import service_entry
 from disclaimers import notice
@@ -132,10 +132,11 @@ page('/tools/social-insurance/','社保工具已合并','社保计算已并入�
 for a in articles:
     schema=None
     if site:
-        schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':str(a['publishedAt']),'dateModified':str(a.get('updatedAt') or a['publishedAt']),'author':{'@type':'Organization','name':a['author']},'mainEntityOfPage':site.rstrip('/')+a['path']}
+        schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':str(a['publishedAt']),'dateModified':str(a.get('updatedAt') or a['publishedAt']),'author':{'@type':'Organization','name':a['author']},'mainEntityOfPage':site.rstrip('/')+a['path'],'keywords':a.get('tags',[]),'articleSection':a['category'],'inLanguage':'zh-CN','isAccessibleForFree':True,'publisher':{'@type':'Organization','name':seo.settings.get('siteName','HR工作站'),'url':site}}
+        if a.get('cover'): schema['image']=site.rstrip('/')+a['cover']
     related=''.join(f'<a class="related-tool" href="/tools/{tid}/"><span>打开关联工具 · {next(t["name"] for t in tools if t["id"]==tid)}</span><span>开始计算 →</span></a>' for tid in a.get('relatedTools',[]))
     updated=f' · 更新 {str(a["updatedAt"])[:10]}' if a.get('updatedAt') else ''
-    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{e(a["author"])} · 发布 {str(a["publishedAt"])[:10]}{updated}</div></header><div class="article-body">{a["body"]}</div></article>{related}</div>'
+    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{e(a["author"])} · 发布 {str(a["publishedAt"])[:10]}{updated}</div>{article_tags(a)}</header>{article_cover(a)}<div class="article-body">{a["body"]}</div></article>{related}</div>'
     page(a['path'],a['title'],a['description'],body,'article',schema=schema,article=a)
 build_resources(ROOT,page)
 build_policies(ROOT,page,tools)

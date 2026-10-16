@@ -18,6 +18,10 @@
       "sha256": "61a7353d8b1f064a8dfeb4bc9ee3cfcb66e1c2b48fafca082e918ac62dbf90fa"
     },
     {
+      "path": "content/articles/autumn-recruitment-2026.md",
+      "sha256": "14632a3f147b9762b50739ca56b0f7075520a9a09e2812477163e3295954801d"
+    },
+    {
       "path": "content/articles/batch-calculation-guide.md",
       "sha256": "64614d1a740bb8db55eb6941905ef752f5807a1a7d15b8aa20c11c8ab49d6bac"
     },
@@ -28,6 +32,10 @@
     {
       "path": "content/articles/editor-example.md",
       "sha256": "6b1dc15d933ce18ce857c9d0aee32e9bdba96226c7b81c2e101b193b3f46a9b9"
+    },
+    {
+      "path": "content/articles/hr-industry-report-2026.md",
+      "sha256": "9cf22607d6d3af978d88a138044c1305bf2b00d75b1909396e012d71b9d1a966"
     },
     {
       "path": "content/articles/salary-budget-guide.md",
@@ -47,7 +55,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "bf5e086cbb05715058d92d245f0e3c855fad07e1a00152914c2dbe04f8262851"
+      "sha256": "d1a7341c3822082b290cd13baca00c532425d1ae95040c7d2017933437ff39d1"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -199,7 +207,7 @@
     },
     {
       "path": "public/assets/article-list.js",
-      "sha256": "6ae5787c0d8100b9d413091a822dcbff9e17a0cbec632d59e263e2fbf289d778"
+      "sha256": "4239323decc6841454d4839edabbe913f579d1b9ac5cf366dd0b0e8c321f1f04"
     },
     {
       "path": "public/assets/brand.css",
@@ -315,7 +323,7 @@
     },
     {
       "path": "public/assets/style.css",
-      "sha256": "1f4da1ea9da7d34c6ba9586cdc820dc120f886a5ccf932fa685ee80d905196ce"
+      "sha256": "7ba8a82d66f813759629ada4c30cbb8a0dfbc3b7eb02a6c28e541e8c1195ac8e"
     },
     {
       "path": "public/assets/tax-allocation.js",
@@ -647,7 +655,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "e64bb4e48d2571349d43693055868bf41393d317690ccf67165d063ba0813cb5"
+      "sha256": "ff3fd1aefe737f500353813d6468979b0c76c994157c37877812318bc48e4dc0"
     },
     {
       "path": "scripts/build_admin.py",
@@ -656,6 +664,10 @@
     {
       "path": "scripts/build_contact.py",
       "sha256": "79adbd8c51721d2af9aca7a2afa39889b570f14754f164d38c87007bf9826bc8"
+    },
+    {
+      "path": "scripts/build_editorial_art.py",
+      "sha256": "d324b266f5454cba55969ee603b96582934e5233f21f2fbb0ee01a558b19febe"
     },
     {
       "path": "scripts/build_hr_documents.py",
@@ -671,7 +683,7 @@
     },
     {
       "path": "scripts/build_insights.py",
-      "sha256": "e17ea6513fc526b575191f357cd48e8484efbfb8bd0df8b2a246ee6582d1f146"
+      "sha256": "bb3a0ac0ef6bb970af184a6ccce42c0bfe79742188c7f9af3f751b413a0ab2ee"
     },
     {
       "path": "scripts/build_policies.py",
@@ -808,6 +820,12 @@
   ],
   "reviews": [
     {
+      "path": "content/articles/autumn-recruitment-2026.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/batch-calculation-guide.md",
       "status": "published",
       "checkedAt": "",
@@ -822,6 +840,12 @@
     {
       "path": "content/articles/editor-example.md",
       "status": "draft",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/hr-industry-report-2026.md",
+      "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
     },
@@ -4645,6 +4669,14 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://mp.weixin.qq.com/s/XhWDK5riT3HTg0ChBR0_4w",
+      "files": [
+        "content/articles/hr-industry-report-2026.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
       "url": "https://neimenggu.chinatax.gov.cn/nmgzzqswj/msxxgkml_19393/eedssswj/202603/t20260317_892196.html",
       "files": [
         "content/policies/annual-bonus-tax.md"
@@ -5247,9 +5279,33 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260724_580838.html",
+      "files": [
+        "content/articles/hr-industry-report-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html",
       "files": [
         "content/policies/retirement-transition.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202511/t20251110_561822.html",
+      "files": [
+        "content/articles/hr-industry-report-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202601/t20260120_565785.html",
+      "files": [
+        "content/articles/autumn-recruitment-2026.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5623,6 +5679,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.xinjiang.gov.cn/xinjiang/bmdt/202610/e79bef2d646345fcb785fe3d26315b96.shtml",
+      "files": [
+        "content/articles/autumn-recruitment-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.yuexiu.gov.cn/zmhd/hygq/content/post_10966810.html",
       "files": [
         "public/assets/input-rules.js"
@@ -5645,6 +5709,14 @@
       ],
       "discovery": true,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://xahrss.xa.gov.cn/hdjl/zxrd/rsdl/2108815563589517314.html",
+      "files": [
+        "content/articles/autumn-recruitment-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=208",

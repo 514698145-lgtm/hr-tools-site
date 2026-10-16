@@ -2,13 +2,29 @@
 from html import escape as e
 import json
 import math
+from urllib.parse import quote
 
 PAGE_SIZE = 12
 CATEGORIES = ['最新资讯', '相关政策', '工具使用', 'HR实务']
 
 
 def news_cards(items):
-    return ''.join(f'''<a class="news-card" data-article-category="{e(a['category'])}" href="{e(a['path'])}"><div class="news-cover"><span>{e(a['category'])}<br>HR WORK NOTES</span><svg class="news-cover-icon" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M5 3h9l5 5v13H5z M14 3v6h5 M8 13h8 M8 17h5"/></svg></div><div class="news-meta">{e(a['category'])} &nbsp; / &nbsp; {str(a['publishedAt'])[:10]}</div><h3>{e(a['title'])}</h3><p>{e(a['description'])}</p></a>''' for a in items)
+    cards = []
+    for a in items:
+        if a.get('cover'):
+            cover = f'<div class="news-cover has-image"><img src="{e(a["cover"])}" alt="{e(a["coverAlt"])}" width="1200" height="675" loading="lazy" decoding="async"></div>'
+        else:
+            cover = f'<div class="news-cover"><span>{e(a["category"])}<br>HR WORK NOTES</span><svg class="news-cover-icon" width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true"><path d="M5 3h9l5 5v13H5z M14 3v6h5 M8 13h8 M8 17h5"/></svg></div>'
+        cards.append(f'<a class="news-card" data-article-category="{e(a["category"])}" href="{e(a["path"])}">{cover}<div class="news-meta">{e(a["category"])} &nbsp; / &nbsp; {str(a["publishedAt"])[:10]}</div><h3>{e(a["title"])}</h3><p>{e(a["description"])}</p></a>')
+    return ''.join(cards)
+
+
+def article_cover(a):
+    return f'<figure class="article-cover"><img src="{e(a["cover"])}" alt="{e(a["coverAlt"])}" width="1200" height="675" decoding="async"></figure>' if a.get('cover') else ''
+
+
+def article_tags(a):
+    return '<nav class="article-tags" aria-label="文章标签">'+''.join(f'<a href="/insights/?q={quote(t, safe="")}">{e(t)}</a>' for t in a.get('tags', []))+'</nav>' if a.get('tags') else ''
 
 
 def page_path(base, number):
@@ -38,7 +54,7 @@ def build_insights(articles, page, search_icon):
     collections += [(f'/insights/category/{i}/', c, [a for a in articles if a['category'] == c], 'insights-category', c) for i, c in enumerate(CATEGORIES)]
     for base, title, items, kind, category in collections:
         pages = max(1, math.ceil(len(items) / PAGE_SIZE))
-        data = [{k: str(a[k]) for k in ('title', 'description', 'path', 'category', 'publishedAt')} for a in items]
+        data = [{**{k: str(a[k]) for k in ('title', 'description', 'path', 'category', 'publishedAt')}, 'tags': a.get('tags', []), 'cover': a.get('cover', ''), 'coverAlt': a.get('coverAlt', '')} for a in items]
         payload = json.dumps(data, ensure_ascii=False).replace('<', '\\u003c').replace('&', '\\u0026')
         nav = '<div class="filters article-categories" aria-label="资讯分类"><a class="filter'+(' active' if category is None else '')+'" href="/insights/">全部资讯</a>'+''.join(f'<a class="filter{" active" if category == c else ""}" href="/insights/category/{i}/">{c}</a>' for i, c in enumerate(CATEGORIES))+'</div>'
         for current in range(1, pages + 1):
