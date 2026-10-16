@@ -1,19 +1,16 @@
 ---
 title: HR资讯编辑示例
 slug: editor-example
-description: 内部编辑草稿：按搜索问题、权威引用、实际正面脱敏案例和FAQ补齐后再审核发布。
+description: 内部编辑草稿，不在前台显示：按搜索问题、权威引用、实际正面脱敏案例和FAQ补齐后再审核发布。
 status: draft
 author: HR 工作站
-publishedAt: '2026-09-25T09:00:00+08:00'
+publishedAt: 2026-09-25T09:00:00+08:00
+updatedAt: 2026-10-04T12:00:00+08:00
 category: 工具使用
-tags: []
-relatedTools: []
-sources: []
-updatedAt: '2026-10-04T12:00:00+08:00'
 seoTitle: HR资讯编辑示例
 seoDescription: 内部编辑草稿：按搜索问题、权威引用、实际正面脱敏案例和FAQ补齐后再审核发布。
+noindex: false
 ---
-
 ## 开头先回答用户问题
 
 写明本文回答的具体搜索问题、适用对象、地区和日期。不使用未经验证的搜索量或排名承诺。
