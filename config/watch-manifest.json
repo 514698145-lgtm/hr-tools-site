@@ -11,7 +11,7 @@
     },
     {
       "path": "config/release.json",
-      "sha256": "f14ced52f0d6041956df93e1cfd823de4bef0199bba0e9b83555d1187f218cdf"
+      "sha256": "4d750bd3b6d58f7f6cf5ca3eb2f1b254284a3d5cf99d538ddda792c07a81fe51"
     },
     {
       "path": "config/tools.json",
@@ -187,7 +187,7 @@
     },
     {
       "path": "content/seo/site.md",
-      "sha256": "ffbf649b73bb2999ebab8553b1f562e9a8f4514d09974e609cbc682f81b7d514"
+      "sha256": "bdaca38509501e979dc48ed243d1675534729ef1cabaebe825011f02fb08002c"
     },
     {
       "path": "public/assets/app.js",
@@ -751,7 +751,7 @@
     },
     {
       "path": "scripts/policy-watch.mjs",
-      "sha256": "0524ee03a8ac3176baf844ff02862a58a98f88bfaad0069746562fcdd9090790"
+      "sha256": "760dd93cf3d3c4d9895bc4e6b228ca9c6e6e6594c46604e4b428beace58b11aa"
     },
     {
       "path": "scripts/render_hr_template_pages.py",
@@ -787,7 +787,7 @@
     },
     {
       "path": "scripts/upload_release.py",
-      "sha256": "75972ba58aa8f1b3ee3e57544aa089d793e83b93b393b0dff7d14d3a4394d38a"
+      "sha256": "53a1d8d461ee3daa05184ea88011637a5fbbbeef419f0bd370d2304aa278de19"
     },
     {
       "path": "scripts/verify_hr_workbook_formulas.mjs",
@@ -3411,15 +3411,6 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://hrtoolkit.cn",
-      "files": [
-        "config/release.json",
-        "content/seo/site.md"
-      ],
-      "discovery": false,
-      "authority": "manual-verification-required"
-    },
-    {
       "url": "https://hsa.gd.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4026,6 +4017,15 @@
       ],
       "discovery": true,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://www.hrtoolkit.cn",
+      "files": [
+        "config/release.json",
+        "content/seo/site.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://www.huaihua.gov.cn/rsj/c116048/201507/37d5be05017e4b05ab2d78b6ba367872.shtml",

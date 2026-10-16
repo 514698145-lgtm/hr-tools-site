@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 class UploadBoundaryTests(unittest.TestCase):
     def setUp(self):
-        self.manifest = {'siteUrl': 'https://hrtoolkit.cn', 'buildMode': 'production',
+        self.manifest = {'siteUrl': 'https://www.hrtoolkit.cn', 'buildMode': 'production',
                          'purpose': 'candidate', 'workingTreeDirty': True,
                          'readiness': {'ready': False}}
 

@@ -4,7 +4,7 @@
 
 用户同意 Let’s Encrypt 当前订户协议及自动续期。证书覆盖 hrtoolkit.cn、www.hrtoolkit.cn、origin.hrtoolkit.cn，首张到期日2027-01-13。私钥只在服务器 /etc/letsencrypt；不进入 GitHub、CMS 或 OSS。
 
-服务器 hr-tools-certificate-renew.timer 每天检查两次，成功续期后调用 deploy/sync-cdn-certificate.py 同步 CDN 并重新加载 Nginx。同步专用凭据位于服务器 root 私有配置，仅允许更新 hrtoolkit.cn 的 CDN 证书，不允许修改 DNS、上传网站或读取运行数据。
+服务器 hr-tools-certificate-renew.timer 每天检查两次，成功续期后调用 deploy/sync-cdn-certificate.py 同步根域名与www的 CDN 证书并重新加载 Nginx。同步专用凭据位于服务器 root 私有配置，仅允许更新这两个域名的 CDN 证书，不允许修改 DNS、上传网站或读取运行数据。2026-10-16用户指定www为主域名，旧根域名以301转www，证书SAN及续期路径不变。
 
 CDN 的条件源站覆盖 /api/* 和 /.well-known/acme-challenge/*，以 HTTPS 回源 origin.hrtoolkit.cn。源站接口要求 CDN 专用请求头；该值不写入仓库，Nginx 配置使用占位模板。不能直接打印生产 Nginx 配置或完整 CDN 配置，避免回显验证值。
 

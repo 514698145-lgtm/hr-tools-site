@@ -1,7 +1,7 @@
 ---
 siteName: HR工作站
 titleSuffix: HR工作站
-siteUrl: "https://hrtoolkit.cn"
+siteUrl: "https://www.hrtoolkit.cn"
 allowIndexing: true
 shareImage: ""
 googleVerification: ""

@@ -58,7 +58,7 @@ def removed_paths(manifest, previous, state):
 
 
 def validate_target(manifest, prefix):
-    if manifest.get('siteUrl') != 'https://hrtoolkit.cn' or manifest.get('buildMode') != 'production':
+    if manifest.get('siteUrl') != 'https://www.hrtoolkit.cn' or manifest.get('buildMode') != 'production':
         raise ValueError('Unexpected site or build mode')
     if prefix:
         if not re.fullmatch(r'_preflight/[a-f0-9]{7,40}/', prefix):

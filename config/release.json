@@ -1,11 +1,11 @@
 {
   "deploymentEnabled": true,
   "pageApproval": "approved",
-  "siteUrl": "https://hrtoolkit.cn",
+  "siteUrl": "https://www.hrtoolkit.cn",
   "repository": "https://github.com/514698145-lgtm/hr-tools-site",
   "ossBucket": "hrtoolkit-site-hk",
   "ossRegion": "oss-cn-hongkong",
-  "cdnDomain": "hrtoolkit.cn",
+  "cdnDomain": "www.hrtoolkit.cn",
   "searchSubmissionEnabled": false,
   "scheduledPolicyUpdatesEnabled": false,
   "deploymentRequested": true,

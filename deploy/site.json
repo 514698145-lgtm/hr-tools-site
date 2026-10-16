@@ -1,11 +1,11 @@
 {
-  "siteUrl": "https://hrtoolkit.cn",
+  "siteUrl": "https://www.hrtoolkit.cn",
   "ossBucket": "hrtoolkit-site-hk",
   "ossRegion": "cn-hongkong",
   "ossEndpoint": "https://oss-cn-hongkong.aliyuncs.com",
-  "cdnDomain": "hrtoolkit.cn",
-  "cdnCname": "hrtoolkit.cn.queniuaa.com",
-  "runtimeOrigin": "https://hrtoolkit.cn",
+  "cdnDomain": "www.hrtoolkit.cn",
+  "cdnCname": "www.hrtoolkit.cn.queniuaa.com",
+  "runtimeOrigin": "https://www.hrtoolkit.cn",
   "publicReleaseVerified": true,
   "publicReleaseVerifiedAt": "2026-10-16"
 }

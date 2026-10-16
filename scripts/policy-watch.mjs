@@ -45,7 +45,7 @@ export async function fetchSource(source) {
   let url = source.url;
   for(let i=0;i<5;i++) {
     await safeUrl(url);
-    const response = await fetch(url,{signal,redirect:'manual',headers:{'User-Agent':'HRToolkit-PolicyWatch/1.0 (+https://hrtoolkit.cn)',Accept:'text/html,application/pdf,text/plain;q=0.8,*/*;q=0.5'}});
+    const response = await fetch(url,{signal,redirect:'manual',headers:{'User-Agent':'HRToolkit-PolicyWatch/1.0 (+https://www.hrtoolkit.cn)',Accept:'text/html,application/pdf,text/plain;q=0.8,*/*;q=0.5'}});
     if ([301,302,303,307,308].includes(response.status)) {
       await response.body?.cancel();
       const next = response.headers.get('location'); if (!next) throw Error('redirect-without-location');

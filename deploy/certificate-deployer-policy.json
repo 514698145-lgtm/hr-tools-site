@@ -3,6 +3,6 @@
   "Statement": [{
     "Effect": "Allow",
     "Action": ["cdn:SetCdnDomainSSLCertificate"],
-    "Resource": ["acs:cdn:*:*:domain/hrtoolkit.cn"]
+    "Resource": ["acs:cdn:*:*:domain/hrtoolkit.cn", "acs:cdn:*:*:domain/www.hrtoolkit.cn"]
   }]
 }
