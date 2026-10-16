@@ -47,7 +47,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "347994061b6d15ba05e1c4f11db596ca8ea5e0ee6b10f1b36ec9c9fc7651ec04"
+      "sha256": "0d976302c9f76048014c2fab0990d73c1e345d81b21a348933eb8161f0cebfef"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -187,7 +187,7 @@
     },
     {
       "path": "content/seo/site.md",
-      "sha256": "20e712d9ebb9552a75a6bad0e8e40126a5b89f3df8e5888792d5b80b56085f29"
+      "sha256": "ffbf649b73bb2999ebab8553b1f562e9a8f4514d09974e609cbc682f81b7d514"
     },
     {
       "path": "public/assets/app.js",
@@ -243,7 +243,7 @@
     },
     {
       "path": "public/assets/feedback.js",
-      "sha256": "b06cef9e9656289fefc8e0f566bc47b5352c5a12b47f1082cc15b16bc8679d01"
+      "sha256": "11880497583d6d9e2584c219e9ca0a152001f2484eab20b6091a3a93646c76a2"
     },
     {
       "path": "public/assets/field-copy.js",
@@ -639,11 +639,11 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "eace74df012477b3ec6bc697a235d443d109bf373c377e63f62a9f37fddc5837"
+      "sha256": "6853a1fc623d8efbde7c072f5ac2009d08395f4a4f011d17fae9db39f665c1a0"
     },
     {
       "path": "scripts/build_admin.py",
-      "sha256": "8b4c76ea2718fda3f9ac44bb6a70b24a7f4eb787c9da43b76b106d03afa1fc1c"
+      "sha256": "f0992215c9e6453a529ac959235f11bd94d842da2e8f6cde4c34f4a4d68c15bf"
     },
     {
       "path": "scripts/build_contact.py",
