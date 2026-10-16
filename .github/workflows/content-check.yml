@@ -27,6 +27,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - run: python -m pip install -r requirements-dev.txt
       - name: Synchronize source inventory after CMS edits
         shell: bash
         run: |
