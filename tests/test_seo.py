@@ -10,7 +10,9 @@ class SeoTests(unittest.TestCase):
         shutil.copy(source/'site.md',self.root/'content/seo/site.md')
         # Exercise preview/fallback behavior independently of the live domain config.
         fixture=self.root/'content/seo/site.md'
-        fixture.write_text(re.sub(r'^siteUrl:.*$', 'siteUrl: ""', fixture.read_text(encoding='utf-8'), flags=re.M),encoding='utf-8')
+        sample=re.sub(r'^siteUrl:.*$', 'siteUrl: ""', fixture.read_text(encoding='utf-8'), flags=re.M)
+        sample=re.sub(r'^allowIndexing:.*$', 'allowIndexing: false', sample, flags=re.M)
+        fixture.write_text(sample,encoding='utf-8')
         shutil.copy(source/'pages/home.md',self.root/'content/seo/pages/home.md')
         (self.root/'dist').mkdir();(self.root/'public/media').mkdir(parents=True)
     def tearDown(self):self.tmp.cleanup()
