@@ -8,6 +8,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -278,6 +279,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -557,6 +559,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -782,6 +785,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -998,6 +1002,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -1162,16 +1167,43 @@
           ]
         },
         "fundMin": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 2490,
+          "source": {
+            "label": "无锡公积金：锡房金规〔2026〕2号，最低按上一年度最低工资",
+            "url": "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 36800,
+          "source": {
+            "label": "无锡公积金：锡房金规〔2026〕2号，最低按上一年度最低工资",
+            "url": "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundRateMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 12,
+          "source": {
+            "label": "无锡公积金：锡房金规〔2026〕2号，最低按上一年度最低工资",
+            "url": "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         }
       },
       "manualInputs": [
@@ -1187,6 +1219,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -1376,6 +1409,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -1610,6 +1644,7 @@
       "scope": "苏州 · 吴江普通企业职工",
       "medicalPlan": "wj",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -1853,6 +1888,7 @@
       "scope": "苏州 · 工业园区普通企业职工",
       "medicalPlan": "sip",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -2096,6 +2132,7 @@
       "scope": "苏州 · 其他区域（参数尚未接入）",
       "medicalPlan": "other",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -2294,6 +2331,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -2483,6 +2521,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -2708,6 +2747,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -2897,6 +2937,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -3086,6 +3127,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -3275,6 +3317,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -3464,6 +3507,15 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金下限：海陵、姜堰、高港2660元；靖江、泰兴、兴化2430元。请按区县填写已核定基数。",
+          "source": {
+            "label": "泰州公积金：2026年最低基数补充通知",
+            "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -3631,13 +3683,31 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 30258,
+          "source": {
+            "label": "泰州公积金：2026年度调整通知，上限30258",
+            "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html"
+          },
+          "coveredMonths": [
+            "2026-01",
+            "2026-12"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundRateMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 12,
+          "source": {
+            "label": "泰州公积金：2026年度调整通知，上限30258",
+            "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html"
+          },
+          "coveredMonths": [
+            "2026-01",
+            "2026-12"
+          ]
         }
       },
       "manualInputs": [
@@ -3653,6 +3723,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -3842,6 +3913,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4049,6 +4121,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4220,6 +4293,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4391,6 +4465,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4562,6 +4637,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4733,6 +4809,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -4904,6 +4981,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5075,6 +5153,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5246,6 +5325,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5417,6 +5497,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5588,6 +5669,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5759,6 +5841,15 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金下限按区县为2380、2230或2080元；上年月均工资低于5588元，调整基数须经所属管理部审核。请填写已核定基数。",
+          "source": {
+            "label": "石家庄公积金：石公积金〔2026〕10号，含区县及低于5588的审核条件",
+            "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -5890,7 +5981,16 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 27938,
+          "source": {
+            "label": "石家庄公积金：石公积金〔2026〕10号，含区县及低于5588的审核条件",
+            "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
@@ -5912,6 +6012,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6065,6 +6166,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6218,6 +6320,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6371,6 +6474,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6524,6 +6628,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6677,6 +6782,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6830,6 +6936,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -6983,6 +7090,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7136,6 +7244,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7264,10 +7373,28 @@
           ]
         },
         "fundMin": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 2380,
+          "source": {
+            "label": "廊坊公积金：2026年度缴存基数调整（官方图文）",
+            "url": "https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 30261,
+          "source": {
+            "label": "廊坊公积金：2026年度缴存基数调整（官方图文）",
+            "url": "https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
@@ -7289,6 +7416,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7442,6 +7570,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7595,6 +7724,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7748,6 +7878,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -7901,6 +8032,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8029,16 +8161,43 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMin": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 2680,
+          "source": {
+            "label": "广州公积金：穗公积金中心〔2026〕57号，9月起下限2680",
+            "url": "https://gjj.gz.gov.cn/gkmlpt/content/10/10983/post_10983424.html"
+          },
+          "coveredMonths": [
+            "2026-09",
+            "2027-06"
+          ]
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 41697,
+          "source": {
+            "label": "广州公积金：2026缴存年度调整，上限41697",
+            "url": "https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html"
+          },
+          "coveredMonths": [
+            "2026-09",
+            "2027-06"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundRateMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 12,
+          "source": {
+            "label": "广州公积金：2026缴存年度调整，上限41697",
+            "url": "https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html"
+          },
+          "coveredMonths": [
+            "2026-09",
+            "2027-06"
+          ]
         }
       },
       "manualInputs": [
@@ -8054,6 +8213,7 @@
       "scope": "深圳 · 职工医保一档",
       "medicalPlan": "sz1",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8225,6 +8385,7 @@
       "scope": "深圳 · 职工医保二档",
       "medicalPlan": "sz2",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8396,6 +8557,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8513,6 +8675,15 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工仍为2080元，2027年7月起调整。人员类别未自动区分，请填写已核定基数。",
+          "source": {
+            "label": "顺德区政府：佛山公积金缴存下限调整通知",
+            "url": "https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8675,6 +8846,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8767,16 +8939,43 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMin": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 2040,
+          "source": {
+            "label": "江门政府：2026年9月起广东最低工资分地区标准（惠州2040）",
+            "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html"
+          },
+          "coveredMonths": [
+            "2026-09",
+            "2026-12"
+          ]
         },
         "fundMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 34290,
+          "source": {
+            "label": "惠州公积金：2026年度正式通知，上限34290、比例5%—12%",
+            "url": "http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         },
         "fundRounding": {
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundRateMax": {
-          "status": "未取得足够的当期适用证据，不自动填值"
+          "status": "已核验",
+          "value": 12,
+          "source": {
+            "label": "惠州公积金：2026年度正式通知，上限34290、比例5%—12%",
+            "url": "http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html"
+          },
+          "coveredMonths": [
+            "2026-07",
+            "2027-06"
+          ]
         }
       },
       "manualInputs": [
@@ -8792,6 +8991,15 @@
       "scope": "东莞 · 单建统筹",
       "medicalPlan": "dgSingle",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。",
+          "source": {
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -8938,26 +9146,17 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMin": {
-          "status": "已核验",
-          "value": 2080,
-          "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
-          },
-          "coveredMonths": [
-            "2026-01",
-            "2026-12"
-          ]
+          "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMax": {
           "status": "已核验",
-          "value": 27391,
+          "value": 27700,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         },
@@ -8968,11 +9167,11 @@
           "status": "已核验",
           "value": 12,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         }
@@ -8990,6 +9189,15 @@
       "scope": "东莞 · 统账结合（有个人账户）",
       "medicalPlan": "dgAccount",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。",
+          "source": {
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -9136,26 +9344,17 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMin": {
-          "status": "已核验",
-          "value": 2080,
-          "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
-          },
-          "coveredMonths": [
-            "2026-01",
-            "2026-12"
-          ]
+          "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMax": {
           "status": "已核验",
-          "value": 27391,
+          "value": 27700,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         },
@@ -9166,11 +9365,11 @@
           "status": "已核验",
           "value": 12,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         }
@@ -9188,6 +9387,15 @@
       "scope": "东莞 · 统账结合（无个人账户）",
       "medicalPlan": "dgNoAccount",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。",
+          "source": {
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -9334,26 +9542,17 @@
           "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMin": {
-          "status": "已核验",
-          "value": 2080,
-          "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
-          },
-          "coveredMonths": [
-            "2026-01",
-            "2026-12"
-          ]
+          "status": "未取得足够的当期适用证据，不自动填值"
         },
         "fundMax": {
           "status": "已核验",
-          "value": 27391,
+          "value": 27700,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         },
@@ -9364,11 +9563,11 @@
           "status": "已核验",
           "value": 12,
           "source": {
-            "label": "东莞公积金：2026年缴存基数调整",
-            "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
+            "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+            "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
           },
           "coveredMonths": [
-            "2026-01",
+            "2026-09",
             "2026-12"
           ]
         }
@@ -9386,6 +9585,15 @@
       "scope": "中山 · 统账结合",
       "medicalPlan": "zsAccount",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工到2027年度再调整。请填写员工已核定基数。",
+          "source": {
+            "label": "中山公积金：最低工资调整后的人员适用范围",
+            "url": "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -9566,6 +9774,15 @@
       "scope": "中山 · 单建统筹",
       "medicalPlan": "zsSingle",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工到2027年度再调整。请填写员工已核定基数。",
+          "source": {
+            "label": "中山公积金：最低工资调整后的人员适用范围",
+            "url": "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -9746,6 +9963,15 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [
+        {
+          "text": "公积金：9月起新参加工作、新调入职工下限2040元；原低基数须在2027年7月31日前调整，过渡期不默认统一下限。请填写员工已核定基数。",
+          "source": {
+            "label": "江门公积金：江房金字〔2026〕25号，下限分人员执行",
+            "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html"
+          }
+        }
+      ],
       "fields": {
         "pensionP": {
           "status": "已核验",
@@ -9908,6 +10134,7 @@
       "scope": "普通企业职工",
       "medicalPlan": "",
       "month": "2026-10",
+      "notes": [],
       "fields": {
         "pensionP": {
           "status": "已核验",

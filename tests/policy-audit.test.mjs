@@ -25,7 +25,7 @@ test('城市与工资共同核定基数；预览与正式计算一致，零工�
  assert.equal(contributionBases({city:'北京',month:'2026-10',wage:''}).fund.value,undefined);
  assert.equal(contributionBases({city:'北京',month:'2026-10',wage:'10000',fundWage:''}).fund.value,10000);
  assert.equal(contributionBases({city:'南京',month:'2026-10',wage:10000,fundWage:50000}).fund.value,42400);
- assert.equal(contributionBases({city:'广州',month:'2026-10',wage:10000}).fund.value,undefined);
+ assert.equal(contributionBases({city:'广州',month:'2026-10',wage:10000}).fund.value,10000);
  assert.equal(contributionBases({city:'广州',month:'2026-10',wage:10000,fundBase:8000}).fund.value,8000);
 });
 test('深圳医保档次、东莞账户类型、苏州吴江不得自动跨口径套用',()=>{

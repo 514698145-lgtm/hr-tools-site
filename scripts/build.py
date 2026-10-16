@@ -16,6 +16,7 @@ from build_policies import build_policies
 from build_services import build_services
 from build_template_packs import build_template_packs
 from build_relax import build_relax
+from build_insights import news_cards, build_insights
 from build_contact import contact_widget
 from build_service_entry import service_entry
 from disclaimers import notice
@@ -98,23 +99,13 @@ def page(path, title, description, body, kind, tool=None, schema=None, article=N
     if indexable: routes.append(path)
 
 
-def news_cards(items):
-    symbols=['01','02','03']
-    return ''.join(f'''<a class="news-card" data-article-category="{e(a['category'])}" href="{a['path']}"><div class="news-cover"><span>{e(a['category'])}<br>HR WORK NOTES</span><strong>{symbols[i%3]}</strong></div><div class="news-meta">{e(a['category'])} &nbsp; / &nbsp; {str(a['publishedAt'])[:10]}</div><h3>{e(a['title'])}</h3><p>{e(a['description'])}</p></a>''' for i,a in enumerate(items))
-
-
 home=f'''<section class="hero"><div><div class="eyebrow">HUMAN RESOURCES / EVERYDAY TOOLS</div><h1>让每一份专业，<br>都有<em>高效的工具。</em></h1><p>薪酬、社保、成本与补偿，你的日常 HR 工具都在这里。</p><div class="hero-meta"><span>{icon('check',14)} 单条与批量计算</span><span>{icon('check',14)} 结果一键导出</span><span>{icon('check',14)} 电脑手机都能用</span></div></div><div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="art-mini">{icon('check',14)} &nbsp; 算清每一笔</div><div class="art-paper"><small>HR · WORKSPACE</small><div class="art-number">HR / {len(hall_tools):02d}</div><div class="art-line"></div><div class="art-line" style="width:70%"></div><div class="art-chart"><i style="height:20px"></i><i style="height:30px"></i><i style="height:24px"></i><i style="height:38px"></i><i style="height:48px"></i></div></div><div class="art-badge">{icon('receipt',30)}</div></div></section>
 <section aria-label="计算工具"><div class="toolbar"><div class="filters">{''.join(f'<button class="filter {"active" if i==0 else ""}" data-category="{c}" aria-pressed="{str(i==0).lower()}">{c}</button>' for i,c in enumerate(['全部工具','薪酬社保','企业成本','劳动关系','人事数据']))}</div><label class="search">{icon('search',18)}<input id="tool-search" type="search" aria-label="搜索工具" placeholder="搜索你需要的工具"></label></div><div class="section-heading"><h2>日常工具 <small id="tool-count">{len(hall_tools)} 个实用工具</small></h2><a href="/workspace/">我的收藏 {icon('arrow',15)}</a></div><div class="tools-grid" id="tool-grid"></div><noscript><p>计算需要启用 JavaScript。</p>{''.join(f'<p><a href="/tools/{t["id"]}/">{t["name"]}</a></p>' for t in hall_tools)}</noscript></section>
 <section class="resource-hall" id="hr-resources" tabindex="-1"><div class="section-heading"><h2>HR 工作资源 <small>表格、清单与常用入口</small></h2></div><div class="resource-grid"><a class="resource-card" href="/policies/"><span class="resource-tag">按场景速查</span><h3>政策知识库</h3><p>合同、休假、补偿与个税要点，附适用范围和官方原文。</p><strong>查政策要点 →</strong></a><a class="resource-card" href="/templates/"><span class="resource-tag">8 类 · 64 份</span><h3>HR 表格库</h3><p>面试资料、入职清单、薪酬考勤、培训绩效与离职交接。</p><strong>找表格与清单 →</strong></a><a class="resource-card" href="/contract-reminders/"><span class="resource-tag">本机待办</span><h3>合同到期提醒</h3><p>登记合同日期，提前安排跟进；打开网站查看提醒。</p><strong id="reminder-hall-count">查看到期事项 →</strong></a><a class="resource-card" href="/official-sites/"><span class="resource-tag">42 个官方入口</span><h3>HR 官网导航</h3><p>按地区找人社、医保、公积金、税务和法律法规发布网站。</p><strong>查政策、办业务 →</strong></a><a class="resource-card" href="/enterprise-services/"><span class="resource-tag">服务对接 · 人力窝</span><h3>企业人力资源服务</h3><p>全国社保、外包、招聘/猎头、背调与企业出海。</p><strong>了解服务与咨询 →</strong></a></div></section>
 <section><div class="section-heading"><h2>HR 资讯 <small>工作中的实用笔记</small></h2><a href="/insights/">查看全部 {icon('arrow',15)}</a></div><div class="news-grid">{news_cards(articles[:3])}</div></section>'''
 home=home.replace('</div></section>\n<section><div class="section-heading"><h2>HR 资讯','<a class="resource-card" href="/relax/"><span class="resource-tag">给自己一个小休息</span><h3>放松一下</h3><p>HR 待办消消乐，每局随机，今天的整理高手会是你吗？</p><strong>玩一局 · 今日 TOP20 →</strong></a></div></section>\n<section><div class="section-heading"><h2>HR 资讯')
 page('/','工具大厅','HR在线计算工具：五险一金、工资奖金个税、离职补偿、到手工资和用工成本，支持批量导入与结果导出。',home,'home')
-categories=['最新资讯','相关政策','工具使用','HR实务']
-category_nav='<div class=filters aria-label=资讯分类>'+''.join(f'<a class=filter href="/insights/category/{i}/">{c}</a>' for i,c in enumerate(categories))+'</div>'
-page('/insights/','HR资讯','HR工具使用、数据口径和批量计算的实用文章。',f'{category_nav}<div class="page-intro"><div class="eyebrow">HR WORK NOTES</div><h1>HR 资讯</h1><p>让每一次计算，都有清晰的来龙去脉。</p></div><label class="search list-search" style="display:block">{icon("search",18)}<input type="search" id="article-search" aria-label="搜索文章" placeholder="搜索文章、工具或关键词"></label><div class="news-grid">{news_cards(articles)}</div><p id="article-empty" class="empty-state hidden">暂无匹配的文章。</p>','insights')
-for i,c in enumerate(categories):
-    selected=[a for a in articles if a['category']==c]
-    page(f'/insights/category/{i}/',c,f'HR{c}文章与工具参考。',f'<a class=back-link href=/insights/>← 全部资讯</a>{category_nav}<div class=page-intro><h1>{c}</h1><p>{len(selected)} 篇文章</p></div><div class=news-grid>{news_cards(selected)}</div>'+('' if selected else '<p class=empty-state>这个分类还没有文章，发布后会显示在这里。</p>'),'insights-category')
+build_insights(articles, page, icon('search',18))
 page('/feedback/','我的反馈','查看我发布和参与的讨论，以及回复和处理进度。','<div class=page-intro><h1>我的反馈</h1><p>免登录参与，回复与进度在这里查看。</p></div><div id=my-feedback></div>','feedback')
 page('/admin/feedback/','反馈管理','管理员回复、处理进度和内容管理。','<div class=page-intro><h1>反馈管理</h1><p>查看吐槽与评论，发布官方回复，更新处理进度。</p></div><div id=feedback-admin></div><script type=module src=/assets/feedback.js></script>','admin')
 page('/workspace/','我的工作台','收藏常用工具，保存和导出本机计算记录。','<link rel="stylesheet" href="/assets/workspace.css"><div id="workspace-content"><h1>我的工作台</h1><p>正在读取本机收藏与计算记录。</p></div><noscript>请启用 JavaScript 查看本机工作台。</noscript>','workspace')

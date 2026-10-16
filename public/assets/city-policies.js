@@ -76,7 +76,21 @@ record(['常州'],{medicalP:2,medicalC:8,birthC:.8},source('常州税务2026征�
 record(['南京'],{fundMin:2660,fundMax:42400,fundRateMax:12},source('南京公积金：2026年度基数调整','https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html'),'2026-07','2027-06');
 record(['连云港'],{fundMin:2260,fundMax:31545,fundRateMax:12,fundRounding:0},source('连云港公积金：2026年度基数及金额取整','https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html'),'2026-01');
 record(['常州'],{fundMin:2660,fundMax:34080},source('常州公积金：2026年7月基数上下限答复','https://gjj.changzhou.gov.cn/html/gjj/2026/ODOFKMDN_0706/13968.html'));
-record(['东莞'],{fundMin:2080,fundMax:27391,fundRateMax:12},source('东莞公积金：2026年缴存基数调整','https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html'),'2026-01');
+record(['东莞'],{fundMin:2080,fundMax:27391,fundRateMax:12},source('东莞公积金：2026年原缴存基数（7月上限另有调整）','https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html'),'2026-01','2026-06');
+const dgFund=source('东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员','http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html');
+record(['东莞'],{fundMin:2080,fundMax:27700,fundRateMax:12},dgFund,'2026-07','2026-08');
+record(['东莞'],{fundMax:27700,fundRateMax:12},dgFund,'2026-09','2026-12');
+record(['无锡'],{fundMin:2490,fundMax:36800,fundRateMax:12},source('无锡公积金：锡房金规〔2026〕2号，最低按上一年度最低工资','https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml'),'2026-07','2027-06');
+const gzFund=source('广州公积金：2026缴存年度调整，上限41697','https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html');
+record(['广州'],{fundMin:2500,fundMax:41697,fundRateMax:12},gzFund,'2026-07','2026-08');
+record(['广州'],{fundMax:41697,fundRateMax:12},gzFund,'2026-09','2027-06');
+record(['广州'],{fundMin:2680},source('广州公积金：穗公积金中心〔2026〕57号，9月起下限2680','https://gjj.gz.gov.cn/gkmlpt/content/10/10983/post_10983424.html'),'2026-09','2027-06');
+record(['惠州'],{fundMax:34290,fundRateMax:12},source('惠州公积金：2026年度正式通知，上限34290、比例5%—12%','http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html'),'2026-07','2027-06');
+record(['惠州'],{fundMin:2040},source('江门政府：2026年9月起广东最低工资分地区标准（惠州2040）','https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html'),'2026-09','2026-12');
+record(['泰州'],{fundMax:30258,fundRateMax:12},source('泰州公积金：2026年度调整通知，上限30258','https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html'),'2026-01','2026-12');
+const sjzFund=source('石家庄公积金：石公积金〔2026〕10号，含区县及低于5588的审核条件','https://www.sjzgjj.cn/tzgg/2479.jhtml');
+record(['石家庄'],{fundMax:27938},sjzFund,'2026-07','2027-06');
+record(['廊坊'],{fundMin:2380,fundMax:30261},source('廊坊公积金：2026年度缴存基数调整（官方图文）','https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09'),'2026-07','2027-06');
 record(['天津'],{fundMin:2510,fundMax:28917},source('天津公积金：2026年度缴存额调整政策解读','https://www.zfgjj.cn/tjgjjcms/mainSiteApp/content/app_zwgk/app_zcwj/app_zcjd/app_zcjd/379429.html'),'2026-07','2027-06');
 // Independent source fields are merged; an old transition notice cannot override the annual notice.
 const zsFund=source('中山公积金：2026年度缴存基数与缴存额调整','https://zszfgjj.zs.gov.cn/gkmlpt/content/2/2630/post_2630600.html');
@@ -84,11 +98,20 @@ record(['中山'],{fundMin:2080,fundMax:29430,fundRateMax:12},zsFund,'2026-07','
 record(['中山'],{fundMax:29430,fundRateMax:12},zsFund,'2026-09','2027-06');
 record(['北京'],{medicalC:8.8,medicalExtraC:1},source('海淀政务：单位医保9.8%=医疗生育8.8%+大额互助1%','https://www.bjhd.gov.cn/zsk/ldrsjc/shbz/202112/t20211203_4499330.shtml'));
 record(['苏州'],{birthC:.8},source('苏州医保：苏州政规〔2026〕10号，10月起全市生育费率0.8%','https://ybj.suzhou.gov.cn/szybj/zcfg/202608/23b2f70f8dc0483eb58d89c97f2e07a4.shtml'),'2026-10','2026-12');
+// Scope notes travel with both the form and calculation/export. A single city-wide
+// minimum must not silently replace a district, employment or approval condition.
+const policyNote=(city,note,src,from,to)=>{record([city],{},src,from,to);records[city].at(-1).note=note;};
+policyNote('东莞','公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。',dgFund,'2026-09','2026-12');
+policyNote('泰州','公积金下限：海陵、姜堰、高港2660元；靖江、泰兴、兴化2430元。请按区县填写已核定基数。',source('泰州公积金：2026年最低基数补充通知','https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html'),'2026-01','2026-12');
+policyNote('石家庄','公积金下限按区县为2380、2230或2080元；上年月均工资低于5588元，调整基数须经所属管理部审核。请填写已核定基数。',sjzFund,'2026-07','2027-06');
+policyNote('中山','公积金：9月起新参加工作、新调入职工下限2300元；存量职工到2027年度再调整。请填写员工已核定基数。',source('中山公积金：最低工资调整后的人员适用范围','https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html'),'2026-09','2027-06');
+policyNote('佛山','公积金：9月起新参加工作、新调入职工下限2300元；存量职工仍为2080元，2027年7月起调整。人员类别未自动区分，请填写已核定基数。',source('顺德区政府：佛山公积金缴存下限调整通知','https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590'),'2026-09','2026-12');
+policyNote('江门','公积金：9月起新参加工作、新调入职工下限2040元；原低基数须在2027年7月31日前调整，过渡期不默认统一下限。请填写员工已核定基数。',source('江门公积金：江房金字〔2026〕25号，下限分人员执行','https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html'),'2026-09','2026-12');
 // Audited observations are retained, but unofficial reposts no longer drive calculations.
 export function cityPolicy(city,month,context={}){
  if(!cityOptions.some(([name])=>name===city))throw Error('请选择目录中的城市');
  if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(String(month)))throw Error('请选择有效缴费月份');
  const all=records[city]||[],active=all.filter(x=>month>=x.from&&month<=x.to&&x.status!=='转载待复核'&&(!x.plan||x.plan===context.medicalPlan));
  const values={},evidence={};for(const row of active)for(const [key,value]of Object.entries(row.values)){values[key]=value;evidence[key]=row;}
- return {city,month,values,evidence,sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status==='转载待复核'),unsupported:false,checked:'2026-10-16',version:`city-20261016/${city}/${month}/${context.medicalPlan||'standard'}`};
+ return {city,month,values,evidence,notes:active.filter(r=>r.note).map(r=>({text:r.note,source:r.source})),sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status==='转载待复核'),unsupported:false,checked:'2026-10-16',version:`city-20261016-r2/${city}/${month}/${context.medicalPlan||'standard'}`};
 }

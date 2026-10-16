@@ -47,7 +47,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "768da4d7f00e98c4436dba23e3e57a362ed7808122bc27f05d1aff5646da4ba3"
+      "sha256": "bf5e086cbb05715058d92d245f0e3c855fad07e1a00152914c2dbe04f8262851"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -195,7 +195,11 @@
     },
     {
       "path": "public/assets/app.js",
-      "sha256": "3319197fb8cb19c0f31e8d8dffa1744a1f9bdc280d17a061e26a1b30a3b037a3"
+      "sha256": "267f86f8d59be9da4b1c2b7bfcceb23412273c5690f6e5879aae8b7130a33d64"
+    },
+    {
+      "path": "public/assets/article-list.js",
+      "sha256": "6ae5787c0d8100b9d413091a822dcbff9e17a0cbec632d59e263e2fbf289d778"
     },
     {
       "path": "public/assets/brand.css",
@@ -211,7 +215,7 @@
     },
     {
       "path": "public/assets/city-policies.js",
-      "sha256": "6fd4a0e89c031c0b90036d0e7273a4076f36e67cd909ab76a80140ca38a66a52"
+      "sha256": "2b97c29c85661107b862c97d7c16bd1ecf859602fa5af22b67a16bad01b1cbab"
     },
     {
       "path": "public/assets/contact-widget.css",
@@ -227,7 +231,7 @@
     },
     {
       "path": "public/assets/contribution-engine.js",
-      "sha256": "afd617abcebe7f4a68c144bfa3c80306da58f1c1f6ece017b708b299d07c073e"
+      "sha256": "c21a129c0f1ce9f3c46b7a9bfeba45e9f7e16e53933b0c106846c8f646c0fc67"
     },
     {
       "path": "public/assets/contribution-rate-table.js",
@@ -311,7 +315,7 @@
     },
     {
       "path": "public/assets/style.css",
-      "sha256": "ff961f0715e26549196f02471c7eee3e413da54558dbc8785f4de5438c854d20"
+      "sha256": "8a10e25a543e1fa6e9c567abfc50891961f05b66a2c9c9140973cb64e8231377"
     },
     {
       "path": "public/assets/tax-allocation.js",
@@ -607,35 +611,35 @@
     },
     {
       "path": "public/downloads/import-templates/employment-cost.xlsx",
-      "sha256": "22be3d64010cc5eb742f2db968254dc41bc0896bf456addf95d04c98d72a4777"
+      "sha256": "4e08dac37b050bcf4ffbc424ce07e60ec5e812cf857e31a948c689b84b59e054"
     },
     {
       "path": "public/downloads/import-templates/five-insurances-housing-fund.xlsx",
-      "sha256": "190cc835eca683c33616ed07c09f477133c9da4f869780daff76fbe4d090384a"
+      "sha256": "18075250c2d3d634e620b596f96d70972bd0d24667d9c5db2e646837131e3ccc"
     },
     {
       "path": "public/downloads/import-templates/hr-metrics.xlsx",
-      "sha256": "76d1fd1595376078a11966808f444d0320024a3dc2daa328f9f1389985e0b5a5"
+      "sha256": "c33157fa7c2f4ddcf10d4343b44f1bebce4c3553e05809f7f9ba7598e37defbd"
     },
     {
       "path": "public/downloads/import-templates/income-tax.xlsx",
-      "sha256": "07f0d4126f64652d34d7a80f5c28572570df95f621f09155464132139161c554"
+      "sha256": "dfb5ef1d7bdded6addcdadc5fd63017b0b19963415651f98757d153b10d0dd6b"
     },
     {
       "path": "public/downloads/import-templates/salary-budget.xlsx",
-      "sha256": "8a2c47d8a3cccdcaa47f1aab9b947719caa1aee1171686f0615ddec2eb3b919e"
+      "sha256": "82b4768b0964afcbffe2745f16246b25072152c0874a94ce960c54c9dfb2d302"
     },
     {
       "path": "public/downloads/import-templates/severance.xlsx",
-      "sha256": "a0c2efd409a604aed50e11cb3fec19768305abfd17e190272f0dbb9335b6192d"
+      "sha256": "9029660f08ccafe2d2fe340420d5cf9513f0b52cebb51b9f2bb1918b2e7d8afb"
     },
     {
       "path": "public/downloads/import-templates/take-home-pay.xlsx",
-      "sha256": "ba959154b1e22dc7cc2a3a0390ade767d52764ff710ac686f020706a6a4cbdf4"
+      "sha256": "a99bf56d8fb2198fc201d8adfe0da579ae6c29fc40f4aff7dcad6fc7436f14a7"
     },
     {
       "path": "scripts/audit-policy-coverage.mjs",
-      "sha256": "886e335c09e3aa8c5e5546d5c2565d15673076e3de3607bf6affae3b992acd77"
+      "sha256": "2e388d5a88edea2a2210568fd6aa90d31256a16613cec138139ca1544d42581e"
     },
     {
       "path": "scripts/audit_contribution_fields.mjs",
@@ -643,7 +647,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "60b1b796948c11e96b30d947b1bc8f0f156777848efbbe8ddb564bf0d624d885"
+      "sha256": "e64bb4e48d2571349d43693055868bf41393d317690ccf67165d063ba0813cb5"
     },
     {
       "path": "scripts/build_admin.py",
@@ -664,6 +668,10 @@
     {
       "path": "scripts/build_import_workbooks.mjs",
       "sha256": "c9c2a83a7360cc746aaf77c6871cb7352ab614441630269e71e9267dafd209eb"
+    },
+    {
+      "path": "scripts/build_insights.py",
+      "sha256": "e17ea6513fc526b575191f357cd48e8484efbfb8bd0df8b2a246ee6582d1f146"
     },
     {
       "path": "scripts/build_policies.py",
@@ -1153,6 +1161,21 @@
       "status": "已核验"
     },
     {
+      "city": "无锡",
+      "values": {
+        "fundMin": 2490,
+        "fundMax": 36800,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "无锡公积金：锡房金规〔2026〕2号，最低按上一年度最低工资",
+        "url": "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
       "city": "徐州",
       "values": {
         "pensionMin": 5025,
@@ -1633,6 +1656,32 @@
       "from": "2026-07",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "泰州",
+      "values": {
+        "fundMax": 30258,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "泰州公积金：2026年度调整通知，上限30258",
+        "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "泰州",
+      "values": {},
+      "source": {
+        "label": "泰州公积金：2026年最低基数补充通知",
+        "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "公积金下限：海陵、姜堰、高港2660元；靖江、泰兴、兴化2430元。请按区县填写已核定基数。"
     },
     {
       "city": "宿迁",
@@ -2444,6 +2493,48 @@
       "status": "已核验"
     },
     {
+      "city": "广州",
+      "values": {
+        "fundMin": 2500,
+        "fundMax": 41697,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "广州公积金：2026缴存年度调整，上限41697",
+        "url": "https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html"
+      },
+      "from": "2026-07",
+      "to": "2026-08",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "fundMax": 41697,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "广州公积金：2026缴存年度调整，上限41697",
+        "url": "https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html"
+      },
+      "from": "2026-09",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "fundMin": 2680
+      },
+      "source": {
+        "label": "广州公积金：穗公积金中心〔2026〕57号，9月起下限2680",
+        "url": "https://gjj.gz.gov.cn/gkmlpt/content/10/10983/post_10983424.html"
+      },
+      "from": "2026-09",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
       "city": "深圳",
       "values": {
         "pensionMin": 5510
@@ -2720,6 +2811,18 @@
       "status": "已核验"
     },
     {
+      "city": "佛山",
+      "values": {},
+      "source": {
+        "label": "顺德区政府：佛山公积金缴存下限调整通知",
+        "url": "https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590"
+      },
+      "from": "2026-09",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工仍为2080元，2027年7月起调整。人员类别未自动区分，请填写已核定基数。"
+    },
+    {
       "city": "惠州",
       "values": {
         "pensionMin": 5510
@@ -2783,6 +2886,33 @@
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
       "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "fundMax": 34290,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "惠州公积金：2026年度正式通知，上限34290、比例5%—12%",
+        "url": "http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "fundMin": 2040
+      },
+      "source": {
+        "label": "江门政府：2026年9月起广东最低工资分地区标准（惠州2040）",
+        "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html"
+      },
+      "from": "2026-09",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -2922,12 +3052,53 @@
         "fundRateMax": 12
       },
       "source": {
-        "label": "东莞公积金：2026年缴存基数调整",
+        "label": "东莞公积金：2026年原缴存基数（7月上限另有调整）",
         "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html"
       },
       "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "fundMin": 2080,
+        "fundMax": 27700,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+        "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+      },
+      "from": "2026-07",
+      "to": "2026-08",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "fundMax": 27700,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+        "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+      },
+      "from": "2026-09",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {},
+      "source": {
+        "label": "东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员",
+        "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html"
+      },
+      "from": "2026-09",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。"
     },
     {
       "city": "中山",
@@ -3071,6 +3242,18 @@
       "status": "已核验"
     },
     {
+      "city": "中山",
+      "values": {},
+      "source": {
+        "label": "中山公积金：最低工资调整后的人员适用范围",
+        "url": "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html"
+      },
+      "from": "2026-09",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "公积金：9月起新参加工作、新调入职工下限2300元；存量职工到2027年度再调整。请填写员工已核定基数。"
+    },
+    {
       "city": "江门",
       "values": {
         "pensionMin": 5510
@@ -3155,6 +3338,18 @@
       "status": "已核验"
     },
     {
+      "city": "江门",
+      "values": {},
+      "source": {
+        "label": "江门公积金：江房金字〔2026〕25号，下限分人员执行",
+        "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html"
+      },
+      "from": "2026-09",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "公积金：9月起新参加工作、新调入职工下限2040元；原低基数须在2027年7月31日前调整，过渡期不默认统一下限。请填写员工已核定基数。"
+    },
+    {
       "city": "肇庆",
       "values": {
         "pensionMin": 5510
@@ -3254,6 +3449,31 @@
       "status": "已核验"
     },
     {
+      "city": "石家庄",
+      "values": {
+        "fundMax": 27938
+      },
+      "source": {
+        "label": "石家庄公积金：石公积金〔2026〕10号，含区县及低于5588的审核条件",
+        "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "石家庄",
+      "values": {},
+      "source": {
+        "label": "石家庄公积金：石公积金〔2026〕10号，含区县及低于5588的审核条件",
+        "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "公积金下限按区县为2380、2230或2080元；上年月均工资低于5588元，调整基数须经所属管理部审核。请填写已核定基数。"
+    },
+    {
       "city": "唐山",
       "values": {
         "pensionMin": 4076,
@@ -3539,6 +3759,20 @@
       },
       "from": "2026-07",
       "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "廊坊",
+      "values": {
+        "fundMin": 2380,
+        "fundMax": 30261
+      },
+      "source": {
+        "label": "廊坊公积金：2026年度缴存基数调整（官方图文）",
+        "url": "https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
       "status": "已核验"
     },
     {
@@ -3901,6 +4135,22 @@
   ],
   "sources": [
     {
+      "url": "http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://app.www.gov.cn/govdata/gov/202308/31/506746/article.html",
       "files": [
         "content/policies/child-education-deduction.md",
@@ -4071,7 +4321,39 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://gjj.gz.gov.cn/gg/tzgg/content/post_10879601.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.gz.gov.cn/gkmlpt/content/10/10983/post_10983424.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2025/art_cff5ffd72d4441e49031016a50eeb7cd.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -4533,6 +4815,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://shanghai.chinatax.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4875,9 +5165,33 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.jotform.com/form-templates/probation-period-review-form",
       "files": [
         "public/data/hr-template-manifest.json"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09",
+      "files": [
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "manual-verification-required"
@@ -5155,6 +5469,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
       "url": "https://www.smartsheet.com/content/self-evaluation-templates",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -5288,6 +5610,14 @@
       "url": "https://www.wuxi.gov.cn/doc/2024/04/15/4288486.shtml",
       "files": [
         "content/policies/wuxi-apprenticeship.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.wuxi.gov.cn/gjj/doc/2026/08/05/4814421.shtml",
+      "files": [
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5480,7 +5810,7 @@
     {
       "url": "https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html",
       "files": [
-        "public/assets/app.js"
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "official-domain"

@@ -47,8 +47,49 @@ test('浙江正式全年参数与河北三险范围分开核对',()=>{
   for(const k of ['pension','unemployment','injury']){
    assert.equal(v[k+'Min'],4076);assert.equal(v[k+'Max'],20382);
   }
-  assert.equal(v.medicalMin,undefined);assert.equal(v.fundMin,undefined);
+  assert.equal(v.medicalMin,undefined);
+  if(city!=='廊坊')assert.equal(v.fundMin,undefined);
+  else assert.ok(!cityPolicy(city,'2026-10').evidence.fundMin.source.url.includes('rst.hebei.gov.cn'));
  }
+});
+
+test('公积金年度调整和9月调整分别生效，不误用社保或今年最低工资',()=>{
+ assert.equal(cityPolicy('东莞','2026-06').values.fundMax,27391);
+ assert.equal(cityPolicy('东莞','2026-07').values.fundMax,27700);
+ assert.equal(cityPolicy('东莞','2026-08').values.fundMin,2080);
+ assert.equal(cityPolicy('东莞','2026-09').values.fundMin,undefined);
+ assert.equal(contributionBases({city:'东莞',month:'2026-10',wage:2000}).fund.value,undefined);
+ assert.equal(contributionBases({city:'东莞',month:'2026-10',wage:2000,fundBase:2300}).fund.value,2300);
+ assert.ok(cityPolicy('东莞','2026-09').notes.some(n=>n.text.includes('2300')&&n.text.includes('2080')));
+ for(const [month,min] of [['2026-08',2500],['2026-09',2680],['2027-06',2680]]){
+  assert.equal(cityPolicy('广州',month).values.fundMin,min);
+  assert.equal(contributionBases({city:'广州',month,wage:50000}).fund.value,41697);
+ }
+ assert.equal(cityPolicy('广州','2027-07').values.fundMax,undefined);
+ for(const [wage,expected] of [[2000,2490],[10000,10000],[40000,36800]]){
+  const d={city:'无锡',month:'2026-10',wage};
+  assert.equal(contributionBases(d).fund.value,expected);
+  assert.deepEqual(calculateBatch(id,[d])[0].result.contribution,calculate(id,d).contribution);
+ }
+ assert.equal(cityPolicy('无锡','2027-06').values.fundMin,2490);
+ assert.equal(cityPolicy('无锡','2027-07').values.fundMin,undefined);
+ assert.equal(cityPolicy('惠州','2026-10').values.fundMax,34290);
+ assert.equal(cityPolicy('惠州','2026-10').values.fundMin,2040);
+});
+
+test('公积金区县和审批条件不压成全市统一下限，条件随单条和批量结果保留',()=>{
+ for(const [city,max,words] of [['泰州',30258,['2660','2430']],['石家庄',27938,['2380','2230','2080','5588']]]){
+  const p=cityPolicy(city,'2026-10');assert.equal(p.values.fundMax,max);assert.equal(p.values.fundMin,undefined);
+  for(const w of words)assert.ok(p.notes.some(n=>n.text.includes(w)));
+  const d={city,month:'2026-10',wage:3000,fundBase:3000};
+  const r=calculate(id,d);assert.ok(r.messages.some(m=>m.includes(words[0])));
+  assert.deepEqual(calculateBatch(id,[d])[0].result.messages,r.messages);
+ }
+ assert.equal(cityPolicy('廊坊','2026-10').values.fundMin,2380);
+ assert.equal(cityPolicy('廊坊','2026-10').values.fundMax,30261);
+ assert.equal(contributionBases({city:'廊坊',month:'2026-10',wage:50000}).fund.value,30261);
+ assert.equal(cityPolicy('廊坊','2027-07').values.fundMax,undefined);
+ assert.equal(cityPolicy('台州','2026-10').values.fundMax,undefined);
 });
 
 test('苏州园区4月调费独立于吴江；天津新办法按3月施行',()=>{
