@@ -3,12 +3,12 @@
   "Statement": [
     {
       "Effect": "Allow",
-      "Action": ["oss:ListObjects", "oss:GetBucketInfo", "oss:GetBucketLocation"],
+      "Action": ["oss:ListObjects", "oss:GetBucketInfo", "oss:GetBucketLocation", "oss:GetBucketVersioning"],
       "Resource": "acs:oss:*:*:hrtoolkit-site-hk"
     },
     {
       "Effect": "Allow",
-      "Action": ["oss:GetObject", "oss:PutObject", "oss:AbortMultipartUpload", "oss:ListParts"],
+      "Action": ["oss:GetObject", "oss:PutObject", "oss:DeleteObject", "oss:AbortMultipartUpload", "oss:ListParts"],
       "Resource": "acs:oss:*:*:hrtoolkit-site-hk/*"
     },
     {

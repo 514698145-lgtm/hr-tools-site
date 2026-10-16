@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from upload_release import validate_target, safe_diagnostic, unchanged_paths
+from upload_release import validate_target, safe_diagnostic, unchanged_paths, removed_paths
 from unittest.mock import patch
 
 
@@ -52,6 +52,15 @@ class UploadBoundaryTests(unittest.TestCase):
         self.assertFalse(unchanged_paths(incoming, old, {'status': 'complete', 'revision': 'other'}))
         changed_type = {'files': [{**record, 'contentType': 'application/octet-stream'}]}
         self.assertFalse(unchanged_paths(changed_type, old, {'status': 'complete', 'revision': 'old'}))
+
+    def test_withdrawal_includes_partial_upload_but_not_unmanaged_objects(self):
+        incoming = {'files': [{'path': 'index.html'}]}
+        old = {'files': [{'path': 'index.html'}, {'path': 'insights/withdrawn/index.html'}]}
+        pending = {'paths': ['insights/partial/index.html']}
+        self.assertEqual(removed_paths(incoming, old, pending),
+                         ['insights/partial/index.html', 'insights/withdrawn/index.html'])
+        with self.assertRaises(ValueError):
+            removed_paths(incoming, old, {'paths': ['../private']})
 
 
 if __name__ == '__main__':

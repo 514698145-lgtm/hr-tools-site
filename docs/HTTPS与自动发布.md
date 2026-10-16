@@ -14,7 +14,7 @@ CDN 的条件源站覆盖 /api/* 和 /.well-known/acme-challenge/*，以 HTTPS �
 
 工作流 .github/workflows/content-check.yml 分为 validate 和 publish。PR 只检查；main 检查通过且发布门禁全部 ready 才发布。手动 preflight=true 上传 _preflight/提交号/，不会覆盖根目录。过时提交禁止发布；发布任务串行。
 
-OIDC 提供商 issuer=https://token.actions.githubusercontent.com，audience=sts.aliyuncs.com；角色只信任本仓库 main。当前 GitHub 使用含不可变账号及仓库 ID 的 subject，必须从 GitHub 官方 API 的 actions/oidc/customization/sub 核验实际前缀，不能套旧版纯名称示例。ARN 放在 GitHub Variables，不放长期 AccessKey。权限见 deploy/github-publisher-policy.json：仅本静态 Bucket 的必要上传/读取和本域名刷新，不包含删除、授权、DNS 或私有运行数据。
+OIDC 提供商 issuer=https://token.actions.githubusercontent.com，audience=sts.aliyuncs.com；角色只信任本仓库 main。当前 GitHub 使用含不可变账号及仓库 ID 的 subject，必须从 GitHub 官方 API 的 actions/oidc/customization/sub 核验实际前缀，不能套旧版纯名称示例。ARN 放在 GitHub Variables，不放长期 AccessKey。权限见 deploy/github-publisher-policy.json：仅本静态 Bucket 的必要上传/读取和本域名刷新，撤回已管理文件时仅允许创建可恢复删除标记，无删除历史版本、授权、DNS或私有运行数据权限。
 
 CMS 保存后，inventory 任务自动同步维护清单并记录实际提交号，再按该提交检查、打包与发布；避免要求编辑者手改 JSON。只有该任务有 contents:write，PR 不运行它。验证任务只读；发布任务仅增加获取临时身份所需的 id-token:write。官方凭据 Action 与 CLI 的环境变量前缀不同，工作流显式适配，不输出凭据。
 
@@ -24,7 +24,7 @@ scripts/upload_release.py 先验证整包 SHA256 与路径，再上传资源、H
 
 CLI 的全局 region 不应被当作 ossutil 子进程 region，上传明确同时指定香港 region 和 endpoint。云端首先串行初始化 ossutil，再并发传输，避免首次自动安装时多个进程竞争同一可执行文件。
 
-这是按顺序上传，不是多对象原子切换。OSS 版本控制保留历史对象；有失败时先检查已上传范围，使用上一份核验包恢复受影响文件并刷新 CDN。完整回滚还需处理新加/删除的路径，不能只依靠旧包覆盖宣称自动回退。
+这是按顺序上传，不是多对象原子切换。OSS 版本控制保留历史对象；有失败时先检查已上传范围，使用上一份核验包恢复受影响文件并刷新 CDN。完成标记记录已管理路径；撤回文章或转草稿时，仅清理旧清单及未完成发布计划中的失效文件，先核验OSS版本控制已启用，再创建可恢复删除标记，保留历史版本。未纳入发布清单的站长验证文件不动。隔离场景已实测新增页面、下一包撤回、历史保留；这不等于整站原子切换或失败后自动回退。
 
 OIDC CA 指纹在2026-10-16通过已校验的 TLS 证书链获取。若 GitHub 更换证书链导致身份交换失败，应重新核验官方 issuer 的有效链再更新指纹，不关闭 TLS 校验。
 
@@ -39,3 +39,5 @@ OIDC CA 指纹在2026-10-16通过已校验的 TLS 证书链获取。若 GitHub �
 - https://github.com/aliyun/configure-aliyun-credentials-action
 - https://help.aliyun.com/zh/cdn/developer-reference/parameters-for-configuring-features-for-domain-names
 - https://letsencrypt.org/documents/LE-SA-v1.8-July-06-2026.pdf
+
+模板合集 ZIP 使用固定归档元数据，避免 GitHub checkout 时间变化导致内容未变却重复上传；字体授权及文档内容保留。

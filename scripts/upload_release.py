@@ -2,7 +2,8 @@
 
 Candidates are restricted to a preflight prefix. Production uploads require the
 packaged release gates, upload assets before HTML, and publish the manifest last.
-No bucket ACL, credentials, DNS or delete operations are performed here.
+No bucket ACL, credentials or DNS operations are performed here. Removed managed
+objects receive recoverable delete markers only after versioning is verified.
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
@@ -16,7 +17,7 @@ import tempfile
 import zipfile
 from urllib.parse import quote
 
-from package_release import MANIFEST, verify_package
+from package_release import MANIFEST, verify_package, safe_path
 
 BUCKET = 'hrtoolkit-site-hk'
 STATE = 'deployment-state.json'
@@ -42,6 +43,18 @@ def unchanged_paths(manifest, previous, state):
     fields = ('sha256', 'bytes', 'contentType', 'cacheControl')
     return {record['path'] for record in manifest['files'] if record['path'] in old and
             all(old[record['path']].get(key) == record.get(key) for key in fields)}
+
+
+def removed_paths(manifest, previous, state):
+    pending = state.get('paths', [])
+    if not isinstance(pending, list) or not all(isinstance(p, str) for p in pending):
+        raise ValueError('Invalid pending deployment paths')
+    tracked = {r['path'] for r in previous.get('files', [])} | set(pending)
+    for name in tracked:
+        safe_path(name)
+        if name in (STATE, MANIFEST):
+            raise ValueError('Reserved marker in previous managed paths')
+    return sorted(tracked - {r['path'] for r in manifest['files']})
 
 
 def validate_target(manifest, prefix):
@@ -102,9 +115,12 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
 
             previous, state = fetch_json(MANIFEST), fetch_json(STATE)
             unchanged = unchanged_paths(manifest, previous, state)
+            removed = removed_paths(manifest, previous, state)
+            current_paths = sorted(r['path'] for r in manifest['files'])
             marker_state = staging / STATE
             def publish_state(status):
-                raw = json.dumps({'schema': 1, 'status': status, 'revision': manifest['revision']}).encode()
+                paths = sorted(set(current_paths) | set(removed)) if status == 'uploading' else current_paths
+                raw = json.dumps({'schema': 1, 'status': status, 'revision': manifest['revision'], 'paths': paths}).encode()
                 marker_state.write_bytes(raw)
                 put(marker_state, prefix + STATE, 'application/json', hashlib.sha256(raw).hexdigest())
             publish_state('uploading')
@@ -125,6 +141,17 @@ def upload(archive_path, cli, profile=None, config=None, prefix='', workers=4):
                         pass
                 print(json.dumps({'uploaded': label, 'files': len(changed),
                                   'unchanged': len(records) - len(changed)}), flush=True)
+            if removed:
+                versioning = json.loads(run(['ossutil', 'api', 'get-bucket-versioning', '--bucket', BUCKET,
+                                             '--output-format', 'json', '--region', 'cn-hongkong',
+                                             '--endpoint', 'https://oss-cn-hongkong.aliyuncs.com']))
+                if versioning.get('Status') != 'Enabled':
+                    raise ValueError('Refusing removals without recoverable OSS versions')
+                for name in removed:
+                    # No recursive removal and no version ID: history is preserved.
+                    run(['ossutil', 'rm', f'oss://{BUCKET}/{prefix}{name}', '-f', '-q',
+                         '--region', 'cn-hongkong', '--endpoint', 'https://oss-cn-hongkong.aliyuncs.com'])
+                print(json.dumps({'withdrawnManagedFiles': len(removed), 'historyPreserved': True}), flush=True)
             marker = staging / MANIFEST
             marker.write_bytes(manifest_raw)
             put(marker, prefix + MANIFEST, 'application/json', hashlib.sha256(manifest_raw).hexdigest())
