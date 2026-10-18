@@ -46,6 +46,14 @@
       "sha256": "5483dc8324c1645ae3c03ad1653f8b94d068283897f141eb75610a1d7916688f"
     },
     {
+      "path": "content/articles/article7.md",
+      "sha256": "3c8cdf9270d22113bad83a317d10d7e7275d5b367f7daaa3a898d829889433d7"
+    },
+    {
+      "path": "content/articles/article8.md",
+      "sha256": "c870b688052923e26ecc3208467d9060b5dd32f85c5342c6eb2b649927c8e44f"
+    },
+    {
       "path": "content/articles/editor-example.md",
       "sha256": "6b1dc15d933ce18ce857c9d0aee32e9bdba96226c7b81c2e101b193b3f46a9b9"
     },
@@ -859,6 +867,18 @@
     },
     {
       "path": "content/articles/article6.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article7.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article8.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4281,6 +4301,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5250797/content.html",
+      "files": [
+        "content/articles/article8.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://fgw.sh.gov.cn/ys-laogong-2.3.1.2/index.html",
       "files": [
         "public/assets/city-policies.js"
@@ -5132,6 +5160,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.dxal.gov.cn/dxal/c100109/202610/c13_347100.shtml",
+      "files": [
+        "content/articles/article8.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/",
       "files": [
         "public/data/official-sites.json"
@@ -5256,6 +5292,14 @@
       "url": "https://www.lzxq.gov.cn/system/2026/07/23/031405658.shtml",
       "files": [
         "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.moe.gov.cn/jyb_xwfb/s5147/202610/t20261016_1454372.html",
+      "files": [
+        "content/articles/article7.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5685,6 +5729,14 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://www.xinhuanet.com/20261017/baf15b92567942eaba97457dc76f3b0b/c.html",
+      "files": [
+        "content/articles/article7.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://www.xinjiang.gov.cn/xinjiang/bmdt/202610/e79bef2d646345fcb785fe3d26315b96.shtml",

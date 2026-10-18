@@ -41,7 +41,7 @@ cover/coverAlt只用于列表缩略图，shareImage用于分享/搜索；文章�
 
 ## 文章编号与兼容
 
-固定slug和文件名为articleN，新文章从当前已用最高编号继续，检查已有草稿、迁移映射与历史审校记录，避免复用。当前1—6已分配，下篇为article7；不因改标题或排序重排编号。迁移旧地址需同步config/article-redirects.json，保留静态自动跳转与新canonical，更新内链及Sitemap。当前采用静态站点兼容跳转，不称为HTTP301；无需为例行新稿修改CDN或申请额外权限。
+固定slug和文件名为articleN，新文章从当前已用最高编号继续，检查已有草稿、迁移映射与历史审校记录，避免复用。编号以现有文件及审校记录为准，不把本文举例当作固定计数；不因改标题或排序重排编号。迁移旧地址需同步config/article-redirects.json，保留静态自动跳转与新canonical，更新内链及Sitemap。当前采用静态站点兼容跳转，不称为HTTP301；无需为例行新稿修改CDN或申请额外权限。
 
 ## 记录、验收和失败处理
 
