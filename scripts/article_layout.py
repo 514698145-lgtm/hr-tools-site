@@ -94,10 +94,11 @@ def related_reading(article, published):
         return (3 * len(set(article.get('tags', [])) & set(other.get('tags', [])))
                 + 2 * len(set(article.get('relatedTools', [])) & set(other.get('relatedTools', [])))
                 + int(article['category'] == other['category']))
-    choices = [a for a in published if a['path'] != article['path'] and score(a) > 0]
+    choices = list({a['path']: a for a in published
+                    if a['path'] != article['path'] and a.get('status', 'published') == 'published'}.values())
     choices.sort(key=lambda a: (score(a), str(a['publishedAt']), a['path']), reverse=True)
-    cards = ''.join(f'<a href="{escape(a["path"])}"><small>{escape(a["category"])}</small><strong>{escape(a["title"])}</strong><span>阅读全文 →</span></a>' for a in choices[:2])
-    return '<section class="article-reading" aria-label="继续阅读"><h2>继续阅读</h2><div>'+cards+'</div></section>' if cards else ''
+    cards = ''.join(f'<a href="{escape(a["path"])}"><small>{"最新文章 · " if score(a) == 0 else ""}{escape(a["category"])}</small><strong>{escape(a["title"])}</strong><span>阅读全文 →</span></a>' for a in choices[:2])
+    return '<section class="article-reading" id="article-reading" aria-label="继续阅读"><h2>继续阅读</h2><div>'+cards+'</div></section>' if cards else ''
 
 
 def related_tools(items, tools, icon):

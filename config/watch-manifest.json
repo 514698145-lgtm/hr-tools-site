@@ -75,7 +75,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "81474091e7899caa64b90c7d2bbef2641361fe0ff59286f95614c29ff9039d1d"
+      "sha256": "a1d69c0e9518d91fa97a672b9420d9cb7c32fd3f63bbd0b5d28ccf9ef19a594c"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -343,7 +343,7 @@
     },
     {
       "path": "public/assets/style.css",
-      "sha256": "66b483e6a82c3b059407e0f43b12a8a0bd197f6c2b654238472851da2ed4258f"
+      "sha256": "5d494d38551fde8d085d8177e7532e4947c188043a4ecbaa816b7e2ceabd8e7d"
     },
     {
       "path": "public/assets/tax-allocation.js",
@@ -667,7 +667,7 @@
     },
     {
       "path": "scripts/article_layout.py",
-      "sha256": "7afad54d4321ffcc86d25fadac4ae34b31a43e03f9f1e3cee91751ff1ae6dad5"
+      "sha256": "3b3acdb1f516c158a522beeb06639fc4b3b3fc9be030ecd3ca62ed234e52c7fa"
     },
     {
       "path": "scripts/audit-policy-coverage.mjs",

@@ -17,7 +17,7 @@ class ArticleLayoutTests(unittest.TestCase):
         self.assertNotIn(' open',toc)
         self.assertEqual(article_contents(render_article_body('## 短文')), '')
 
-    def test_reading_excludes_self_unrelated_and_limits_to_two(self):
+    def test_reading_prioritizes_related_excludes_self_and_limits_to_two(self):
         current={'path':'/insights/article1/','category':'政策','tags':['薪酬'],'relatedTools':['income-tax']}
         candidates=[current]
         for n,category,tags,tools in [(2,'实务',['薪酬'],[]),(3,'政策',[],[]),(4,'其他',[],[]),(5,'实务',[],['income-tax'])]:
@@ -26,7 +26,23 @@ class ArticleLayoutTests(unittest.TestCase):
         self.assertIn('/insights/article2/',html)
         self.assertIn('/insights/article5/',html)
         for n in (1,3,4): self.assertNotIn(f'/insights/article{n}/',html)
-        self.assertEqual(related_reading(current,[current,candidates[3]]),'')
+        fallback=related_reading(current,[current,candidates[3]])
+        self.assertIn('/insights/article4/',fallback)
+        self.assertIn('最新文章',fallback)
+        self.assertEqual(related_reading(current,[current]),'')
+
+    def test_reading_fills_with_latest_without_duplicates_or_drafts(self):
+        current={'path':'/insights/article1/','category':'培训','tags':[]}
+        related={'path':'/insights/article2/','title':'相关旧文','category':'培训','publishedAt':'2026-09-01'}
+        latest={'path':'/insights/article3/','title':'最新资讯','category':'招聘','publishedAt':'2026-10-18'}
+        older={'path':'/insights/article4/','title':'较早资讯','category':'薪酬','publishedAt':'2026-10-17'}
+        draft={'path':'/insights/article5/','title':'草稿','category':'培训','publishedAt':'2026-10-18','status':'draft'}
+        html=related_reading(current,[latest,draft,related,latest,current,older])
+        self.assertLess(html.index(related['path']),html.index(latest['path']))
+        self.assertEqual(html.count('href="'+latest['path']+'"'),1)
+        self.assertNotIn(older['path'],html)
+        self.assertNotIn(draft['path'],html)
+        self.assertEqual(html.count('最新文章 · '),1)
 
     def test_external_labels_retained_internal_links_work_and_figcaption_is_semantic(self):
         body = '[官方通知](https://gov.example/file)与[本站工具](/tools/income-tax/)。\n\n![图像描述](/media/picture.jpg)\n\n*图：授权素材，非活动现场。*'
