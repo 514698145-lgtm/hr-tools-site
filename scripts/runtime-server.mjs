@@ -21,7 +21,7 @@ export async function createRuntimeServer({origin, directory, password} = {}) {
   origin = validateOrigin(origin);
   if (!directory || !path.isAbsolute(directory)) throw new Error('Persistent data directory must be absolute');
   const tools = JSON.parse(await readFile(new URL('../config/tools.json', import.meta.url), 'utf8'))
-    .map(tool => tool.id).concat(['hr-templates', 'official-sites', 'contract-reminders', 'relax']);
+    .map(tool => tool.id).concat(['hr-templates', 'official-sites', 'contract-reminders', 'relax', 'mbti']);
   const api = await createFeedbackApi({directory, password, publicOrigin: origin});
   const server = http.createServer(async (req, res) => {
     res.setHeader('Cache-Control', 'no-store');

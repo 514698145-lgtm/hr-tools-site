@@ -24,6 +24,9 @@ test('production API requires HTTPS, serves no files, and preserves origin/cooki
     assert.equal(health.headers.get('cache-control'), 'no-store');
     assert.equal((await fetch(base+'/admin-password.txt')).status,404);
     assert.equal((await fetch(base+'/config/tools.json')).status,404);
+    const personalityFeedback=await fetch(base+'/api/feedback?tool=mbti');
+    assert.equal(personalityFeedback.status,200);
+    assert.deepEqual((await personalityFeedback.json()).items,[]);
     assert.equal((await fetch(base+'/api/admin/feedback')).status,401);
     const post = source => fetch(base+'/api/identity',{method:'POST',
       headers:{Origin:source,'Content-Type':'application/json'},body:'{}'});

@@ -1,7 +1,7 @@
 const $=s=>document.querySelector(s);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const date=s=>new Date(s).toLocaleString('zh-CN');
-const names={'relax':'放松一下','five-insurances-housing-fund':'五险一金','income-tax':'个税计算','severance':'离职补偿','take-home-pay':'到手工资','employment-cost':'用工成本','salary-budget':'调薪预算','hr-metrics':'HR数据速算','hr-templates':'HR表格库','official-sites':'HR官网导航','contract-reminders':'合同到期提醒','date-calculator':'日期计算'};
+const names={'mbti':'MBTI趣味测试','relax':'放松一下','five-insurances-housing-fund':'五险一金','income-tax':'个税计算','severance':'离职补偿','take-home-pay':'到手工资','employment-cost':'用工成本','salary-budget':'调薪预算','hr-metrics':'HR数据速算','hr-templates':'HR表格库','official-sites':'HR官网导航','contract-reminders':'合同到期提醒','date-calculator':'日期计算'};
 const route=t=>({'relax':'/relax/','hr-templates':'/templates/','official-sites':'/official-sites/','contract-reminders':'/contract-reminders/'}[t]||'/tools/'+encodeURIComponent(t)+'/');
 const states=['待查看','处理中','已解决','暂不支持'];
 async function api(url,body){const r=await fetch(url,{method:body!==undefined?'POST':'GET',headers:body!==undefined?{'Content-Type':'application/json'}:{},body:body!==undefined?JSON.stringify(body):undefined,credentials:'same-origin'});let data;try{data=await r.json();}catch{throw Error('反馈服务暂不可用，请稍后重试。');}if(!r.ok){const e=Error(data.error||'请求失败');e.status=r.status;throw e;}return data;}

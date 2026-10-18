@@ -13,7 +13,8 @@ import {matchesHeader,requirement} from './import-template.js';
 import {fieldsFor,summarizeRatio} from './hr-tools.js';
 import {cityPolicy,medicalPlans} from './city-policies.js';
 import {parameterLabels,baseKinds,contributionBases} from './contribution-engine.js';
-import {tools,calculate,calculateBatch,money} from './calculators.js';
+import {calculate,calculateBatch,money} from './calculators.js';
+import {tools} from './tool-catalog.js';
 import {icon} from './icons.js';
 const $=s=>document.querySelector(s);const $$=s=>[...document.querySelectorAll(s)];
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -23,9 +24,10 @@ function persist(){try{localStorage.setItem(key,JSON.stringify(state));return tr
 function toast(text){$('.toast')?.remove();const el=document.createElement('div');el.className='toast';el.role='status';el.textContent=text;document.body.append(el);setTimeout(()=>el.remove(),3500);}
 function empty(title,subtitle='',symbol='file'){return `<div class="empty-state">${icon(symbol,30)}<p>${escape(title)}</p>${subtitle}</div>`;}
 const resultNumber=r=>(r.partial?'已知小计 ':'')+(r.unit==='元'?money(r.value):r.value);
-function toolCard(t){const selected=state.favorites.includes(t.id);return `<article class="tool-card"><button class="favorite ${selected?'selected':''}" data-favorite="${t.id}" aria-label="${selected?'取消收藏':'收藏'}${t.name}" aria-pressed="${selected}">${icon('star',19)}</button><a class="card-main" href="/tools/${t.id}/"><div class="tool-icon ${t.color}">${icon(t.icon,24)}</div><h3>${t.name}</h3><p>${t.description}</p></a><div class="card-footer"><span>${t.tag} · 支持批量</span><a href="/tools/${t.id}/">开始计算 ${icon('arrow',15)}</a></div></article>`;}
+function toolCard(t){const selected=state.favorites.includes(t.id);return `<article class="tool-card"><button class="favorite ${selected?'selected':''}" data-favorite="${t.id}" aria-label="${selected?'取消收藏':'收藏'}${t.name}" aria-pressed="${selected}">${icon('star',19)}</button><a class="card-main" href="/tools/${t.id}/"><div class="tool-icon ${t.color}">${icon(t.icon,24)}</div><h3>${t.name}</h3><p>${t.description}</p></a><div class="card-footer"><span>${t.tag}${t.kind==='quiz'?'':' · 支持批量'}</span><a href="/tools/${t.id}/">${t.kind==='quiz'?'开始探索':'开始计算'} ${icon('arrow',15)}</a></div></article>`;}
 function bindFavorites(){ $$('[data-favorite]').forEach(b=>b.onclick=()=>{const id=b.dataset.favorite;state.favorites=state.favorites.includes(id)?state.favorites.filter(x=>x!==id):[...state.favorites,id];persist();const selected=state.favorites.includes(id);b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',selected);b.setAttribute('aria-label',(selected?'取消收藏':'收藏')+tools.find(t=>t.id===id).name);if(location.pathname==='/workspace/')renderWorkspace();});}
 const page=document.body.dataset.page;
+if(page==='personality'){state.recent=['mbti',...state.recent.filter(id=>id!=='mbti')].slice(0,4);persist();}
 if(page==='home'){
  const syncResourceNavigation=()=>{const resource=location.hash==='#hr-resources';for(const link of document.querySelectorAll('.nav-link[href="/"],.nav-link[href="/#hr-resources"]')){const active=(link.getAttribute('href')==='/#hr-resources')===resource;link.classList.toggle('active',active);if(active)link.setAttribute('aria-current',resource?'location':'page');else link.removeAttribute('aria-current');}};
  window.addEventListener('hashchange',syncResourceNavigation);syncResourceNavigation();

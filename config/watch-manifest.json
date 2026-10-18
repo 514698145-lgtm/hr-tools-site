@@ -7,7 +7,7 @@
     },
     {
       "path": "config/disclaimer.json",
-      "sha256": "6b14a3abfe234107cb41ee7e63bb123651dfb0f5dbe7d1791bd95f7dc2df860d"
+      "sha256": "65d51f94331a241ee895abe4f931a69b5287a93f513465a2ad721f68ece56b13"
     },
     {
       "path": "config/maintenance.json",
@@ -75,7 +75,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "a1d69c0e9518d91fa97a672b9420d9cb7c32fd3f63bbd0b5d28ccf9ef19a594c"
+      "sha256": "a2f8eec4278126349280095db0e24b788720437a22d6d90aecf312294c5fb2a8"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -190,6 +190,10 @@
       "sha256": "d757c9916e7249ed4fb591e29d0e1640a86b57fa0eaeff4db8703ca7a8662b25"
     },
     {
+      "path": "content/seo/pages/mbti.md",
+      "sha256": "ed7db5e228b37b451479aa494e4cb8e5520afee1b68b1e23493aec954352b66d"
+    },
+    {
       "path": "content/seo/pages/official-sites.md",
       "sha256": "e08fb97115a4a8e09d5ef9434ed853bff0d5c4048830577a02a7ece6d71a368d"
     },
@@ -223,7 +227,7 @@
     },
     {
       "path": "public/assets/app.js",
-      "sha256": "267f86f8d59be9da4b1c2b7bfcceb23412273c5690f6e5879aae8b7130a33d64"
+      "sha256": "1a238a2a22c30fd8348406cfe06063acc2830b6b20f3fdf46d58071ebe1d4ed8"
     },
     {
       "path": "public/assets/article-list.js",
@@ -279,7 +283,7 @@
     },
     {
       "path": "public/assets/feedback.js",
-      "sha256": "11880497583d6d9e2584c219e9ca0a152001f2484eab20b6091a3a93646c76a2"
+      "sha256": "4ebfad5f0caa9ababe22e2af7f54badfba21d704ceb6d75e4234dfc272f5c59a"
     },
     {
       "path": "public/assets/field-copy.js",
@@ -291,7 +295,7 @@
     },
     {
       "path": "public/assets/icons.js",
-      "sha256": "655d5d22e44ef5711d176a02dccfe01d585e8a8983b66b0100d2980659536a8e"
+      "sha256": "e515537c09392d894fde0b7f32ede7526113849dae69e47b1900023570df8c6a"
     },
     {
       "path": "public/assets/import-template.js",
@@ -304,6 +308,18 @@
     {
       "path": "public/assets/operations-tools.js",
       "sha256": "ee277d5cc3f2b97787393dc4f75b3a98154f89a0a88c8a4d2219259bb58e6235"
+    },
+    {
+      "path": "public/assets/personality-engine.js",
+      "sha256": "4262ed965f493ba6e3065fbfe7c8dba62f27d13f77b10c66918ae40326a39023"
+    },
+    {
+      "path": "public/assets/personality.css",
+      "sha256": "5c769636fb69c21314b23686777a37a92553610e78a5e9545df623f4e161b57e"
+    },
+    {
+      "path": "public/assets/personality.js",
+      "sha256": "119bfe49b6a8eb6ebf55ff9e5ebb0ad0b35740326b51d3ba213417e0292872fa"
     },
     {
       "path": "public/assets/policies.js",
@@ -358,12 +374,16 @@
       "sha256": "4c085d782b702151d5d1e632b22b61876947be940ca54d14a6527c22174588a1"
     },
     {
+      "path": "public/assets/tool-catalog.js",
+      "sha256": "7b7e090a7b9c4db21ce16c7fcf7821fc73b7c74a7363a961d61e96f4b31d3b6e"
+    },
+    {
       "path": "public/assets/typography.css",
       "sha256": "4a78a34ce5499498e8dd8f15d5c0414501d528f9511eed6c61b59b499d085883"
     },
     {
       "path": "public/assets/workspace-view.js",
-      "sha256": "64e1214bc5f90b65e542938d7df7594c2bd76938528d92781509094736cccd20"
+      "sha256": "e71ffc8425ecad2dacfa789841278a5aa4ea33421649c2d98af045484ddb214f"
     },
     {
       "path": "public/assets/workspace.css",
@@ -679,7 +699,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "c341f879bd9f8f4af7ceb776ede655a859b33bb44c3be47d13370e1edb19208d"
+      "sha256": "628598d637315ea24eada98119ccae43c693730633da9b3743b9e4687e4dd67e"
     },
     {
       "path": "scripts/build_admin.py",
@@ -708,6 +728,10 @@
     {
       "path": "scripts/build_insights.py",
       "sha256": "75733ab71c5b76e886c2e8779253d41e891c59f966a5ad46a44a74625d77da1c"
+    },
+    {
+      "path": "scripts/build_personality.py",
+      "sha256": "3dff3a00ae4d0393854c607a8ab610a250a757638cb48e70255146c4b64ad54d"
     },
     {
       "path": "scripts/build_policies.py",
@@ -811,7 +835,7 @@
     },
     {
       "path": "scripts/runtime-server.mjs",
-      "sha256": "bd6d799ebc96dacc318e93101ccc01ed064edd94ec1bd6c77fa44c6cc7479668"
+      "sha256": "c973cb62c93d1454e6a732b70c1f319b22771de307a4fca4aa1977b90dc7cf98"
     },
     {
       "path": "scripts/runtime_archive.py",
@@ -823,7 +847,7 @@
     },
     {
       "path": "scripts/serve.mjs",
-      "sha256": "4350e35aa120d647df6543768b22687ae6fd4f013731cf599056aa7fb2281c8e"
+      "sha256": "dededab52a4a13406cc05903ab04faeaf1c95b5a55200e5f112401652d847626"
     },
     {
       "path": "scripts/template_designs.py",
@@ -1089,6 +1113,12 @@
     },
     {
       "path": "content/seo/pages/insights.md",
+      "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/seo/pages/mbti.md",
       "status": null,
       "checkedAt": "",
       "reviewAfter": ""
@@ -5238,6 +5268,14 @@
       "files": [
         "config/release.json",
         "content/seo/site.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.hrtoolkit.cn/tools/mbti/",
+      "files": [
+        "public/assets/personality.js"
       ],
       "discovery": false,
       "authority": "manual-verification-required"

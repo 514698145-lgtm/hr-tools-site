@@ -9,7 +9,7 @@ if(trialOrigin&&!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/.test(trialOrigin))
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.xml':'application/xml; charset=utf-8','.txt':'text/plain; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.jpg':'image/jpeg','.woff2':'font/woff2','.zip':'application/zip','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.docx':'application/vnd.openxmlformats-officedocument.wordprocessingml.document'};
 // Both listeners share one API instance: only one writer owns the local databases.
 const feedback=await createFeedbackApi({directory:process.env.FEEDBACK_DATA_DIR||path.resolve('.local'),publicOrigin:req=>req.trialOrigin||process.env.HR_PUBLIC_ORIGIN||'http://'+req.headers.host});
-const toolIds=JSON.parse(await readFile(path.resolve('config/tools.json'),'utf8')).map(t=>t.id).concat(['hr-templates','official-sites','contract-reminders','relax']);
+const toolIds=JSON.parse(await readFile(path.resolve('config/tools.json'),'utf8')).map(t=>t.id).concat(['hr-templates','official-sites','contract-reminders','relax','mbti']);
 function listener(trial=false){return async(req,res)=>{try{
  res.setHeader('X-Content-Type-Options','nosniff');
  if(!/^127\.0\.0\.1(?::[0-9]+)?$|^localhost(?::[0-9]+)?$/.test(req.headers.host||'')){res.writeHead(403);res.end();return;}
