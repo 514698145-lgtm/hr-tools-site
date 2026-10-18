@@ -75,7 +75,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "a8f9394e11ebf7fcb696725b1dd02e9e655101ee498ed1e536179467f2949d2f"
+      "sha256": "81474091e7899caa64b90c7d2bbef2641361fe0ff59286f95614c29ff9039d1d"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -679,7 +679,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "401c151c5b52dea1f972d457288ffa39651383b5cbe9556b47cfde1f97b07e62"
+      "sha256": "c341f879bd9f8f4af7ceb776ede655a859b33bb44c3be47d13370e1edb19208d"
     },
     {
       "path": "scripts/build_admin.py",
