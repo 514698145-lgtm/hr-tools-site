@@ -147,6 +147,10 @@ jobs:
         run: aliyun sts GetCallerIdentity --region cn-hongkong --cli-query Arn
       - name: Initialize OSS upload tool before parallel transfers
         run: aliyun --region cn-hongkong ossutil version
+      - name: Capture previous public release for search notifications
+        if: inputs.preflight != true
+        continue-on-error: true
+        run: python scripts/notify_search.py capture --report "$RUNNER_TEMP/search-previous.json"
       - name: Upload assets then pages
         shell: bash
         env:
@@ -176,3 +180,16 @@ jobs:
           python -c "import json,os; m=json.load(open(os.environ['RUNNER_TEMP']+'/published.json')); assert m['revision']==os.environ['SOURCE_REVISION']; print('Published revision verified')"
           curl -fsS --retry 3 "${connection[@]}" "https://www.hrtoolkit.cn/${prefix}deployment-state.json?revision=$SOURCE_REVISION" -o "$RUNNER_TEMP/deployment-state.json"
           python -c "import json,os; s=json.load(open(os.environ['RUNNER_TEMP']+'/deployment-state.json')); assert s['status']=='complete' and s['revision']==os.environ['SOURCE_REVISION']; print('Deployment completion verified')"
+      - name: Notify IndexNow of changed public URLs
+        if: inputs.preflight != true
+        continue-on-error: true
+        timeout-minutes: 5
+        run: python scripts/notify_search.py submit --previous "$RUNNER_TEMP/search-previous.json" --revision "$SOURCE_REVISION" --send --report reports/search-notification.json
+      - name: Retain search notification receipt
+        if: always() && inputs.preflight != true
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-notification-receipt
+          retention-days: 30
+          if-no-files-found: warn
+          path: reports/search-notification.json

@@ -164,3 +164,12 @@ content:
         fields:
           - { name: name, label: 网站名称, type: string, required: true }
           - { name: url, label: HTTPS网址, type: string, required: true }
+
+  - name: editorial
+    label: 内容整理与更正说明
+    type: file
+    path: content/editorial.md
+    format: yaml-frontmatter
+    fields:
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: body, label: 说明正文, type: rich-text }

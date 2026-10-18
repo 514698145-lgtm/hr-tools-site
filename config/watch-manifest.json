@@ -18,6 +18,10 @@
       "sha256": "4d750bd3b6d58f7f6cf5ca3eb2f1b254284a3d5cf99d538ddda792c07a81fe51"
     },
     {
+      "path": "config/search-notification.json",
+      "sha256": "fe4f03c0c3e293965ead05a93cc5fb7ed87de11efdd1407e55860ca7c656bd23"
+    },
+    {
       "path": "config/tools.json",
       "sha256": "61a7353d8b1f064a8dfeb4bc9ee3cfcb66e1c2b48fafca082e918ac62dbf90fa"
     },
@@ -56,6 +60,10 @@
     {
       "path": "content/articles/editor-example.md",
       "sha256": "6b1dc15d933ce18ce857c9d0aee32e9bdba96226c7b81c2e101b193b3f46a9b9"
+    },
+    {
+      "path": "content/editorial.md",
+      "sha256": "f2009198887b47a1e82d34956bfa6e3dafdbd00130ac589abb5cb521de43edcb"
     },
     {
       "path": "content/enterprise-services.md",
@@ -335,7 +343,7 @@
     },
     {
       "path": "public/assets/style.css",
-      "sha256": "c327c4d736f39318ab429baa92c8c1fb9680e935ef8ed20c455f1f8f85df54b8"
+      "sha256": "73266a176307c23b3053345f383c35512b2dc49ac3f17a9790b883c0de764a84"
     },
     {
       "path": "public/assets/tax-allocation.js",
@@ -659,7 +667,7 @@
     },
     {
       "path": "scripts/article_layout.py",
-      "sha256": "ec6df2e182037efcb794dcd9c1c33939b369fdab802ed17450166566a6008ce4"
+      "sha256": "7afad54d4321ffcc86d25fadac4ae34b31a43e03f9f1e3cee91751ff1ae6dad5"
     },
     {
       "path": "scripts/audit-policy-coverage.mjs",
@@ -671,7 +679,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "0955b740206993e258b16bc59164dab950065aa94083711dddf46019bb9a8ca4"
+      "sha256": "401c151c5b52dea1f972d457288ffa39651383b5cbe9556b47cfde1f97b07e62"
     },
     {
       "path": "scripts/build_admin.py",
@@ -786,6 +794,10 @@
       "sha256": "747e42ee3cd71cadf2483bc2f0cb1e37ddd7eb881e6518eefac28817ff51562b"
     },
     {
+      "path": "scripts/notify_search.py",
+      "sha256": "355dcf503f641f9feb2b893cde60816425d33d940c2a87254b23541c5ae103c1"
+    },
+    {
       "path": "scripts/package_release.py",
       "sha256": "47c7fc6167a01e948273c5d668a34683ebff4e70ab6b03ab8f3cf81a5c3a531a"
     },
@@ -886,6 +898,12 @@
     {
       "path": "content/articles/editor-example.md",
       "status": "draft",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/editorial.md",
+      "status": null,
       "checkedAt": "",
       "reviewAfter": ""
     },

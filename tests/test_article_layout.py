@@ -2,10 +2,32 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
-from scripts.article_layout import render_article_body, article_redirects
+from scripts.article_layout import render_article_body, article_redirects, article_contents, related_reading
 
 
 class ArticleLayoutTests(unittest.TestCase):
+    def test_contents_matches_stable_heading_ids_and_escapes_labels(self):
+        html = render_article_body('## 重复标题\n\n正文\n\n## 重复标题\n\n## A & B\n\n### FAQ问题')
+        toc = article_contents(html)
+        for n in range(1,4):
+            self.assertIn(f'id="article-section-{n}"',html)
+            self.assertIn(f'href="#article-section-{n}"',toc)
+        self.assertIn('A &amp; B',toc)
+        self.assertNotIn('FAQ问题',toc)
+        self.assertNotIn(' open',toc)
+        self.assertEqual(article_contents(render_article_body('## 短文')), '')
+
+    def test_reading_excludes_self_unrelated_and_limits_to_two(self):
+        current={'path':'/insights/article1/','category':'政策','tags':['薪酬'],'relatedTools':['income-tax']}
+        candidates=[current]
+        for n,category,tags,tools in [(2,'实务',['薪酬'],[]),(3,'政策',[],[]),(4,'其他',[],[]),(5,'实务',[],['income-tax'])]:
+            candidates.append({'path':f'/insights/article{n}/','title':f'文章{n}','category':category,'tags':tags,'relatedTools':tools,'publishedAt':'2026-10-18'})
+        html=related_reading(current,candidates)
+        self.assertIn('/insights/article2/',html)
+        self.assertIn('/insights/article5/',html)
+        for n in (1,3,4): self.assertNotIn(f'/insights/article{n}/',html)
+        self.assertEqual(related_reading(current,[current,candidates[3]]),'')
+
     def test_external_labels_retained_internal_links_work_and_figcaption_is_semantic(self):
         body = '[官方通知](https://gov.example/file)与[本站工具](/tools/income-tax/)。\n\n![图像描述](/media/picture.jpg)\n\n*图：授权素材，非活动现场。*'
         html = render_article_body(body)

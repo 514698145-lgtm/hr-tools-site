@@ -1,5 +1,6 @@
 """Readable article media and internal links; keep source URLs in Markdown metadata."""
 from html import escape
+from html.parser import HTMLParser
 import json
 import re
 from markdown_it import MarkdownIt
@@ -9,6 +10,11 @@ from markdown_it.token import Token
 def render_article_body(body):
     md = MarkdownIt('commonmark', {'html': False}).enable('table')
     tokens = md.parse(body)
+    section = 0
+    for token in tokens:
+        if token.type == 'heading_open' and token.tag == 'h2':
+            section += 1
+            token.attrSet('id', f'article-section-{section}')
     # Preserve link labels and nearby citations without sending readers off site.
     for token in tokens:
         stack = []
@@ -52,6 +58,46 @@ def render_article_body(body):
             output.append(tokens[i])
             i += 1
     return md.renderer.render(output, md.options, {})
+
+
+class ArticleSections(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.sections, self.current = [], None
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'h2' and attrs.get('id', '').startswith('article-section-'):
+            self.current = [attrs['id'], '']
+
+    def handle_data(self, data):
+        if self.current is not None:
+            self.current[1] += data
+
+    def handle_endtag(self, tag):
+        if tag == 'h2' and self.current is not None:
+            self.sections.append(self.current)
+            self.current = None
+
+
+def article_contents(body):
+    parser = ArticleSections()
+    parser.feed(body)
+    if len(parser.sections) < 3:
+        return ''
+    links = ''.join(f'<li><a href="#{escape(key)}">{escape(label)}</a></li>' for key, label in parser.sections)
+    return '<details class="article-contents"><summary>本文目录</summary><nav aria-label="本文目录"><ol>'+links+'</ol></nav></details>'
+
+
+def related_reading(article, published):
+    def score(other):
+        return (3 * len(set(article.get('tags', [])) & set(other.get('tags', [])))
+                + 2 * len(set(article.get('relatedTools', [])) & set(other.get('relatedTools', [])))
+                + int(article['category'] == other['category']))
+    choices = [a for a in published if a['path'] != article['path'] and score(a) > 0]
+    choices.sort(key=lambda a: (score(a), str(a['publishedAt']), a['path']), reverse=True)
+    cards = ''.join(f'<a href="{escape(a["path"])}"><small>{escape(a["category"])}</small><strong>{escape(a["title"])}</strong><span>阅读全文 →</span></a>' for a in choices[:2])
+    return '<section class="article-reading" aria-label="继续阅读"><h2>继续阅读</h2><div>'+cards+'</div></section>' if cards else ''
 
 
 def related_tools(items, tools, icon):

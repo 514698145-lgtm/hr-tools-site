@@ -17,7 +17,7 @@ from build_services import build_services
 from build_template_packs import build_template_packs
 from build_relax import build_relax
 from build_insights import news_cards, build_insights, article_tags
-from article_layout import render_article_body, related_tools, article_redirects
+from article_layout import render_article_body, related_tools, article_redirects, article_contents, related_reading
 from build_contact import contact_widget
 from build_service_entry import service_entry
 from disclaimers import notice
@@ -92,6 +92,9 @@ def page(path, title, description, body, kind, tool=None, schema=None, article=N
     if site and not schema and indexable:
         schema={'@context':'https://schema.org','@type':'WebSite' if kind=='home' else 'WebPage','name':title,'description':description,'url':site+path}
     structured = '<script type="application/ld+json">'+json.dumps(schema,ensure_ascii=False).replace('<','\\u003c')+'</script>' if schema else ''
+    if site and kind == 'article':
+        breadcrumb = {'@context':'https://schema.org','@type':'BreadcrumbList','itemListElement':[{'@type':'ListItem','position':i,'name':name,'item':site+href} for i,(name,href) in enumerate([('工具大厅','/'),('HR资讯','/insights/'),(title,path)],1)]}
+        structured += '<script type="application/ld+json">'+json.dumps(breadcrumb,ensure_ascii=False).replace('<','\\u003c')+'</script>'
     nav=''
     for href,label,symbol,active in [('/','工具大厅','grid',kind in ('home','tool')),('/workspace/','我的工作台','briefcase',kind=='workspace'),('/#hr-resources','HR 工作资源','book',kind in ('policies','policy-detail','templates','template','official-sites','contract-reminders')),('/relax/','放松一下','grid',kind=='relax'),('/enterprise-services/','企业服务','briefcase',kind=='enterprise-services'),('/guide/','使用导览','book',kind=='guide')]:
         nav+=f'<a class="nav-link {"active" if active else ""}" href="{href}" {"aria-current=page" if active else ""}>{icon(symbol)}<span>{label}</span>{"<span class=nav-dot></span>" if active else ""}</a>'
@@ -139,12 +142,18 @@ for a in articles:
         schema={'@context':'https://schema.org','@type':'Article','headline':a['title'],'description':a['description'],'datePublished':str(a['publishedAt']),'dateModified':str(a.get('updatedAt') or a['publishedAt']),'author':{'@type':'Organization','name':a['author']},'mainEntityOfPage':site.rstrip('/')+a['path'],'keywords':a.get('tags',[]),'articleSection':a['category'],'inLanguage':'zh-CN','isAccessibleForFree':True,'publisher':{'@type':'Organization','name':seo.settings.get('siteName','HR工作站'),'url':site}}
         if a.get('shareImage'): schema['image']=site.rstrip('/')+a['shareImage']
         if a.get('sources'): schema['citation']=[{'@type':'CreativeWork','url':url} for url in a['sources']]
+        if a['author'].replace(' ', '') == 'HR工作站': schema['author']['url']=site+'/editorial/'
     related=related_tools(a.get('relatedTools',[]),tools,icon)
+    reading=related_reading(a,articles)
+    author=f'<a href="/editorial/">{e(a["author"])}</a>' if a['author'].replace(' ', '') == 'HR工作站' else e(a['author'])
     updated=f' · 更新 {str(a["updatedAt"])[:10]}' if a.get('updatedAt') else ''
-    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{e(a["author"])} · 发布 {str(a["publishedAt"])[:10]}{updated}</div>{article_tags(a)}</header><div class="article-body">{a["body"]}</div></article>{related}</div>'
+    body=f'<div class="article-layout"><a class="back-link" href="/insights/">← 返回 HR 资讯</a><article><header class="article-header"><div class="eyebrow">{e(a["category"])}</div><h1>{e(a["title"])}</h1><p class="description">{e(a["description"])}</p><div class="news-meta">{author} · 发布 {str(a["publishedAt"])[:10]}{updated}</div>{article_tags(a)}</header>{article_contents(a["body"])}<div class="article-body">{a["body"]}</div></article>{related}{reading}<p class="article-editorial"><a href="/editorial/">内容整理与更正说明</a></p></div>'
     page(a['path'],a['title'],a['description'],body,'article',schema=schema,article=a)
 for old_path,new_path in article_redirects(ROOT,{a['path'] for a in articles}).items():
     page(old_path,'文章地址已更新','这篇HR资讯已使用新的简短地址。',f'<div class="article-layout"><h1>文章地址已更新</h1><p>正在前往文章。</p><a class="button" href="{e(new_path)}">阅读文章 →</a></div>','redirect',redirect=new_path)
+editorial_meta, editorial_body = parse_article((ROOT/'content/editorial.md').read_text(encoding='utf-8-sig'))
+editorial_title = editorial_meta.get('title') or '内容整理与更正说明'
+page('/editorial/',editorial_title,'了解HR工作站的内容来源、整理方法、更新日期与问题反馈方式。','<div class="article-layout"><div class="page-intro"><h1>'+e(editorial_title)+'</h1></div><div class="article-body">'+md.render(editorial_body)+'</div></div>'+notice('editorial','内容使用声明'),'editorial')
 build_resources(ROOT,page)
 build_policies(ROOT,page,tools)
 build_services(ROOT,page,production=bool(seo.site))
