@@ -30,6 +30,10 @@
       "sha256": "ed7a73fd090ba89a5e9018a0edbae7def20e28d97ba4752df580c88c2912d413"
     },
     {
+      "path": "content/articles/article10.md",
+      "sha256": "3cf248583c45175f2795d81090381e821843741e349ab91b9b9f67518e34b2a6"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
     },
@@ -56,6 +60,10 @@
     {
       "path": "content/articles/article8.md",
       "sha256": "c870b688052923e26ecc3208467d9060b5dd32f85c5342c6eb2b649927c8e44f"
+    },
+    {
+      "path": "content/articles/article9.md",
+      "sha256": "20bc3933de42677c15119b1ce9f1aacce0a2f94b37911ef727c0ea4b257cb173"
     },
     {
       "path": "content/articles/editor-example.md",
@@ -878,6 +886,12 @@
       "reviewAfter": ""
     },
     {
+      "path": "content/articles/article10.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/article2.md",
       "status": "published",
       "checkedAt": "",
@@ -915,6 +929,12 @@
     },
     {
       "path": "content/articles/article8.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article9.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4566,6 +4586,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://hrss.sz.gov.cn/gkmlpt/content/12/12912/post_12912939.html",
+      "files": [
+        "content/articles/article9.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://hrss.tj.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4809,6 +4837,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rs.tongchuan.gov.cn/121/18029.jhtml",
+      "files": [
+        "content/articles/article10.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rsj.beijing.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4907,9 +4943,25 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202610/t20261016_6034316.shtml",
+      "files": [
+        "content/articles/article9.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202404/t20240423_5167972.shtml",
       "files": [
         "content/policies/work-injury-deadline.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202605/t20260515_5937122.shtml",
+      "files": [
+        "content/articles/article10.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5313,6 +5365,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.jingyuan.gov.cn/zfxxgk/bmhxzxxgk/xzxxgk/wlz/fdzdgknr/shfl/art/2026/art_9cbe10724c1a46808b16f209ba1bf082.html",
+      "files": [
+        "content/articles/article10.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.jotform.com/form-templates/probation-period-review-form",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -5423,6 +5483,14 @@
       "files": [
         "content/policies/annual-leave-proration.md",
         "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nanjing.gov.cn/zxfwn/ztfw/sb/zcxx_74497/zcwj/202605/t20260508_5836215.html",
+      "files": [
+        "content/articles/article9.md"
       ],
       "discovery": false,
       "authority": "official-domain"
