@@ -251,7 +251,7 @@
     },
     {
       "path": "public/assets/brand.css",
-      "sha256": "bead2f758c2ba1620557bd69f1880d7aa862644c9b8b88c5c633b5cf13633634"
+      "sha256": "2a6b20fbd26c9f305476d56660ed213e84b6d9422fab831cd620b25027a6691a"
     },
     {
       "path": "public/assets/calculators.js",
@@ -715,7 +715,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "b62765503e1b4f178f5d295843e5981af9f34c153f7a156e61b36b42b0e12bcf"
+      "sha256": "f4617f5cab6737d4e312afdbc65a3a12389f1703cc5e81811f9174884a9e4b4a"
     },
     {
       "path": "scripts/build_admin.py",
