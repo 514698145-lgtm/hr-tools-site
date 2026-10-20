@@ -87,7 +87,7 @@
     },
     {
       "path": "content/friend-links.md",
-      "sha256": "2f668264b91e21b5652ba43216906dbb8a5936e1b14ed7d69c195e409f064a7b"
+      "sha256": "72714da366e8bddd78f28ad5b8614963b0cc79fa649de0810dffed5daf20ed4e"
     },
     {
       "path": "content/guide.md",
@@ -5546,6 +5546,14 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mpgroup.cn/about_link.html",
+      "files": [
+        "content/friend-links.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://www.nanjing.gov.cn/zxfwn/ztfw/sb/zcxx_74497/zcwj/202605/t20260508_5836215.html",
