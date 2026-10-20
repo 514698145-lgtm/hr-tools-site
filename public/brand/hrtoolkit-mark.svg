@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>HR工作站品牌标识</title>
+  <rect width="64" height="64" rx="14" fill="#263341"/>
+  <path d="M18 16h4a2 2 0 0 1 2 2v10h16h8v18a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V36H24v10a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2V18a2 2 0 0 1 2-2Z" fill="#FFFCF4"/>
+  <rect x="40" y="16" width="8" height="8" rx="2" fill="#D8B66A"/>
+</svg>

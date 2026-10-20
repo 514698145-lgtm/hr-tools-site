@@ -251,7 +251,7 @@
     },
     {
       "path": "public/assets/brand.css",
-      "sha256": "f98873591e29febc134c091754efe3b28e28d9c97b20a48c05f5379ead413a8b"
+      "sha256": "bead2f758c2ba1620557bd69f1880d7aa862644c9b8b88c5c633b5cf13633634"
     },
     {
       "path": "public/assets/calculators.js",
@@ -715,7 +715,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "628598d637315ea24eada98119ccae43c693730633da9b3743b9e4687e4dd67e"
+      "sha256": "b62765503e1b4f178f5d295843e5981af9f34c153f7a156e61b36b42b0e12bcf"
     },
     {
       "path": "scripts/build_admin.py",
@@ -839,7 +839,7 @@
     },
     {
       "path": "scripts/package_release.py",
-      "sha256": "47c7fc6167a01e948273c5d668a34683ebff4e70ab6b03ab8f3cf81a5c3a531a"
+      "sha256": "6f4781ef03e4b981829b05f5af199dabb189642c1977a7ffd6ceef12beea94c0"
     },
     {
       "path": "scripts/policy-watch.mjs",
@@ -863,7 +863,7 @@
     },
     {
       "path": "scripts/serve.mjs",
-      "sha256": "dededab52a4a13406cc05903ab04faeaf1c95b5a55200e5f112401652d847626"
+      "sha256": "b50b879c3b5610e69c3d7812f7f10cc8867f34e1b29cc28637e4e87bce952909"
     },
     {
       "path": "scripts/template_designs.py",

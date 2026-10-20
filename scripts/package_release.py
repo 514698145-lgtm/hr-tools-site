@@ -35,7 +35,7 @@ def inventory(dist):
         name = file.relative_to(dist).as_posix()
         safe_path(name)
         raw = file.read_bytes()
-        mime = {'.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json',
+        mime = {'.ico': 'image/x-icon', '.svg': 'image/svg+xml', '.png': 'image/png', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json',
                 '.html': 'text/html', '.xml': 'application/xml', '.txt': 'text/plain'}.get(
                     file.suffix, mimetypes.guess_type(name)[0] or 'application/octet-stream')
         # Current asset names are not content-hashed. Do not grant immutable caching.
