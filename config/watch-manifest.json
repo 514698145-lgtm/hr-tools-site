@@ -34,6 +34,14 @@
       "sha256": "3cf248583c45175f2795d81090381e821843741e349ab91b9b9f67518e34b2a6"
     },
     {
+      "path": "content/articles/article11.md",
+      "sha256": "0124e25ebb1435d6c64799eda6ea8eb72997fb00f905767aec36fd08b9bee20a"
+    },
+    {
+      "path": "content/articles/article12.md",
+      "sha256": "b86d56376c3d0ce07658fde9126618d40fdd91b4212e96a04456b50a67e31324"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
     },
@@ -887,6 +895,18 @@
     },
     {
       "path": "content/articles/article10.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article11.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article12.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4345,6 +4365,14 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://dfjrjgj.hunan.gov.cn/dfjrjgj/szyw/202610/t20261019_34084065.html",
+      "files": [
+        "content/articles/article11.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html",
       "files": [
         "public/assets/city-policies.js"
@@ -4877,6 +4905,22 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rsj.gz.gov.cn/zwdt/gzdt/content/post_11044215.html",
+      "files": [
+        "content/articles/article12.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.gz.gov.cn/zwdt/gzdt/content/post_11057776.html",
+      "files": [
+        "content/articles/article12.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rsj.gz.gov.cn/zwgk/zwwgk/jcgk/content/post_9710438.html",
       "files": [
         "content/policies/labor-dispatch-limit.md"
@@ -5185,6 +5229,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201710/t20171009_780941.html",
+      "files": [
+        "content/articles/article11.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202507/t20250709_4145155.html",
       "files": [
         "content/policies/personnel-file-transfer.md"
@@ -5196,6 +5248,14 @@
       "url": "https://www.bjhd.gov.cn/zsk/ldrsjc/shbz/202112/t20211203_4499330.shtml",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.cac.gov.cn/2021-08/20/c_1631050028355286.htm",
+      "files": [
+        "content/articles/article12.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5725,6 +5785,22 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202412/t20241206_1957667.html",
+      "files": [
+        "content/articles/article11.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261019_1965618.html",
+      "files": [
+        "content/articles/article11.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.sucaisucai.com/sucai/02482649.html",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -5874,6 +5950,14 @@
       "url": "https://www.xinjiang.gov.cn/xinjiang/bmdt/202610/e79bef2d646345fcb785fe3d26315b96.shtml",
       "files": [
         "content/articles/article6.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.xjboz.gov.cn/xjboz/c125901/202610/f7dcb5be9d3b4f599d06f1fec332bc31.shtml",
+      "files": [
+        "content/articles/article12.md"
       ],
       "discovery": false,
       "authority": "official-domain"
