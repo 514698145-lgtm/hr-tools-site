@@ -110,6 +110,8 @@ def main():
     args = parser.parse_args()
     args.report.parent.mkdir(parents=True,exist_ok=True)
     try:
+        if args.send:
+            raise ValueError('Use scripts/daily_search.py --send for once-per-day notifications')
         if args.action == 'capture':
             report = json.loads(fetch(SITE+'/release-manifest.json'))
             if report.get('siteUrl') != SITE:

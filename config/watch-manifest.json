@@ -810,6 +810,10 @@
       "sha256": "9d7a97cd3955d62e52b933b82fab5e0481be09168c23ff3a49e9e9610c0a386b"
     },
     {
+      "path": "scripts/daily_search.py",
+      "sha256": "8168dfb4d5ae744304272cbb2bc5981e6280e4e694d9dd612ec777172daad5f9"
+    },
+    {
       "path": "scripts/disclaimers.py",
       "sha256": "9e7cb04a94fc5a8aadbaf9051c38f3185320b4546cd3782d312fee80f3205ae4"
     },
@@ -843,7 +847,7 @@
     },
     {
       "path": "scripts/notify_search.py",
-      "sha256": "355dcf503f641f9feb2b893cde60816425d33d940c2a87254b23541c5ae103c1"
+      "sha256": "fd9d79ccface2294e54d557d32659698b1681229122d07bae29f22b4e93d8609"
     },
     {
       "path": "scripts/package_release.py",
