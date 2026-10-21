@@ -42,6 +42,14 @@
       "sha256": "b86d56376c3d0ce07658fde9126618d40fdd91b4212e96a04456b50a67e31324"
     },
     {
+      "path": "content/articles/article13.md",
+      "sha256": "0f89645a872106d9da912476a5c5e89b875febd0a58f7ecfd05e3f70347f6baa"
+    },
+    {
+      "path": "content/articles/article14.md",
+      "sha256": "9a0fddfd1943b6dcd821a709622c596db0523e7de698fd377b547d1c2a6f6680"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
     },
@@ -907,6 +915,18 @@
     },
     {
       "path": "content/articles/article12.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article13.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article14.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4317,6 +4337,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://app.www.gov.cn/govdata/gov/202507/15/532869/article.html",
+      "files": [
+        "content/articles/article13.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4336,6 +4364,14 @@
       "url": "https://chinajob.mohrss.gov.cn/c/2023-08-10/384359.shtml",
       "files": [
         "content/policies/employee-onboarding-one-stop.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-05-27/546379.shtml",
+      "files": [
+        "content/articles/article14.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -4751,6 +4787,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_4c39228336c84503bc34f409d4a9268b.html",
+      "files": [
+        "content/articles/article13.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://job.mohrss.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -4892,6 +4936,14 @@
       "url": "https://rsj.beijing.gov.cn/xxgk/2024zcjd/202608/t20260821_4831476.html",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.beijing.gov.cn/ywsite/zyjd/gzdt/202610/t20261020_4911458.html",
+      "files": [
+        "content/articles/article14.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5328,6 +5380,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.gjxfj.gov.cn/2007-12/29/c_139960598.htm",
+      "files": [
+        "content/articles/article14.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.gov.cn/zhengce/",
       "files": [
         "public/data/official-sites.json"
@@ -5420,6 +5480,14 @@
       "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jinan.gov.cn/col/col118356/art/2026/art_7dd439273b6b42b3b05c01cba8eefec3.html",
+      "files": [
+        "content/articles/article13.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5837,6 +5905,14 @@
       "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc",
       "files": [
         "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.tinghu.gov.cn/art/2026/1/20/art_16618_4397135.html",
+      "files": [
+        "content/articles/article13.md"
       ],
       "discovery": false,
       "authority": "official-domain"
