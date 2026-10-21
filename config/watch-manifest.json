@@ -19,7 +19,7 @@
     },
     {
       "path": "config/search-notification.json",
-      "sha256": "fe4f03c0c3e293965ead05a93cc5fb7ed87de11efdd1407e55860ca7c656bd23"
+      "sha256": "cca84381f71386b169bae261be6dbaca2e977b0afac90cd959cbdccd96779d5b"
     },
     {
       "path": "config/tools.json",
@@ -811,7 +811,7 @@
     },
     {
       "path": "scripts/daily_search.py",
-      "sha256": "8168dfb4d5ae744304272cbb2bc5981e6280e4e694d9dd612ec777172daad5f9"
+      "sha256": "ebf82107b7123077a2bde1f6529a0c7f3560538c47b04436bfecaa8dd5467b0a"
     },
     {
       "path": "scripts/disclaimers.py",

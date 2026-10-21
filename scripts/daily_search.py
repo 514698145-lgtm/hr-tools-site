@@ -20,6 +20,11 @@ DEFAULT_STATE = ROOT / '.local/search-notifications/state.json'
 BEIJING = timezone(timedelta(hours=8))
 
 
+def notifications_enabled():
+    settings = json.loads((ROOT/'config/search-notification.json').read_text(encoding='utf-8'))
+    return settings.get('enabled') is True
+
+
 def save(path, data):
     temporary = path.with_suffix('.tmp')
     temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
@@ -27,6 +32,8 @@ def save(path, data):
 
 
 def run(state_path=DEFAULT_STATE, send=False, now=None):
+    if send and not notifications_enabled():
+        return {'status':'disabled-by-user', 'indexingConfirmed':False}
     day = (now or datetime.now(timezone.utc)).astimezone(BEIJING).date().isoformat()
     if not state_path.is_file():
         raise ValueError('Missing daily checkpoint; restore the verified last submission before sending')

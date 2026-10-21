@@ -10,6 +10,9 @@ from scripts.daily_search import run, save, SITE
 
 class DailySearchTests(unittest.TestCase):
     def setUp(self):
+        enabled = patch('scripts.daily_search.notifications_enabled', return_value=True)
+        self.enabled = enabled.start()
+        self.addCleanup(enabled.stop)
         self.folder = tempfile.TemporaryDirectory()
         self.path = Path(self.folder.name)/'state.json'
         self.old = {'files':[{'path':'old','sha256':'old'}]}
@@ -70,6 +73,15 @@ class DailySearchTests(unittest.TestCase):
         lock.unlink()
         save(self.path, {'siteUrl':SITE,'baseline':self.old,'lastAttemptDay':'2026-10-22'})
         with self.assertRaises(ValueError):run(self.path, True, self.now)
+
+    def test_user_disabled_notifications_cannot_send_or_read_network(self):
+        self.enabled.return_value = False
+        before = self.path.read_bytes()
+        with patch('scripts.daily_search.fetch') as network, patch('scripts.daily_search.submit') as send:
+            self.assertEqual(run(self.path, True, self.now)['status'], 'disabled-by-user')
+        network.assert_not_called()
+        send.assert_not_called()
+        self.assertEqual(self.path.read_bytes(), before)
 
 
 if __name__ == '__main__':unittest.main()
