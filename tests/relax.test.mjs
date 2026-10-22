@@ -39,6 +39,8 @@ test('authenticated scores, replay validation, idempotency, ranks, SSE, admin an
   const action=move(ar.state),expected=applyAction(ar.state,action);const body={id:ar.id,seq:0,actions:[action],finish:true,score:999999};
   const first=await json('/api/game/sync',body,a);assert.equal(first.run.state.score,expected.score);assert.equal(first.run.ranked,true);
   assert.deepEqual(first.run,(await json('/api/game/sync',body,a)).run);assert.match(new TextDecoder().decode((await reader.read()).value),/event: change/);
+  await json('/api/identity',{name:'排行榜新昵称'},a);assert.match(new TextDecoder().decode((await reader.read()).value),/event: change/);
+  assert.equal((await json('/api/game/board',undefined,a)).items[0].person.name,'排行榜新昵称');
   await reader.cancel();reader=null;
   let board=await json('/api/game/board',undefined,a);assert.equal(board.items.length,1);assert.equal(board.mine.rank,1);assert.equal((await json('/api/game/board',undefined,b)).mine,null);
   const current=(await json('/api/game/start',{},a)).run;assert.notEqual(ar.id,current.id);assert.notEqual(ar.state.rng,current.state.rng);

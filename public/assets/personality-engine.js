@@ -1,5 +1,6 @@
 // Original entertainment questionnaire. Not the official MBTI instrument.
-export const EDITION='hr-personality-1';
+export const EDITION='hr-personality-2';
+export const PAGE_SIZE=4;
 export const AXES=[
  {id:'EI',left:'E',right:'I',title:'能量从哪里来',leftLabel:'向外连接',rightLabel:'向内充电'},
  {id:'SN',left:'S',right:'N',title:'信息怎样入脑',leftLabel:'具体线索',rightLabel:'可能性联想'},
@@ -12,58 +13,42 @@ export const CHAPTERS=[
  {name:'协作现场',line:'意见不一样的时候，你的自然反应是什么？',mark:'03'},
  {name:'周末出逃',line:'把工作放一边，听听自己的真实偏好。',mark:'04'}
 ];
-// Each chapter mixes all four dimensions; each dimension has six items per direction.
+// Four chapters of eight items; retain stable IDs so earlier answers can migrate safely.
 const rows=[
- ['EI',1,'新同事加入午餐局，我通常会主动找话题，让大家聊起来。'],
- ['SN',1,'接到陌生任务，我先找一个具体样例，看看成品应该长什么样。'],
- ['TF',1,'两个方案都不错时，我习惯先列标准，再比较各自的收益和代价。'],
- ['JP',1,'周一开始前，我喜欢先把本周重要的事排进日历。'],
- ['EI',-1,'一场热闹的聚会之后，我想先独处一会儿，把电充回来。'],
- ['SN',-1,'听到一个新点子，我的脑海常会接着冒出好几个“还可以这样”。'],
- ['TF',-1,'做决定时，这件事是否符合我重视的价值，对我很重要。'],
- ['JP',-1,'一天里空出一段没安排的时间，我会觉得很自在。'],
- ['EI',1,'周末遇到有意思的活动，我常想叫上朋友一起体验。'],
- ['SN',1,'别人介绍新产品时，我更想先知道它具体怎么用。'],
- ['TF',1,'朋友请我帮忙选方案，我的第一反应是一起分析利弊。'],
- ['JP',1,'出门旅行，我习惯提前确认交通和住宿，再安心期待。'],
- ['EI',-1,'有了新想法，我通常先在心里或纸上理清，再说给别人听。'],
- ['SN',-1,'看到零散的信息，我很自然地会联想它们背后有没有共同规律。'],
- ['TF',-1,'讨论团队安排时，我会先留意这个决定对每个人的感受有什么影响。'],
- ['JP',-1,'临时发现更有吸引力的路线，我愿意改变原来的游玩计划。'],
- ['EI',1,'边和别人讨论边想，往往比一个人闷头想更能让我进入状态。'],
- ['SN',1,'参加培训时，能直接照着操作的步骤会让我更快理解内容。'],
- ['TF',1,'评价一个提议时，我通常先检查前提、证据和推理能否对得上。'],
- ['JP',1,'事情一多，我会先分清顺序，把待办一项项安排好。'],
- ['EI',-1,'长时间的交流之后，即使聊得开心，我也会想要一段安静时间。'],
- ['SN',-1,'读故事时，比起具体发生了什么，我经常更在意它想表达什么。'],
- ['TF',-1,'给朋友提意见时，我会先想怎么表达，才能让对方感到被理解。'],
- ['JP',-1,'面对还在变化的任务，我倾向于先留几条路，不急着定死流程。'],
- ['EI',1,'在不太熟悉的讨论里，我也愿意先开口，把交流带起来。'],
- ['SN',1,'核对资料时，我更容易注意到日期、数字和步骤有没有对应上。'],
- ['TF',1,'遇到分歧，我希望先约定一个大家都能检验的判断标准。'],
- ['JP',1,'约好一件事的时间和方式后，我更愿意尽早确定下来。'],
- ['EI',-1,'一对一深入聊天，比连续认识很多新朋友更让我放松。'],
- ['SN',-1,'别人讲一个实际问题时，我常会想到它未来还可能怎样发展。'],
- ['TF',-1,'团队出现分歧时，我会先试着理解双方各自在意什么。'],
- ['JP',-1,'我喜欢先试一小步，再根据现场反馈调整下一步。'],
- ['EI',1,'遇到一件很开心的事，我常想马上找个人分享。'],
- ['SN',1,'回忆一次旅行，我首先想到的常是吃了什么、去了哪里等具体片段。'],
- ['TF',1,'当请求和约定发生冲突，我通常先核对一致的规则怎样适用。'],
- ['JP',1,'有明确的截止时间和检查点，会让我更踏实地推进事情。'],
- ['EI',-1,'突然多出一整天空闲，我很享受自己安排、不用持续交流的时光。'],
- ['SN',-1,'看到一件普通的小物件，我也可能给它想出全新的用途。'],
- ['TF',-1,'替自己作选择时，我很在意这个选择是否贴合内心真正看重的东西。'],
- ['JP',-1,'即使没有详细行程，我也愿意先出发，路上再发现有意思的地方。'],
- ['EI',1,'忙完一天后，和合拍的人聊聊天，常能让我重新有精神。'],
- ['SN',1,'购买不熟悉的东西，我更依赖具体参数和实际使用体验来理解它。'],
- ['TF',1,'改变原来的判断时，新的证据和更有说服力的理由最能打动我。'],
- ['JP',1,'比起事情一直悬着，我更喜欢在信息足够时作出决定。'],
- ['EI',-1,'到了陌生环境，我通常先观察一会儿，再慢慢加入交流。'],
- ['SN',-1,'空闲时，我很容易沉浸在“如果换一种生活会怎样”的想象里。'],
- ['TF',-1,'衡量一个选择时，我会认真考虑它对关系和彼此信任的影响。'],
- ['JP',-1,'比起按固定节奏做完所有事，我更习惯跟随当下的状态灵活调整。']
+ ['q1','EI',1,'新同事加入午餐局，我通常会主动找话题，让大家聊起来。'],
+ ['q2','SN',1,'接到陌生任务，我先找一个具体样例，看看成品应该长什么样。'],
+ ['q3','TF',1,'两个方案都不错时，我习惯先列标准，再比较各自的收益和代价。'],
+ ['q4','JP',1,'周一开始前，我喜欢先把本周重要的事排进日历。'],
+ ['q5','EI',-1,'一场热闹的聚会之后，我想先独处一会儿，把电充回来。'],
+ ['q6','SN',-1,'听到一个新点子，我的脑海常会接着冒出好几个“还可以这样”。'],
+ ['q7','TF',-1,'做决定时，这件事是否符合我重视的价值，对我很重要。'],
+ ['q8','JP',-1,'一天里空出一段没安排的时间，我会觉得很自在。'],
+ ['q13','EI',-1,'有了新想法，我通常先在心里或纸上理清，再说给别人听。'],
+ ['q14','SN',-1,'看到零散的信息，我很自然地会联想它们背后有没有共同规律。'],
+ ['q15','TF',-1,'讨论团队安排时，我会先留意这个决定对每个人的感受有什么影响。'],
+ ['q16','JP',-1,'临时发现更有吸引力的路线，我愿意改变原来的游玩计划。'],
+ ['q17','EI',1,'边和别人讨论边想，往往比一个人闷头想更能让我进入状态。'],
+ ['q18','SN',1,'参加培训时，能直接照着操作的步骤会让我更快理解内容。'],
+ ['q19','TF',1,'评价一个提议时，我通常先检查前提、证据和推理能否对得上。'],
+ ['q20','JP',1,'事情一多，我会先分清顺序，把待办一项项安排好。'],
+ ['q25','EI',1,'在不太熟悉的讨论里，我也愿意先开口，把交流带起来。'],
+ ['q26','SN',1,'核对资料时，我更容易注意到日期、数字和步骤有没有对应上。'],
+ ['q27','TF',1,'遇到分歧，我希望先约定一个大家都能检验的判断标准。'],
+ ['q28','JP',1,'约好一件事的时间和方式后，我更愿意尽早确定下来。'],
+ ['q29','EI',-1,'一对一深入聊天，比连续认识很多新朋友更让我放松。'],
+ ['q30','SN',-1,'别人讲一个实际问题时，我常会想到它未来还可能怎样发展。'],
+ ['q31','TF',-1,'团队出现分歧时，我会先试着理解双方各自在意什么。'],
+ ['q32','JP',-1,'我喜欢先试一小步，再根据现场反馈调整下一步。'],
+ ['q37','EI',-1,'突然多出一整天空闲，我很享受自己安排、不用持续交流的时光。'],
+ ['q38','SN',-1,'看到一件普通的小物件，我也可能给它想出全新的用途。'],
+ ['q39','TF',-1,'替自己作选择时，我很在意这个选择是否贴合内心真正看重的东西。'],
+ ['q40','JP',-1,'即使没有详细行程，我也愿意先出发，路上再发现有意思的地方。'],
+ ['q41','EI',1,'忙完一天后，和合拍的人聊聊天，常能让我重新有精神。'],
+ ['q42','SN',1,'购买不熟悉的东西，我更依赖具体参数和实际使用体验来理解它。'],
+ ['q43','TF',1,'改变原来的判断时，新的证据和更有说服力的理由最能打动我。'],
+ ['q44','JP',1,'比起事情一直悬着，我更喜欢在信息足够时作出决定。'],
 ];
-export const QUESTIONS=rows.map(([axis,direction,text],i)=>({id:'q'+(i+1),axis,direction,text}));
+export const QUESTIONS=rows.map(([id,axis,direction,text])=>({id,axis,direction,text}));
 export const SCENES=[
  {title:'茶水间突然有了空档',story:'原定的会议取消了，你多出半小时。此刻最想拿到哪张小卡？',choices:[['散步卡','去窗边走走，顺便接收一点阳光。'],['闲聊卡','找位熟悉的同事，聊点工作以外的事。'],['清空卡','把桌面的小待办收好，享受一下清爽。']]},
  {title:'你领到了一间小小办公室',story:'预算只够先添一件东西，你想先把什么搬进去？',choices:[['绿植角','让每次抬头，都遇见一点绿色。'],['灵感墙','把随手冒出的点子都贴起来。'],['零食站','留一点补给，也留一个聊天的理由。']]},
@@ -88,18 +73,33 @@ const types={
  ESFP:['快乐召集人','你让“今天做点什么”，听起来就值得出门。','具体的体验与身边的人，让平常日子也鲜活。']
 };
 export const TYPES=Object.fromEntries(Object.entries(types).map(([code,[name,line,detail]])=>[code,{name,line,detail}]));
-export function scoreAnswers(answers){
- if(!answers||typeof answers!=='object')throw Error('请先完成全部题目');
+function scoreTotals(sums,itemsPerAxis){
  const axes=AXES.map(axis=>{
-  const qs=QUESTIONS.filter(q=>q.axis===axis.id);
-  if(qs.some(q=>!Number.isInteger(answers[q.id])||Math.abs(answers[q.id])>2))throw Error('还有题目未完成，请按自己的习惯选择');
-  const sum=qs.reduce((s,q)=>s+answers[q.id]*q.direction,0),max=qs.length*2;
+  const sum=sums[axis.id],max=itemsPerAxis*2;
+  if(!Number.isInteger(sum)||Math.abs(sum)>max)throw Error('保存的结果无效');
   const left=Math.round(50+sum/max*50);
-  return {...axis,sum,leftPercent:left,rightPercent:100-left,letter:sum===0?'X':sum>0?axis.left:axis.right,close:Math.abs(sum)<=4};
+  return {...axis,sum,leftPercent:left,rightPercent:100-left,letter:sum===0?'X':sum>0?axis.left:axis.right,close:Math.abs(sum)/max<=1/6};
  });
  const code=axes.map(a=>a.letter).join('');
  const profile=TYPES[code]||{name:'多面探索家',line:'有些偏好还在中间，也可以保留不急着定义的自己。',detail:'X表示这组回答刚好平衡；本次不强行替你选边。'};
  return {code,axes,...profile};
+}
+export function scoreAnswers(answers){
+ if(!answers||typeof answers!=='object')throw Error('请先完成全部题目');
+ const sums=Object.fromEntries(AXES.map(axis=>{
+  const qs=QUESTIONS.filter(q=>q.axis===axis.id);
+  if(qs.some(q=>!Number.isInteger(answers[q.id])||Math.abs(answers[q.id])>2))throw Error('还有题目未完成，请按自己的习惯选择');
+  return [axis.id,qs.reduce((sum,q)=>sum+answers[q.id]*q.direction,0)];
+ }));
+ return scoreTotals(sums,QUESTIONS.length/AXES.length);
+}
+export function restoreResult(record){
+ const edition=record?.result?.version,stored=record?.personality;
+ if(![EDITION,'hr-personality-1'].includes(edition)||!Array.isArray(stored?.axes)||stored.axes.length!==AXES.length)throw Error('保存的结果无效');
+ if(new Set(stored.axes.map(a=>a.id)).size!==AXES.length)throw Error('保存的结果无效');
+ const result=scoreTotals(Object.fromEntries(stored.axes.map(a=>[a.id,a.sum])),edition==='hr-personality-1'?12:8);
+ if(result.code!==stored.code)throw Error('保存的结果无效');
+ return result;
 }
 export function funDetails(result){
  const [energy,info,decision,pace]=result.axes.map(a=>a.letter);
@@ -111,8 +111,11 @@ export function funDetails(result){
  ];
 }
 export function restoreDraft(raw){
- if(!raw||raw.edition!==EDITION||!raw.answers||typeof raw.answers!=='object')return null;
+ if(!raw||![EDITION,'hr-personality-1'].includes(raw.edition)||!raw.answers||typeof raw.answers!=='object')return null;
  const answers=Object.fromEntries(QUESTIONS.filter(q=>Number.isInteger(raw.answers[q.id])&&Math.abs(raw.answers[q.id])<=2).map(q=>[q.id,raw.answers[q.id]]));
  const scenes={};SCENES.forEach((s,i)=>{const choice=raw.scenes?.[i];if(Number.isInteger(choice)&&choice>=0&&choice<s.choices.length)scenes[i]=choice;});
- return {edition:EDITION,answers,scenes,page:Number.isInteger(raw.page)?Math.max(0,Math.min(7,raw.page)):0,finished:raw.finished===true&&Object.keys(answers).length===48};
+ const firstMissing=QUESTIONS.findIndex(q=>!(q.id in answers));
+ const migrated=raw.edition!==EDITION;
+ const page=migrated?(firstMissing<0?7:Math.floor(firstMissing/PAGE_SIZE)):(Number.isInteger(raw.page)?Math.max(0,Math.min(7,raw.page)):0);
+ return {edition:EDITION,answers,scenes,page,finished:raw.finished===true&&Object.keys(answers).length===QUESTIONS.length};
 }

@@ -18,7 +18,7 @@ export async function createGameApi({directory,person,now=Date.now}) {
   return {day,items:ranked.slice(0,20),total:rows.length,mine,gap:mine&&rows.length>=20?Math.max(0,rows[19].state.score-mine.score):null,updatedAt:new Date(now()).toISOString()};
  }
  function broadcast(){for(const res of streams.keys())res.write('event: change\ndata: {}\n\n');}
- return async({req,res,url,body,user,admin,send,requireUser,throttle})=>{
+ const handle=async({req,res,url,body,user,admin,send,requireUser,throttle})=>{
   const route=url.pathname;
   if(!route.startsWith('/api/game/')&&route!=='/api/admin/game')return false;
   if(route==='/api/game/board'&&req.method==='GET'){send(res,200,leaderboard(user));return true;}
@@ -60,4 +60,5 @@ export async function createGameApi({directory,person,now=Date.now}) {
   }
   send(res,404,{error:'游戏接口不存在'});return true;
  };
+ return Object.assign(handle,{identityChanged:broadcast});
 }

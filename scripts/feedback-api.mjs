@@ -5,6 +5,15 @@ import {createGameApi} from './game-api.mjs';
 const id=()=>randomBytes(16).toString('hex'),stamp=()=>new Date().toISOString();
 const digest=s=>createHash('sha256').update(String(s)).digest('hex');
 const categories=['使用问题','功能建议','数据纠错'],statuses=['待查看','处理中','已解决','暂不支持'];
+const nicknameStarts=['灵感满格','元气在线','认真摸鱼','准点下班','快乐排班','从容开工','机智补位','温柔协作','表格达人','咖啡续航','闪光点子','淡定通关'];
+function anonymousName(publicId,used){
+ const start=randomBytes(1)[0]%nicknameStarts.length;
+ for(let i=0;i<nicknameStarts.length;i++){
+  const name=nicknameStarts[(start+i)%nicknameStarts.length]+'HR·'+publicId;
+  if(!used.has(name))return name;
+ }
+ let name;do{name='HR同学·'+randomBytes(5).toString('hex').toUpperCase();}while(used.has(name));return name;
+}
 export async function createFeedbackApi({directory=path.resolve('.local'),password=process.env.HR_ADMIN_PASSWORD,publicOrigin=process.env.HR_PUBLIC_ORIGIN}={}){
  await mkdir(directory,{recursive:true});
  if(!password){const file=path.join(directory,'admin-password.txt');try{password=(await readFile(file,'utf8')).trim();}catch(e){if(e.code!=='ENOENT')throw e;password=randomBytes(24).toString('base64url');await writeFile(file,password,{mode:0o600,flag:'wx'});}console.log('本地留言管理密码保存在 '+file+'；请勿提交或分享此文件。');}
@@ -12,6 +21,11 @@ export async function createFeedbackApi({directory=path.resolve('.local'),passwo
  try{const old=JSON.parse(await readFile(file,'utf8'));db=Array.isArray(old)?{version:2,items:old.map(x=>({...x,author:null,category:'使用问题',status:'待查看',likes:[],reports:[],replies:x.replies.map(r=>({...r,id:id(),author:null,role:'admin',hidden:false,reports:[]}))})),users:[],events:[]}:old;if(db.version!==2||!['items','users','events'].every(k=>Array.isArray(db[k])))throw Error('留言数据格式错误');}catch(e){if(e.code!=='ENOENT')throw e;}
  const sessions=new Map(),limits=new Map();let queue=Promise.resolve();
  const save=fn=>{const task=queue.then(async()=>{const next=structuredClone(db),result=fn(next);await writeFile(file+'.tmp',JSON.stringify(next,null,2),{mode:0o600});await rename(file+'.tmp',file);db=next;return result;});queue=task.catch(()=>{});return task;};
+ // Upgrade only the shared legacy default; keep identity credentials, history and chosen names.
+ if(db.users.some(u=>u.nameKind!=='custom'&&(!u.name||u.name==='认真工作的HR')))await save(next=>{
+  const used=new Set(next.users.map(u=>u.name));
+  for(const u of next.users)if(u.nameKind!=='custom'&&(!u.name||u.name==='认真工作的HR')){u.name=anonymousName(u.publicId,used);u.nameKind='generated';used.add(u.name);}
+ });
  const send=(res,status,data,headers={})=>{res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff',...headers});res.end(JSON.stringify(data));};
  const limited=(key,max)=>{const now=Date.now();for(const [k,v]of limits)if(now-v.start>300000)limits.delete(k);const l=limits.get(key)||{start:now,count:0};l.count++;limits.set(key,l);return l.count>max;};
  const text=(value,max=1000)=>{if(typeof value!=='string'||value.trim().length<2||value.trim().length>max)throw Error('内容需为2—'+max+'个字符');return value.trim();};
@@ -44,9 +58,9 @@ export async function createFeedbackApi({directory=path.resolve('.local'),passwo
    }
    if(url.pathname==='/api/admin/logout'&&req.method==='POST'){sessions.delete(session);send(res,200,{ok:true},{'Set-Cookie':cookie('hr_admin','',0)});return true;}
    if(url.pathname==='/api/identity'&&req.method==='POST'){
-    if(user){if(body.name!==undefined){const name=text(body.name,18);if(/官方|管理员|客服/.test(name))throw Error('昵称不能包含官方身份称呼');throttle('rename',10);await save(next=>{next.users.find(u=>u.id===user.id).name=name;});}send(res,200,{identity:person(user.id)});return true;}
+    if(user){if(body.name!==undefined){const name=text(body.name,18);if(/官方|管理员|客服/.test(name))throw Error('昵称不能包含官方身份称呼');throttle('rename',10);await save(next=>{if(next.users.some(u=>u.id!==user.id&&u.name===name))throw Error('这个昵称已被使用，换一个试试');const target=next.users.find(u=>u.id===user.id);target.name=name;target.nameKind='custom';});game.identityChanged();}send(res,200,{identity:person(user.id)});return true;}
     if(limited('identity:'+(req.trialClientIp||req.socket.remoteAddress),20)){send(res,429,{error:'创建身份太频繁，请稍后再试'});return true;}
-    const token=randomBytes(32).toString('base64url');const result=await save(next=>{if(next.users.length>=50000)throw Error('服务容量已满，请联系管理员');let publicId;do{publicId=randomBytes(4).toString('hex').toUpperCase();}while(next.users.some(u=>u.publicId===publicId));const u={id:id(),publicId,name:'认真工作的HR',tokenHash:digest(token),createdAt:stamp()};next.users.push(u);return u;});send(res,201,{identity:{id:result.publicId,name:result.name}},{'Set-Cookie':cookie('hr_anon',token,31536000)});return true;
+    const token=randomBytes(32).toString('base64url');const result=await save(next=>{if(next.users.length>=50000)throw Error('服务容量已满，请联系管理员');let publicId;do{publicId=randomBytes(4).toString('hex').toUpperCase();}while(next.users.some(u=>u.publicId===publicId));const u={id:id(),publicId,name:anonymousName(publicId,new Set(next.users.map(u=>u.name))),nameKind:'generated',tokenHash:digest(token),createdAt:stamp()};next.users.push(u);return u;});send(res,201,{identity:{id:result.publicId,name:result.name}},{'Set-Cookie':cookie('hr_anon',token,31536000)});return true;
    }
    if(url.pathname==='/api/me'&&req.method==='GET'){
     if(url.searchParams.get('summary')==='1'){send(res,200,{unread:user?visibleEvents(user.id).filter(e=>!e.read).length:0});return true;}

@@ -1,4 +1,4 @@
-import {EDITION,AXES,CHAPTERS,QUESTIONS,SCENES,scoreAnswers,funDetails,restoreDraft} from './personality-engine.js';
+import {EDITION,PAGE_SIZE,AXES,CHAPTERS,QUESTIONS,SCENES,scoreAnswers,funDetails,restoreDraft,restoreResult} from './personality-engine.js';
 const root=document.querySelector('#personality-app');
 const KEY='hr-personality-draft',WORKSPACE='hr-workspace-v1';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -21,7 +21,7 @@ function actions(){root.querySelectorAll('[data-action]').forEach(el=>el.onclick
  if(action==='edit'){draft.finished=false;draft.page=0;persist();showPage();}
 });}
 function showIntro(){
- root.innerHTML=`<section class="personality-welcome"><div class="personality-welcome-copy"><span class="personality-kicker">MEET YOUR EVERYDAY SELF</span><h2 data-focus tabindex="-1">工作有很多角色，<br>你是哪一种<span>有趣的自己？</span></h2><p>从茶水间聊到周末出逃，顺着第一感觉，走一趟小小的性格探索。</p><div class="personality-facts"><span>48 道情境题</span><span>4 个主题章节</span><span>3 个趣味彩蛋</span></div><div class="personality-start-actions">${count()?`<button class="button primary" data-action="resume">${draft.finished?'查看上次结果':`继续探索 · 已答 ${count()} / 48 题`}</button><button class="button" data-action="start">重新开始</button>`:'<button class="button primary" data-action="start">出发，认识一下自己 →</button>'}</div><p class="personality-small">预计 6—8 分钟 · 免费查看完整结果 · 无需填写姓名</p></div><div class="personality-poster" aria-hidden="true"><div class="personality-orbit"></div><span class="personality-stamp">HELLO, YOU</span><div class="personality-letter-grid"><span>E <small>or I</small></span><span>N <small>or S</small></span><span>F <small>or T</small></span><span>P <small>or J</small></span></div><p>没有标准答案<br>每一种偏好，都有自己的光</p><i class="personality-star">✦</i></div></section><div class="personality-chapters">${CHAPTERS.map(c=>`<div><small>CHAPTER ${c.mark}</small><strong>${c.name}</strong></div>`).join('')}</div><p class="personality-how">按你平时的自然习惯回答，不必选“更像理想员工”的答案。这里没有好坏，也不需要表现完美。</p>`;
+ root.innerHTML=`<section class="personality-welcome"><div class="personality-welcome-copy"><span class="personality-kicker">MEET YOUR EVERYDAY SELF</span><h2 data-focus tabindex="-1">工作有很多角色，<br>你是哪一种<span>有趣的自己？</span></h2><p>从茶水间聊到周末出逃，顺着第一感觉，走一趟小小的性格探索。</p><div class="personality-facts"><span>${QUESTIONS.length} 道情境题</span><span>4 个主题章节</span><span>3 个趣味彩蛋</span></div><div class="personality-start-actions">${count()?`<button class="button primary" data-action="resume">${draft.finished?'查看上次结果':`继续探索 · 已答 ${count()} / ${QUESTIONS.length} 题`}</button><button class="button" data-action="start">重新开始</button>`:'<button class="button primary" data-action="start">出发，认识一下自己 →</button>'}</div><p class="personality-small">预计 4—6 分钟 · 免费查看完整结果 · 无需填写姓名</p></div><div class="personality-poster" aria-hidden="true"><div class="personality-orbit"></div><span class="personality-stamp">HELLO, YOU</span><div class="personality-letter-grid"><span>E <small>or I</small></span><span>N <small>or S</small></span><span>F <small>or T</small></span><span>P <small>or J</small></span></div><p>没有标准答案<br>每一种偏好，都有自己的光</p><i class="personality-star">✦</i></div></section><div class="personality-chapters">${CHAPTERS.map(c=>`<div><small>CHAPTER ${c.mark}</small><strong>${c.name}</strong></div>`).join('')}</div><p class="personality-how">按你平时的自然习惯回答，不必选“更像理想员工”的答案。这里没有好坏，也不需要表现完美。</p>`;
  actions();
 }
 function startNew(){
@@ -29,13 +29,13 @@ function startNew(){
  draft=blank();saved=false;persist();showPage();
 }
 function showPage(){
- const chapter=CHAPTERS[Math.floor(draft.page/2)],start=draft.page*6;
- root.innerHTML=`<section class="personality-play"><header class="personality-play-head"><div><span class="personality-kicker">CHAPTER ${chapter.mark} / 04</span><h2 tabindex="-1" data-focus>${chapter.name}</h2><p>${chapter.line}</p></div><span class="personality-page-count">${draft.page+1}<small> / 8 组</small></span></header><div class="personality-progress-meta"><span id="personality-progress-text">已答 ${count()} / 48</span><span>选你自然会做的那一个</span></div><progress id="personality-progress" value="${count()}" max="48" aria-label="答题进度"></progress><form id="personality-form" novalidate>${QUESTIONS.slice(start,start+6).map((q,i)=>`<fieldset class="personality-question" id="${q.id}"><legend><span>${String(start+i+1).padStart(2,'0')}</span>${esc(q.text)}</legend><div class="personality-options">${[[2,'很符合'],[1,'比较符合'],[0,'说不准'],[-1,'不太符合'],[-2,'很不符合']].map(([value,label])=>`<label><input type="radio" name="${q.id}" value="${value}" aria-label="${label}" ${draft.answers[q.id]===value?'checked':''} required><span>${({比较符合:"较符合",不太符合:"较不符",很不符合:"很不符"})[label]||label}</span></label>`).join('')}</div></fieldset>`).join('')}</form><p class="personality-error" id="personality-error" role="alert"></p><div class="personality-page-actions"><button class="button" data-action="back" ${draft.page===0?'disabled':''}>← 上一组</button><button class="button primary" data-action="next">${draft.page===7?'揭晓我的性格卡 ✦':'下一组 →'}</button></div><p class="personality-small" id="personality-storage">${storageOK?'进度仅在本机保留，随时回来继续。':'当前无法保存进度；请保持此页面打开，关闭后可能需要重新作答。'}</p></section>`;
+ const chapter=CHAPTERS[Math.floor(draft.page/2)],start=draft.page*PAGE_SIZE;
+ root.innerHTML=`<section class="personality-play"><header class="personality-play-head"><div><span class="personality-kicker">CHAPTER ${chapter.mark} / 04</span><h2 tabindex="-1" data-focus>${chapter.name}</h2><p>${chapter.line}</p></div><span class="personality-page-count">${draft.page+1}<small> / 8 组</small></span></header><div class="personality-progress-meta"><span id="personality-progress-text">已答 ${count()} / ${QUESTIONS.length}</span><span>选你自然会做的那一个</span></div><progress id="personality-progress" value="${count()}" max="${QUESTIONS.length}" aria-label="答题进度"></progress><form id="personality-form" novalidate>${QUESTIONS.slice(start,start+PAGE_SIZE).map((q,i)=>`<fieldset class="personality-question" id="${q.id}"><legend><span>${String(start+i+1).padStart(2,'0')}</span>${esc(q.text)}</legend><div class="personality-options">${[[2,'很符合'],[1,'比较符合'],[0,'说不准'],[-1,'不太符合'],[-2,'很不符合']].map(([value,label])=>`<label><input type="radio" name="${q.id}" value="${value}" aria-label="${label}" ${draft.answers[q.id]===value?'checked':''} required><span>${({比较符合:"较符合",不太符合:"较不符",很不符合:"很不符"})[label]||label}</span></label>`).join('')}</div></fieldset>`).join('')}</form><p class="personality-error" id="personality-error" role="alert"></p><div class="personality-page-actions"><button class="button" data-action="back" ${draft.page===0?'disabled':''}>← 上一组</button><button class="button primary" data-action="next">${draft.page===7?'揭晓我的性格卡 ✦':'下一组 →'}</button></div><p class="personality-small" id="personality-storage">${storageOK?'进度仅在本机保留，随时回来继续。':'当前无法保存进度；请保持此页面打开，关闭后可能需要重新作答。'}</p></section>`;
  root.querySelector('form').onsubmit=e=>e.preventDefault();
  root.querySelector('form').onchange=e=>{
   if(!QUESTIONS.some(q=>q.id===e.target.name))return;
   draft.answers[e.target.name]=Number(e.target.value);persist();
-  document.querySelector('#personality-progress-text').textContent=`已答 ${count()} / 48`;
+  document.querySelector('#personality-progress-text').textContent=`已答 ${count()} / ${QUESTIONS.length}`;
   document.querySelector('#personality-progress').value=count();
   e.target.closest('fieldset').classList.remove('personality-unanswered');
   document.querySelector('#personality-error').textContent='';
@@ -43,7 +43,7 @@ function showPage(){
  actions();focusHeading();
 }
 function nextPage(){
- const missing=QUESTIONS.slice(draft.page*6,draft.page*6+6).find(q=>!(q.id in draft.answers));
+ const missing=QUESTIONS.slice(draft.page*PAGE_SIZE,draft.page*PAGE_SIZE+PAGE_SIZE).find(q=>!(q.id in draft.answers));
  if(missing){document.querySelector('#personality-error').textContent='这一组还有题目没选，按第一感觉回答就好。';const field=document.getElementById(missing.id);field.classList.add('personality-unanswered');field.querySelector('input').focus();return;}
  if(draft.page===7){draft.finished=true;persist();saved=false;showResult(scoreAnswers(draft.answers),draft.scenes);return;}
  if(draft.page%2===1){showScene(Math.floor(draft.page/2));return;}
@@ -106,10 +106,7 @@ function openSaved(){
   const state=JSON.parse(localStorage.getItem(WORKSPACE)||'null');
   const record=state?.records?.find(r=>r.id===id&&r.toolId==='mbti');const stored=record?.personality;
   if(!stored||!Array.isArray(stored.axes)||stored.axes.length!==4)throw Error();
-  const answers={};
-  // Reconstruct a score-equivalent set of responses from the saved sums, not raw answers.
-  AXES.forEach(axis=>{const sum=stored.axes.find(a=>a.id===axis.id)?.sum;if(!Number.isInteger(sum)||Math.abs(sum)>24)throw Error();let remaining=Math.abs(sum);QUESTIONS.filter(q=>q.axis===axis.id).forEach(q=>{const value=Math.min(2,remaining)*Math.sign(sum);answers[q.id]=value*q.direction;remaining-=Math.abs(value);});});
-  const result=scoreAnswers(answers);if(result.code!==stored.code)throw Error();
+  const result=restoreResult(record);
   const cleanScenes=restoreDraft({edition:EDITION,answers:{},scenes:stored.scenes})?.scenes||{};
   showResult(result,cleanScenes,true);return true;
  }catch{showIntro();const p=document.createElement('p');p.className='personality-small';p.textContent='这条本机记录暂时无法读取，可以开始一次新的探索。';root.prepend(p);return true;}

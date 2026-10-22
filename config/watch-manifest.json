@@ -107,7 +107,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "a2f8eec4278126349280095db0e24b788720437a22d6d90aecf312294c5fb2a8"
+      "sha256": "f520927431941a922cbe1541bb2dcca74edecfda85a480972a05d4ada02c95b2"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -223,7 +223,7 @@
     },
     {
       "path": "content/seo/pages/mbti.md",
-      "sha256": "ed7db5e228b37b451479aa494e4cb8e5520afee1b68b1e23493aec954352b66d"
+      "sha256": "9f14756362812dca12e7253499b93a59612238aaa373e2545f395921fa43a482"
     },
     {
       "path": "content/seo/pages/official-sites.md",
@@ -343,7 +343,7 @@
     },
     {
       "path": "public/assets/personality-engine.js",
-      "sha256": "4262ed965f493ba6e3065fbfe7c8dba62f27d13f77b10c66918ae40326a39023"
+      "sha256": "ad0cb2552251ee34d93779bc5bb0262da5dccf79abc81bb806ecf37eba958c61"
     },
     {
       "path": "public/assets/personality.css",
@@ -351,7 +351,7 @@
     },
     {
       "path": "public/assets/personality.js",
-      "sha256": "119bfe49b6a8eb6ebf55ff9e5ebb0ad0b35740326b51d3ba213417e0292872fa"
+      "sha256": "88c1dc3f6acebcecafea06215511dbc3c6fac9b3cdd08bb51398a3bd0a0a7075"
     },
     {
       "path": "public/assets/policies.js",
@@ -407,7 +407,7 @@
     },
     {
       "path": "public/assets/tool-catalog.js",
-      "sha256": "7b7e090a7b9c4db21ce16c7fcf7821fc73b7c74a7363a961d61e96f4b31d3b6e"
+      "sha256": "1ef523898e719dd8d2f5fd4eeb37065c4fe51fec98ee62abbec4cbba03f93592"
     },
     {
       "path": "public/assets/typography.css",
@@ -763,7 +763,7 @@
     },
     {
       "path": "scripts/build_personality.py",
-      "sha256": "3dff3a00ae4d0393854c607a8ab610a250a757638cb48e70255146c4b64ad54d"
+      "sha256": "80a8dae91572da20e5060a21372d67c70e00fc3eb1840bfa7de10aa61874ba68"
     },
     {
       "path": "scripts/build_policies.py",
@@ -835,7 +835,7 @@
     },
     {
       "path": "scripts/feedback-api.mjs",
-      "sha256": "0f28f65c573215ada5209db969fd5b9cfd986ee99758ce7af1a4cc293e69154e"
+      "sha256": "beefdfb3c17e17eef47382b80c839f50244dfce99e2126ea01f67098036346e5"
     },
     {
       "path": "scripts/finish_hr_workbooks.py",
@@ -843,7 +843,7 @@
     },
     {
       "path": "scripts/game-api.mjs",
-      "sha256": "a78a8ad8b704d1f170f21a38851a991ba58136564e436b57e9d354c6c14f4ef0"
+      "sha256": "97b58f50196f5f67c4ef27e69b2f02c7f9507c522e97ff49e6fef9bedab3e15d"
     },
     {
       "path": "scripts/hr_workbook_overviews.mjs",

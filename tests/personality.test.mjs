@@ -1,14 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {EDITION,AXES,QUESTIONS,TYPES,SCENES,scoreAnswers,restoreDraft,funDetails} from '../public/assets/personality-engine.js';
+import {EDITION,AXES,QUESTIONS,TYPES,SCENES,scoreAnswers,restoreDraft,restoreResult,funDetails} from '../public/assets/personality-engine.js';
 import {personalityTool,tools} from '../public/assets/tool-catalog.js';
 import {workspaceView} from '../public/assets/workspace-view.js';
 
-test('48 original items keep dimensions and wording directions balanced in each chapter',()=>{
- assert.equal(QUESTIONS.length,48);assert.equal(new Set(QUESTIONS.map(q=>q.id)).size,48);
- assert.equal(new Set(QUESTIONS.map(q=>q.text)).size,48);
- for(const axis of AXES){const items=QUESTIONS.filter(q=>q.axis===axis.id);assert.equal(items.length,12);assert.equal(items.filter(q=>q.direction===1).length,6);assert.equal(items.filter(q=>q.direction===-1).length,6);}
- for(let chapter=0;chapter<4;chapter++)for(const axis of AXES)assert.equal(QUESTIONS.slice(chapter*12,chapter*12+12).filter(q=>q.axis===axis.id).length,3);
+test('32 original items keep dimensions and wording directions balanced in each chapter',()=>{
+ assert.equal(QUESTIONS.length,32);assert.equal(new Set(QUESTIONS.map(q=>q.id)).size,32);
+ assert.equal(new Set(QUESTIONS.map(q=>q.text)).size,32);
+ for(const axis of AXES){const items=QUESTIONS.filter(q=>q.axis===axis.id);assert.equal(items.length,8);assert.equal(items.filter(q=>q.direction===1).length,4);assert.equal(items.filter(q=>q.direction===-1).length,4);}
+ for(let chapter=0;chapter<4;chapter++)for(const axis of AXES)assert.equal(QUESTIONS.slice(chapter*8,chapter*8+8).filter(q=>q.axis===axis.id).length,2);
 });
 test('all sixteen direction combinations score correctly including reverse-keyed answers',()=>{
  assert.equal(Object.keys(TYPES).length,16);
@@ -25,7 +25,7 @@ test('uniform agreement and neutral answers do not fabricate a type or a percent
 test('missing, string, non-finite, fractional and out-of-range answers are rejected',()=>{
  const good=Object.fromEntries(QUESTIONS.map(q=>[q.id,0]));
  for(const value of [undefined,null,'1',NaN,Infinity,0.5,3,-3])assert.throws(()=>scoreAnswers({...good,q1:value}));
- const missing={...good};delete missing.q48;assert.throws(()=>scoreAnswers(missing));
+ const missing={...good};delete missing[QUESTIONS.at(-1).id];assert.throws(()=>scoreAnswers(missing));
 });
 test('scene choices are optional and never affect scores',()=>{
  assert.equal(SCENES.length,3);const answers=Object.fromEntries(QUESTIONS.map(q=>[q.id,q.direction]));
@@ -40,4 +40,24 @@ test('catalog and workspace treat the test as a quiz without a batch calculation
  assert.equal(tools.filter(t=>t.id==='mbti').length,1);assert.equal(personalityTool.kind,'quiz');
  const markup=workspaceView({favorites:['mbti'],recent:['mbti'],records:[{id:'demo',at:'2026-10-18T12:00:00Z',type:'single',toolId:'mbti',title:'性格探索',result:{value:'ENFP',unit:''}}]},tools,r=>r.value);
  assert.match(markup,/MBTI趣味测试/);assert.match(markup,/趣味测试/);assert.match(markup,/tools\/mbti\/\?record=demo/);assert.doesNotMatch(markup,/支持批量/);
+});
+
+test('earlier progress keeps answers for retained questions and resumes at the first gap',()=>{
+ const old={edition:'hr-personality-1',answers:Object.fromEntries(Array.from({length:18},(_,i)=>['q'+(i+1),1])),page:3,scenes:{0:1},finished:false};
+ const restored=restoreDraft(old);
+ assert.equal(Object.keys(restored.answers).length,14);assert.equal(restored.page,3);
+ assert.equal(restored.answers.q9,undefined);assert.equal(restored.answers.q13,1);assert.deepEqual(restored.scenes,{0:1});
+ const complete=restoreDraft({...old,answers:Object.fromEntries(Array.from({length:48},(_,i)=>['q'+(i+1),0])),finished:true});
+ assert.equal(complete.finished,true);assert.equal(Object.keys(complete.answers).length,32);
+});
+
+test('saved results retain the original scale after shortening the questionnaire',()=>{
+ for(const [edition,max]of [['hr-personality-1',24],[EDITION,16]]){
+  const record={result:{version:edition},personality:{code:'ESTJ',axes:AXES.map(a=>({id:a.id,sum:max}))}};
+  const result=restoreResult(record);assert.equal(result.code,'ESTJ');assert.ok(result.axes.every(a=>a.leftPercent===100));
+  const halfway=structuredClone(record);halfway.personality.axes.forEach(a=>a.sum=max/2);
+  assert.ok(restoreResult(halfway).axes.every(a=>a.leftPercent===75));
+  assert.throws(()=>restoreResult({...record,result:{version:'unknown'}}));
+  const corrupt=structuredClone(record);corrupt.personality.axes[0].sum=max+1;assert.throws(()=>restoreResult(corrupt));
+ }
 });
