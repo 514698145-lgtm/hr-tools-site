@@ -50,6 +50,14 @@
       "sha256": "9a0fddfd1943b6dcd821a709622c596db0523e7de698fd377b547d1c2a6f6680"
     },
     {
+      "path": "content/articles/article15.md",
+      "sha256": "6455a2cbba53a2b88c5ec697527811b6f570aaecc32d45c6edbeb1125e1caf22"
+    },
+    {
+      "path": "content/articles/article16.md",
+      "sha256": "efc9641c7c3e1d11a3a3984c12ca1255c8d88f76e14f24118c52efe9f4933ea6"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
     },
@@ -931,6 +939,18 @@
     },
     {
       "path": "content/articles/article14.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article15.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article16.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4678,6 +4698,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://hrss.yn.gov.cn/jyj/NewsView.aspx?ClassID=1079&NewsID=66194",
+      "files": [
+        "content/articles/article15.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://hsa.gd.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -5051,6 +5079,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202610/t20261020_6036468.shtml",
+      "files": [
+        "content/articles/article16.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202404/t20240423_5167972.shtml",
       "files": [
         "content/policies/work-injury-deadline.md"
@@ -5275,6 +5311,14 @@
       ],
       "discovery": false,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261013_4899399.html",
+      "files": [
+        "content/articles/article15.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://www.beijing.gov.cn/zhengce/gwywj/201001/t20100101_781119.html",
@@ -5615,6 +5659,22 @@
       "files": [
         "content/policies/annual-leave-proration.md",
         "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/gfxwj/gfxwj2026/202610/t20261021_197540.html",
+      "files": [
+        "content/articles/article16.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.most.gov.cn/xxgk/xinxifenlei/fdzdgknr/fgzc/zcjd/202610/t20261021_197541.html",
+      "files": [
+        "content/articles/article16.md"
       ],
       "discovery": false,
       "authority": "official-domain"
