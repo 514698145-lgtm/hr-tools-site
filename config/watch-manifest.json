@@ -58,6 +58,14 @@
       "sha256": "efc9641c7c3e1d11a3a3984c12ca1255c8d88f76e14f24118c52efe9f4933ea6"
     },
     {
+      "path": "content/articles/article17.md",
+      "sha256": "938be295c939cc7929ae632dc74aeb304c35acab3ee4c0b93b449e290ee6d6f0"
+    },
+    {
+      "path": "content/articles/article18.md",
+      "sha256": "77a4295fdb7091c43188edbc4520af81cc8bdd44b7bd08e14348e3311d1490be"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
     },
@@ -951,6 +959,18 @@
     },
     {
       "path": "content/articles/article16.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article17.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article18.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4633,6 +4653,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://gxj.wuhu.gov.cn/xwzx/tzgg/8962555.html",
+      "files": [
+        "content/articles/article18.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://hkhrtool.com/hr-templates/exit-interview-form",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -4981,6 +5009,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rsj.beijing.gov.cn/zmsxw/xwsl/202610/t20261022_4914366.html",
+      "files": [
+        "content/articles/article17.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rsj.gz.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -5034,6 +5070,14 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.sh.gov.cn/dzb/rsj/2026-01-29/2026-01-29.html",
+      "files": [
+        "content/articles/article17.md"
+      ],
+      "discovery": false,
       "authority": "official-domain"
     },
     {
@@ -5313,6 +5357,14 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/bmjy/202610/t20261015_4903055.html",
+      "files": [
+        "content/articles/article17.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261013_4899399.html",
       "files": [
         "content/articles/article15.md"
@@ -5463,6 +5515,14 @@
       "url": "https://www.gz.gov.cn/gfxwj/sbmgfxwj/gzsylbzj/content/post_8689834.html",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gzw.sh.gov.cn/shgzw_xwzx_gzyw/20261019/3a10e7d3024d4836985939550c67fd71.html",
+      "files": [
+        "content/articles/article18.md"
       ],
       "discovery": false,
       "authority": "official-domain"
