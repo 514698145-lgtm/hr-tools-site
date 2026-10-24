@@ -66,8 +66,16 @@
       "sha256": "77a4295fdb7091c43188edbc4520af81cc8bdd44b7bd08e14348e3311d1490be"
     },
     {
+      "path": "content/articles/article19.md",
+      "sha256": "fd2eb3b9d06b06a0e23c6a26f9ec9df5a6960534bfb493f9f318d3bce036ce23"
+    },
+    {
       "path": "content/articles/article2.md",
       "sha256": "bc20539b906c7e33a7e63150ec12421e9aad72c6ee6f0309a36fc3ab65dbf4f3"
+    },
+    {
+      "path": "content/articles/article20.md",
+      "sha256": "08822f73ba7debc737d99cb02da22c6b57a18159e77f8d0a1f790e7be5b1e3ae"
     },
     {
       "path": "content/articles/article3.md",
@@ -976,7 +984,19 @@
       "reviewAfter": ""
     },
     {
+      "path": "content/articles/article19.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/article2.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article20.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5131,6 +5151,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202610/t20261023_6038558.shtml",
+      "files": [
+        "content/articles/article19.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202404/t20240423_5167972.shtml",
       "files": [
         "content/policies/work-injury-deadline.md"
@@ -5569,6 +5597,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.hunan.gov.cn/topic/ldzs/202608/t20260814_34044807.html",
+      "files": [
+        "content/articles/article20.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.jiangmen.gov.cn/bmpd/jmsylbzj/zwgk/zcfg/bjwj/content/post_3413909.html",
       "files": [
         "public/assets/city-policies.js"
@@ -5615,6 +5651,14 @@
       ],
       "discovery": false,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.kaiping.gov.cn/kpsrlzyhshbzj/zwgk/zcjd/content/post_3513723.html",
+      "files": [
+        "content/articles/article19.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://www.lfzfgjj.net/website/notice-announ-detail.html?seqno=9071&itemId=09",
@@ -5847,6 +5891,7 @@
     {
       "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html",
       "files": [
+        "content/articles/article19.md",
         "content/policies/probation-dismissal.md",
         "content/policies/probation-limit.md",
         "content/policies/severance-basis.md"
@@ -6295,6 +6340,14 @@
       "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zfgjj.yzcity.gov.cn/gjj/0202/202610/8a8c28ed250b44489e6be3ef613347b7.shtml",
+      "files": [
+        "content/articles/article20.md"
       ],
       "discovery": false,
       "authority": "official-domain"
