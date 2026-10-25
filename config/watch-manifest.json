@@ -82,6 +82,14 @@
       "sha256": "0b47d6edd3b90fc2b4f75fbe7729a51edd8fa5c30cb29ae9ee1fe18424c1728a"
     },
     {
+      "path": "content/articles/article22.md",
+      "sha256": "8ba4eb1227ebde7d66d48beff5401f652895a2229e324bced918f00518fcf0ad"
+    },
+    {
+      "path": "content/articles/article23.md",
+      "sha256": "3a7923de58a623e808fa178af9620fdd805a29ca0eefe4f1be931eeb89f7cf06"
+    },
+    {
       "path": "content/articles/article3.md",
       "sha256": "acee8728718608dc6db9752a9e1f70bc49a165b312784411f67b599ddc732d25"
     },
@@ -1067,6 +1075,18 @@
     },
     {
       "path": "content/articles/article21.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article22.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article23.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4499,6 +4519,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://app.www.gov.cn/govdata/gov/202112/29/480149/article.html",
+      "files": [
+        "content/articles/article23.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://app.www.gov.cn/govdata/gov/202308/31/506746/article.html",
       "files": [
         "content/policies/child-education-deduction.md",
@@ -4818,6 +4846,22 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.hlj.gov.cn/hrss/c111750/202303/c00_31554396.shtml",
+      "files": [
+        "content/articles/article23.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.hlj.gov.cn/hrss/c111752/202303/c00_31554397.shtml",
+      "files": [
+        "content/articles/article23.md"
+      ],
+      "discovery": false,
       "authority": "official-domain"
     },
     {
@@ -5164,6 +5208,14 @@
       "url": "https://rsj.beijing.gov.cn/zmsxw/xwsl/202610/t20261022_4914366.html",
       "files": [
         "content/articles/article17.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.changzhou.gov.cn/html/czrsj/2026/HBPDPLJC_1023/49963.html",
+      "files": [
+        "content/articles/article22.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5632,6 +5684,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.dxal.gov.cn/dxal/c100024/202610/c13_347857.shtml",
+      "files": [
+        "content/articles/article23.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.dxal.gov.cn/dxal/c100109/202610/c13_347100.shtml",
       "files": [
         "content/articles/article8.md"
@@ -5820,6 +5880,14 @@
       "url": "https://www.lzxq.gov.cn/system/2026/07/23/031405658.shtml",
       "files": [
         "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202610/t20261024_1184583.shtml",
+      "files": [
+        "content/articles/article22.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6024,6 +6092,7 @@
       "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_0abfdd261c03417b949df19d869add8d.html",
       "files": [
         "content/articles/article19.md",
+        "content/articles/article22.md",
         "content/policies/probation-dismissal.md",
         "content/policies/probation-limit.md",
         "content/policies/severance-basis.md"
