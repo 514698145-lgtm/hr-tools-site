@@ -1,0 +1,42 @@
+[
+  {
+    "id": "beijing-monthly",
+    "toolId": "five-insurances-housing-fund",
+    "title": "月缴费，个人与公司分开看",
+    "context": "北京 · 2026-10 · 普通企业职工",
+    "assumptions": "虚构工资10,000元；医保、公积金工资相同。示例单位公积金比例5%、工伤费率0.2%，实际使用须替换为单位核定值。",
+    "input": {"city":"北京","month":"2026-10","wage":10000,"fundRate":5,"injuryRate":0.2},
+    "explanation": "各项基数先按本市本期上下限保底、封顶，再分别计算个人和公司缴费；固定附加费另计。",
+    "metrics": ["个人缴费合计","公司缴费合计"]
+  },
+  {
+    "id": "salary-withholding",
+    "toolId": "income-tax",
+    "title": "累计预扣，看清本期税额",
+    "context": "居民个人工资薪金 · 一般累计预扣",
+    "assumptions": "虚构累计收入120,000元，累计免税收入与各项扣除60,000元，累计已预扣及减免税额均为0。扣除资格已另行确认。",
+    "input": {"taxMode":"salary","income":120000,"deduction":60000,"relief":0,"paid":0},
+    "explanation": "累计应纳税所得额60,000元，按适用预扣率及速算扣除数计算，再减去累计已预扣税额。",
+    "metrics": ["累计应纳税所得额","适用预扣率","速算扣除数"]
+  },
+  {
+    "id": "annual-bonus",
+    "toolId": "income-tax",
+    "title": "全年一次性奖金，先确认资格",
+    "context": "2026年 · 已确认奖金资格 · 本年未用单独计税",
+    "assumptions": "虚构全年一次性奖金36,000元，已确认符合条件，本年未使用奖金单独计税。本例不代表单独计税一定比并入工资更划算。",
+    "input": {"taxMode":"bonus","year":2026,"bonus":36000,"eligible":"yes","priorMethod":"none"},
+    "explanation": "以奖金除以12确定适用税率和速算扣除数，再按整笔奖金计算。已有收入与扣除不同时，可切换全年对比或发放前分配场景。",
+    "metrics": ["适用税率","速算扣除数"]
+  },
+  {
+    "id": "severance-n",
+    "toolId": "severance",
+    "title": "已确认适用N，核算税前金额",
+    "context": "仅演示经济补偿金额 · 不判断是否应支付",
+    "assumptions": "虚构工作期间2023-01-01至2026-04-30（含当日），平均应得月工资10,000元；当地平均工资12,000元、最低工资2,500元均为虚构输入，不代表任何城市标准。",
+    "input": {"formula":"N","start":"2023-01-01","end":"2026-04-30","average":10000,"localAverage":12000,"minimum":2500},
+    "explanation": "满3年加不足6个月，折算3.5个月；本例平均工资未超过所填当地平均工资3倍，按10,000×3.5计算。",
+    "metrics": ["适用补偿月数","补偿月工资基数"]
+  }
+]

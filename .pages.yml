@@ -173,3 +173,54 @@ content:
     fields:
       - { name: title, label: 标题, type: string, required: true }
       - { name: body, label: 说明正文, type: rich-text }
+
+  - name: cities
+    label: 城市缴费速查（说明与适用范围）
+    type: collection
+    path: content/cities
+    format: yaml-frontmatter
+    subfolders: false
+    filename: "{fields.slug}.md"
+    fields:
+      - { name: title, label: 页面标题, type: string, required: true }
+      - { name: slug, label: 固定英文网址（发布后不修改）, type: string, required: true }
+      - name: status
+        label: 发布状态
+        type: select
+        default: draft
+        options:
+          values: [draft, published]
+      - { name: city, label: 计算器中的城市全名（须已有完整基数范围）, type: string, required: true }
+      - { name: order, label: 排序（数字越小越靠前）, type: number, default: 100 }
+      - { name: month, label: 参数展示月份（YYYY-MM）, type: string, required: true }
+      - { name: description, label: 摘要与搜索描述, type: text, required: true }
+      - { name: highlight, label: 本地关键区别, type: text, required: true }
+      - { name: scope, label: 适用对象与例外, type: text, required: true }
+      - { name: updatedAt, label: 页面说明实际修改日（YYYY-MM-DD）, type: string, required: true }
+      - { name: body, label: 说明正文（数值与官方出处由计算器参数库生成）, type: rich-text, required: true }
+
+  - name: topics
+    label: HR工作专题
+    type: collection
+    path: content/topics
+    format: yaml-frontmatter
+    subfolders: false
+    filename: "{fields.slug}.md"
+    fields:
+      - { name: title, label: 专题标题, type: string, required: true }
+      - { name: slug, label: 固定英文网址（发布后不修改）, type: string, required: true }
+      - name: status
+        label: 发布状态
+        type: select
+        default: draft
+        options:
+          values: [draft, published]
+      - { name: description, label: 摘要与搜索描述, type: text, required: true }
+      - { name: eyebrow, label: 小标题, type: string, required: true }
+      - { name: order, label: 排序（数字越小越靠前）, type: number, default: 100 }
+      - { name: updatedAt, label: 实际修改日（YYYY-MM-DD）, type: string, required: true }
+      - { name: tools, label: 工具标识, type: string, list: true }
+      - { name: policies, label: 政策知识页slug, type: string, list: true }
+      - { name: templates, label: 表格模板标识, type: string, list: true }
+      - { name: tags, label: 用于关联已发布文章的标签, type: string, list: true }
+      - { name: body, label: 专题导读, type: rich-text, required: true }

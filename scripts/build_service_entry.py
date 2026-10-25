@@ -1,7 +1,7 @@
 """Reuse the original service card below public HR content."""
 KINDS = {'home', 'tool', 'workspace', 'insights', 'insights-category', 'article',
          'policies', 'policy-detail', 'templates', 'template-detail',
-         'official-sites', 'contract-reminders', 'guide'}
+         'official-sites', 'contract-reminders', 'guide', 'city-index', 'city-detail', 'topic-index', 'topic'}
 
 
 def service_entry(kind):

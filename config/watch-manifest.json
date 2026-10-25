@@ -78,6 +78,10 @@
       "sha256": "08822f73ba7debc737d99cb02da22c6b57a18159e77f8d0a1f790e7be5b1e3ae"
     },
     {
+      "path": "content/articles/article21.md",
+      "sha256": "0b47d6edd3b90fc2b4f75fbe7729a51edd8fa5c30cb29ae9ee1fe18424c1728a"
+    },
+    {
       "path": "content/articles/article3.md",
       "sha256": "acee8728718608dc6db9752a9e1f70bc49a165b312784411f67b599ddc732d25"
     },
@@ -110,6 +114,26 @@
       "sha256": "6b1dc15d933ce18ce857c9d0aee32e9bdba96226c7b81c2e101b193b3f46a9b9"
     },
     {
+      "path": "content/cities/beijing.md",
+      "sha256": "180514096d128e5b4529ee79fae360b3fd701059e4324f21d626596d4555fffc"
+    },
+    {
+      "path": "content/cities/lianyungang.md",
+      "sha256": "c286aa73b1a7caace152a5797a30524169384be63f94c5441cd28745dab224bc"
+    },
+    {
+      "path": "content/cities/nanjing.md",
+      "sha256": "35f3549028dd7e74eb0008386482679f96428e9c7f813743ac8cfb942b16d307"
+    },
+    {
+      "path": "content/cities/shanghai.md",
+      "sha256": "7e5f7aef0db8dd36ff0759e1136a9923323c0ee33e66f916e3def15a90219b3f"
+    },
+    {
+      "path": "content/cities/wuxi.md",
+      "sha256": "714aba17ad0821bc35a72ab6df0a7c483345e61b7886b7351a8b5808802c2827"
+    },
+    {
       "path": "content/editorial.md",
       "sha256": "f2009198887b47a1e82d34956bfa6e3dafdbd00130ac589abb5cb521de43edcb"
     },
@@ -123,7 +147,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "f520927431941a922cbe1541bb2dcca74edecfda85a480972a05d4ada02c95b2"
+      "sha256": "3f8b7ce22578fa96c59a688f9219af5de5deacdaf0dc0db332fcf13ff3b9d6b5"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -274,8 +298,24 @@
       "sha256": "796c90d0a0db3207e017eb132f55500a7bd8585c0249772704f29ed212e7aa89"
     },
     {
+      "path": "content/topics/hr-templates.md",
+      "sha256": "724fdf26d16f0e34bfea2cf6cc66314340c8480eff19abcfab6c95b8b95772d0"
+    },
+    {
+      "path": "content/topics/labor-relations.md",
+      "sha256": "ad9f84f5bf626b0de044052a2ac4ab99a845ba9b35cc07d7486b532418b27762"
+    },
+    {
+      "path": "content/topics/payroll-tax.md",
+      "sha256": "7a98a900bdcddcaa8273a4268d5009bc6e2485eca6b0af949a6b5bafc291859a"
+    },
+    {
+      "path": "content/topics/social-fund.md",
+      "sha256": "48888b5616ef1b174d740519c123ad274a50d1d60e77502e67f61472877bc26c"
+    },
+    {
       "path": "public/assets/app.js",
-      "sha256": "1a238a2a22c30fd8348406cfe06063acc2830b6b20f3fdf46d58071ebe1d4ed8"
+      "sha256": "a48037888d40be319cb44ef91b59e9b47fae6f0bc25ced63be97491982e91051"
     },
     {
       "path": "public/assets/article-list.js",
@@ -320,6 +360,10 @@
     {
       "path": "public/assets/date-tools.js",
       "sha256": "46ebd55001eb3cb74d79a96ee1fb5f0d872dc863b5dfb566c3dbc0e9c64d417b"
+    },
+    {
+      "path": "public/assets/discovery.css",
+      "sha256": "1f82763bc8f09004ab9454e7f02f3d4659f331bb1499808fe5bb48aca9a3c668"
     },
     {
       "path": "public/assets/enterprise-services.css",
@@ -426,6 +470,10 @@
       "sha256": "1ef523898e719dd8d2f5fd4eeb37065c4fe51fec98ee62abbec4cbba03f93592"
     },
     {
+      "path": "public/assets/tool-presets.js",
+      "sha256": "9f32330dc13f260747038f6a9d26621db1ecad4bba4e5882f97d01b4a8a9e2db"
+    },
+    {
       "path": "public/assets/typography.css",
       "sha256": "4a78a34ce5499498e8dd8f15d5c0414501d528f9511eed6c61b59b499d085883"
     },
@@ -448,6 +496,10 @@
     {
       "path": "public/data/official-sites.json",
       "sha256": "18ee406a286ea046815e6106260ee29ec653f62c04b13cd82f6eed6537534d1c"
+    },
+    {
+      "path": "public/data/tool-examples.json",
+      "sha256": "b5c3e97192e351a74bdf53124515e0f3aba4b4a55537d55c2704f65af0357af9"
     },
     {
       "path": "public/downloads/hr-templates/access-close.xlsx",
@@ -747,7 +799,7 @@
     },
     {
       "path": "scripts/build.py",
-      "sha256": "f4617f5cab6737d4e312afdbc65a3a12389f1703cc5e81811f9174884a9e4b4a"
+      "sha256": "1a51165f59aeecfee45cef08d2aca665d2b280bbc60aefe5883f004b30df59df"
     },
     {
       "path": "scripts/build_admin.py",
@@ -756,6 +808,10 @@
     {
       "path": "scripts/build_contact.py",
       "sha256": "79adbd8c51721d2af9aca7a2afa39889b570f14754f164d38c87007bf9826bc8"
+    },
+    {
+      "path": "scripts/build_discovery.py",
+      "sha256": "79b6215db3f7f0e57fc944d2ac37ad09c1226b20650b653240fbec95d3e6d172"
     },
     {
       "path": "scripts/build_editorial_art.py",
@@ -795,7 +851,7 @@
     },
     {
       "path": "scripts/build_service_entry.py",
-      "sha256": "9576c9ba8f494238b8d1ac017ab665a2a4fb9f01f25168f877502530f2223eae"
+      "sha256": "986d8fa3867cb11b8c3f56183685e2486caefd2efcf77eda6f233207389e1d5a"
     },
     {
       "path": "scripts/build_services.py",
@@ -842,6 +898,10 @@
       "sha256": "9e7cb04a94fc5a8aadbaf9051c38f3185320b4546cd3782d312fee80f3205ae4"
     },
     {
+      "path": "scripts/export-discovery.mjs",
+      "sha256": "0af1fc51faebae70c9abb16c825bd2d43e234ea21a5235a0dd015a4fab716df5"
+    },
+    {
       "path": "scripts/export-policy-records.mjs",
       "sha256": "d00f511a60f4ee7f0a39af6f3ef1f48fcaac269b6a3c20a66c8fd0fbe46e3f33"
     },
@@ -880,6 +940,10 @@
     {
       "path": "scripts/policy-watch.mjs",
       "sha256": "760dd93cf3d3c4d9895bc4e6b228ca9c6e6e6594c46604e4b428beace58b11aa"
+    },
+    {
+      "path": "scripts/prepare_weekly_review.py",
+      "sha256": "f1786f19603280f8014065011983240a1d123cd4eb78dab1e65a5f75b0694858"
     },
     {
       "path": "scripts/render_hr_template_pages.py",
@@ -1002,6 +1066,12 @@
       "reviewAfter": ""
     },
     {
+      "path": "content/articles/article21.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/article3.md",
       "status": "published",
       "checkedAt": "",
@@ -1046,6 +1116,36 @@
     {
       "path": "content/articles/editor-example.md",
       "status": "draft",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/cities/beijing.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/cities/lianyungang.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/cities/nanjing.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/cities/shanghai.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/cities/wuxi.md",
+      "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
     },
@@ -1292,6 +1392,30 @@
     {
       "path": "content/seo/site.md",
       "status": null,
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/topics/hr-templates.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/topics/labor-relations.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/topics/payroll-tax.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/topics/social-fund.md",
+      "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
     }
@@ -4997,6 +5121,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rsj.ankang.gov.cn/Content-2951606.html",
+      "files": [
+        "content/articles/article21.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rsj.beijing.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -6240,9 +6372,25 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://www.zuoli.com/civilization_detail.aspx?id=2212&k1=&k2=17",
+      "files": [
+        "content/articles/article21.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
       "url": "https://xahrss.xa.gov.cn/hdjl/zxrd/rsdl/2108815563589517314.html",
       "files": [
         "content/articles/article6.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://xahrss.xa.gov.cn/xwzx/tzgg/2113188674674462721.html",
+      "files": [
+        "content/articles/article21.md"
       ],
       "discovery": false,
       "authority": "official-domain"

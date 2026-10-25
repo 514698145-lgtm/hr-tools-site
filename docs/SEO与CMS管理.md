@@ -1,12 +1,12 @@
 # SEO与CMS管理
 
-当前阶段只开发页面和管理配置，不连接GitHub或部署OSS。用户于2026-09-30再次确认先不部署。
+当前正式站点 https://www.hrtoolkit.cn/ 已上线，Pages CMS连接GitHub仓库，Markdown保存后经构建门禁发布至OSS/CDN。2026-09-30的暂不部署安排已被后续上线授权及验收覆盖。
 
 ## 管理入口
 
 - `/admin/`：网站管理入口，汇总SEO、Pages CMS和匿名反馈管理。
 - `/admin/seo/`：本地SEO编辑与搜索展示预览。导出Markdown草稿，不自动写入代码或发布；同一路径的配置应替换原文件，不能重复新增。它不保存敏感信息，不代替正式CMS登录。
-- 正式编辑后台采用Pages CMS，通过GitHub授权访问仓库。`.pages.yml`已配置HR资讯、单份使用导览、全站SEO和页面SEO。当前没有关联真实仓库，不能声称后台已经接通。
+- 正式编辑后台采用Pages CMS，通过GitHub授权访问仓库。`.pages.yml`已配置HR资讯、单份使用导览、全站SEO、页面SEO、城市说明与HR工作专题；城市参数从共用引擎生成，不在CMS另建数值副本。
 
 ## 内容文件
 
