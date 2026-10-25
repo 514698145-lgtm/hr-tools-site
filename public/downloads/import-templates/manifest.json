@@ -8,16 +8,16 @@
     "public/assets/hr-tools.js": "0765e1bb61ac12440ddcd611225396ca3a6d977bcd2f1125764619322c8d993b",
     "public/assets/contribution-engine.js": "49c6c16eead67350f4603970179f626fb145d46da1dd605b50abab5a31bca274",
     "public/assets/operations-tools.js": "ee277d5cc3f2b97787393dc4f75b3a98154f89a0a88c8a4d2219259bb58e6235",
-    "public/assets/city-policies.js": "34f7ffbcfafc2a8b7c0101c04d6c691dfaff1c7dd2a215ab78d23a5949f56b40",
+    "public/assets/city-policies.js": "5811c98322759b7f6c9f182661427ce0c2f257719fad58b942304a21bd727b55",
     "public/assets/input-rules.js": "8089929e6e5c9560ea7bb8f56389d7c41d18098ba2360f7cefa052fafb4c8294"
   },
   "files": {
-    "five-insurances-housing-fund.xlsx": "18075250c2d3d634e620b596f96d70972bd0d24667d9c5db2e646837131e3ccc",
-    "income-tax.xlsx": "dfb5ef1d7bdded6addcdadc5fd63017b0b19963415651f98757d153b10d0dd6b",
-    "severance.xlsx": "9029660f08ccafe2d2fe340420d5cf9513f0b52cebb51b9f2bb1918b2e7d8afb",
-    "take-home-pay.xlsx": "a99bf56d8fb2198fc201d8adfe0da579ae6c29fc40f4aff7dcad6fc7436f14a7",
-    "employment-cost.xlsx": "4e08dac37b050bcf4ffbc424ce07e60ec5e812cf857e31a948c689b84b59e054",
-    "salary-budget.xlsx": "82b4768b0964afcbffe2745f16246b25072152c0874a94ce960c54c9dfb2d302",
-    "hr-metrics.xlsx": "c33157fa7c2f4ddcf10d4343b44f1bebce4c3553e05809f7f9ba7598e37defbd"
+    "five-insurances-housing-fund.xlsx": "7df7499b8d2516c1ec0d6475a73e2ac36d11a951097ab9edf47db6120b1628a7",
+    "income-tax.xlsx": "032426c307ae524742c836c7a167913c42798d063ff7bf6b8fc0f8f4a271a1a1",
+    "severance.xlsx": "8e4e90ad58cb252fc0d2c191ce5975062f0010d178e7f6246645990aaf04ed2c",
+    "take-home-pay.xlsx": "751a1ba316360b064a5ffb8253d42dfd0b3b2216cd2f91511cafe03725caf7e9",
+    "employment-cost.xlsx": "973d95c1697184f2dd3ab11005f2724248482fa46a0e09e8ee13b09dd4afa6cf",
+    "salary-budget.xlsx": "9c722f89cbe3ddc4b71d8edc7e77683ca71c7e531f52624402c658794ccb83ac",
+    "hr-metrics.xlsx": "7b18603120de34cda8ec22af2791a54fd576e3e9209582a01940d4a626d543da"
   }
 }

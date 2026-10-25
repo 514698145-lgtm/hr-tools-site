@@ -14,15 +14,20 @@ const zjRates=source('浙江税务：2025年起单位养老16%','https://zhejian
 const gdRates=source('广东税务：2025年起单位养老16%','https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml');
 const gdBase=source('广东：2025年7月养老基数（仅历史）','https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html');
 const records={};
-const record=(names,values,src,from='2026-07',to='2026-12',status='已核验')=>{for(const city of names){records[city]??=[];records[city].push({values,source:src,from,to,status});}};
+const record=(names,values,src,from='2026-07',to='2026-12',status='已核验')=>{for(const city of names){records[city]??=[];records[city].push({values:{...values},source:src,from,to,status});}};
 // Su Ren She Fa [2026] 30 replaces the provisional figures retrospectively for 2026.
 record(regions.江苏,{pensionMin:5025,pensionMax:25127,medicalMin:5025,medicalMax:25127,unemploymentMin:5025,unemploymentMax:25127,injuryMin:5025,injuryMax:25127},jsBase,'2026-01','2026-12');
 record(regions.江苏,{pensionP:8,pensionC:16,unemploymentP:.5,unemploymentC:.5},jsRates);
 record(regions.浙江,{pensionC:16},zjRates);
 record(regions.浙江,{pensionP:8},source('浙江税务：个人养老8%','https://zhejiang.chinatax.gov.cn/art/2022/3/17/art_13314_539906.html'));
 record(regions.浙江,{pensionMin:4986,pensionMax:25299},source('浙江2025基数（仅历史参考，不自动套用2026）','https://zhejiang.chinatax.gov.cn/art/2025/12/11/art_13314_645797.html'),'2025-01','2025-12');
-const zjBase=source('浙江人社：2026正式基数5122—25611（全年）','https://rlsbt.zj.gov.cn/col/col1229101513/art/2026/art_e8b496ab59834390884b8d375cff1651.html');
-record(regions.浙江,{pensionMin:5122,pensionMax:25611,medicalMin:5122,medicalMax:25611,unemploymentMin:5122,unemploymentMax:25611,injuryMin:5122,injuryMax:25611},zjBase,'2026-01','2026-12');
+const zjBase=source('浙江人社：2026社会保险有关基数5122—25611','https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html');
+record(regions.浙江,{pensionMin:5122,pensionMax:25611,unemploymentMin:5122,unemploymentMax:25611,injuryMin:5122,injuryMax:25611},zjBase,'2026-01','2026-12');
+record(regions.浙江.filter(city=>city!=='嘉兴'),{medicalMin:5122,medicalMax:25611},zjBase,'2026-01','2026-12');
+// Jiaxing's existing municipal rule adjusts medical limits in the month after
+// the provincial announcement. Until the 2026 transition is confirmed, neither
+// a retroactive January date nor an assumed November date drives calculations.
+record(['嘉兴'],{medicalMin:5122,medicalMax:25611},zjBase,'2026-01','2026-12','适用时点待复核');
 const gd2026=source('广东税务：粤人社发〔2026〕24号，企业养老分期调整','https://guangdong.chinatax.gov.cn/gdsw/ssfggds/2026-10/08/content_b40dcb7bf605411fbb12e0f81281dc6b.shtml');
 record(regions['大湾区内地'],{pensionMin:5510},gd2026,'2026-01','2026-06');
 record(regions['大湾区内地'],{pensionMin:5521,pensionMax:27603},gd2026,'2026-07','2026-12');
@@ -50,7 +55,8 @@ export const medicalPlans={
  '深圳':[['sz1','深圳 · 职工医保一档'],['sz2','深圳 · 职工医保二档']],
  '苏州':[['wj','苏州 · 吴江普通企业职工'],['sip','苏州 · 工业园区普通企业职工'],['other','苏州 · 其他区域（参数尚未接入）']],
  '东莞':[['dgSingle','东莞 · 单建统筹'],['dgAccount','东莞 · 统账结合（有个人账户）'],['dgNoAccount','东莞 · 统账结合（无个人账户）']],
- '中山':[['zsAccount','中山 · 统账结合'],['zsSingle','中山 · 单建统筹']]
+ '中山':[['zsAccount','中山 · 统账结合'],['zsSingle','中山 · 单建统筹']],
+ '惠州':[['hzAccount','惠州 · 统账结合（在职职工）'],['hzSingle','惠州 · 单建统筹（在职职工）']]
 };
 for(const r of records.苏州)if(r.values.medicalP!==undefined)r.plan='wj';
 for(const r of records.深圳)if(r.values.medicalP!==undefined){const rates={medicalP:r.values.medicalP,medicalC:r.values.medicalC};delete r.values.medicalP;delete r.values.medicalC;record(['深圳'],rates,{...r.source,label:'深圳2026职工医保一档费率'},r.from,r.to);records.深圳.at(-1).plan='sz1';break;}
@@ -75,7 +81,7 @@ for(const [plan,medicalP,medicalC]of [['zsAccount',2,5.8],['zsSingle',.7,3.3]])p
 record(['常州'],{medicalP:2,medicalC:8,birthC:.8},source('常州税务2026征收标准：基本医保8%及生育0.8%分别列示','https://jiangsu.chinatax.gov.cn/art/2026/5/22/art_8539_372039.html'),'2026-05');
 record(['南京'],{fundMin:2660,fundMax:42400,fundRateMax:12},source('南京公积金：2026年度基数调整','https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html'),'2026-07','2027-06');
 record(['连云港'],{fundMin:2260,fundMax:31545,fundRateMax:12,fundRounding:0},source('连云港公积金：2026年度基数及金额取整','https://www.lyg.gov.cn/zglygzfmhwz/zcwj_zffw/content/92db1896-3c45-497f-b6d6-a101ac694293.html'),'2026-01');
-record(['常州'],{fundMin:2660,fundMax:34080},source('常州公积金：2026年7月基数上下限答复','https://gjj.changzhou.gov.cn/html/gjj/2026/ODOFKMDN_0706/13968.html'));
+record(['常州'],{fundMin:2660,fundMax:34080,fundRateMax:12},source('常州公积金：官方历年基数表，2026.7—2027.6','https://gjj.changzhou.gov.cn/html/gjj/2026/LPQCMPQB_0629/13939.html'),'2026-07','2027-06');
 record(['东莞'],{fundMin:2080,fundMax:27391,fundRateMax:12},source('东莞公积金：2026年原缴存基数（7月上限另有调整）','https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html'),'2026-01','2026-06');
 const dgFund=source('东莞公积金：东公积金通〔2026〕36号，7月上限27700、9月下限分人员','http://dggjj.dg.gov.cn/xwdt/zxdt/content/post_4577715.html');
 record(['东莞'],{fundMin:2080,fundMax:27700,fundRateMax:12},dgFund,'2026-07','2026-08');
@@ -98,6 +104,21 @@ record(['中山'],{fundMin:2080,fundMax:29430,fundRateMax:12},zsFund,'2026-07','
 record(['中山'],{fundMax:29430,fundRateMax:12},zsFund,'2026-09','2027-06');
 record(['北京'],{medicalC:8.8,medicalExtraC:1},source('海淀政务：单位医保9.8%=医疗生育8.8%+大额互助1%','https://www.bjhd.gov.cn/zsk/ldrsjc/shbz/202112/t20211203_4499330.shtml'));
 record(['苏州'],{birthC:.8},source('苏州医保：苏州政规〔2026〕10号，10月起全市生育费率0.8%','https://ybj.suzhou.gov.cn/szybj/zcfg/202608/23b2f70f8dc0483eb58d89c97f2e07a4.shtml'),'2026-10','2026-12');
+// 2026-10-25: read the actual official image / workbook, including footnotes.
+const hzMedical=source('惠州税务、医保：2026职工医保费率费基表（图片正文）','https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2025-12/11/content_e5065243847d4b23a370554853ced49c.shtml');
+record(['惠州'],{medicalMin:4463,medicalMax:22315,birthC:0,medicalExtraC:0},hzMedical,'2026-01','2026-12');
+planRecord('惠州','hzAccount',{medicalP:2,medicalC:5.6},hzMedical,'2026-01','2026-12');
+planRecord('惠州','hzSingle',{medicalP:0,medicalC:4},hzMedical,'2026-01','2026-12');
+// The separate large-medical contribution uses a fixed 7438 base, not medicalWage.
+// Its actual assessed amount stays a required unknown fixed fee until supplied.
+const zqTable=source('肇庆税务：2026年9月更新费基费率表，医保与失业分险种','https://guangdong.chinatax.gov.cn/gdsw/zqsw_sbfblzn/2026-08/31/content_97d444fdf12346508080c6bfea137c25.shtml');
+record(['肇庆'],{medicalMin:4520,medicalMax:22599,medicalP:2,medicalC:6.3,birthC:0},zqTable,'2026-01','2026-12');
+record(['肇庆'],{unemploymentMax:28220,unemploymentP:.2,unemploymentC:.8},zqTable,'2026-07','2026-12');
+record(['肇庆'],{unemploymentMin:2040},zqTable,'2026-09','2026-12');
+const bdFund=source('保定公积金：2026年度基数，明确不含定州、雄安','https://bdgjj.baoding.gov.cn/tzgg/18869177.jhtml');
+record(['保定'],{fundMax:24345,fundRateMax:12},bdFund,'2026-07','2027-06');
+const xaFund=source('雄安新区住房管理中心：2026年度缴存基数与疏解单位例外','https://www.xiongan.gov.cn/20260702/bac48781681f445b91c63480d0c75079/c.html');
+record(['雄安新区'],{fundMin:2380,fundRateMax:12},xaFund,'2026-07','2027-06');
 // Scope notes travel with both the form and calculation/export. A single city-wide
 // minimum must not silently replace a district, employment or approval condition.
 const policyNote=(city,note,src,from,to)=>{record([city],{},src,from,to);records[city].at(-1).note=note;};
@@ -107,11 +128,15 @@ policyNote('石家庄','公积金下限按区县为2380、2230或2080元；上�
 policyNote('中山','公积金：9月起新参加工作、新调入职工下限2300元；存量职工到2027年度再调整。请填写员工已核定基数。',source('中山公积金：最低工资调整后的人员适用范围','https://zszfgjj.zs.gov.cn/tzgg/content/post_2646242.html'),'2026-09','2027-06');
 policyNote('佛山','公积金：9月起新参加工作、新调入职工下限2300元；存量职工仍为2080元，2027年7月起调整。人员类别未自动区分，请填写已核定基数。',source('顺德区政府：佛山公积金缴存下限调整通知','https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590'),'2026-09','2026-12');
 policyNote('江门','公积金：9月起新参加工作、新调入职工下限2040元；原低基数须在2027年7月31日前调整，过渡期不默认统一下限。请填写员工已核定基数。',source('江门公积金：江房金字〔2026〕25号，下限分人员执行','https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html'),'2026-09','2026-12');
+policyNote('嘉兴','医保：省级2026新基数已公布，市办法另规定公布次月调整；2026具体衔接时点待核实，本页暂不自动套用医保上下限，请填当月已核定基数。',source('嘉兴市基本医疗保障办法第六十六项：医保调基时点','https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022807.shtml'),'2026-01','2026-12');
+policyNote('惠州','医保单位费率已含生育0.5%，不要重复加收。大额医疗费用补助另按7438元基数、单位0.1%核定，请在“公司固定附加费（月）”填实际应缴金额，不按员工医保工资另乘0.1%。',hzMedical,'2026-01','2026-12');
+policyNote('保定','公积金下限分地区为2380或2230元，按所属区县填写已核定基数；24345元上限不适用于定州或雄安。',bdFund,'2026-07','2027-06');
+policyNote('雄安新区','公积金下限2380元；一般单位上限31267元，北京非首都功能疏解单位及个人上限按北京标准另核。未区分单位类型，不自动采用同一上限，请填已核定基数。',xaFund,'2026-07','2027-06');
 // Audited observations are retained, but unofficial reposts no longer drive calculations.
 export function cityPolicy(city,month,context={}){
  if(!cityOptions.some(([name])=>name===city))throw Error('请选择目录中的城市');
  if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(String(month)))throw Error('请选择有效缴费月份');
- const all=records[city]||[],active=all.filter(x=>month>=x.from&&month<=x.to&&x.status!=='转载待复核'&&(!x.plan||x.plan===context.medicalPlan));
+ const all=records[city]||[],active=all.filter(x=>month>=x.from&&month<=x.to&&x.status==='已核验'&&(!x.plan||x.plan===context.medicalPlan));
  const values={},evidence={};for(const row of active)for(const [key,value]of Object.entries(row.values)){values[key]=value;evidence[key]=row;}
- return {city,month,values,evidence,notes:active.filter(r=>r.note).map(r=>({text:r.note,source:r.source})),sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status==='转载待复核'),unsupported:false,checked:'2026-10-16',version:`city-20261016-r2/${city}/${month}/${context.medicalPlan||'standard'}`};
+ return {city,month,values,evidence,notes:active.filter(r=>r.note).map(r=>({text:r.note,source:r.source})),sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status!=='已核验'),unsupported:false,checked:'2026-10-16',version:`city-20261025-r1/${city}/${month}/${context.medicalPlan||'standard'}`};
 }

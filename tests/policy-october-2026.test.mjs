@@ -48,7 +48,7 @@ test('浙江正式全年参数与河北三险范围分开核对',()=>{
    assert.equal(v[k+'Min'],4076);assert.equal(v[k+'Max'],20382);
   }
   assert.equal(v.medicalMin,undefined);
-  if(city!=='廊坊')assert.equal(v.fundMin,undefined);
+  if(!['廊坊','雄安新区'].includes(city))assert.equal(v.fundMin,undefined);
   else assert.ok(!cityPolicy(city,'2026-10').evidence.fundMin.source.url.includes('rst.hebei.gov.cn'));
  }
 });

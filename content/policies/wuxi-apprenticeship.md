@@ -6,8 +6,8 @@ status: published
 category: 培训与发展
 keyPoint: 无锡地方办法，培养与补贴分开核对
 scope: 无锡企业新型学徒制公开规则；申报年度、对象和补贴条件以当前受理通知核对。
-checkedAt: '2026-10-16'
-reviewAfter: '2027-01-04'
+checkedAt: '2026-10-25'
+reviewAfter: '2026-11-01'
 sources:
 - https://www.wuxi.gov.cn/doc/2024/04/15/4288486.shtml
 - https://hrss.wuxi.gov.cn/doc/2024/04/22/4293236.shtml
@@ -27,7 +27,7 @@ seoDescription: 按无锡公开办法整理企业新型学徒制的合同条件�
 
 ## 公开实践：课堂和岗位训练衔接
 
-新疆人社2025年报道，一家企业与职业院校开展双导师培养，将理论教学与岗位实践结合。正文隐去企业和学校名称。这是实际培养组织方式的案例，发生在无锡以外；仅说明教学如何衔接，**不用于证明无锡补贴资格或金额**。[培养实践](https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml)。
+新疆人社2025年报道，一家企业与职业技能培训机构开展双导师培养，将理论教学与岗位实践结合。正文隐去企业和学校名称。这是实际培养组织方式的案例，发生在无锡以外；仅说明教学如何衔接，**不用于证明无锡补贴资格或金额**。[培养实践](https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml)。
 
 
 ## 常见问题 FAQ

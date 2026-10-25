@@ -6,12 +6,11 @@ status: published
 category: 工资与个税
 keyPoint: 1000元/月，最长240个月
 scope: 居民个人符合规定的首套住房贷款利息专项附加扣除。
-checkedAt: '2026-10-16'
-reviewAfter: '2027-01-04'
+checkedAt: '2026-10-25'
+reviewAfter: '2026-11-01'
 sources:
 - https://www.mof.gov.cn/zhengwuxinxi/caizhengxinwen/201812/t20181223_3102091.htm
 - https://shanghai.chinatax.gov.cn/zcfw/rdwd/202602/t479564.html
-- https://shanxi.chinatax.gov.cn/web/detail/sx-11400-548-1816083
 - https://www.chinatax.gov.cn/chinatax/n810219/n810780/c4414446/content.html
 relatedTools:
 - income-tax
@@ -25,7 +24,7 @@ seoDescription: 首套住房贷款利息扣除不是实际还款额报销，核�
 
 每月还款包含本金和利息，不能将整笔月供当作专项附加扣除。只有实际发生符合条件利息的月份，按规定享受定额；贷款结清后的月份不能继续沿用原申报。
 
-纳税人只能享受一次首套住房贷款利息扣除。[山西税务2026年问答](https://shanxi.chinatax.gov.cn/web/detail/sx-11400-548-1816083)说明，不能因再买房重新开始一次。夫妻可按规定选择一方扣除；婚前双方分别购房的首套贷款有特定选择规则，不能未经核对双方各填1000元。
+纳税人只能享受一次首套住房贷款利息扣除。[上海税务2026年问答](https://shanghai.chinatax.gov.cn/zcfw/rdwd/202602/t479564.html)说明，不能因再买房重新开始一次。夫妻可按规定选择一方扣除；婚前双方分别购房的首套贷款有特定选择规则，不能未经核对双方各填1000元。
 
 ## 公开实际案例：住房信息与其他扣除一并申报
 
