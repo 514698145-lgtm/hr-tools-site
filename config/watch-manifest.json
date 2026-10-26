@@ -90,6 +90,18 @@
       "sha256": "3a7923de58a623e808fa178af9620fdd805a29ca0eefe4f1be931eeb89f7cf06"
     },
     {
+      "path": "content/articles/article24.md",
+      "sha256": "08245bdf636e8a873fd4130ad11c1d1a2da269013c80e689669574ad649edac0"
+    },
+    {
+      "path": "content/articles/article25.md",
+      "sha256": "c8c8d290a5d5f3a7fa0c63a56ba0c79dae503a2dad12fbe60a3e38952217ee48"
+    },
+    {
+      "path": "content/articles/article26.md",
+      "sha256": "3c114b1efbb9d853b7dbfacbea3af4b329eefd07135b18287fa05b0fea7190d1"
+    },
+    {
       "path": "content/articles/article3.md",
       "sha256": "acee8728718608dc6db9752a9e1f70bc49a165b312784411f67b599ddc732d25"
     },
@@ -1087,6 +1099,24 @@
     },
     {
       "path": "content/articles/article23.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article24.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article25.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article26.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4965,6 +4995,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100015/c5200946/content.html",
+      "files": [
+        "content/articles/article26.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://fgw.sh.gov.cn/ys-laogong-2.3.1.2/index.html",
       "files": [
         "public/assets/city-policies.js"
@@ -5375,6 +5413,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://jrj.sh.gov.cn/YX180/20261023/70c6b62f745c4cebabef4e56a695ee0d.html",
+      "files": [
+        "content/articles/article24.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_77277_11838872.html",
       "files": [
         "content/articles/article2.md",
@@ -5398,6 +5444,14 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://liaoning.chinatax.gov.cn/art/2026/10/23/art_316_177496.html",
+      "files": [
+        "content/articles/article26.md"
+      ],
+      "discovery": false,
       "authority": "official-domain"
     },
     {
@@ -6380,6 +6434,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.ningjin.gov.cn/single/24/84378.html",
+      "files": [
+        "content/articles/article25.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.officeplus.cn/EXCEL/detail/ExcelContent-33652",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -6408,6 +6470,14 @@
       "url": "https://www.saac.gov.cn/daj/c100194/202209/5da45ca870244e40be387ef841efc906.shtml",
       "files": [
         "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.saihan.gov.cn/zwgk_new/zfxxgknew/fdzdgknr/tzgg/202610/t20261022_2044466.html",
+      "files": [
+        "content/articles/article25.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6457,6 +6527,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.shanghai.gov.cn/nw17239/20261020/2af28c57899b4f27b865468d79abf9b0.html",
+      "files": [
+        "content/articles/article25.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.shanghai.gov.cn/qyzfgjjgjj/20240927/231b35b7e70d4c1289141867c849014c.html",
       "files": [
         "public/assets/input-rules.js"
@@ -6501,6 +6579,7 @@
       "url": "https://www.shzfgjj.cn/html/newxxgk/zcwj/gfxwj/228478.html",
       "files": [
         "content/articles/article2.md",
+        "content/articles/article24.md",
         "public/assets/city-policies.js"
       ],
       "discovery": false,
