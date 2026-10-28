@@ -118,6 +118,18 @@
       "sha256": "acee8728718608dc6db9752a9e1f70bc49a165b312784411f67b599ddc732d25"
     },
     {
+      "path": "content/articles/article30.md",
+      "sha256": "08d6070fc2322a822b7b9c33075ebd3c9ac68279a4c47a4f625c7ce14bff0d35"
+    },
+    {
+      "path": "content/articles/article31.md",
+      "sha256": "f47af0160e43ba61b986c1ae27d02832bb44a2463f88961d8faf8977c47630d4"
+    },
+    {
+      "path": "content/articles/article32.md",
+      "sha256": "f8d93e794c4c9a4cc6081c54fe50a8ea04d257060865f2c05bd2c515c371ef1a"
+    },
+    {
       "path": "content/articles/article4.md",
       "sha256": "b509caa53737e00b2c0dd715f56808d3de6fe6e44fdde855a39a0ac9814a6225"
     },
@@ -1153,6 +1165,24 @@
     },
     {
       "path": "content/articles/article3.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article30.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article31.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article32.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5412,6 +5442,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://jiangsu.chinatax.gov.cn/art/2026/10/27/art_8267_1796327.html",
+      "files": [
+        "content/articles/article32.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://jiangsu.chinatax.gov.cn/art/2026/4/14/art_21737_921.html",
       "files": [
         "public/assets/city-policies.js"
@@ -5728,6 +5766,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rst.fj.gov.cn/zw/zfxxgk/zfxxgkml/zyywgz/jycj/202408/t20240828_6507731.htm",
+      "files": [
+        "content/articles/article31.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.fujian.gov.cn/zw/ztzl/zxzt/hfjs/jyjl/202603/t20260313_7109805.htm",
       "files": [
         "content/policies/electronic-labor-contract.md"
@@ -5813,6 +5859,14 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/pdtax/ztzl/yshj/sycz/202411/t474147.html",
+      "files": [
+        "content/articles/article32.md"
+      ],
+      "discovery": false,
       "authority": "official-domain"
     },
     {
@@ -6002,6 +6056,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261027_4920797.html",
+      "files": [
+        "content/articles/article30.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/zhengce/gwywj/201001/t20100101_781119.html",
       "files": [
         "content/policies/pension-transfer.md"
@@ -6077,6 +6139,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.chinatax.gov.cn/chinatax/n810341/n810765/n2511651/201712/c3300345/content.html",
+      "files": [
+        "content/articles/article32.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.cmc.gov.cn/yhyshjhqzcfwzq/gzdt/art/2026/art_1812891711.html",
       "files": [
         "content/policies/labor-dispatch-limit.md"
@@ -6112,6 +6182,14 @@
       "url": "https://www.dxal.gov.cn/dxal/c100109/202610/c13_347100.shtml",
       "files": [
         "content/articles/article8.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.fuzhou.gov.cn/zgfzzt/shfgfgg/zxdt/202508/t20250824_5065461.htm",
+      "files": [
+        "content/articles/article31.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6305,6 +6383,14 @@
       "url": "https://www.lzxq.gov.cn/system/2026/07/23/031405658.shtml",
       "files": [
         "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mawei.gov.cn/xjwz/zwgk/gzdt/bmdt/202610/t20261027_5386165.htm",
+      "files": [
+        "content/articles/article31.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6542,6 +6628,7 @@
       "files": [
         "content/articles/article19.md",
         "content/articles/article22.md",
+        "content/articles/article30.md",
         "content/policies/probation-dismissal.md",
         "content/policies/probation-limit.md",
         "content/policies/severance-basis.md"
@@ -6695,6 +6782,14 @@
       ],
       "discovery": false,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.spb.gov.cn/gjyzj/c100015/c100017/202610/007f97b604c04888bbca92c94242f359.shtml",
+      "files": [
+        "content/articles/article30.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://www.stats.gov.cn/hd/lyzx/zxgk/202412/t20241206_1957667.html",
