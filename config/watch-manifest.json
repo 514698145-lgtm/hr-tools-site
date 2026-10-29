@@ -130,6 +130,18 @@
       "sha256": "f8d93e794c4c9a4cc6081c54fe50a8ea04d257060865f2c05bd2c515c371ef1a"
     },
     {
+      "path": "content/articles/article33.md",
+      "sha256": "ecc66f539cff74400dc1d0bdf011537dcec1c8142c3784de14dfdb5d2a03a9d2"
+    },
+    {
+      "path": "content/articles/article34.md",
+      "sha256": "bb2db7fcd1e592c04d92578f3f947f5ad00c65f513b3abb2e3a84447a858ba91"
+    },
+    {
+      "path": "content/articles/article35.md",
+      "sha256": "fa09d873a08395da50bb1bf8884edcb2b03e7ebf2ac6ec3ad5b05058724d2942"
+    },
+    {
       "path": "content/articles/article4.md",
       "sha256": "b509caa53737e00b2c0dd715f56808d3de6fe6e44fdde855a39a0ac9814a6225"
     },
@@ -1183,6 +1195,24 @@
     },
     {
       "path": "content/articles/article32.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article33.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article34.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article35.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -4991,6 +5021,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-06-23/560552.shtml",
+      "files": [
+        "content/articles/article33.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/h5/c/2021-07-16/315319.shtml",
       "files": [
         "content/policies/electronic-labor-contract.md"
@@ -5572,6 +5610,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://njsj.nanjing.gov.cn/njszwfwglbgs/202608/t20260821_5897675.html",
+      "files": [
+        "content/articles/article35.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://o.keniu.com/t/1001126.html",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -5814,6 +5860,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202610/t20261028_6042440.shtml",
+      "files": [
+        "content/articles/article34.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202404/t20240423_5167972.shtml",
       "files": [
         "content/policies/work-injury-deadline.md"
@@ -5825,6 +5879,14 @@
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202605/t20260515_5937122.shtml",
       "files": [
         "content/articles/article10.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hubei.gov.cn/bmdt/rsyw/202610/t20261028_6042150.shtml",
+      "files": [
+        "content/articles/article33.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6059,6 +6121,14 @@
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261027_4920797.html",
       "files": [
         "content/articles/article30.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261028_4921442.html",
+      "files": [
+        "content/articles/article34.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6446,6 +6516,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260701_579347.html",
+      "files": [
+        "content/articles/article33.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260724_580838.html",
       "files": [
         "content/articles/article5.md"
@@ -6509,6 +6587,14 @@
       ],
       "discovery": false,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.nanjing.gov.cn/hdjl/hygq/202610/t20261027_6026672.html",
+      "files": [
+        "content/articles/article35.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://www.nanjing.gov.cn/zxfwn/ztfw/sb/zcxx_74497/zcwj/202605/t20260508_5836215.html",
