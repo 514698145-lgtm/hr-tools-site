@@ -142,6 +142,18 @@
       "sha256": "fa09d873a08395da50bb1bf8884edcb2b03e7ebf2ac6ec3ad5b05058724d2942"
     },
     {
+      "path": "content/articles/article36.md",
+      "sha256": "e9117942aff939e49e75ffb07b4ec6b7b91cab3c477f3963927a3aac048e8be2"
+    },
+    {
+      "path": "content/articles/article37.md",
+      "sha256": "b9ac59f153a3b4bb41feb38a6548b6c38ac10d02521c777090ea65eb9f3bedc8"
+    },
+    {
+      "path": "content/articles/article38.md",
+      "sha256": "d4fc45ba8402113591a42eb5ca380e9c6009fbad17386f76aeee29252cce70a7"
+    },
+    {
       "path": "content/articles/article4.md",
       "sha256": "b509caa53737e00b2c0dd715f56808d3de6fe6e44fdde855a39a0ac9814a6225"
     },
@@ -1213,6 +1225,24 @@
     },
     {
       "path": "content/articles/article35.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article36.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article37.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article38.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5013,6 +5043,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2024-09-27/415625.shtml",
+      "files": [
+        "content/articles/article38.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/c/2026-05-27/546379.shtml",
       "files": [
         "content/articles/article14.md"
@@ -5770,6 +5808,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rsj.pds.gov.cn/contents/44485/690201.html",
+      "files": [
+        "content/articles/article38.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rsj.pds.gov.cn/contents/44485/690203.html",
       "files": [
         "content/articles/article28.md"
@@ -6102,6 +6148,14 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://www.audit.gov.cn/n7/n34/n58/c109667/content.html",
+      "files": [
+        "content/articles/article37.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/bmjy/202610/t20261015_4903055.html",
       "files": [
         "content/articles/article17.md"
@@ -6153,6 +6207,14 @@
       "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202507/t20250709_4145155.html",
       "files": [
         "content/policies/personnel-file-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.bjdx.gov.cn/bjsdxqrmzf/zwfw/tzgg/2383068/index.html",
+      "files": [
+        "content/articles/article38.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6220,6 +6282,14 @@
       "url": "https://www.cmc.gov.cn/yhyshjhqzcfwzq/gzdt/art/2026/art_1812891711.html",
       "files": [
         "content/policies/labor-dispatch-limit.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.cztn.gov.cn/html/cztn/2026/ICFIPPIB_1029/218852.html",
+      "files": [
+        "content/articles/article37.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6418,6 +6488,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.kaiping.gov.cn/kpsrlzyhshbzj/zwgk/zcjd/content/post_3505769.html",
+      "files": [
+        "content/articles/article37.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.kaiping.gov.cn/kpsrlzyhshbzj/zwgk/zcjd/content/post_3513723.html",
       "files": [
         "content/articles/article19.md"
@@ -6605,9 +6683,25 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.nanjing.gov.cn/zxfwn/ztfw/zf/zcxx_74507/zcwj/202609/t20260920_5914167.html",
+      "files": [
+        "content/articles/article36.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.nanjing.gov.cn/zzb/hdhy/hygq_72666/202610/t20261010_5923162.html",
       "files": [
         "content/policies/jiangsu-social-base-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nanjing.gov.cn/zzb/hdhy/hygq_72666/202610/t20261021_6022765.html",
+      "files": [
+        "content/articles/article36.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7228,6 +7322,14 @@
       "url": "https://zfgjj.yzcity.gov.cn/gjj/0202/202610/8a8c28ed250b44489e6be3ef613347b7.shtml",
       "files": [
         "content/articles/article20.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zgjssw.gov.cn/yaowen/202610/t20261029_8596730.shtml",
+      "files": [
+        "content/articles/article36.md"
       ],
       "discovery": false,
       "authority": "official-domain"
