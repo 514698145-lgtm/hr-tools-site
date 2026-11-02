@@ -154,8 +154,20 @@
       "sha256": "d4fc45ba8402113591a42eb5ca380e9c6009fbad17386f76aeee29252cce70a7"
     },
     {
+      "path": "content/articles/article39.md",
+      "sha256": "925aade4ed9aed22314af5ed27f658d279990b79f6e649587d40101d8d780d1a"
+    },
+    {
       "path": "content/articles/article4.md",
       "sha256": "b509caa53737e00b2c0dd715f56808d3de6fe6e44fdde855a39a0ac9814a6225"
+    },
+    {
+      "path": "content/articles/article40.md",
+      "sha256": "50838496e44dd6318d93adfd3b70596fb8b92622b2c40c9d0bd1bc07f6fd3273"
+    },
+    {
+      "path": "content/articles/article41.md",
+      "sha256": "ffbb52b7c520de91e100ddc9b44490c2e658cd0aebdf6b86a0c15ba4b945c310"
     },
     {
       "path": "content/articles/article5.md",
@@ -1248,7 +1260,25 @@
       "reviewAfter": ""
     },
     {
+      "path": "content/articles/article39.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/article4.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article40.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article41.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5083,6 +5113,22 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chrm.mohrss.gov.cn/announcement/中共中央组织部-人力资源社会保障部等五部门关-2/",
+      "files": [
+        "content/articles/article41.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chrm.mohrss.gov.cn/内蒙古通辽市：档案服务小切口优化营商大/",
+      "files": [
+        "content/articles/article41.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://datascope.io/library/zh-CN/template/%E5%AD%A6%E5%91%98%E6%A0%B8%E5%AF%B9%E8%A1%A8%E7%9A%84%E5%9F%B9%E8%AE%AD%E5%8F%8D%E9%A6%88%E8%A1%A8546b8?id=157922&share_id=e95eed8df9abff4631aff5fe3215d6fc",
       "files": [
         "public/data/hr-template-manifest.json"
@@ -5102,6 +5148,14 @@
       "url": "https://dggjj.dg.gov.cn/zwgk/zfxxgkml/qt/tzgg/content/post_4472090.html",
       "files": [
         "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://dsj.weihai.gov.cn/art/2026/10/30/art_19162_6710827.html",
+      "files": [
+        "content/articles/article39.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5858,6 +5912,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://rsj.sh.gov.cn/trlzyhshbzbgz_17256/20200617/t0035_1388390.html",
+      "files": [
+        "content/articles/article40.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://rst.fj.gov.cn/zw/zfxxgk/zfxxgkml/zyywgz/jycj/202408/t20240828_6507731.htm",
       "files": [
         "content/articles/article31.md"
@@ -6183,6 +6245,14 @@
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261028_4921442.html",
       "files": [
         "content/articles/article34.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261030_4924668.html",
+      "files": [
+        "content/articles/article40.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7004,6 +7074,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.suzhou.gov.cn/gxbysjycy/bysfwqd/202409/b0dfeac6a72b4811accc87fa95bf4654.shtml",
+      "files": [
+        "content/articles/article41.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=3072960",
       "files": [
         "public/assets/app.js",
@@ -7092,6 +7170,22 @@
       ],
       "discovery": false,
       "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://www.weihai.gov.cn/art/2026/8/12/art_58956_6543285.html",
+      "files": [
+        "content/articles/article39.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.weihai.gov.cn/art/2026/8/12/art_59723_6541708.html",
+      "files": [
+        "content/articles/article39.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
     },
     {
       "url": "https://www.wenjuan.com/lib_detail_full/69c4bfdce9cf9e6c826094f9/",
@@ -7216,6 +7310,7 @@
     {
       "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=208",
       "files": [
+        "content/articles/article40.md",
         "content/policies/annual-leave.md"
       ],
       "discovery": false,
