@@ -182,6 +182,18 @@
       "sha256": "79d278c52f1e93cb8626e80be885d112f11fd52ce7e7b81b73141bfd715731d8"
     },
     {
+      "path": "content/articles/article45.md",
+      "sha256": "263a91dd76c6b45700fe286d73e4a6e73c30ac786ec9e7e0462540ea7ec3da37"
+    },
+    {
+      "path": "content/articles/article46.md",
+      "sha256": "2de74196ee204a170493b637ac56143d73b5c0927d72080fb5124135f27752f8"
+    },
+    {
+      "path": "content/articles/article47.md",
+      "sha256": "563bc06af36a2c9088ca556307255949f20e323d46971eb92ccb615782700c78"
+    },
+    {
       "path": "content/articles/article5.md",
       "sha256": "7c91330d776303bf879e477fff89ac90baa4ce74993eb77845b442bf1f43786e"
     },
@@ -1309,6 +1321,24 @@
     },
     {
       "path": "content/articles/article44.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article45.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article46.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article47.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5073,7 +5103,8 @@
     {
       "url": "https://app.www.gov.cn/govdata/gov/202507/15/532869/article.html",
       "files": [
-        "content/articles/article13.md"
+        "content/articles/article13.md",
+        "content/articles/article47.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5352,6 +5383,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://gjj.wuhan.gov.cn/xxfw/zdgz/gzbsjz/zxgg/202610/t20261030_2870682.html",
+      "files": [
+        "content/articles/article45.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://gjzwfw.www.gov.cn/col/col1111/",
       "files": [
         "public/data/official-sites.json"
@@ -5500,6 +5539,14 @@
       "url": "https://hrss.sz.gov.cn/gkmlpt/content/12/12912/post_12912939.html",
       "files": [
         "content/articles/article9.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.sz.gov.cn/ztfw/jycy/zx/content/post_13051935.html",
+      "files": [
+        "content/articles/article47.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5668,7 +5715,8 @@
     {
       "url": "https://jrj.sh.gov.cn/YX180/20261023/70c6b62f745c4cebabef4e56a695ee0d.html",
       "files": [
-        "content/articles/article24.md"
+        "content/articles/article24.md",
+        "content/articles/article45.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5687,6 +5735,14 @@
       "url": "https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_78497_11838875.html",
       "files": [
         "content/policies/jiangsu-social-base-2026.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jshrss.jiangsu.gov.cn/art/2026/6/5/art_93529_11780748.html",
+      "files": [
+        "content/articles/article46.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6280,6 +6336,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202605/t20260522_4662867.html",
+      "files": [
+        "content/articles/article46.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202610/t20261013_4899399.html",
       "files": [
         "content/articles/article15.md"
@@ -6312,9 +6376,25 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202611/t20261103_4930297.html",
+      "files": [
+        "content/articles/article46.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/zhengce/gwywj/201001/t20100101_781119.html",
       "files": [
         "content/policies/pension-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202202/t20220208_2606143.html",
+      "files": [
+        "content/articles/article45.md"
       ],
       "discovery": false,
       "authority": "official-domain"
