@@ -222,6 +222,18 @@
       "sha256": "2fd44239879baf793bf06bc1918a7f2cd0030abbb89c36d3f40bf0d9ae811811"
     },
     {
+      "path": "content/articles/article54.md",
+      "sha256": "e33136fd3e39202822dc91e79bfdeb7b45e4788a7a2903fd616e4ec8830e1c8d"
+    },
+    {
+      "path": "content/articles/article55.md",
+      "sha256": "945a7ff6ba960c3a4b4633d89c9cd4e37929a5681e8b06174fd8fa3c55d22c1f"
+    },
+    {
+      "path": "content/articles/article56.md",
+      "sha256": "f0b7660e123227cf4c6881ad83758a5dec69d593c9dfba0d627f82353abc3a19"
+    },
+    {
       "path": "content/articles/article6.md",
       "sha256": "5483dc8324c1645ae3c03ad1653f8b94d068283897f141eb75610a1d7916688f"
     },
@@ -1409,6 +1421,24 @@
     },
     {
       "path": "content/articles/article53.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article54.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article55.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article56.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5472,6 +5502,22 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://gjj.huangshi.gov.cn/zwgk/zc/qtzdgkwj/202609/t20260918_1360443.html",
+      "files": [
+        "content/articles/article54.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://gjj.huangshi.gov.cn/zwgk/zc/zcjd/202609/t20260918_1360446.html",
+      "files": [
+        "content/articles/article54.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://gjj.nanjing.gov.cn/zwgk/tzgg/202607/t20260717_5878580.html",
       "files": [
         "public/assets/city-policies.js"
@@ -6202,6 +6248,14 @@
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202610/t20261028_6042440.shtml",
       "files": [
         "content/articles/article34.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/gzdt/202611/t20261110_6078852.shtml",
+      "files": [
+        "content/articles/article55.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7170,6 +7224,7 @@
         "content/articles/article44.md",
         "content/articles/article49.md",
         "content/articles/article50.md",
+        "content/articles/article55.md",
         "content/policies/probation-dismissal.md",
         "content/policies/probation-limit.md",
         "content/policies/severance-basis.md"
@@ -7180,7 +7235,8 @@
     {
       "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_d0f9fd2e7dcb4286a55c87b188f38bbc.html",
       "files": [
-        "content/articles/article52.md"
+        "content/articles/article52.md",
+        "content/articles/article56.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7631,6 +7687,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://xahrss.xa.gov.cn/xwzx/zwyw/2119977390212399105.html",
+      "files": [
+        "content/articles/article56.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=208",
       "files": [
         "content/articles/article40.md",
@@ -7813,6 +7877,14 @@
       "url": "https://zjt.fj.gov.cn/xxgk/gzdt/bmdt/202610/t20261026_7240487.htm",
       "files": [
         "content/articles/article27.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://zjt.hubei.gov.cn/bmdt/dtyw/szsm/202611/t20261110_6078863.shtml",
+      "files": [
+        "content/articles/article54.md"
       ],
       "discovery": false,
       "authority": "official-domain"
