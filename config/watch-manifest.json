@@ -262,6 +262,18 @@
       "sha256": "b6111c0bf3891a4672a5db1e0f30366036885963e7487cb11256a17606425770"
     },
     {
+      "path": "content/articles/article63.md",
+      "sha256": "1286227ad7b865f12913e835acbd1359dae0ca0c81a88b5d30f6edaa6b8f4333"
+    },
+    {
+      "path": "content/articles/article64.md",
+      "sha256": "8f5c53bc2a68e003cb0f04d25edb0eac070250d4f0cb37bf3fcab8327c69c4d8"
+    },
+    {
+      "path": "content/articles/article65.md",
+      "sha256": "88a493968e0ce57ca880e1627b8b532a27103964b47896250647a68888b57fa0"
+    },
+    {
       "path": "content/articles/article7.md",
       "sha256": "3c8cdf9270d22113bad83a317d10d7e7275d5b367f7daaa3a898d829889433d7"
     },
@@ -1505,6 +1517,24 @@
     },
     {
       "path": "content/articles/article62.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article63.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article64.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article65.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5433,6 +5463,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-11-13/641349.shtml",
+      "files": [
+        "content/articles/article64.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/c/2026-11-13/641350.shtml",
       "files": [
         "content/articles/article62.md"
@@ -5444,6 +5482,22 @@
       "url": "https://chinajob.mohrss.gov.cn/c/2026-11-13/641355.shtml",
       "files": [
         "content/articles/article60.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-11-13/642234.shtml",
+      "files": [
+        "content/articles/article65.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-11-16/642243.shtml",
+      "files": [
+        "content/articles/article63.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6739,6 +6793,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202304/t20230428_3083946.html",
+      "files": [
+        "content/articles/article64.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202507/t20250702_4139790.html",
       "files": [
         "content/articles/article51.md"
@@ -6915,6 +6977,14 @@
       "url": "https://www.gov.cn/zwgk/2008-09/19/content_1099470.htm",
       "files": [
         "content/policies/severance-basis.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.gszhuanglang.gov.cn/zfxxgk/bmxzxxgk/bmxxgk/zlxrlzyhshbzj/fdzdgknr/LZYJ/art/2026/art_b5521673e3d245118f53119d424ffc39.html",
+      "files": [
+        "content/articles/article65.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7324,6 +7394,22 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html",
+      "files": [
+        "content/articles/article63.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2026/3/6/art_14_19826.html",
+      "files": [
+        "content/articles/article63.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.ningjin.gov.cn/single/24/84378.html",
       "files": [
         "content/articles/article25.md"
@@ -7402,7 +7488,16 @@
       "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_e81d115419b4463ebb59ec46467fb136.html",
       "files": [
         "content/articles/article57.md",
-        "content/articles/article61.md"
+        "content/articles/article61.md",
+        "content/articles/article65.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2024/art_de42ae92b756440c979a519b80d76b0a.html",
+      "files": [
+        "content/articles/article65.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7908,6 +8003,14 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.beijing.gov.cn/tzgg2022/202608/t20260827_4838966.html",
+      "files": [
+        "content/articles/article63.md"
+      ],
+      "discovery": false,
       "authority": "official-domain"
     },
     {
