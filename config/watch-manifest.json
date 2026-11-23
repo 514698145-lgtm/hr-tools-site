@@ -314,6 +314,18 @@
       "sha256": "7ad99b5d2e6b7130a1df01bfaaec88f1be0f93ac31415e0be2c23a0a91986408"
     },
     {
+      "path": "content/articles/article75.md",
+      "sha256": "cbf80add7af3e2f81563c2e18322c453a40296b4f0d39c1beba09761e9e3dc88"
+    },
+    {
+      "path": "content/articles/article76.md",
+      "sha256": "dc8d842e131e4519deaba90c10be91eb1b2c262efdaec93ce49ea1c57a94a54d"
+    },
+    {
+      "path": "content/articles/article77.md",
+      "sha256": "935d3633e8e0a920b4d7cf783308412ab943a4f559a3c4aa48ec0aa09fe50b05"
+    },
+    {
       "path": "content/articles/article8.md",
       "sha256": "c870b688052923e26ecc3208467d9060b5dd32f85c5342c6eb2b649927c8e44f"
     },
@@ -1631,6 +1643,24 @@
     },
     {
       "path": "content/articles/article74.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article75.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article76.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article77.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5409,6 +5439,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2021-07-16/315319.shtml",
+      "files": [
+        "content/articles/article76.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/c/2023-08-10/384359.shtml",
       "files": [
         "content/policies/employee-onboarding-one-stop.md"
@@ -5644,6 +5682,14 @@
       "url": "https://chinajob.mohrss.gov.cn/c/2026-11-18/644025.shtml",
       "files": [
         "content/articles/article74.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2026-11-20/646799.shtml",
+      "files": [
+        "content/articles/article76.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6212,6 +6258,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://jjc.cq.gov.cn/web/aritcle/1573991209891196928/web/content_1573991209891196928.html",
+      "files": [
+        "content/articles/article77.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://jnhrss.jinan.gov.cn/col/col18309/art/2026/art_4c39228336c84503bc34f409d4a9268b.html",
       "files": [
         "content/articles/article13.md"
@@ -6341,6 +6395,14 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://nypubweb.nydt.cn/nyh/article/1/2123574599250296834",
+      "files": [
+        "content/articles/article75.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://o.keniu.com/t/1001126.html",
@@ -6933,7 +6995,8 @@
     {
       "url": "https://www.beijing.gov.cn/zhengce/gwywj/202611/t20261117_4948789.html",
       "files": [
-        "content/articles/article73.md"
+        "content/articles/article73.md",
+        "content/articles/article75.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7193,6 +7256,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.hnzwfw.gov.cn/2026/11-05/41000287.html",
+      "files": [
+        "content/articles/article75.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.hrtoolkit.cn",
       "files": [
         "config/release.json",
@@ -7221,6 +7292,14 @@
       "url": "https://www.hunan.gov.cn/topic/ldzs/202608/t20260814_34044807.html",
       "files": [
         "content/articles/article20.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmsrlzyhshbzj/zwgk/gggs/content/post_3479055.html",
+      "files": [
+        "content/articles/article76.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7658,6 +7737,7 @@
         "content/articles/article67.md",
         "content/articles/article69.md",
         "content/articles/article72.md",
+        "content/articles/article76.md",
         "content/policies/probation-dismissal.md",
         "content/policies/probation-limit.md",
         "content/policies/severance-basis.md"
@@ -8147,6 +8227,14 @@
       "authority": "manual-verification-required"
     },
     {
+      "url": "https://www3.xinhuanet.com/politics/20261121/fe28c54135ff45359f2e511c5984bc4e/c.html",
+      "files": [
+        "content/articles/article77.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
       "url": "https://xahrss.xa.gov.cn/hdjl/zxrd/rsdl/2108815563589517314.html",
       "files": [
         "content/articles/article6.md"
@@ -8183,6 +8271,14 @@
       "files": [
         "content/articles/article40.md",
         "content/policies/annual-leave.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=437",
+      "files": [
+        "content/articles/article77.md"
       ],
       "discovery": false,
       "authority": "official-domain"
