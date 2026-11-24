@@ -326,8 +326,20 @@
       "sha256": "935d3633e8e0a920b4d7cf783308412ab943a4f559a3c4aa48ec0aa09fe50b05"
     },
     {
+      "path": "content/articles/article78.md",
+      "sha256": "1a6c23252a8fc73dd840e56c933c9f184ab3c3db30a43f7bdadada3e97b05da2"
+    },
+    {
+      "path": "content/articles/article79.md",
+      "sha256": "e255376c0f80dbefb632a69fff5d4a89ec66efcacba2a53bfe44721c2b9729c5"
+    },
+    {
       "path": "content/articles/article8.md",
       "sha256": "c870b688052923e26ecc3208467d9060b5dd32f85c5342c6eb2b649927c8e44f"
+    },
+    {
+      "path": "content/articles/article80.md",
+      "sha256": "ef1c412f6342121abf67304c844f2bf2bbc06bc0de2a8de160b9d130f953ce91"
     },
     {
       "path": "content/articles/article9.md",
@@ -1666,7 +1678,25 @@
       "reviewAfter": ""
     },
     {
+      "path": "content/articles/article78.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article79.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
       "path": "content/articles/article8.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article80.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5719,6 +5749,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-11-20/645299.shtml",
+      "files": [
+        "content/articles/article79.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chrm.mohrss.gov.cn/announcement/中共中央组织部-人力资源社会保障部等五部门关-2/",
       "files": [
         "content/articles/article41.md"
@@ -6177,6 +6215,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://hudong.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202204/t20220421_620064.html",
+      "files": [
+        "content/articles/article80.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://hzf.mofcom.gov.cn/article/ggfw/zcfg/zcdwlwhz/202512/2519.html",
       "files": [
         "content/articles/article68.md"
@@ -6341,6 +6387,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://liaoning.chinatax.gov.cn/art/2026/11/23/art_2623_179368.html",
+      "files": [
+        "content/articles/article78.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://liaoning.chinatax.gov.cn/art/2026/6/1/art_1923_167578.html",
       "files": [
         "public/assets/hr-tools.js"
@@ -6424,6 +6478,14 @@
       "url": "https://rlsbj.cq.gov.cn/zwxx_182/gzdt/202306/t20230629_12107065.html",
       "files": [
         "content/policies/pension-transfer.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rlsbj.cq.gov.cn/zwxx_182/tzgg/202604/t20260401_15582894.html",
+      "files": [
+        "content/articles/article78.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6698,6 +6760,14 @@
       "url": "https://rst.hubei.gov.cn/bmdt/dtyw/mtjj/202605/t20260515_5937122.shtml",
       "files": [
         "content/articles/article10.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rst.hubei.gov.cn/bmdt/dtyw/tpxw/202611/t20261123_6132345.shtml",
+      "files": [
+        "content/articles/article80.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7289,6 +7359,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.hubei.gov.cn/zwgk/hbyw/hbywqb/202611/t20261121_6131984.shtml",
+      "files": [
+        "content/articles/article80.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.hunan.gov.cn/topic/ldzs/202608/t20260814_34044807.html",
       "files": [
         "content/articles/article20.md"
@@ -7760,7 +7838,8 @@
         "content/articles/article57.md",
         "content/articles/article61.md",
         "content/articles/article65.md",
-        "content/articles/article66.md"
+        "content/articles/article66.md",
+        "content/articles/article78.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8195,6 +8274,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.yzcity.gov.cn/12333/0202/202609/e04ea75bd8a64473a127d3a88b8d73b1.shtml",
+      "files": [
+        "content/articles/article79.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.zfgjj.cn/tjgjjcms/mainSiteApp/content/app_zwgk/app_zcwj/app_zcjd/app_zcjd/379429.html",
       "files": [
         "public/assets/city-policies.js"
@@ -8278,7 +8365,8 @@
     {
       "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=437",
       "files": [
-        "content/articles/article77.md"
+        "content/articles/article77.md",
+        "content/articles/article79.md"
       ],
       "discovery": false,
       "authority": "official-domain"
