@@ -354,6 +354,18 @@
       "sha256": "773078823367d9be59f82743605eda6862b77d0b051699ffc44d478edd25a62e"
     },
     {
+      "path": "content/articles/article84.md",
+      "sha256": "a96f28628d861c5faf0d7aa936618c92027e315b35d6000a80278c3da16440a3"
+    },
+    {
+      "path": "content/articles/article85.md",
+      "sha256": "40692c28ea862e530bf2f8a87f31ddb8c1d94c4eacdfc5dfa241dc0ec31788c3"
+    },
+    {
+      "path": "content/articles/article86.md",
+      "sha256": "d0851a8b78fddc5f4514113ad63914454bbe37606e2f42ac81df17bfabcfde2d"
+    },
+    {
       "path": "content/articles/article9.md",
       "sha256": "20bc3933de42677c15119b1ce9f1aacce0a2f94b37911ef727c0ea4b257cb173"
     },
@@ -1727,6 +1739,24 @@
     },
     {
       "path": "content/articles/article83.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article84.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article85.md",
+      "status": "published",
+      "checkedAt": "",
+      "reviewAfter": ""
+    },
+    {
+      "path": "content/articles/article86.md",
       "status": "published",
       "checkedAt": "",
       "reviewAfter": ""
@@ -5507,6 +5537,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2021-09-09/323060.shtml",
+      "files": [
+        "content/articles/article84.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/c/2023-08-10/384359.shtml",
       "files": [
         "content/policies/employee-onboarding-one-stop.md"
@@ -5526,6 +5564,14 @@
       "url": "https://chinajob.mohrss.gov.cn/c/2024-09-27/415625.shtml",
       "files": [
         "content/articles/article38.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/c/2025-02-21/425818.shtml",
+      "files": [
+        "content/articles/article85.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -5798,6 +5844,14 @@
       "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-11-20/646706.shtml",
       "files": [
         "content/articles/article83.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-11-25/648452.shtml",
+      "files": [
+        "content/articles/article86.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6140,6 +6194,22 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://hrss.jining.gov.cn/art/2022/12/13/art_15075_2712353.html",
+      "files": [
+        "content/articles/article85.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://hrss.jining.gov.cn/art/2026/11/12/art_15073_2719136.html",
+      "files": [
+        "content/articles/article85.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://hrss.qingdao.gov.cn/zxzx_47/gzdt_47/202211/t20221116_6497885.shtml",
       "files": [
         "content/policies/retirement-transition.md"
@@ -6369,6 +6439,14 @@
       "url": "https://jjc.cq.gov.cn/web/aritcle/1573991209891196928/web/content_1573991209891196928.html",
       "files": [
         "content/articles/article77.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://jnhrss.jinan.gov.cn/col/col127921/art/2026/art_d882017398494a328190fa24d46a6958.html",
+      "files": [
+        "content/articles/article85.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6668,6 +6746,22 @@
       "url": "https://rsj.linxia.gov.cn/rsj/zfxxgk/zcwj/zcwj/sbwj/index.html",
       "files": [
         "content/articles/article83.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.nanjing.gov.cn/njsrlzyhshbzj/202412/t20241206_5027330.html",
+      "files": [
+        "content/articles/article84.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://rsj.nanjing.gov.cn/njsrlzyhshbzj/202611/t20261125_6048001.html",
+      "files": [
+        "content/articles/article84.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7656,6 +7750,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202108/t20210830_421967.html",
+      "files": [
+        "content/articles/article84.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html",
       "files": [
         "content/policies/retirement-transition.md"
@@ -7930,7 +8032,8 @@
       "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_d0f9fd2e7dcb4286a55c87b188f38bbc.html",
       "files": [
         "content/articles/article52.md",
-        "content/articles/article56.md"
+        "content/articles/article56.md",
+        "content/articles/article86.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7942,7 +8045,8 @@
         "content/articles/article61.md",
         "content/articles/article65.md",
         "content/articles/article66.md",
-        "content/articles/article78.md"
+        "content/articles/article78.md",
+        "content/articles/article85.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8203,6 +8307,14 @@
       "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc",
       "files": [
         "public/assets/input-rules.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.tcdj.gov.cn/phone/info_50813.aspx",
+      "files": [
+        "content/articles/article86.md"
       ],
       "discovery": false,
       "authority": "official-domain"
