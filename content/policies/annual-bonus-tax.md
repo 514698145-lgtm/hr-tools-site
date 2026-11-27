@@ -7,8 +7,10 @@ keyPoint: 政策延续至2027年底
 status: published
 scope: 符合条件的居民个人全年一次性奖金；非居民等另有口径。
 checkedAt: '2026-10-16'
+updatedAt: '2026-11-27'
 reviewAfter: '2027-01-04'
 sources:
+- https://www.mof.gov.cn/jrttts/202308/t20230828_3904461.htm
 - https://tianjin.chinatax.gov.cn/11200000000/0300/030005/20260518100251877.shtml
 - https://neimenggu.chinatax.gov.cn/sjpd/byne/tzgghhht/202309/t20230915_782154.html
 - https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202501/t474844.html
@@ -19,7 +21,7 @@ seoTitle: 年终奖个税怎么算？单独计税次数、十三薪与全年税�
 seoDescription: 4月已经发过奖金，12月十三薪还能单独计税吗？区分奖金资格、年度使用次数和发放前测算，附官方依据与FAQ。
 ---
 
-符合条件的居民个人全年一次性奖金，可以选择单独计税，也可以并入当年综合所得。现行优惠执行至 **2027年12月31日**；同一纳税年度，每人只能使用一次单独计税办法。[政策公告](https://neimenggu.chinatax.gov.cn/sjpd/byne/tzgghhht/202309/t20230915_782154.html)、[税务部门问答](https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202501/t474844.html)相互印证。
+符合条件的居民个人全年一次性奖金，可以选择单独计税，也可以并入当年综合所得。现行优惠执行至 **2027年12月31日**。同一纳税年度，每人只能使用一次单独计税办法。核对的是奖金取得所属年度和本年度是否已经使用该办法。[财政部、税务总局2023年第30号公告](https://www.mof.gov.cn/jrttts/202308/t20230828_3904461.htm)、[税务部门问答](https://shanghai.chinatax.gov.cn/tax/zcfw/rdwd/202501/t474844.html)。
 
 ## 4月领过奖金，12月还能用吗？
 

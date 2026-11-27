@@ -387,23 +387,23 @@
     },
     {
       "path": "content/cities/beijing.md",
-      "sha256": "180514096d128e5b4529ee79fae360b3fd701059e4324f21d626596d4555fffc"
+      "sha256": "86f6223649b9fa740de9849a6725d9fe739666f5caa5f3482b452e0cd3a75259"
     },
     {
       "path": "content/cities/lianyungang.md",
-      "sha256": "c286aa73b1a7caace152a5797a30524169384be63f94c5441cd28745dab224bc"
+      "sha256": "8156f0fa1c5d10f20d88acbc8398916824eb1bbdb7708a96bbeb8876cabf2d3c"
     },
     {
       "path": "content/cities/nanjing.md",
-      "sha256": "35f3549028dd7e74eb0008386482679f96428e9c7f813743ac8cfb942b16d307"
+      "sha256": "99f6a5f8895ddcbf97edd50035517160ae671df13bfb1565214ee1371ac484e5"
     },
     {
       "path": "content/cities/shanghai.md",
-      "sha256": "7e5f7aef0db8dd36ff0759e1136a9923323c0ee33e66f916e3def15a90219b3f"
+      "sha256": "c7bbfee59e576a406522932045ad4570047a4d9f60798b0defb87c8ba1a798cc"
     },
     {
       "path": "content/cities/wuxi.md",
-      "sha256": "714aba17ad0821bc35a72ab6df0a7c483345e61b7886b7351a8b5808802c2827"
+      "sha256": "84c5d5bed069d5597eb0f62f6e728d743339009ff05b9b4ba3f21383e9e28fa3"
     },
     {
       "path": "content/editorial.md",
@@ -419,11 +419,11 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "8e0bcfcb2b7f73e69e021217d0f0b2cb36458037db12f7e3f052293446afef9d"
+      "sha256": "af07eff996fd662512d9f0e42144970389e0541ed07904ca49e7099f08348a81"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
-      "sha256": "1de7747e9a9680690b5f1c7652beda7188d15f822ea93c86677c1825bba6967a"
+      "sha256": "39cb2fdeb36d3a5ed6f01b5120c2d0a33d8c99cd46ef080ad58cf778d60beca5"
     },
     {
       "path": "content/policies/annual-leave-proration.md",
@@ -459,7 +459,7 @@
     },
     {
       "path": "content/policies/jiangsu-social-base-2026.md",
-      "sha256": "5b7165fedcbe371fc0ac280455d35278cadbd7271bf2d0535368cdb209d3455b"
+      "sha256": "d5678e84ffec929593339ac35bb1a3580617f617bf4b228a1312904dd4dddccb"
     },
     {
       "path": "content/policies/labor-dispatch-limit.md",
@@ -499,7 +499,7 @@
     },
     {
       "path": "content/policies/retirement-transition.md",
-      "sha256": "6fd0c9ea9670b23d5e8728208002a14f167833cd61d72136f143ff2378e287c2"
+      "sha256": "5936bcb01cfbc4d110a2a141341b9e87e310eae6992f861c98505151288c1ae4"
     },
     {
       "path": "content/policies/severance-basis.md",
@@ -519,7 +519,7 @@
     },
     {
       "path": "content/policies/zhejiang-maternity-allowance.md",
-      "sha256": "45a372e5c698dbfd66a7f95103f016b961f408c66aca62ee01dc7a622a02370e"
+      "sha256": "2f6782eebcbe241f4843e29dae76628877d40cb0ef1e4f6a391906ecb5f31072"
     },
     {
       "path": "content/seo/pages/contract-reminders.md",
@@ -607,7 +607,7 @@
     },
     {
       "path": "public/assets/city-policies.js",
-      "sha256": "2608413c9489e53dc773f323a2d807c26fffa16e3b39a10f657c17e162fcad07"
+      "sha256": "172dd4eaa9199925fc832c69b635542934b92c1c501ff46ead25c9081f9be543"
     },
     {
       "path": "public/assets/contact-widget.css",
@@ -1031,31 +1031,31 @@
     },
     {
       "path": "public/downloads/import-templates/employment-cost.xlsx",
-      "sha256": "973d95c1697184f2dd3ab11005f2724248482fa46a0e09e8ee13b09dd4afa6cf"
+      "sha256": "2fcb44f6b71bdfdb3d7d7331000610e0ddb6cf306516ae52f3c4910d4fff2866"
     },
     {
       "path": "public/downloads/import-templates/five-insurances-housing-fund.xlsx",
-      "sha256": "7df7499b8d2516c1ec0d6475a73e2ac36d11a951097ab9edf47db6120b1628a7"
+      "sha256": "2f25bf205ad9cdae49274afee3c308e5a7de527fa2ecbd2c4caa61600bcf10dc"
     },
     {
       "path": "public/downloads/import-templates/hr-metrics.xlsx",
-      "sha256": "7b18603120de34cda8ec22af2791a54fd576e3e9209582a01940d4a626d543da"
+      "sha256": "74d2d08c241893f4ab31c2fe33a27968e114824088ed3cbfe7f041f2a5e43aa9"
     },
     {
       "path": "public/downloads/import-templates/income-tax.xlsx",
-      "sha256": "032426c307ae524742c836c7a167913c42798d063ff7bf6b8fc0f8f4a271a1a1"
+      "sha256": "03e65330840f9c44572d7ebe5d6f3b0b2162e3e259a111b7219a42fb0e1a3b95"
     },
     {
       "path": "public/downloads/import-templates/salary-budget.xlsx",
-      "sha256": "9c722f89cbe3ddc4b71d8edc7e77683ca71c7e531f52624402c658794ccb83ac"
+      "sha256": "0b40a01a5aa874f7797119c811a6fda250bc205356f5ea274ba658e5a45f868b"
     },
     {
       "path": "public/downloads/import-templates/severance.xlsx",
-      "sha256": "8e4e90ad58cb252fc0d2c191ce5975062f0010d178e7f6246645990aaf04ed2c"
+      "sha256": "5fe0337f373f1e73a4d8290f8102772fe5e98cb8e564af2fa32e13354dc6f01e"
     },
     {
       "path": "public/downloads/import-templates/take-home-pay.xlsx",
-      "sha256": "751a1ba316360b064a5ffb8253d42dfd0b3b2216cd2f91511cafe03725caf7e9"
+      "sha256": "84d7fe2dd94c59d40035b78a16ce7cc76298ba2d7875945e43ad86171037caf5"
     },
     {
       "path": "scripts/article_layout.py",
@@ -2373,11 +2373,11 @@
         "medicalExtraC": 0
       },
       "source": {
-        "label": "园区税务征收标准：个人医保2%及每月5元（单位费率另按分步通知）",
-        "url": "https://jiangsu.chinatax.gov.cn/art/2025/4/3/art_8539_371935.html"
+        "label": "园区社保和公积金中心：职工医保个人2%、月固定5元及单位分期费率",
+        "url": "https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html"
       },
       "from": "2026-01",
-      "to": "2026-12",
+      "to": "2027-03",
       "status": "已核验",
       "plan": "sip"
     },
@@ -2401,13 +2401,56 @@
         "medicalC": 6
       },
       "source": {
-        "label": "园区管委会：2026年4月1日起医保单位6%",
-        "url": "https://jiangsu.chinatax.gov.cn/art/2023/4/14/art_22451_885.html"
+        "label": "园区社保和公积金中心：职工医保个人2%、月固定5元及单位分期费率",
+        "url": "https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html"
       },
       "from": "2026-04",
-      "to": "2026-12",
+      "to": "2027-03",
       "status": "已核验",
       "plan": "sip"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "birthC": 0.8
+      },
+      "source": {
+        "label": "园区社保和公积金中心：职工医保个人2%、月固定5元及单位分期费率",
+        "url": "https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html"
+      },
+      "from": "2027-01",
+      "to": "2027-03",
+      "status": "已核验",
+      "plan": "sip"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 7
+      },
+      "source": {
+        "label": "苏州医保：园区以外单位基本医保7%、个人2%",
+        "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202312/520891b6afe947829a4fd939c7f82fa7.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "other"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "fixedP": 5
+      },
+      "source": {
+        "label": "苏州医保参保登记口径：在职职工每月5元大额医疗共济金",
+        "url": "https://ybj.suzhou.gov.cn/szybj/zgylbx/202509/abe0e40b1d8c478d9a5a753f5521c365.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "plan": "other"
     },
     {
       "city": "苏州",
@@ -2421,6 +2464,44 @@
       "from": "2026-10",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "苏州",
+      "values": {
+        "fundMax": 40600,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "苏州公积金中心：2026年度缴存基数、缴存比例和核准例外",
+        "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "苏州",
+      "values": {},
+      "source": {
+        "label": "苏州公积金中心：2026年度缴存基数、缴存比例和核准例外",
+        "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "公积金上限40600元。通常按本市社保最低缴费基数（2026年5025元）作为下限；低于该值须经公积金中心核准，且不得低于本市最低月工资标准。请填写本人已核定基数。"
+    },
+    {
+      "city": "苏州",
+      "values": {},
+      "source": {
+        "label": "苏州公积金中心：2026年度缴存基数、缴存比例和核准例外",
+        "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml"
+      },
+      "from": "2027-01",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "公积金下限按本市适用社保最低基数及经办核准情况确定。请填写对应月份的本人已核定基数。"
     },
     {
       "city": "南通",
@@ -2581,6 +2662,32 @@
       "from": "2026-07",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "盐城",
+      "values": {
+        "fundMax": 31314,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "建湖县政府刊载盐城2026年度公积金缴存基数调整通知",
+        "url": "https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "盐城",
+      "values": {},
+      "source": {
+        "label": "建湖县政府刊载盐城2026年度公积金缴存基数调整通知",
+        "url": "https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "公积金下限：市直、亭湖、盐都、开发区、盐南高新区、大丰、东台2260元；建湖、射阳、阜宁、滨海、响水2010元。请按属地填写已核定基数。"
     },
     {
       "city": "扬州",
@@ -2911,6 +3018,32 @@
       "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {
+        "fundMax": 38907,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "宁波海曙政府：2026年度公积金暂行上限与各区县下限",
+        "url": "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html"
+      },
+      "from": "2026-07",
+      "to": "2026-11",
+      "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {},
+      "source": {
+        "label": "宁波海曙政府：2026年度公积金暂行上限与各区县下限",
+        "url": "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html"
+      },
+      "from": "2026-07",
+      "to": "2026-11",
+      "status": "已核验",
+      "note": "公积金上限暂按38907元，正式标准另行通知；海曙、江北、镇海、北仑、鄞州、奉化下限2660元，余姚、慈溪、宁海、象山2430元。请按所属区县及实际核定值填写。"
     },
     {
       "city": "温州",
@@ -6506,14 +6639,6 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://jiangsu.chinatax.gov.cn/art/2025/4/3/art_8539_371935.html",
-      "files": [
-        "public/assets/city-policies.js"
-      ],
-      "discovery": false,
-      "authority": "official-domain"
-    },
-    {
       "url": "https://jiangsu.chinatax.gov.cn/art/2025/9/15/art_8353_1604867.html",
       "files": [
         "content/policies/personal-pension-tax.md"
@@ -6783,6 +6908,7 @@
     {
       "url": "https://rsj.beijing.gov.cn/xxgk/2024zcjd/202608/t20260821_4831476.html",
       "files": [
+        "content/cities/beijing.md",
         "public/assets/city-policies.js"
       ],
       "discovery": false,
@@ -7163,6 +7289,14 @@
       "url": "https://shanghai.chinatax.gov.cn/zcfw/rdwd/202603/t479656.html",
       "files": [
         "content/policies/housing-rent-deduction.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://shanghai.chinatax.gov.cn/zcfw/zcfgk/node92/202605/t480421.html",
+      "files": [
+        "content/policies/retirement-transition.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7609,6 +7743,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.he.12333.gov.cn/",
       "files": [
         "public/data/official-sites.json"
@@ -7699,6 +7841,14 @@
     },
     {
       "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -7821,6 +7971,14 @@
       "url": "https://www.moe.gov.cn/jyb_xwfb/s5147/202610/t20261016_1454372.html",
       "files": [
         "content/articles/article7.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.mof.gov.cn/jrttts/202308/t20230828_3904461.htm",
+      "files": [
+        "content/policies/annual-bonus-tax.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8072,6 +8230,14 @@
       "url": "https://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html",
       "files": [
         "content/articles/article63.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2026/2/6/art_14_19607.html",
+      "files": [
+        "content/policies/zhejiang-maternity-allowance.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8357,6 +8523,15 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html",
+      "files": [
+        "content/policies/jiangsu-social-base-2026.md",
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
       "url": "https://www.sjzgjj.cn/tzgg/2479.jhtml",
       "files": [
         "public/assets/city-policies.js"
@@ -8432,6 +8607,23 @@
       "url": "https://www.suzhou.gov.cn/gxbysjycy/bysfwqd/202409/b0dfeac6a72b4811accc87fa95bf4654.shtml",
       "files": [
         "content/articles/article41.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202312/520891b6afe947829a4fd939c7f82fa7.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml",
+      "files": [
+        "content/policies/jiangsu-social-base-2026.md",
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8805,6 +8997,14 @@
       "url": "https://ybj.suzhou.gov.cn/szybj/zcfg/202608/23b2f70f8dc0483eb58d89c97f2e07a4.shtml",
       "files": [
         "content/policies/maternity-leave.md",
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://ybj.suzhou.gov.cn/szybj/zgylbx/202509/abe0e40b1d8c478d9a5a753f5521c365.shtml",
+      "files": [
         "public/assets/city-policies.js"
       ],
       "discovery": false,

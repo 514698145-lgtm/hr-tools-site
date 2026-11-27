@@ -96,10 +96,26 @@ test('苏州园区4月调费独立于吴江；天津新办法按3月施行',()=>
  assert.equal(cityPolicy('苏州','2026-03',{medicalPlan:'sip'}).values.medicalC,5);
  assert.equal(cityPolicy('苏州','2026-04',{medicalPlan:'sip'}).values.medicalC,6);
  assert.equal(cityPolicy('苏州','2026-10',{medicalPlan:'wj'}).values.medicalC,7);
- assert.equal(cityPolicy('苏州','2026-10',{medicalPlan:'other'}).values.medicalC,undefined);
+ assert.equal(cityPolicy('苏州','2026-10',{medicalPlan:'other'}).values.medicalC,7);
+ assert.equal(cityPolicy('苏州','2026-10',{medicalPlan:'other'}).values.fixedP,5);
+ assert.equal(cityPolicy('苏州','2026-10').values.medicalC,undefined);
  assert.equal(cityPolicy('苏州','2026-10',{medicalPlan:'sip'}).values.birthC,.8);
+ const march=cityPolicy('苏州','2027-03',{medicalPlan:'sip'}).values;
+ assert.deepEqual([march.medicalC,march.medicalP,march.birthC,march.fixedP],[6,2,.8,5]);
+ assert.equal(cityPolicy('苏州','2027-04',{medicalPlan:'sip'}).values.medicalC,undefined);
  assert.equal(cityPolicy('天津','2026-02').values.medicalC,undefined);
  assert.equal(cityPolicy('天津','2026-03').values.medicalC,10.5);
+});
+
+test('公积金上限可按月份采用，分区或核准下限保留人工核定',()=>{
+ for(const [city,from,to,max] of [['苏州','2026-07','2027-06',40600],['盐城','2026-07','2027-06',31314],['宁波','2026-07','2026-11',38907]]){
+  assert.equal(cityPolicy(city,from).values.fundMax,max);
+  assert.equal(cityPolicy(city,to).values.fundRateMax,12);
+  assert.equal(cityPolicy(city,'2026-06').values.fundMax,undefined);
+  assert.equal(cityPolicy(city,'2026-11').values.fundMin,undefined);
+  assert.equal(contributionBases({city,month:'2026-11',wage:10000}).fund.value,undefined);
+ }
+ assert.equal(cityPolicy('宁波','2026-12').values.fundMax,undefined);
 });
 
 test('上海公积金正式上限与独立取整依据可计算金额，不再要求重复手填',()=>{

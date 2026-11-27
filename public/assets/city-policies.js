@@ -53,7 +53,7 @@ record(['天津'],{pensionMin:5180,pensionMax:25902,medicalMin:5180,medicalMax:2
 // Distinct insurance schemes must be selected explicitly; a district is not a city-wide default.
 export const medicalPlans={
  '深圳':[['sz1','深圳 · 职工医保一档'],['sz2','深圳 · 职工医保二档']],
- '苏州':[['wj','苏州 · 吴江普通企业职工'],['sip','苏州 · 工业园区普通企业职工'],['other','苏州 · 其他区域（参数尚未接入）']],
+ '苏州':[['wj','苏州 · 吴江普通企业职工'],['sip','苏州 · 工业园区普通企业职工'],['other','苏州 · 其他区域普通企业职工（园区除外）']],
  '东莞':[['dgSingle','东莞 · 单建统筹'],['dgAccount','东莞 · 统账结合（有个人账户）'],['dgNoAccount','东莞 · 统账结合（无个人账户）']],
  '中山':[['zsAccount','中山 · 统账结合'],['zsSingle','中山 · 单建统筹']],
  '惠州':[['hzAccount','惠州 · 统账结合（在职职工）'],['hzSingle','惠州 · 单建统筹（在职职工）']]
@@ -61,9 +61,13 @@ export const medicalPlans={
 for(const r of records.苏州)if(r.values.medicalP!==undefined)r.plan='wj';
 for(const r of records.深圳)if(r.values.medicalP!==undefined){const rates={medicalP:r.values.medicalP,medicalC:r.values.medicalC};delete r.values.medicalP;delete r.values.medicalC;record(['深圳'],rates,{...r.source,label:'深圳2026职工医保一档费率'},r.from,r.to);records.深圳.at(-1).plan='sz1';break;}
 const planRecord=(city,plan,values,src,from='2026-07',to='2026-12')=>{record([city],values,src,from,to);records[city].at(-1).plan=plan;};
-planRecord('苏州','sip',{medicalP:2,fixedP:5,fixedC:0,medicalExtraC:0},source('园区税务征收标准：个人医保2%及每月5元（单位费率另按分步通知）','https://jiangsu.chinatax.gov.cn/art/2025/4/3/art_8539_371935.html'),'2026-01');
+const sipMedical=source('园区社保和公积金中心：职工医保个人2%、月固定5元及单位分期费率','https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html');
+planRecord('苏州','sip',{medicalP:2,fixedP:5,fixedC:0,medicalExtraC:0},sipMedical,'2026-01','2027-03');
 planRecord('苏州','sip',{medicalC:5},source('园区管委会：医保单位费率分步调整，2026年4月前5%','https://jiangsu.chinatax.gov.cn/art/2023/4/14/art_22451_885.html'),'2026-01','2026-03');
-planRecord('苏州','sip',{medicalC:6},source('园区管委会：2026年4月1日起医保单位6%','https://jiangsu.chinatax.gov.cn/art/2023/4/14/art_22451_885.html'),'2026-04','2026-12');
+planRecord('苏州','sip',{medicalC:6},sipMedical,'2026-04','2027-03');
+planRecord('苏州','sip',{birthC:.8},sipMedical,'2027-01','2027-03');
+planRecord('苏州','other',{medicalP:2,medicalC:7},source('苏州医保：园区以外单位基本医保7%、个人2%','https://www.suzhou.gov.cn/szsrmzf/bmwj/202312/520891b6afe947829a4fd939c7f82fa7.shtml'));
+planRecord('苏州','other',{fixedP:5},source('苏州医保参保登记口径：在职职工每月5元大额医疗共济金','https://ybj.suzhou.gov.cn/szybj/zgylbx/202509/abe0e40b1d8c478d9a5a753f5521c365.shtml'));
 record(['上海'],{fundRounding:0},source('上海公积金业务资料：单位个人各自月缴存额元以下四舍五入','https://www.shzfgjj.cn/images/ywzlb.pdf'),'2026-07','2027-06');
 record(['天津'],{pensionP:8,pensionC:16},source('天津税务：2022年起养老单位16%、个人8%','https://tianjin.chinatax.gov.cn/11200000000/0300/030002/20211009154650282.shtml'));
 record(regions.河北,{pensionP:8,pensionC:16},source('廊坊人社2026企业职工养老政策解答（河北省口径）','https://rsj.lf.gov.cn/ecdomain/fileHandle.do?action=read&infoChecked=0&objectID=20260820101922548'));
@@ -122,6 +126,16 @@ record(['雄安新区'],{fundMin:2380,fundRateMax:12},xaFund,'2026-07','2027-06'
 // Scope notes travel with both the form and calculation/export. A single city-wide
 // minimum must not silently replace a district, employment or approval condition.
 const policyNote=(city,note,src,from,to)=>{record([city],{},src,from,to);records[city].at(-1).note=note;};
+const szFund=source('苏州公积金中心：2026年度缴存基数、缴存比例和核准例外','https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml');
+record(['苏州'],{fundMax:40600,fundRateMax:12},szFund,'2026-07','2027-06');
+policyNote('苏州','公积金上限40600元。通常按本市社保最低缴费基数（2026年5025元）作为下限；低于该值须经公积金中心核准，且不得低于本市最低月工资标准。请填写本人已核定基数。',szFund,'2026-07','2026-12');
+policyNote('苏州','公积金下限按本市适用社保最低基数及经办核准情况确定。请填写对应月份的本人已核定基数。',szFund,'2027-01','2027-06');
+const ycFund=source('建湖县政府刊载盐城2026年度公积金缴存基数调整通知','https://www.jianhu.gov.cn/art/2026/7/27/art_44943_4442118.html');
+record(['盐城'],{fundMax:31314,fundRateMax:12},ycFund,'2026-07','2027-06');
+policyNote('盐城','公积金下限：市直、亭湖、盐都、开发区、盐南高新区、大丰、东台2260元；建湖、射阳、阜宁、滨海、响水2010元。请按属地填写已核定基数。',ycFund,'2026-07','2027-06');
+const nbFund=source('宁波海曙政府：2026年度公积金暂行上限与各区县下限','https://www.haishu.gov.cn/col/col1229100020/art/2026/art_ed8daf35d53e482893accae0bcb57abd.html');
+record(['宁波'],{fundMax:38907,fundRateMax:12},nbFund,'2026-07','2026-11');
+policyNote('宁波','公积金上限暂按38907元，正式标准另行通知；海曙、江北、镇海、北仑、鄞州、奉化下限2660元，余姚、慈溪、宁海、象山2430元。请按所属区县及实际核定值填写。',nbFund,'2026-07','2026-11');
 policyNote('东莞','公积金：9月起新参加工作、新调入职工下限2300元；存量职工2026年内仍为2080元。请填写员工已核定基数，不默认套用同一下限。',dgFund,'2026-09','2026-12');
 policyNote('泰州','公积金下限：海陵、姜堰、高港2660元；靖江、泰兴、兴化2430元。请按区县填写已核定基数。',source('泰州公积金：2026年最低基数补充通知','https://gjj.taizhou.gov.cn/xwzx/tzgg/art/2026/art_0d3c5588297a49238c3c81696f195096.html'),'2026-01','2026-12');
 policyNote('石家庄','公积金下限按区县为2380、2230或2080元；上年月均工资低于5588元，调整基数须经所属管理部审核。请填写已核定基数。',sjzFund,'2026-07','2027-06');
@@ -138,5 +152,5 @@ export function cityPolicy(city,month,context={}){
  if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(String(month)))throw Error('请选择有效缴费月份');
  const all=records[city]||[],active=all.filter(x=>month>=x.from&&month<=x.to&&x.status==='已核验'&&(!x.plan||x.plan===context.medicalPlan));
  const values={},evidence={};for(const row of active)for(const [key,value]of Object.entries(row.values)){values[key]=value;evidence[key]=row;}
- return {city,month,values,evidence,notes:active.filter(r=>r.note).map(r=>({text:r.note,source:r.source})),sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status!=='已核验'),unsupported:false,checked:'2026-10-16',version:`city-20261025-r1/${city}/${month}/${context.medicalPlan||'standard'}`};
+ return {city,month,values,evidence,notes:active.filter(r=>r.note).map(r=>({text:r.note,source:r.source})),sources:[...new Map(active.map(r=>[r.source.url,r])).values()],historical:all.filter(x=>x.to<month),pending:all.filter(x=>x.status!=='已核验'),unsupported:false,checked:'2026-10-16',version:`city-20261127-r1/${city}/${month}/${context.medicalPlan||'standard'}`};
 }

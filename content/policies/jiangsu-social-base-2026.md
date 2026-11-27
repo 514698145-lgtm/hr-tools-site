@@ -7,12 +7,14 @@ keyPoint: 正式基数5025—25127元
 status: published
 scope: 江苏普通企业职工2026年度社保基数；医保费率、公积金及特殊人员另按适用规定。
 checkedAt: '2026-10-16'
+updatedAt: '2026-11-27'
 reviewAfter: '2026-11-02'
 sources:
 - https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_77277_11838872.html
 - https://jshrss.jiangsu.gov.cn/art/2026/10/8/art_78497_11838875.html
 - https://www.nanjing.gov.cn/zzb/hdhy/hygq_72666/202610/t20261010_5923162.html
 - https://jiangsu.chinatax.gov.cn/art/2023/4/14/art_22451_885.html
+- https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml
 - https://www.sipac.gov.cn/szgyyq/202601jlsfwyqjc/202606/2f3fa397b7e846d4a73bf1ab359436a6.shtml
 relatedTools:
 - five-insurances-housing-fund
@@ -53,11 +55,11 @@ HR应填写按当地规则申报的缴费工资。处于上下限之间，采用
 
 ### 苏州工业园区也按同一社保上下限吗？
 
-省级正式通知包含园区相关征收部门，但医保单位费率仍有单独的分步调整：2026年4月起为6%，不能直接套用吴江的7%。[园区费率通知](https://jiangsu.chinatax.gov.cn/art/2023/4/14/art_22451_885.html)。
+省级正式通知包含园区相关征收部门。园区单位基本医保费率6%适用于2026年4月1日至2027年3月31日，期间单列生育保险0.8%，在职职工个人基本医保2%及每月大额医疗费用社会共济基金5元。跨年核算时，费率、各险种基数及适用月份要分别确认。[园区费率表](https://www.sipspf.org.cn/publish/main/210/2022/20220111112007000004791/20220111112007000004791_.html)。
 
 ### 公积金也按25127元封顶吗？
 
-不能。公积金有自己的缴存年度、上下限和人员条件，应单独核对。
+苏州公积金2026年度调整自2026年7月起执行，上限为40600元。下限通常采用本市适用的社保最低缴费基数；实际工资确实低于该值时须经公积金中心核准，且不得低于当地最低月工资标准。涉及核准情形的，应填写本人实际核定基数。[苏州年度公积金通知](https://www.suzhou.gov.cn/szsrmzf/bmwj/202607/4ebad3bfb66a40a09eb0997a93899cd2.shtml)。
 
 ### 计算器能算出公司应补缴的总金额吗？
 

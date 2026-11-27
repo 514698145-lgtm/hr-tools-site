@@ -7,12 +7,14 @@ keyPoint: 2025年起逐步调整
 status: published
 scope: 一般改革框架；个人年龄按出生年月、人员类别及适用规则确定。
 checkedAt: '2026-10-16'
+updatedAt: '2026-11-27'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.hmo.gov.cn/2026/08/21/ARTI6kpLUW6qilBUClmQ6bio260821.shtml
 - https://www.gov.cn/zhengce/202409/content_6974508.htm
 - https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html
 - https://hrss.qingdao.gov.cn/zxzx_47/gzdt_47/202211/t20221116_6497885.shtml
+- https://shanghai.chinatax.gov.cn/zcfw/zcfgk/node92/202605/t480421.html
 relatedTools: []
 seoTitle: 延迟退休年龄怎么查？出生年月、人员类别与弹性退休
 seoDescription: 延迟退休从2025年逐步实施，不能直接套63岁、58岁或55岁目标年龄；说明官方对照表、弹性退休与缴费年限的区别。
@@ -27,6 +29,10 @@ seoDescription: 延迟退休从2025年逐步实施，不能直接套63岁、58�
 弹性提前退休最长不超过3年，同时不得低于原法定退休年龄；须满足相应缴费年限，并至少提前3个月以书面形式告知单位。弹性延迟退休须与单位协商一致，最长不超过3年，双方应提前1个月书面明确延迟时间等事项。[《实施弹性退休制度暂行办法》](https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html)载有具体程序。
 
 从2030年1月1日起，按月领取基本养老金最低缴费年限由15年逐步提高到20年，每年提高6个月。弹性提前退休看所选择退休年份的最低年限，弹性延迟退休看本人法定退休年龄对应年份的最低年限，不能只看实际离岗年份。[国家决定及附表](https://www.hmo.gov.cn/2026/08/21/ARTI6kpLUW6qilBUClmQ6bio260821.shtml)、[人社部暂行办法第七条](https://www.mohrss.gov.cn/wap/zc/zcwj/202501/t20250101_533701.html)。
+
+## 弹性延迟退休与超龄继续就业分别核对
+
+五部门第56号令自2026年7月1日起施行，规定了适用范围内超龄劳动者的劳动报酬、休息休假、劳动安全卫生和工伤保障等基本权益。按国家规定办理弹性延迟退休的劳动者，在延迟期间适用劳动合同法、事业单位人事管理条例等相关规定。HR应先查员工的退休办理状态和书面延迟约定，再确定适用范围。[暂行规定第二、二十三条](https://shanghai.chinatax.gov.cn/zcfw/zcfgk/node92/202605/t480421.html)。
 
 ## 公开办理案例：退休业务联办
 

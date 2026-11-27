@@ -7,10 +7,12 @@ category: 女职工保护
 keyPoint: 浙江：2025年7月起直接发放
 scope: 浙江符合生育津贴领取条件的参保人员；新旧申请按当地通知衔接。
 checkedAt: '2026-10-16'
+updatedAt: '2026-11-27'
 reviewAfter: '2027-01-04'
 sources:
 - https://zjic.zj.gov.cn/zkdt/rdzx/202506/t20250630_23540134.shtml
 - https://www.nhsa.gov.cn/art/2025/7/9/art_14_17184.html
+- https://www.nhsa.gov.cn/art/2026/2/6/art_14_19607.html
 - https://app.www.gov.cn/govdata/gov/202505/03/528290/article.html
 relatedTools: []
 seoTitle: 浙江生育津贴发给个人还是单位？申领时间与工资衔接
@@ -42,4 +44,4 @@ seoDescription: 浙江自2025年7月1日起调整生育津贴发放方式，说�
 
 ### 可以用这条规则处理北京员工吗？
 
-不能，发放方式和申请主体须按参保地规则核对。
+国家医保局2026年2月6日通报，全国已实现生育津贴直接发放至个人，北京参保女职工自2026年1月31日起调整发放方式。北京员工仍应按北京的申请、待遇条件和新旧业务衔接办理。[国家医保局进展说明](https://www.nhsa.gov.cn/art/2026/2/6/art_14_19607.html)。
