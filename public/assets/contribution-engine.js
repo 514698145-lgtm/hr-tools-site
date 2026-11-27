@@ -1,4 +1,4 @@
-import {cityPolicy,cityOptions,medicalPlans} from './city-policies.js';
+import {cityPolicy,cityOptions,medicalPlans,separateFundRateSources} from './city-policies.js';
 const n=(key,label,unit='元',extra={})=>({key,label,unit,type:'number',...extra});
 export const parameterLabels={pensionP:'养老个人比例',pensionC:'养老公司比例',medicalP:'医保个人比例',medicalC:'医保公司比例',medicalExtraC:'医疗附加公司比例',birthC:'单列生育公司比例（已含则填0）',unemploymentP:'失业个人比例',unemploymentC:'失业公司比例',fixedP:'个人固定附加费（月）',fixedC:'公司固定附加费（月）'};
 export const baseKinds={pension:'养老',medical:'医疗与生育',unemployment:'失业',injury:'工伤',fund:'公积金'};
@@ -7,18 +7,18 @@ export const contributionTool={id:'five-insurances-housing-fund',name:'五险一
  {key:'month',label:'缴费月份',type:'month',value:new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit'}).format(new Date())},
  {key:'medicalPlan',label:'医保参保类型',type:'select',options:Object.values(medicalPlans).flat(),when:{key:'city',values:Object.keys(medicalPlans)},help:'按实际参保类型选择；留空时不套用某一档医保费率。'},
  n('wage','社保缴费工资','元',{help:'在职职工通常填上年度月平均工资性收入，不是到手工资；新入职按当地核定口径。上下限已核验时自动保底、封顶。'}),n('medicalWage','医保缴费工资（不同时填写）','元',{help:'留空沿用社保缴费工资。深圳医保按本人月工资收入，请按实际口径调整。'}),n('fundWage','公积金缴费工资（不同时填写）','元',{help:'通常为员工本人上年度月平均工资；新参加工作一般按第二个月工资、新调入按调入后工资核定。留空沿用主表工资。城市上下限齐全时自动计算基数。'}),
- n('fundRate','公积金个人比例（单位默认相同）','%',{min:5,max:12,help:'单位默认采用相同比例；广州、深圳可展开填写不同的单位比例。不确定可留空，本次结果将不含公积金。'}),
+ n('fundRate','公积金个人比例（单位默认相同）','%',{min:5,max:12,help:'单位默认采用相同比例；广州、深圳、江门可展开填写不同的单位比例。不确定可留空，本次结果将不含公积金。'}),
  n('supplementRate','补充公积金比例','%',{value:0,max:5,when:{key:'city',values:['上海']}}),
  n('injuryRate','单位经办核定的实际工伤比例','%',{max:10,help:'请填已应用行业类别和浮动档次后的实际比例。'}),
  ...Object.entries(baseKinds).map(([key,label])=>n(key+'Base',label+'本次缴费基数','元',{baseKind:key,help:'仅因网站缺少当期完整上下限而显示。可填员工经办系统已核定的基数；不是城市统一值。留空则该项目暂不计入；政策齐全时由工资自动计算，无需填写。'})),
  ...Object.entries(parameterLabels).map(([key,label])=>n(key,label,key.startsWith('fixed')?'元':'%',{policyKey:key})),
  {key:'fundRounding',label:'当地公积金金额取整规则（待确认）',type:'select',options:[['0','单位和个人各四舍五入至元'],['2','单位和个人各四舍五入至分']],policyKey:'fundRounding'},
- n('fundCompanyRate','单位公积金比例（与个人不同时填写）','%',{min:5,max:12,when:{key:'city',values:['广州','深圳']},help:'本页公积金主比例作为个人比例；此项留空时单位与个人相同。仅按经办已确定比例填写，单位比例不得高于个人。'}),
+ n('fundCompanyRate','单位公积金比例（与个人不同时填写）','%',{min:5,max:12,when:{key:'city',values:Object.keys(separateFundRateSources)},help:'本页公积金主比例作为个人比例；此项留空时单位与个人相同。仅按经办已确定比例填写，单位比例不得高于个人。'}),
  n('otherSocialP','其他已核定社保附加费 · 个人','元',{help:'选填。本月另行征收且未包含在上方项目中的已核定金额，如未建模的大额医疗、长期护理等；不要重复填写已自动计入的费用，不填公积金或商业保险。年度集中扣费按实际扣费月填写，不自动均摊。'}),
  n('otherSocialC','其他已核定社保附加费 · 公司','元',{help:'选填。仅填本月另行征收且上方未计入的社保附加金额；网站不据此判断该费用是否适用。留空只表示未另加金额，不证明当地没有其他费用。'}),
  n('otherFundP','其他已核定公积金金额 · 个人','元',{help:'选填。仅填本月未包含在普通或上海补充公积金项目中的已核定金额，如其他地区补充公积金。不重复填普通公积金，不用来覆盖基数或冲减已计入金额。'}),
  n('otherFundC','其他已核定公积金金额 · 公司','元',{help:'选填。仅填本月尚未计入的其他公积金实际金额。与社保附加费分别汇总，带入工资/成本时归入公积金。'})
- ],note:'普通企业职工口径。目录覆盖不代表所有参数完整：有官方依据且适用的参数自动采用；缺项不会按0处理。城市与月份决定政策上下限，员工缴费工资决定个人基数，上下限齐全时自动保底、封顶。医保按实际类型选择；苏州吴江与工业园区分别选择，其他区域尚未接入时按实际核定值补充。工伤实际费率、公积金单位选定比例需自行提供。固定附加费按本月实际应缴额填写，不将年缴费用擅自摊到每月。公积金按当地取整规则计算，广州、深圳支持填写不同的单位比例；不支持减免、缓缴、特殊人群。'};
+ ],note:'普通企业职工口径。目录覆盖不代表所有参数完整：有官方依据且适用的参数自动采用；缺项不会按0处理。城市与月份决定政策上下限，员工缴费工资决定个人基数，上下限齐全时自动保底、封顶。医保按实际类型选择；苏州请按吴江、工业园区或其他区域选择，缺项按实际核定值补充。工伤实际费率、公积金单位选定比例需自行提供。固定附加费按本月实际应缴额填写，不将年缴费用擅自摊到每月。公积金按当地取整规则计算，广州、深圳、江门支持填写不同的单位比例；不支持减免、缓缴、特殊人群。'};
 for(const f of contributionTool.fields){f.optional=!['city','month','wage'].includes(f.key);f.advanced=!['city','month','wage','medicalPlan'].includes(f.key);}
 export function visibleContributionField(){return true;}
 // Both the live preview and calculation use this resolver; empty inputs are never converted to zero.

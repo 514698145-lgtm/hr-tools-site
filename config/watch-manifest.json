@@ -419,7 +419,7 @@
     },
     {
       "path": "content/guide.md",
-      "sha256": "af07eff996fd662512d9f0e42144970389e0541ed07904ca49e7099f08348a81"
+      "sha256": "eda5af173815016cd41b76afc59997207cdf241c5c461147db55886d2afd2827"
     },
     {
       "path": "content/policies/annual-bonus-tax.md",
@@ -471,7 +471,7 @@
     },
     {
       "path": "content/policies/medical-family-wallet.md",
-      "sha256": "cc3f36f466d9ed24b394eb57d9178262508a73a67cf9210300cb4ba3515d925c"
+      "sha256": "993a92c465b2bf8681bb2cd06eeb854f7cbdf7c4122e2b5623aa8fc31d4b54c0"
     },
     {
       "path": "content/policies/mortgage-interest-deduction.md",
@@ -487,7 +487,7 @@
     },
     {
       "path": "content/policies/personnel-file-transfer.md",
-      "sha256": "8f8c1dfacb38bb43e58555c37cbda772483e6382d26211f8347f31d1b5243d29"
+      "sha256": "d4924bea48ab02d74e8d294bdd12466f525fe219cffe05cda8e94a762db6c370"
     },
     {
       "path": "content/policies/probation-dismissal.md",
@@ -515,11 +515,11 @@
     },
     {
       "path": "content/policies/wuxi-apprenticeship.md",
-      "sha256": "61bd74cc379cf0915616075a713835e0085b243371de6981008a23942ef6a3b4"
+      "sha256": "782a9f27a9364c764f92a1998e7f169b9c4e9747725a7804d21a16df5dc68f7f"
     },
     {
       "path": "content/policies/zhejiang-maternity-allowance.md",
-      "sha256": "2f6782eebcbe241f4843e29dae76628877d40cb0ef1e4f6a391906ecb5f31072"
+      "sha256": "ed26fb9630a5731c4341c9dcf1f4cf76f6c85d3c73a2aa7fb97ac9d5f0381693"
     },
     {
       "path": "content/seo/pages/contract-reminders.md",
@@ -607,7 +607,7 @@
     },
     {
       "path": "public/assets/city-policies.js",
-      "sha256": "172dd4eaa9199925fc832c69b635542934b92c1c501ff46ead25c9081f9be543"
+      "sha256": "4068f3dae65445aca856994fbdda296741b142d16059707f687fca62a0551a82"
     },
     {
       "path": "public/assets/contact-widget.css",
@@ -623,11 +623,11 @@
     },
     {
       "path": "public/assets/contribution-engine.js",
-      "sha256": "c21a129c0f1ce9f3c46b7a9bfeba45e9f7e16e53933b0c106846c8f646c0fc67"
+      "sha256": "c94ad5e8c5fc6caea6a8a92445a42d2574b7aacb0bf1bf9bb6689c572f28068f"
     },
     {
       "path": "public/assets/contribution-rate-table.js",
-      "sha256": "acfaa1e7c1d9940778519527c64cde9bafbcf2a6c374ba700294c4feaf119892"
+      "sha256": "4981b679bf3f9d7180f542b011d1b5d5bbfac00352ff5f392bfbc9f477b7d561"
     },
     {
       "path": "public/assets/date-tools.js",
@@ -667,7 +667,7 @@
     },
     {
       "path": "public/assets/input-rules.js",
-      "sha256": "f5c5296ca4abe716ed22a0462df0502ec90acc858ba97d1a06e7846b030e3e2c"
+      "sha256": "809c9ecc07d9b3781d3492d9d5f75d41f013310f27e1e997697feca00b989101"
     },
     {
       "path": "public/assets/operations-tools.js",
@@ -1031,31 +1031,31 @@
     },
     {
       "path": "public/downloads/import-templates/employment-cost.xlsx",
-      "sha256": "2fcb44f6b71bdfdb3d7d7331000610e0ddb6cf306516ae52f3c4910d4fff2866"
+      "sha256": "48b3b968b10aeecfbb19ad537de88bc91d907d62dc53d31b21ab4a5e067ff1c6"
     },
     {
       "path": "public/downloads/import-templates/five-insurances-housing-fund.xlsx",
-      "sha256": "2f25bf205ad9cdae49274afee3c308e5a7de527fa2ecbd2c4caa61600bcf10dc"
+      "sha256": "be0520939c912c913f483ba414012c60bb5d804a79b7f943ce110c049aad08d4"
     },
     {
       "path": "public/downloads/import-templates/hr-metrics.xlsx",
-      "sha256": "74d2d08c241893f4ab31c2fe33a27968e114824088ed3cbfe7f041f2a5e43aa9"
+      "sha256": "cf94a888ef137fe983c605fbe0a99210a119fa56c9522a291a9303de9d88e165"
     },
     {
       "path": "public/downloads/import-templates/income-tax.xlsx",
-      "sha256": "03e65330840f9c44572d7ebe5d6f3b0b2162e3e259a111b7219a42fb0e1a3b95"
+      "sha256": "a08c4d7af693bc024d482bc2e6dd7bd3b0315f7654aa715881178081e6fbda0e"
     },
     {
       "path": "public/downloads/import-templates/salary-budget.xlsx",
-      "sha256": "0b40a01a5aa874f7797119c811a6fda250bc205356f5ea274ba658e5a45f868b"
+      "sha256": "af95a13d17f75fb89cc58028626cf569c8a2a67c00d3eb950b0cfc09a98f277d"
     },
     {
       "path": "public/downloads/import-templates/severance.xlsx",
-      "sha256": "5fe0337f373f1e73a4d8290f8102772fe5e98cb8e564af2fa32e13354dc6f01e"
+      "sha256": "a4197797be059e8ede1aba32b7c2036a1f0a9477b6addedb0aa67ef9ec431418"
     },
     {
       "path": "public/downloads/import-templates/take-home-pay.xlsx",
-      "sha256": "84d7fe2dd94c59d40035b78a16ce7cc76298ba2d7875945e43ad86171037caf5"
+      "sha256": "4060587ff7b89c05bdeb08b4b4f143a64a49dd89d056bc6a3608a8a25c00a9b9"
     },
     {
       "path": "scripts/article_layout.py",
@@ -1932,7 +1932,7 @@
     {
       "path": "content/policies/medical-family-wallet.md",
       "status": "published",
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-27",
       "reviewAfter": "2027-01-04"
     },
     {
@@ -1956,7 +1956,7 @@
     {
       "path": "content/policies/personnel-file-transfer.md",
       "status": "published",
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-27",
       "reviewAfter": "2027-01-04"
     },
     {
@@ -2004,7 +2004,7 @@
     {
       "path": "content/policies/zhejiang-maternity-allowance.md",
       "status": "published",
-      "checkedAt": "2026-10-16",
+      "checkedAt": "2026-11-27",
       "reviewAfter": "2027-01-04"
     },
     {
@@ -2927,9 +2927,23 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
     },
     {
       "city": "杭州",
@@ -2940,12 +2954,50 @@
         "medicalExtraC": 0
       },
       "source": {
-        "label": "杭州职工医保统一费率，含生育",
-        "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml"
+        "label": "杭政函〔2025〕88号：2026年职工医保单位9.5%（含生育0.6%）、个人2%",
+        "url": "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/10/15/20251015_ec3d3e35772bc2a066570411d334c03f.pdf"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {
+        "fundMax": 42151,
+        "fundRateMax": 12
+      },
+      "source": {
+        "label": "杭州发布刊载杭州公积金中心2026年度缴存调整通知",
+        "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-07/25/content_9263759.htm"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "杭州",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
+    },
+    {
+      "city": "杭州",
+      "values": {},
+      "source": {
+        "label": "杭州发布刊载杭州公积金中心2026年度缴存调整通知",
+        "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-07/25/content_9263759.htm"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "住房公积金上限42151元；杭州市区下限2660元，桐庐、淳安、建德2430元。2026年新录用职工不参加本次年度调基，按实际核定基数填写。"
     },
     {
       "city": "宁波",
@@ -3015,9 +3067,23 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "宁波",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
     },
     {
       "city": "宁波",
@@ -3046,6 +3112,18 @@
       "note": "公积金上限暂按38907元，正式标准另行通知；海曙、江北、镇海、北仑、鄞州、奉化下限2660元，余姚、慈溪、宁海、象山2430元。请按所属区县及实际核定值填写。"
     },
     {
+      "city": "宁波",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
+    },
+    {
       "city": "温州",
       "values": {
         "pensionC": 16
@@ -3113,9 +3191,62 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "温州",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "温州",
+      "values": {
+        "fundMax": 32964,
+        "fundRateMax": 12,
+        "fundRounding": 0
+      },
+      "source": {
+        "label": "温州住房公积金：2026年度月缴存额调整原文（政务号）",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33613903"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "温州",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
+    },
+    {
+      "city": "温州",
+      "values": {},
+      "source": {
+        "label": "温州住房公积金：2026年度月缴存额调整原文（政务号）",
+        "url": "https://www.thepaper.cn/newsDetail_forward_33613903"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "住房公积金上限32964元；鹿城、龙湾、瓯海、洞头及海洋经济发展示范区下限2660元，乐清、瑞安2430元，其余相关县（市）2180元。按单位所在地及本人核定基数填写。"
     },
     {
       "city": "嘉兴",
@@ -3185,21 +3316,64 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
+      "from": "2026-11",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "medicalP": 2,
+        "medicalC": 9,
+        "birthC": 0
+      },
+      "source": {
+        "label": "嘉兴市基本医疗保障办法：在职职工费率及省基数公布次月调基",
+        "url": "https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022807.shtml"
+      },
       "from": "2026-01",
       "to": "2026-12",
-      "status": "适用时点待复核"
+      "status": "已核验"
+    },
+    {
+      "city": "嘉兴",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "嘉兴市基本医疗保障办法：在职职工费率及省基数公布次月调基",
+        "url": "https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022807.shtml"
+      },
+      "from": "2026-11",
+      "to": "2026-12",
+      "status": "已核验"
     },
     {
       "city": "嘉兴",
       "values": {},
       "source": {
-        "label": "嘉兴市基本医疗保障办法第六十六项：医保调基时点",
+        "label": "嘉兴市基本医疗保障办法：在职职工费率及省基数公布次月调基",
         "url": "https://www.jxrenda.gov.cn/1000001940/1000001941/1000001957/202503/t20250326_6022807.shtml"
       },
       "from": "2026-01",
       "to": "2026-12",
       "status": "已核验",
-      "note": "医保：省级2026新基数已公布，市办法另规定公布次月调整；2026具体衔接时点待核实，本页暂不自动套用医保上下限，请填当月已核定基数。"
+      "note": "医保：省级新标准于10月公布，按市办法从11月起执行5122—25611元。1—10月请填当月已核定基数。"
     },
     {
       "city": "湖州",
@@ -3269,9 +3443,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "湖州",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "湖州",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "绍兴",
@@ -3341,9 +3541,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "绍兴",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "绍兴",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "金华",
@@ -3413,9 +3639,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "金华",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "金华",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "衢州",
@@ -3485,9 +3737,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "衢州",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "衢州",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "舟山",
@@ -3557,9 +3835,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "舟山",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "舟山",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "台州",
@@ -3629,9 +3933,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "台州",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "台州",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "丽水",
@@ -3701,9 +4031,35 @@
         "label": "浙江人社：2026社会保险有关基数5122—25611",
         "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
       },
-      "from": "2026-01",
+      "from": "2026-11",
       "to": "2026-12",
       "status": "已核验"
+    },
+    {
+      "city": "丽水",
+      "values": {
+        "medicalMin": 5122,
+        "medicalMax": 25611
+      },
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "历史医保调基时点待核验"
+    },
+    {
+      "city": "丽水",
+      "values": {},
+      "source": {
+        "label": "浙江人社：2026社会保险有关基数5122—25611",
+        "url": "https://rlsbt.zj.gov.cn/col/col1229506773/art/2026/art_2b4555c11a034b9e874038cbff2f84fb.html"
+      },
+      "from": "2026-01",
+      "to": "2026-10",
+      "status": "已核验",
+      "note": "医保：历史月份调基与补差按当地执行。暂未确认该月份的医保上下限，请填当月经办核定基数。"
     },
     {
       "city": "广州",
@@ -3713,6 +4069,19 @@
       "source": {
         "label": "广东税务：粤人社发〔2026〕24号，企业养老分期调整",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/ssfggds/2026-10/08/content_b40dcb7bf605411fbb12e0f81281dc6b.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "广州",
+      "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
       },
       "from": "2026-01",
       "to": "2026-06",
@@ -3741,7 +4110,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -3782,7 +4151,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -3860,6 +4229,19 @@
     {
       "city": "深圳",
       "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "深圳",
+      "values": {
         "pensionMin": 5521,
         "pensionMax": 27603
       },
@@ -3880,7 +4262,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -3950,7 +4332,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -3985,6 +4367,19 @@
     {
       "city": "珠海",
       "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "珠海",
+      "values": {
         "pensionMin": 5521,
         "pensionMax": 27603
       },
@@ -4005,7 +4400,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4032,7 +4427,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4044,6 +4439,19 @@
       "source": {
         "label": "广东税务：粤人社发〔2026〕24号，企业养老分期调整",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/ssfggds/2026-10/08/content_b40dcb7bf605411fbb12e0f81281dc6b.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "佛山",
+      "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
       },
       "from": "2026-01",
       "to": "2026-06",
@@ -4072,7 +4480,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4099,7 +4507,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4148,6 +4556,19 @@
     {
       "city": "惠州",
       "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
         "pensionMin": 5521,
         "pensionMax": 27603
       },
@@ -4168,7 +4589,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4195,7 +4616,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4216,11 +4637,56 @@
     {
       "city": "惠州",
       "values": {
-        "fundMin": 2040
+        "pensionP": 8,
+        "pensionC": 16,
+        "unemploymentP": 0.2,
+        "unemploymentC": 0.8
       },
       "source": {
-        "label": "江门政府：2026年9月起广东最低工资分地区标准（惠州2040）",
-        "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html"
+        "label": "惠州人社、税务、社保：2026年分期费基及失业费率",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "unemploymentMin": 1850,
+        "unemploymentMax": 26520
+      },
+      "source": {
+        "label": "惠州人社、税务、社保：2026年分期费基及失业费率",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "unemploymentMin": 1850,
+        "unemploymentMax": 28710
+      },
+      "source": {
+        "label": "惠州人社、税务、社保：2026年分期费基及失业费率",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml"
+      },
+      "from": "2026-07",
+      "to": "2026-08",
+      "status": "已核验"
+    },
+    {
+      "city": "惠州",
+      "values": {
+        "unemploymentMin": 2040,
+        "unemploymentMax": 28710
+      },
+      "source": {
+        "label": "惠州人社、税务、社保：2026年分期费基及失业费率",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml"
       },
       "from": "2026-09",
       "to": "2026-12",
@@ -4276,6 +4742,30 @@
       "city": "惠州",
       "values": {},
       "source": {
+        "label": "惠州公积金：2026年度正式通知，上限34290、比例5%—12%",
+        "url": "http://hzgjj.huizhou.gov.cn/zwgk/bmwj/bmxgwj/content/post_5798098.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验",
+      "note": "住房公积金：上限34290元，缴存比例5%—12%。当月下限与人员过渡口径请按公积金经办核定，填写本人已核定基数。"
+    },
+    {
+      "city": "惠州",
+      "values": {},
+      "source": {
+        "label": "惠州人社、税务、社保：2026年分期费基及失业费率",
+        "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-12",
+      "status": "已核验",
+      "note": "普通企业工伤按职工工资总额及单位核定费率计缴。当地表中5521—27603元为特定人员对应范围，请按员工实际计缴口径填入基数。"
+    },
+    {
+      "city": "惠州",
+      "values": {},
+      "source": {
         "label": "惠州税务、医保：2026职工医保费率费基表（图片正文）",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2025-12/11/content_e5065243847d4b23a370554853ced49c.shtml"
       },
@@ -4292,6 +4782,19 @@
       "source": {
         "label": "广东税务：粤人社发〔2026〕24号，企业养老分期调整",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/ssfggds/2026-10/08/content_b40dcb7bf605411fbb12e0f81281dc6b.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "东莞",
+      "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
       },
       "from": "2026-01",
       "to": "2026-06",
@@ -4320,7 +4823,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4347,7 +4850,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4484,6 +4987,19 @@
     {
       "city": "中山",
       "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "中山",
+      "values": {
         "pensionMin": 5521,
         "pensionMax": 27603
       },
@@ -4504,7 +5020,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4531,7 +5047,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4637,6 +5153,19 @@
     {
       "city": "江门",
       "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
         "pensionMin": 5521,
         "pensionMax": 27603
       },
@@ -4657,7 +5186,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4684,7 +5213,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4707,13 +5236,41 @@
     },
     {
       "city": "江门",
+      "values": {
+        "fundMax": 27628,
+        "fundRateMax": 12,
+        "fundRounding": 0
+      },
+      "source": {
+        "label": "江门公积金：江房金字〔2026〕19号，基数和比例调整",
+        "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3522838.html"
+      },
+      "from": "2026-07",
+      "to": "2027-06",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
+      "values": {
+        "fundMin": 1850
+      },
+      "source": {
+        "label": "江门公积金：江房金字〔2026〕19号，基数和比例调整",
+        "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3522838.html"
+      },
+      "from": "2026-07",
+      "to": "2026-08",
+      "status": "已核验"
+    },
+    {
+      "city": "江门",
       "values": {},
       "source": {
         "label": "江门公积金：江房金字〔2026〕25号，下限分人员执行",
         "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html"
       },
       "from": "2026-09",
-      "to": "2026-12",
+      "to": "2027-06",
       "status": "已核验",
       "note": "公积金：9月起新参加工作、新调入职工下限2040元；原低基数须在2027年7月31日前调整，过渡期不默认统一下限。请填写员工已核定基数。"
     },
@@ -4725,6 +5282,19 @@
       "source": {
         "label": "广东税务：粤人社发〔2026〕24号，企业养老分期调整",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/ssfggds/2026-10/08/content_b40dcb7bf605411fbb12e0f81281dc6b.shtml"
+      },
+      "from": "2026-01",
+      "to": "2026-06",
+      "status": "已核验"
+    },
+    {
+      "city": "肇庆",
+      "values": {
+        "pensionMax": 27549
+      },
+      "source": {
+        "label": "广东：2025年7月养老基数（仅历史）",
+        "url": "https://www.shantou.gov.cn/stsshbxjj/zwgk/content/post_2508025.html"
       },
       "from": "2026-01",
       "to": "2026-06",
@@ -4753,7 +5323,7 @@
         "label": "广东税务：2025年起单位养老16%",
         "url": "https://guangdong.chinatax.gov.cn/gdsw/zqsw_tzgg/2024-12/30/content_018b45af0f1947eb81918886a2d9dfd2.shtml"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -4780,7 +5350,7 @@
         "label": "人社部社会保险法释义：企业职工个人养老统一8%（仅引用该项）",
         "url": "https://www.mohrss.gov.cn/fgs/syshehuibaoxianfa/201208/t20120806_28572.html"
       },
-      "from": "2026-07",
+      "from": "2026-01",
       "to": "2026-12",
       "status": "已核验"
     },
@@ -5740,6 +6310,14 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://chinajob.mohrss.gov.cn/c/2025-10-29/458679.shtml",
+      "files": [
+        "content/policies/wuxi-apprenticeship.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://chinajob.mohrss.gov.cn/c/2026-05-27/546379.shtml",
       "files": [
         "content/articles/article14.md"
@@ -5999,6 +6577,14 @@
       "url": "https://chinajob.mohrss.gov.cn/h5/c/2025-10-14/455134.shtml",
       "files": [
         "content/policies/employee-onboarding-one-stop.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-11-06/631985.shtml",
+      "files": [
+        "content/policies/personnel-file-transfer.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -6286,6 +6872,14 @@
     },
     {
       "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2025-12/11/content_e5065243847d4b23a370554853ced49c.shtml",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://guangdong.chinatax.gov.cn/gdsw/hzsw_gkwj/2026-11/04/content_6b82716639f348da9fb818c20a633c3e.shtml",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -6604,6 +7198,22 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://hznews.hangzhou.com.cn/chengshi/content/2025-07/01/content_9029523_0.htm",
+      "files": [
+        "content/policies/zhejiang-maternity-allowance.md"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
+    },
+    {
+      "url": "https://hznews.hangzhou.com.cn/jingji/content/2026-07/25/content_9263759.htm",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://ikusei.tenkenban.com/template/goal-shinjin/",
@@ -7205,14 +7815,6 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml",
-      "files": [
-        "content/policies/wuxi-apprenticeship.md"
-      ],
-      "discovery": false,
-      "authority": "official-domain"
-    },
-    {
       "url": "https://sdjy.shunde.gov.cn/index.php/index/policy/detail.html?columnName=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84&id=3590",
       "files": [
         "public/assets/city-policies.js"
@@ -7491,7 +8093,8 @@
       "files": [
         "content/articles/article73.md",
         "content/articles/article75.md",
-        "content/articles/article81.md"
+        "content/articles/article81.md",
+        "content/guide.md"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -7832,7 +8435,7 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3522838.html",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -7840,7 +8443,7 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://www.jiangmen.gov.cn/newzwgk/hygq/content/post_3542677.html",
+      "url": "https://www.jiangmen.gov.cn/bmpd/jmszfhcxjsj/zfgl/gjjzc/gjzc/content/post_3544755.html",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -8219,7 +8822,23 @@
       "authority": "official-domain"
     },
     {
+      "url": "https://www.nhsa.gov.cn/art/2026/10/19/art_14_23157.html",
+      "files": [
+        "content/policies/medical-family-wallet.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
       "url": "https://www.nhsa.gov.cn/art/2026/10/21/art_14_23178.html",
+      "files": [
+        "content/policies/medical-family-wallet.md"
+      ],
+      "discovery": false,
+      "authority": "official-domain"
+    },
+    {
+      "url": "https://www.nhsa.gov.cn/art/2026/10/21/art_14_23191.html",
       "files": [
         "content/policies/medical-family-wallet.md"
       ],
@@ -8640,7 +9259,7 @@
     {
       "url": "https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc",
       "files": [
-        "public/assets/input-rules.js"
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -8652,6 +9271,14 @@
       ],
       "discovery": false,
       "authority": "official-domain"
+    },
+    {
+      "url": "https://www.thepaper.cn/newsDetail_forward_33613903",
+      "files": [
+        "public/assets/city-policies.js"
+      ],
+      "discovery": false,
+      "authority": "manual-verification-required"
     },
     {
       "url": "https://www.tinghu.gov.cn/art/2026/1/20/art_16618_4397135.html",
@@ -8841,7 +9468,7 @@
     {
       "url": "https://www.yuexiu.gov.cn/zmhd/hygq/content/post_10966810.html",
       "files": [
-        "public/assets/input-rules.js"
+        "public/assets/city-policies.js"
       ],
       "discovery": false,
       "authority": "official-domain"
@@ -9043,7 +9670,7 @@
       "authority": "official-domain"
     },
     {
-      "url": "https://zfgb.hangzhou.gov.cn/11/105220253/t116220253054/518112.shtml",
+      "url": "https://zfgb.hangzhou.gov.cn/upload/default/bigfile/2025/10/15/20251015_ec3d3e35772bc2a066570411d334c03f.pdf",
       "files": [
         "public/assets/city-policies.js"
       ],
@@ -9112,14 +9739,6 @@
         "public/data/official-sites.json"
       ],
       "discovery": true,
-      "authority": "official-domain"
-    },
-    {
-      "url": "https://zjic.zj.gov.cn/zkdt/rdzx/202506/t20250630_23540134.shtml",
-      "files": [
-        "content/policies/zhejiang-maternity-allowance.md"
-      ],
-      "discovery": false,
       "authority": "official-domain"
     },
     {

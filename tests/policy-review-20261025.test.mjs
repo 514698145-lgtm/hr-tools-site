@@ -5,18 +5,20 @@ import {contributionBases} from '../public/assets/contribution-engine.js';
 import {calculate,calculateBatch} from '../public/assets/calculators.js';
 const id='five-insurances-housing-fund';
 
-test('嘉兴医保时点未决时停止自动核定，不影响省内其他城市及养老',()=>{
+test('浙江医保历史月份不倒套，嘉兴按市办法从11月核定',()=>{
  const p=cityPolicy('嘉兴','2026-10');
  assert.equal(p.values.medicalMin,undefined);
  assert.equal(p.values.medicalMax,undefined);
  assert.equal(p.values.pensionMin,5122);
- assert.ok(p.pending.some(x=>x.status==='适用时点待复核'));
- assert.ok(p.notes.some(x=>x.text.includes('次月')));
+ assert.ok(p.pending.some(x=>x.status==='历史医保调基时点待核验'));
+ assert.ok(p.notes.some(x=>x.text.includes('11月起')));
  assert.equal(contributionBases({city:'嘉兴',month:'2026-10',wage:1000}).medical.value,undefined);
  assert.equal(contributionBases({city:'嘉兴',month:'2026-10',wage:1000,medicalBase:4986}).medical.value,4986);
- assert.equal(cityPolicy('杭州','2026-10').values.medicalMin,5122);
- // Neither a date inference nor changing one city's values may mutate siblings.
- assert.equal(cityPolicy('嘉兴','2026-11').values.medicalMin,undefined);
+ assert.equal(cityPolicy('杭州','2026-10').values.medicalMin,undefined);
+ assert.equal(cityPolicy('杭州','2026-11').values.medicalMin,5122);
+ assert.equal(cityPolicy('嘉兴','2026-11').values.medicalMin,5122);
+ assert.deepEqual([p.values.medicalP,p.values.medicalC,p.values.birthC],[2,9,0]);
+ assert.equal(contributionBases({city:'嘉兴',month:'2026-11',wage:30000}).medical.value,25611);
 });
 
 test('常州新原文表的年度跨年边界准确，公积金不套用社保基数',()=>{
@@ -45,6 +47,32 @@ test('惠州两类在职医保、生育已含和固定基数附加费不重复�
  const absent=cityPolicy('惠州','2026-10');
  assert.equal(absent.values.medicalC,undefined);
  assert.equal(contributionBases({city:'惠州',month:'2026-10',wage:30000}).medical.value,22315);
+});
+
+test('惠州失业保险分三个缴费时段，公积金不采用最低工资公告作下限',()=>{
+ for(const [month,min,max] of [['2026-06',1850,26520],['2026-07',1850,28710],['2026-09',2040,28710]]){
+  const p=cityPolicy('惠州',month);
+  assert.deepEqual([p.values.unemploymentMin,p.values.unemploymentMax,p.values.unemploymentP,p.values.unemploymentC],[min,max,.2,.8]);
+  const d={city:'惠州',month,wage:30000,medicalPlan:'hzAccount'};
+  const r=calculate(id,d);
+  assert.equal(r.contribution.rows.find(x=>x.label==='失业保险').company,Math.round(max*.8)/100);
+  assert.deepEqual(calculateBatch(id,[d])[0].result,r);
+ }
+ assert.equal(cityPolicy('惠州','2026-12').values.fundMin,undefined);
+ assert.equal(cityPolicy('惠州','2026-12').values.injuryMin,undefined);
+});
+
+test('江门缴存参数分期间生效，支持单位与个人比例分开并校验高低',()=>{
+ const august=cityPolicy('江门','2026-08').values;
+ assert.deepEqual([august.fundMin,august.fundMax,august.fundRateMax,august.fundRounding],[1850,27628,12,0]);
+ assert.equal(cityPolicy('江门','2026-09').values.fundMin,undefined);
+ assert.equal(cityPolicy('江门','2027-06').values.fundMax,27628);
+ assert.equal(cityPolicy('江门','2027-07').values.fundMax,undefined);
+ const d={city:'江门',month:'2026-11',wage:10010,fundBase:10010,fundRate:7,fundCompanyRate:6};
+ const r=calculate(id,d),fund=r.contribution.rows.find(x=>x.label==='住房公积金');
+ assert.deepEqual([fund.personal,fund.company],[701,601]);
+ assert.deepEqual(calculateBatch(id,[d])[0].result,r);
+ assert.throws(()=>calculate(id,{...d,fundCompanyRate:8}),/不得高于/);
 });
 
 test('肇庆附表按险种和月份采用，旧养老表不能覆盖10月省级新通知',()=>{

@@ -26,7 +26,7 @@ test('江苏正式基数追溯2026全年，13城保底封顶与批量结果相�
 test('广东企业养老分期生效，不将机关事业1月范围或养老参数套到医保',()=>{
  for(const city of regions['大湾区内地']){
   assert.equal(cityPolicy(city,'2026-06').values.pensionMin,5510);
-  assert.equal(cityPolicy(city,'2026-06').values.pensionMax,undefined);
+  assert.equal(cityPolicy(city,'2026-06').values.pensionMax,27549);
   assert.equal(cityPolicy(city,'2026-07').values.pensionMin,5521);
   assert.equal(cityPolicy(city,'2026-07').values.pensionMax,27603);
  }
@@ -74,7 +74,7 @@ test('公积金年度调整和9月调整分别生效，不误用社保或今年�
  assert.equal(cityPolicy('无锡','2027-06').values.fundMin,2490);
  assert.equal(cityPolicy('无锡','2027-07').values.fundMin,undefined);
  assert.equal(cityPolicy('惠州','2026-10').values.fundMax,34290);
- assert.equal(cityPolicy('惠州','2026-10').values.fundMin,2040);
+ assert.equal(cityPolicy('惠州','2026-10').values.fundMin,undefined);
 });
 
 test('公积金区县和审批条件不压成全市统一下限，条件随单条和批量结果保留',()=>{

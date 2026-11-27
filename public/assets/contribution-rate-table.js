@@ -1,3 +1,4 @@
+import {separateFundRateSources} from './city-policies.js';
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function contributionRateRows({d,p,bases,range,extra=false}){
  const present=k=>d[k]!==undefined&&d[k]!==null&&String(d[k]).trim()!=='';
@@ -11,7 +12,7 @@ export function contributionRateRows({d,p,bases,range,extra=false}){
  ['生育保险',zero,edit('birthC'),'medical'],
  ['失业保险',edit('unemploymentP'),edit('unemploymentC'),'unemployment'],
  ['工伤保险',zero,edit('injuryRate'),'injury'],
- ['住房公积金',edit('fundRate'),['广州','深圳'].includes(d.city)?edit('fundCompanyRate','%',present('fundRate')?d.fundRate:undefined):edit('fundRate'),'fund']
+ ['住房公积金',edit('fundRate'),Object.hasOwn(separateFundRateSources,d.city)?edit('fundCompanyRate','%',present('fundRate')?d.fundRate:undefined):edit('fundRate'),'fund']
  ];
  if(d.city==='上海')rows.push(['补充公积金',edit('supplementRate'),edit('supplementRate'),'fund']);
  const selected=rows.filter(r=>extra?['医疗附加','大额医疗互助','补充公积金'].includes(r[0]):!['医疗附加','大额医疗互助','补充公积金'].includes(r[0]));

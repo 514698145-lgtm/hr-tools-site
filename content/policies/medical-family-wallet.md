@@ -6,13 +6,15 @@ status: published
 category: 社会保险
 keyPoint: 共济资金，不转移报销资格
 scope: 职工医保个人账户跨省共济；以2026年公布的国家规则及实际接入服务为准。
-checkedAt: '2026-10-16'
-updatedAt: '2026-11-10'
+checkedAt: '2026-11-27'
+updatedAt: '2026-11-27'
 reviewAfter: '2027-01-04'
 sources:
 - https://www.nhsa.gov.cn/art/2026/1/9/art_104_19293.html
 - https://www.nhsa.gov.cn/art/2026/1/9/art_105_19295.html
 - https://www.nhsa.gov.cn/art/2025/9/8/art_14_17825.html
+- https://www.nhsa.gov.cn/art/2026/10/19/art_14_23157.html
+- https://www.nhsa.gov.cn/art/2026/10/21/art_14_23191.html
 - https://www.nhsa.gov.cn/art/2026/10/21/art_14_23178.html
 - https://hsa.gd.gov.cn/zwdt/ywsd/content/post_4976196.html
 relatedTools: []
@@ -21,6 +23,10 @@ seoDescription: 整理医保个人账户跨省共济对象、用途和额度规�
 ---
 
 职工医保个人账户跨省共济，适用对象为参保人的近亲属，按规定建立关系后使用相应额度。它不是把自己的医保报销资格借给家人。[医保发〔2025〕35号](https://www.nhsa.gov.cn/art/2026/1/9/art_104_19293.html)及[2026年1月官方解读](https://www.nhsa.gov.cn/art/2026/1/9/art_105_19295.html)明确了现行框架。
+
+## 全国上线后，哪些业务仍要看当地接入？
+
+国家医保局10月19日公布，医保钱包2.0自2026年10月16日起已在全国上线。职工医保正常参保人可以给外省参加职工医保或居民医保的近亲属设置共济额度。被共济人在自己参保地的定点机构使用额度，仍要看机构结算接入情况。用额度缴居民医保或长期护理保险，以及被共济人到参保地以外就医、购药，是分别接入的功能。办前可在国家医保服务平台或向参保地经办机构确认。[全国上线说明](https://www.nhsa.gov.cn/art/2026/10/19/art_14_23157.html) [国家医保局办理问答](https://www.nhsa.gov.cn/art/2026/10/21/art_14_23191.html)。
 
 ## 资金能用在哪里？
 
@@ -59,7 +65,7 @@ seoDescription: 整理医保个人账户跨省共济对象、用途和额度规�
 
 ### 为什么在平台上暂时找不到入口？
 
-开通和接入情况需按双方参保地及平台当前服务核对，政策框架不等于每个入口始终可用。
+可先从国家医保服务平台APP或官方支付宝小程序进入医保钱包，也可咨询参保地经办窗口。当地缴费、机构结算等入口以办理时的接入状态为准。
 
 ### 广东居民医保能在月底随时用医保钱包缴费吗？
 

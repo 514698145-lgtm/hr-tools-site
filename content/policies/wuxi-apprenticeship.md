@@ -11,7 +11,7 @@ reviewAfter: '2026-11-01'
 sources:
 - https://www.wuxi.gov.cn/doc/2024/04/15/4288486.shtml
 - https://hrss.wuxi.gov.cn/doc/2024/04/22/4293236.shtml
-- https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml
+- https://chinajob.mohrss.gov.cn/c/2025-10-29/458679.shtml
 relatedTools: []
 seoTitle: 无锡企业新型学徒制怎么开展？培养对象、双导师与申报边界
 seoDescription: 按无锡公开办法整理企业新型学徒制的合同条件、培养周期和校企协作；培训实践与本地补贴资格分别说明。
@@ -27,7 +27,7 @@ seoDescription: 按无锡公开办法整理企业新型学徒制的合同条件�
 
 ## 公开实践：课堂和岗位训练衔接
 
-新疆人社2025年报道，一家企业与职业技能培训机构开展双导师培养，将理论教学与岗位实践结合。正文隐去企业和学校名称。这是实际培养组织方式的案例，发生在无锡以外；仅说明教学如何衔接，**不用于证明无锡补贴资格或金额**。[培养实践](https://rst.xinjiang.gov.cn/xjrst/dzdt/202508/0a5889deb0f84e7085b2d1be016791ef.shtml)。
+中国就业网2025年刊载的新疆阜康实践中，企业和院校建设双方实训基地，由企业导师和学校教师共同培养，并安排教学进入工作现场。案例用于说明组织方式，文中不列具体机构，不据此核定无锡申报资格或补贴金额。[培养实践](https://chinajob.mohrss.gov.cn/c/2025-10-29/458679.shtml)。
 
 
 ## 常见问题 FAQ

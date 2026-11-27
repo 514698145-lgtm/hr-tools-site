@@ -1,4 +1,4 @@
-import {cityPolicy} from './city-policies.js';
+import {cityPolicy,separateFundRateSources} from './city-policies.js';
 export const rangeSources={
  fundMin:'https://www.shanghai.gov.cn/qyzfgjjgjj/20240927/231b35b7e70d4c1289141867c849014c.html',
  fundMax:'https://www.ndrc.gov.cn/xwdt/ztzl/gbmjcbzc/zfjsb/201801/t20180119_1209892.html',
@@ -17,7 +17,7 @@ export function inputRule(tool,f,d={}){
    if(d.city==='上海'&&d.month>='2026-01'&&d.month<='2026-12'){rule.max=7;rule.allowed=[5,6,7];rule.source=rangeSources.shFund;}
    rule.text=rule.allowed?'普通缴存档位：5%、6%、7%。填7表示7%；特殊降比、缓缴不适用。':`普通缴存比例 ${rule.min}%—${rule.max}%；填7表示7%。${p?.values.fundRateMax===undefined?'这是全国外沿，本地允许档位尚待核验；须按单位已确定比例填写。':'按单位已确定比例填写。'}特殊降比、缓缴不适用。`;
    if(d.city==='广州'||(d.city==='深圳'&&f.key==='fundCompanyRate')){rule.integer=true;rule.text+=' 单位比例按整数百分点填写；广州个人比例也取整数。';}
-   if(f.key==='fundCompanyRate'){rule.text+=' 留空沿用个人比例；单位不得高于个人。';rule.source=d.city==='广州'?'https://www.yuexiu.gov.cn/zmhd/hygq/content/post_10966810.html':'https://www.sz.gov.cn/hdjlpt/detail?pid=3466413&via=pc';}
+   if(f.key==='fundCompanyRate'){rule.text+=' 留空沿用个人比例；单位不得高于个人。';rule.source=separateFundRateSources[d.city]??rule.source;}
   }else if(f.baseKind){
    const min=p?.values[f.baseKind+'Min'],max=p?.values[f.baseKind+'Max'];
    if(min!==undefined||max!==undefined){rule.min=min??0;rule.max=max??1000000000;rule.policy=true;rule.source=p.evidence[f.baseKind+(min!==undefined?'Min':'Max')].source.url;rule.text=`已核验${min===undefined?'下限尚缺':`下限 ${min} 元`}；${max===undefined?'上限尚缺':`上限 ${max} 元`}。填经办系统核定基数，不是当月工资。`;}
@@ -41,7 +41,7 @@ export function numberError(tool,f,d){
 }
 export function relatedErrors(tool,d){
  const errors={},present=k=>d[k]!==undefined&&d[k]!==null&&String(d[k]).trim()!=='';
- if(tool.id==='five-insurances-housing-fund'&&['广州','深圳'].includes(d.city)&&present('fundCompanyRate')){
+ if(tool.id==='five-insurances-housing-fund'&&Object.hasOwn(separateFundRateSources,d.city)&&present('fundCompanyRate')){
   if(!present('fundRate'))errors.fundRate='分别填写公积金比例时，请填写个人比例。';
   else if(Number(d.fundCompanyRate)>Number(d.fundRate))errors.fundCompanyRate='单位公积金比例不得高于个人比例。';
  }
